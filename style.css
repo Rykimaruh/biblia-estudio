@@ -1,0 +1,440 @@
+/* ==========================================
+   Crucigrama del Éxodo — Estilos
+   Diseño accesible para personas mayores
+   ========================================== */
+
+:root {
+    --cell-size: 44px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f8f3eb;
+    color: #2a1a0a;
+    min-height: 100vh;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ========== Header y Navegación ========== */
+header {
+    background: linear-gradient(135deg, #2d1f14, #4a3425);
+    color: #f0e6d3;
+    padding: 1.2rem 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #c8a44e;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+nav {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #e8dcc8;
+    text-decoration: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+    font-size: 1.15rem;
+    font-weight: 500;
+    border: 2px solid transparent;
+}
+
+nav a:hover {
+    background: rgba(200,164,78,0.25);
+    color: #fff;
+    border-color: rgba(200,164,78,0.4);
+}
+
+nav a.active {
+    background: #c8a44e;
+    color: #2d1f14;
+    font-weight: bold;
+    border-color: #c8a44e;
+}
+
+/* ========== Main ========== */
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+}
+
+main > h2 {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.8rem;
+    color: #3a2510;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid #c8a44e;
+}
+
+/* ========== Tabs de crucigramas ========== */
+.tabs {
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    padding: 0.8rem 1.6rem;
+    background: #e8dfd3;
+    border: 3px solid #b8a88e;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #4a3a28;
+    transition: all 0.2s;
+    font-weight: 600;
+}
+
+.tab-btn:hover {
+    background: #d4c8b4;
+    border-color: #9a8a70;
+}
+
+.tab-btn.active {
+    background: #fff;
+    border-bottom-color: #fff;
+    color: #2d1f14;
+    font-weight: bold;
+    border-color: #c8a44e;
+    border-bottom-color: #fff;
+}
+
+/* ========== Título del crucigrama ========== */
+.puzzle-title {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.5rem;
+    color: #3a2510;
+    margin-bottom: 1.2rem;
+    padding: 0.6rem 1rem;
+    background: #fff;
+    border-left: 5px solid #c8a44e;
+    border-radius: 0 6px 6px 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+}
+
+.puzzle-title.completed {
+    color: #1a7a2e;
+    border-left-color: #28a745;
+    background: #e8f5e9;
+}
+
+/* ========== Layout crucigrama ========== */
+.cw-layout {
+    display: flex;
+    gap: 2.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/* ========== Grilla ========== */
+.cw-grid-wrap {
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+}
+
+.cw-grid {
+    display: inline-grid;
+    gap: 0;
+    border: 3px solid #4a3425;
+    border-radius: 4px;
+    background: #4a3425;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+}
+
+.cw-cell {
+    width: var(--cell-size);
+    height: var(--cell-size);
+    background: #fff;
+    border: 1px solid #c4b49a;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    transition: background 0.15s;
+}
+
+.cw-blocked {
+    background: #2d1f14;
+    cursor: default;
+    border-color: #2d1f14;
+}
+
+.cw-num {
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    font-size: 13px;
+    color: #666;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.cw-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a0a00;
+    text-transform: uppercase;
+}
+
+/* Celda seleccionada — amarillo fuerte */
+.cw-sel {
+    background: #ffd700 !important;
+    border-color: #e6a800 !important;
+    box-shadow: inset 0 0 0 2px #e6a800;
+}
+
+/* Palabra resaltada — amarillo claro */
+.cw-hl {
+    background: #fff3cd !important;
+    border-color: #d4a800 !important;
+}
+
+/* Correcto — verde */
+.cw-ok {
+    background: #c8e6c9 !important;
+    border-color: #66bb6a !important;
+}
+.cw-ok .cw-letter {
+    color: #1b5e20;
+}
+
+/* Incorrecto — rojo */
+.cw-err {
+    background: #ffcdd2 !important;
+    border-color: #ef5350 !important;
+}
+.cw-err .cw-letter {
+    color: #b71c1c;
+}
+
+/* ========== Panel de pistas ========== */
+.cw-clues {
+    flex: 1;
+    min-width: 320px;
+    max-height: 650px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1.2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    border: 2px solid #e0d5c5;
+}
+
+.cw-clues h4 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #fff;
+    background: #4a3425;
+    margin: 0 -1.2rem 0.6rem -1.2rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.cw-clues h4:first-child {
+    margin-top: -1.2rem;
+    border-radius: 6px 6px 0 0;
+}
+
+.cw-clues ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0.8rem;
+}
+
+.cw-clues li {
+    padding: 0.6rem 0.8rem;
+    margin-bottom: 0.3rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    transition: background 0.15s;
+    border: 2px solid transparent;
+}
+
+.cw-clues li:hover {
+    background: #f0e8d8;
+    border-color: #d4c8b4;
+}
+
+/* Pista activa — resaltado muy visible */
+.cw-clues li.cw-clue-hl {
+    background: #fff3cd;
+    border-color: #c8a44e;
+    font-weight: 600;
+}
+
+.word-len {
+    color: #888;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+/* ========== Botones de acción ========== */
+.cw-actions {
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cw-actions button {
+    padding: 0.9rem 2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    letter-spacing: 0.3px;
+}
+
+.cw-actions button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.cw-actions button:active {
+    transform: translateY(0);
+}
+
+.btn-check {
+    background: #c8a44e;
+    color: #2d1f14;
+}
+.btn-check:hover { background: #b8943e; }
+
+.btn-hint {
+    background: #4a90d9;
+    color: #fff;
+}
+.btn-hint:hover { background: #3a7ec5; }
+
+.btn-reveal {
+    background: #6c757d;
+    color: #fff;
+}
+.btn-reveal:hover { background: #5a6268; }
+
+.btn-clear {
+    background: #d9534f;
+    color: #fff;
+}
+.btn-clear:hover { background: #c9302c; }
+
+/* ========== Página de inicio ========== */
+.index-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.index-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 1.8rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-left: 6px solid #c8a44e;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.index-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.index-card h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #3a2510;
+    margin-bottom: 0.6rem;
+    font-size: 1.4rem;
+}
+
+.index-card p {
+    font-size: 1.1rem;
+    color: #5c4a34;
+    line-height: 1.6;
+}
+
+.intro-text {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: #3a2a1a;
+    max-width: 750px;
+    margin-bottom: 1rem;
+}
+
+.instructions {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.3rem 1.8rem;
+    margin: 1.5rem 0;
+    border-left: 6px solid #4a90d9;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.instructions h3 {
+    color: #2d1f14;
+    margin-bottom: 0.6rem;
+    font-size: 1.3rem;
+}
+
+/* ========== Footer ========== */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: #888;
+    font-size: 1rem;
+    margin-top: 2rem;
+    border-top: 2px solid #d4c8b4;
+}
+
+/* ========== Responsive ========== */
+@media (max-width: 900px) {
+    :root { --cell-size: 38px; }
+    header { padding: 1rem; }
+    header h1 { font-size: 1.6rem; }
+    nav a { padding: 0.5rem 0.8rem; font-size: 1rem; }
+    main { padding: 1rem; }
+    main > h2 { font-size: 1.4rem; }
+    .cw-layout { flex-direction: column; }
+    .cw-letter { font-size: 20px; }
+    .cw-num { font-size: 11px; }
+    .cw-clues { max-height: none; min-width: auto; }
+    .tab-btn { padding: 0.6rem 1rem; font-size: 1rem; }
+    .cw-actions button { padding: 0.7rem 1.4rem; font-size: 1rem; }
+    .puzzle-title { font-size: 1.2rem; }
+}
+
+@media (max-width: 500px) {
+    :root { --cell-size: 32px; }
+    .cw-letter { font-size: 17px; }
+    .cw-num { font-size: 9px; }
+    nav { gap: 0.3rem; }
+    nav a { padding: 0.4rem 0.5rem; font-size: 0.9rem; }
+}

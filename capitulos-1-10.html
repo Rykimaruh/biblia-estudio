@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crucigrama Éxodo — Capítulos 1-10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Crucigrama del Libro de Éxodo</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="capitulos-1-10.html" class="active">Cap. 1-10</a>
+            <a href="capitulos-11-20.html">Cap. 11-20</a>
+            <a href="capitulos-21-30.html">Cap. 21-30</a>
+            <a href="capitulos-31-40.html">Cap. 31-40</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Capítulos 1-10: De Egipto a las Plagas</h2>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab(0)">Crucigrama 1</button>
+            <button class="tab-btn" onclick="switchTab(1)">Crucigrama 2</button>
+            <button class="tab-btn" onclick="switchTab(2)">Crucigrama 3</button>
+            <button class="tab-btn" onclick="switchTab(3)">Crucigrama 4</button>
+        </div>
+
+        <div id="puzzle-0" class="puzzle-box"></div>
+        <div id="puzzle-1" class="puzzle-box" style="display:none"></div>
+        <div id="puzzle-2" class="puzzle-box" style="display:none"></div>
+        <div id="puzzle-3" class="puzzle-box" style="display:none"></div>
+    </main>
+
+    <footer>Crucigrama del Libro de Éxodo — Biblia Cristiana</footer>
+
+    <script src="crossword.js"></script>
+    <script>
+        const puzzles = [
+            {
+                title: "Nacimiento y llamado de Moisés (Cap. 1-3)",
+                words: [
+                    { word: "PARTERAS", clue: "Mujeres que desobedecieron al faraón salvando a los niños hebreos" },
+                    { word: "CANASTA", clue: "Recipiente de juncos donde fue puesto el bebé Moisés en el río" },
+                    { word: "MOISES", clue: "Fue sacado de las aguas del río Nilo por la hija del faraón" },
+                    { word: "FARAON", clue: "Rey de Egipto que ordenó matar a los niños hebreos" },
+                    { word: "MADIAN", clue: "Tierra donde huyó Moisés tras matar al egipcio" },
+                    { word: "ZARZA", clue: "Arbusto que ardía con fuego pero no se consumía" },
+                    { word: "HOREB", clue: "Monte donde Dios habló a Moisés desde el fuego" },
+                    { word: "NILO", clue: "Río donde la hija del faraón encontró al bebé" }
+                ]
+            },
+            {
+                title: "Señales y confrontación con el faraón (Cap. 4-5)",
+                words: [
+                    { word: "SERPIENTE", clue: "La vara de Moisés se convirtió en esto al lanzarla al suelo" },
+                    { word: "LADRILLOS", clue: "Los israelitas debían fabricar estos sin que les dieran paja" },
+                    { word: "HEBREOS", clue: "Pueblo esclavizado en Egipto que clamó a Dios" },
+                    { word: "AARON", clue: "Hermano mayor de Moisés designado como su portavoz" },
+                    { word: "LEPRA", clue: "Enfermedad que apareció en la mano de Moisés como señal divina" },
+                    { word: "PAJA", clue: "Material que el faraón dejó de proveer a los esclavos" },
+                    { word: "VARA", clue: "Instrumento que Moisés lanzó al suelo y se transformó" }
+                ]
+            },
+            {
+                title: "Las primeras plagas de Egipto (Cap. 7-8)",
+                words: [
+                    { word: "SANGRE", clue: "Primera plaga: toda el agua del Nilo se convirtió en esto" },
+                    { word: "MOSCAS", clue: "Cuarta plaga que invadió las casas de los egipcios" },
+                    { word: "PIOJOS", clue: "Tercera plaga que los magos del faraón no pudieron reproducir" },
+                    { word: "GOSHEN", clue: "Región donde vivían los israelitas, protegida de las plagas" },
+                    { word: "RANAS", clue: "Segunda plaga: anfibios que cubrieron toda la tierra de Egipto" },
+                    { word: "MAGOS", clue: "Hechiceros del faraón que intentaron imitar las señales de Dios" },
+                    { word: "PLAGA", clue: "Castigo divino enviado sobre Egipto para liberar al pueblo" }
+                ]
+            },
+            {
+                title: "Las últimas plagas antes del éxodo (Cap. 9-10)",
+                words: [
+                    { word: "LANGOSTAS", clue: "Octava plaga: insectos que devoraron toda la vegetación" },
+                    { word: "TINIEBLAS", clue: "Novena plaga: tres días de oscuridad total sobre Egipto" },
+                    { word: "GRANIZO", clue: "Séptima plaga que destruyó cosechas y árboles en el campo" },
+                    { word: "ULCERAS", clue: "Sexta plaga: llagas dolorosas en la piel de los egipcios" },
+                    { word: "GANADO", clue: "Animales que murieron masivamente por la quinta plaga" },
+                    { word: "FUEGO", clue: "Cayó mezclado con el granizo sobre la tierra de Egipto" }
+                ]
+            }
+        ];
+
+        let games = [];
+        window.addEventListener('DOMContentLoaded', () => {
+            games = puzzles.map((p, i) => new CrosswordGame(`puzzle-${i}`, p.words, p.title));
+            games[0].activate();
+        });
+
+        function switchTab(idx) {
+            document.querySelectorAll('.puzzle-box').forEach((el, i) => {
+                el.style.display = i === idx ? '' : 'none';
+            });
+            document.querySelectorAll('.tab-btn').forEach((el, i) => {
+                el.classList.toggle('active', i === idx);
+            });
+            games[idx].activate();
+        }
+    </script>
+</body>
+</html>

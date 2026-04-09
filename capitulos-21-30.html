@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crucigrama Éxodo — Capítulos 21-30</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Crucigrama del Libro de Éxodo</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="capitulos-1-10.html">Cap. 1-10</a>
+            <a href="capitulos-11-20.html">Cap. 11-20</a>
+            <a href="capitulos-21-30.html" class="active">Cap. 21-30</a>
+            <a href="capitulos-31-40.html">Cap. 31-40</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Capítulos 21-30: Leyes, Arca y Tabernáculo</h2>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="switchTab(0)">Crucigrama 1</button>
+            <button class="tab-btn" onclick="switchTab(1)">Crucigrama 2</button>
+            <button class="tab-btn" onclick="switchTab(2)">Crucigrama 3</button>
+            <button class="tab-btn" onclick="switchTab(3)">Crucigrama 4</button>
+        </div>
+
+        <div id="puzzle-0" class="puzzle-box"></div>
+        <div id="puzzle-1" class="puzzle-box" style="display:none"></div>
+        <div id="puzzle-2" class="puzzle-box" style="display:none"></div>
+        <div id="puzzle-3" class="puzzle-box" style="display:none"></div>
+    </main>
+
+    <footer>Crucigrama del Libro de Éxodo — Biblia Cristiana</footer>
+
+    <script src="crossword.js"></script>
+    <script>
+        const puzzles = [
+            {
+                title: "Leyes y ordenanzas para el pueblo (Cap. 21-23)",
+                words: [
+                    { word: "PRIMICIAS", clue: "Los primeros frutos de la cosecha que debían ser ofrecidos a Dios" },
+                    { word: "ESCLAVO", clue: "Siervo hebreo que debía ser liberado al séptimo año" },
+                    { word: "FIESTAS", clue: "Tres celebraciones anuales que Dios ordenó al pueblo guardar" },
+                    { word: "REPOSO", clue: "Descanso que la tierra debía tener cada siete años" },
+                    { word: "ANGEL", clue: "Dios prometió enviar uno delante del pueblo para guiarlo y protegerlo" },
+                    { word: "LECHE", clue: "No cocerás el cabrito en la de su madre" },
+                    { word: "BUEY", clue: "Si este animal corneaba a alguien, su dueño era responsable" }
+                ]
+            },
+            {
+                title: "El pacto y el diseño del tabernáculo (Cap. 24-26)",
+                words: [
+                    { word: "QUERUBINES", clue: "Figuras aladas de oro puro colocadas sobre la tapa del arca" },
+                    { word: "CANDELERO", clue: "Objeto de oro puro con siete brazos para dar luz en el santuario" },
+                    { word: "ACACIA", clue: "Madera usada para construir el arca del pacto" },
+                    { word: "PACTO", clue: "Alianza que Moisés selló con sangre entre Dios y el pueblo" },
+                    { word: "ARCA", clue: "Cofre sagrado cubierto de oro por dentro y por fuera" },
+                    { word: "MESA", clue: "Mueble de oro para colocar los panes de la proposición" },
+                    { word: "VELO", clue: "Cortina que separaba el Lugar Santo del Lugar Santísimo" }
+                ]
+            },
+            {
+                title: "El altar y las vestiduras sacerdotales (Cap. 27-28)",
+                words: [
+                    { word: "PECTORAL", clue: "Prenda del sumo sacerdote adornada con doce piedras preciosas" },
+                    { word: "CORTINAS", clue: "Cubiertas del tabernáculo tejidas con lino fino torcido" },
+                    { word: "PIEDRAS", clue: "Doce gemas grabadas con los nombres de las tribus de Israel" },
+                    { word: "BRONCE", clue: "Metal usado para construir el altar de los holocaustos" },
+                    { word: "ALTAR", clue: "Lugar sagrado donde se presentaban los sacrificios a Dios" },
+                    { word: "EFOD", clue: "Vestidura sacerdotal sobre la cual se colocaba el pectoral" },
+                    { word: "LINO", clue: "Tela fina y blanca usada en las vestiduras de los sacerdotes" }
+                ]
+            },
+            {
+                title: "Consagración y objetos sagrados (Cap. 29-30)",
+                words: [
+                    { word: "SACRIFICIO", clue: "Ofrenda de animales presentada sobre el altar ante Dios" },
+                    { word: "INCIENSO", clue: "Sustancia aromática quemada cada mañana sobre el altar de oro" },
+                    { word: "LAVACRO", clue: "Fuente de bronce donde los sacerdotes debían lavarse manos y pies" },
+                    { word: "RESCATE", clue: "Medio siclo de plata que cada israelita debía pagar como tributo" },
+                    { word: "UNCION", clue: "Aceite sagrado para consagrar a los sacerdotes y los objetos santos" },
+                    { word: "ACEITE", clue: "Ingrediente principal del óleo sagrado de consagración" },
+                    { word: "BECERRO", clue: "Animal sacrificado durante la ceremonia de consagración sacerdotal" }
+                ]
+            }
+        ];
+
+        let games = [];
+        window.addEventListener('DOMContentLoaded', () => {
+            games = puzzles.map((p, i) => new CrosswordGame(`puzzle-${i}`, p.words, p.title));
+            games[0].activate();
+        });
+
+        function switchTab(idx) {
+            document.querySelectorAll('.puzzle-box').forEach((el, i) => {
+                el.style.display = i === idx ? '' : 'none';
+            });
+            document.querySelectorAll('.tab-btn').forEach((el, i) => {
+                el.classList.toggle('active', i === idx);
+            });
+            games[idx].activate();
+        }
+    </script>
+</body>
+</html>
