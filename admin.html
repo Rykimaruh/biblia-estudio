@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin — Crucigrama del Éxodo</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f3eb; color: #2a1a0a; min-height: 100vh;
+            font-size: 18px;
+        }
+        #pin-gate {
+            display: flex; flex-direction: column; align-items: center;
+            justify-content: center; min-height: 100vh; padding: 2rem;
+        }
+        #pin-gate h1 {
+            font-family: Georgia, 'Times New Roman', serif;
+            color: #3a2510; margin-bottom: 0.5rem; font-size: 2rem;
+        }
+        #pin-gate p { color: #6b5a48; margin-bottom: 2rem; font-size: 1.1rem; }
+        #pin-form { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; justify-content: center; }
+        #pin-input {
+            font-size: 2rem; padding: 0.8rem 1.2rem; width: 200px;
+            text-align: center; border: 3px solid #b8a88e; border-radius: 10px;
+            background: #fff; color: #2a1a0a; letter-spacing: 0.5rem;
+            font-family: monospace;
+        }
+        #pin-input:focus { outline: none; border-color: #c8a44e; box-shadow: 0 0 0 3px rgba(200,164,78,0.3); }
+        #pin-btn {
+            font-size: 1.3rem; padding: 0.85rem 2rem; background: #c8a44e;
+            color: #2d1f14; border: none; border-radius: 10px; cursor: pointer;
+            font-weight: bold; transition: background 0.2s;
+        }
+        #pin-btn:hover { background: #b8943e; }
+        #pin-error {
+            color: #c0392b; margin-top: 1rem; font-weight: bold;
+            font-size: 1.1rem; min-height: 1.5em;
+        }
+        #content-frame {
+            display: none; width: 100%; height: 100vh; border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="pin-gate">
+        <h1>Acceso de Administrador</h1>
+        <p>Ingrese el PIN para ver las respuestas</p>
+        <div id="pin-form">
+            <input type="password" id="pin-input" maxlength="6" inputmode="numeric" pattern="[0-9]*" placeholder="PIN" autocomplete="off">
+            <button id="pin-btn" onclick="checkPin()">Entrar</button>
+        </div>
+        <div id="pin-error"></div>
+    </div>
+    <iframe id="content-frame" src="about:blank"></iframe>
+
+    <script>
+        const H='fde3f2e7127f6810eb4160bf7bb0563240d78c9d75a9a590b6d6244748a7f4ff';
+        async function sha256(m){const e=new TextEncoder().encode(m);const h=await crypto.subtle.digest('SHA-256',e);return Array.from(new Uint8Array(h)).map(b=>b.toString(16).padStart(2,'0')).join('');}
+        async function checkPin(){
+            const v=document.getElementById('pin-input').value.trim();
+            if(!v){document.getElementById('pin-error').textContent='Ingrese un PIN';return;}
+            const h=await sha256(v);
+            if(h===H){
+                document.getElementById('pin-gate').style.display='none';
+                const f=document.getElementById('content-frame');
+                f.style.display='block';
+                f.src='crucigrama-exodo-completo.html';
+            }else{
+                document.getElementById('pin-error').textContent='PIN incorrecto';
+                document.getElementById('pin-input').value='';
+                document.getElementById('pin-input').focus();
+            }
+        }
+        document.getElementById('pin-input').addEventListener('keydown',function(e){if(e.key==='Enter')checkPin();});
+        document.getElementById('pin-input').focus();
+    </script>
+</body>
+</html>

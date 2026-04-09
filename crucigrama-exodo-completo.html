@@ -213,7 +213,8 @@
                     <b>4.</b> Haz clic en cualquier pista de la lista para ir a esa palabra.<br><br>
                     <b>5.</b> Usa los botones de abajo:<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;- <b>Verificar Respuestas</b>: marca en verde las correctas y en rojo las incorrectas<br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;- <b>Dame una Pista</b>: revela una letra al azar (solo tienes <b>5 pistas</b> por crucigrama)<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;- <b>Dame una Pista</b>: revela una letra al azar<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;- <b>Mostrar Respuestas</b>: muestra todas las respuestas<br>
                     &nbsp;&nbsp;&nbsp;&nbsp;- <b>Borrar Todo</b>: limpia el crucigrama para empezar de nuevo
                 </p>
             </div>
@@ -429,7 +430,6 @@
             this.title = title;
             this.userGrid = Array.from({ length: this.gen.rows }, () => Array(this.gen.cols).fill(''));
             this.selR = -1; this.selC = -1; this.selDir = 'across';
-            this.hintsLeft = 5;
             this.render();
         }
         render() {
@@ -462,7 +462,8 @@
             h += '</div></div>';
             h += `<div class="cw-actions">
                 <button class="btn-check" onclick="activeGame.check()">Verificar Respuestas</button>
-                <button class="btn-hint" onclick="activeGame.hint()">Dame una Pista (${this.hintsLeft} restantes)</button>
+                <button class="btn-hint" onclick="activeGame.hint()">Dame una Pista</button>
+                <button class="btn-reveal" onclick="activeGame.reveal()">Mostrar Respuestas</button>
                 <button class="btn-clear" onclick="activeGame.clear()">Borrar Todo</button>
             </div>`;
             this.el.innerHTML = h;
@@ -558,7 +559,6 @@
             }
         }
         hint() {
-            if (this.hintsLeft <= 0) return;
             const cands = [];
             for (let r = 0; r < this.gen.rows; r++)
                 for (let c = 0; c < this.gen.cols; c++)
@@ -569,20 +569,16 @@
             const cell = this.getCell(p.r, p.c);
             cell.querySelector('.cw-letter').textContent = this.gen.grid[p.r][p.c];
             cell.classList.add('cw-ok'); cell.classList.remove('cw-err');
-            this.hintsLeft--;
-            this.updateHintBtn();
         }
-        updateHintBtn() {
-            const btn = this.el.querySelector('.btn-hint');
-            if (!btn) return;
-            if (this.hintsLeft <= 0) {
-                btn.textContent = 'Sin pistas disponibles';
-                btn.disabled = true;
-                btn.style.opacity = '0.5';
-                btn.style.cursor = 'not-allowed';
-            } else {
-                btn.textContent = `Dame una Pista (${this.hintsLeft} restantes)`;
-            }
+        reveal() {
+            for (let r = 0; r < this.gen.rows; r++)
+                for (let c = 0; c < this.gen.cols; c++) {
+                    if (!this.gen.grid[r][c]) continue;
+                    this.userGrid[r][c] = this.gen.grid[r][c];
+                    const cell = this.getCell(r, c);
+                    cell.querySelector('.cw-letter').textContent = this.gen.grid[r][c];
+                    cell.classList.add('cw-ok'); cell.classList.remove('cw-err');
+                }
         }
         clear() {
             for (let r = 0; r < this.gen.rows; r++)
