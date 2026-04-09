@@ -496,6 +496,7 @@
             this.el.querySelectorAll('.cw-clues li').forEach(li => li.classList.remove('cw-clue-hl'));
             const word = this.currentWord();
             if (word) {
+                this.selDir = word.dir;
                 for (let i = 0; i < word.word.length; i++) {
                     const r = word.dir === 'across' ? word.row : word.row + i;
                     const c = word.dir === 'across' ? word.col + i : word.col;
@@ -521,7 +522,9 @@
             this.userGrid[this.selR][this.selC] = letter;
             const cell = this.getCell(this.selR, this.selC);
             if (cell) { cell.querySelector('.cw-letter').textContent = letter; cell.classList.remove('cw-ok', 'cw-err'); }
-            if (this.selDir === 'across') this.move(0, 1); else this.move(1, 0);
+            const word = this.currentWord();
+            const dir = word ? word.dir : this.selDir;
+            if (dir === 'across') this.move(0, 1); else this.move(1, 0);
         }
         backspace() {
             if (this.userGrid[this.selR][this.selC]) {
