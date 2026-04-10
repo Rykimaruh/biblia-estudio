@@ -1,0 +1,331 @@
+{
+    "book": "Exodo",
+    "bookSlug": "exodo",
+    "center": [29.5, 33.5],
+    "zoom": 6,
+    "locations": [
+        {
+            "id": "rameses",
+            "name": "Rameses / Gosen",
+            "lat": 30.788,
+            "lng": 31.828,
+            "icon": "city",
+            "events": [
+                {
+                    "title": "Los israelitas son esclavizados y oprimidos",
+                    "chapters": [1],
+                    "verse": "Exodo 1:11-14"
+                },
+                {
+                    "title": "Nacimiento de Moises, puesto en una cesta en el Nilo",
+                    "chapters": [2],
+                    "verse": "Exodo 2:1-10"
+                },
+                {
+                    "title": "Las diez plagas caen sobre Egipto",
+                    "chapters": [7, 8, 9, 10, 11],
+                    "verse": "Exodo 7:14 - 11:10"
+                },
+                {
+                    "title": "La Pascua: sangre en los dinteles, muerte de los primogenitos",
+                    "chapters": [12],
+                    "verse": "Exodo 12:29-31"
+                },
+                {
+                    "title": "Israel sale de Egipto despues de 430 anos",
+                    "chapters": [12, 13],
+                    "verse": "Exodo 12:40-41"
+                }
+            ]
+        },
+        {
+            "id": "pithom",
+            "name": "Pitom",
+            "lat": 30.55,
+            "lng": 32.05,
+            "icon": "city",
+            "events": [
+                {
+                    "title": "Ciudad de almacenaje construida por los esclavos hebreos",
+                    "chapters": [1],
+                    "verse": "Exodo 1:11"
+                }
+            ]
+        },
+        {
+            "id": "midian",
+            "name": "Madian",
+            "lat": 28.85,
+            "lng": 34.85,
+            "icon": "home",
+            "events": [
+                {
+                    "title": "Moises huye a Madian, se casa con Sefora",
+                    "chapters": [2],
+                    "verse": "Exodo 2:15-21"
+                },
+                {
+                    "title": "Jetro visita a Moises y aconseja nombrar jueces",
+                    "chapters": [18],
+                    "verse": "Exodo 18:1-27"
+                }
+            ]
+        },
+        {
+            "id": "burning-bush",
+            "name": "Monte Horeb (Zarza Ardiente)",
+            "lat": 28.55,
+            "lng": 33.97,
+            "icon": "fire",
+            "events": [
+                {
+                    "title": "Dios se revela a Moises en la zarza ardiente",
+                    "chapters": [3],
+                    "verse": "Exodo 3:1-6"
+                },
+                {
+                    "title": "Dios revela su nombre: YO SOY EL QUE SOY",
+                    "chapters": [3],
+                    "verse": "Exodo 3:14"
+                },
+                {
+                    "title": "Senales dadas a Moises: vara, mano, agua a sangre",
+                    "chapters": [4],
+                    "verse": "Exodo 4:1-9"
+                }
+            ]
+        },
+        {
+            "id": "nile",
+            "name": "Rio Nilo",
+            "lat": 30.05,
+            "lng": 31.24,
+            "icon": "water",
+            "events": [
+                {
+                    "title": "Faraon ordena arrojar a los ninos hebreos al Nilo",
+                    "chapters": [1],
+                    "verse": "Exodo 1:22"
+                },
+                {
+                    "title": "La hija del Faraon encuentra a Moises en el rio",
+                    "chapters": [2],
+                    "verse": "Exodo 2:5-6"
+                },
+                {
+                    "title": "Primera plaga: las aguas del Nilo se convierten en sangre",
+                    "chapters": [7],
+                    "verse": "Exodo 7:20-21"
+                }
+            ]
+        },
+        {
+            "id": "succoth",
+            "name": "Sucot",
+            "lat": 30.53,
+            "lng": 32.30,
+            "icon": "camp",
+            "events": [
+                {
+                    "title": "Primera parada de Israel al salir de Egipto",
+                    "chapters": [12, 13],
+                    "verse": "Exodo 12:37"
+                }
+            ]
+        },
+        {
+            "id": "etham",
+            "name": "Etam",
+            "lat": 30.48,
+            "lng": 32.37,
+            "icon": "camp",
+            "events": [
+                {
+                    "title": "Israel acampa al borde del desierto",
+                    "chapters": [13],
+                    "verse": "Exodo 13:20"
+                }
+            ]
+        },
+        {
+            "id": "red-sea",
+            "name": "Cruce del Mar Rojo",
+            "lat": 29.944,
+            "lng": 32.557,
+            "icon": "miracle",
+            "events": [
+                {
+                    "title": "Dios divide el mar; Israel cruza en seco",
+                    "chapters": [14],
+                    "verse": "Exodo 14:21-22"
+                },
+                {
+                    "title": "El ejercito del Faraon es destruido en el mar",
+                    "chapters": [14],
+                    "verse": "Exodo 14:27-28"
+                },
+                {
+                    "title": "Cantico de Moises y Miriam",
+                    "chapters": [15],
+                    "verse": "Exodo 15:1-21"
+                }
+            ]
+        },
+        {
+            "id": "marah",
+            "name": "Mara",
+            "lat": 29.27,
+            "lng": 33.10,
+            "icon": "water",
+            "events": [
+                {
+                    "title": "Aguas amargas endulzadas por un arbol",
+                    "chapters": [15],
+                    "verse": "Exodo 15:23-25"
+                }
+            ]
+        },
+        {
+            "id": "elim",
+            "name": "Elim",
+            "lat": 29.07,
+            "lng": 33.10,
+            "icon": "oasis",
+            "events": [
+                {
+                    "title": "Oasis con doce fuentes de agua y setenta palmeras",
+                    "chapters": [15],
+                    "verse": "Exodo 15:27"
+                }
+            ]
+        },
+        {
+            "id": "sin-desert",
+            "name": "Desierto de Sin",
+            "lat": 28.87,
+            "lng": 33.30,
+            "icon": "camp",
+            "events": [
+                {
+                    "title": "Dios envia mana y codornices para alimentar al pueblo",
+                    "chapters": [16],
+                    "verse": "Exodo 16:14-15, 31"
+                }
+            ]
+        },
+        {
+            "id": "rephidim",
+            "name": "Refidim",
+            "lat": 28.70,
+            "lng": 33.65,
+            "icon": "battle",
+            "events": [
+                {
+                    "title": "Moises golpea la roca y brota agua",
+                    "chapters": [17],
+                    "verse": "Exodo 17:6"
+                },
+                {
+                    "title": "Batalla contra Amalec; manos de Moises levantadas",
+                    "chapters": [17],
+                    "verse": "Exodo 17:11-13"
+                }
+            ]
+        },
+        {
+            "id": "sinai",
+            "name": "Monte Sinai",
+            "lat": 28.539,
+            "lng": 33.975,
+            "icon": "mountain",
+            "events": [
+                {
+                    "title": "Dios desciende con truenos y relampagos",
+                    "chapters": [19],
+                    "verse": "Exodo 19:16-20"
+                },
+                {
+                    "title": "Dios entrega los Diez Mandamientos",
+                    "chapters": [20],
+                    "verse": "Exodo 20:1-17"
+                },
+                {
+                    "title": "Moises sube al monte por 40 dias; recibe las tablas de piedra",
+                    "chapters": [24, 31],
+                    "verse": "Exodo 24:18"
+                },
+                {
+                    "title": "Instrucciones para el tabernaculo",
+                    "chapters": [25, 26, 27, 28, 29, 30],
+                    "verse": "Exodo 25:8-9"
+                },
+                {
+                    "title": "El becerro de oro; Moises quiebra las tablas",
+                    "chapters": [32],
+                    "verse": "Exodo 32:19"
+                },
+                {
+                    "title": "Dios renueva el pacto; nuevas tablas; rostro de Moises resplandece",
+                    "chapters": [34],
+                    "verse": "Exodo 34:1, 29"
+                },
+                {
+                    "title": "Construccion y levantamiento del tabernaculo",
+                    "chapters": [35, 36, 37, 38, 39, 40],
+                    "verse": "Exodo 40:33-34"
+                },
+                {
+                    "title": "La gloria del Senor llena el tabernaculo",
+                    "chapters": [40],
+                    "verse": "Exodo 40:34-35"
+                }
+            ]
+        },
+        {
+            "id": "kadesh",
+            "name": "Cades-barnea",
+            "lat": 30.647,
+            "lng": 34.422,
+            "icon": "camp",
+            "events": [
+                {
+                    "title": "Punto de referencia en la frontera sur de Canaan",
+                    "chapters": [23],
+                    "verse": "Exodo 23:31"
+                }
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "id": "exodus-route",
+            "name": "Ruta del Exodo",
+            "color": "#c8a44e",
+            "dashArray": null,
+            "points": [
+                [30.788, 31.828],
+                [30.53, 32.30],
+                [30.48, 32.37],
+                [29.944, 32.557],
+                [29.27, 33.10],
+                [29.07, 33.10],
+                [28.87, 33.30],
+                [28.70, 33.65],
+                [28.539, 33.975]
+            ],
+            "labels": ["Rameses", "Sucot", "Etam", "Mar Rojo", "Mara", "Elim", "Des. de Sin", "Refidim", "Monte Sinai"]
+        },
+        {
+            "id": "moses-midian",
+            "name": "Moises huye a Madian",
+            "color": "#4a90d9",
+            "dashArray": "10, 8",
+            "points": [
+                [30.05, 31.24],
+                [29.50, 32.80],
+                [28.85, 34.85]
+            ],
+            "labels": ["Egipto", "", "Madian"]
+        }
+    ]
+}

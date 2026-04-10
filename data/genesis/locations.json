@@ -1,0 +1,350 @@
+{
+    "book": "Genesis",
+    "bookSlug": "genesis",
+    "center": [32.5, 39.0],
+    "zoom": 5,
+    "locations": [
+        {
+            "id": "eden",
+            "name": "Jardin del Eden",
+            "lat": 31.0,
+            "lng": 47.0,
+            "icon": "garden",
+            "events": [
+                {
+                    "title": "Dios crea el jardin y pone al hombre",
+                    "chapters": [2],
+                    "verse": "Genesis 2:8"
+                },
+                {
+                    "title": "La caida del hombre y expulsion del jardin",
+                    "chapters": [3],
+                    "verse": "Genesis 3:23-24"
+                }
+            ]
+        },
+        {
+            "id": "babel",
+            "name": "Babel / Babilonia",
+            "lat": 32.536,
+            "lng": 44.421,
+            "icon": "city",
+            "events": [
+                {
+                    "title": "La torre de Babel y confusion de lenguas",
+                    "chapters": [11],
+                    "verse": "Genesis 11:1-9"
+                }
+            ]
+        },
+        {
+            "id": "ur",
+            "name": "Ur de los Caldeos",
+            "lat": 30.962,
+            "lng": 46.103,
+            "icon": "city",
+            "events": [
+                {
+                    "title": "Lugar de origen de Abraham",
+                    "chapters": [11],
+                    "verse": "Genesis 11:31"
+                }
+            ]
+        },
+        {
+            "id": "haran",
+            "name": "Haran",
+            "lat": 36.864,
+            "lng": 39.033,
+            "icon": "city",
+            "events": [
+                {
+                    "title": "Abraham se establece antes de partir a Canaan",
+                    "chapters": [11, 12],
+                    "verse": "Genesis 11:31-32"
+                },
+                {
+                    "title": "Jacob huye a Haran y trabaja para Laban",
+                    "chapters": [28, 29, 30, 31],
+                    "verse": "Genesis 29:4"
+                }
+            ]
+        },
+        {
+            "id": "shechem",
+            "name": "Siquem",
+            "lat": 32.214,
+            "lng": 35.273,
+            "icon": "city",
+            "events": [
+                {
+                    "title": "Abraham llega a Canaan; Dios le promete la tierra",
+                    "chapters": [12],
+                    "verse": "Genesis 12:6-7"
+                },
+                {
+                    "title": "Jacob compra terreno y se establece",
+                    "chapters": [33],
+                    "verse": "Genesis 33:18-19"
+                },
+                {
+                    "title": "Deshonra de Dina y venganza de Simeon y Levi",
+                    "chapters": [34],
+                    "verse": "Genesis 34:1-2"
+                }
+            ]
+        },
+        {
+            "id": "bethel",
+            "name": "Betel",
+            "lat": 31.937,
+            "lng": 35.233,
+            "icon": "altar",
+            "events": [
+                {
+                    "title": "Abraham construye un altar al Senor",
+                    "chapters": [12, 13],
+                    "verse": "Genesis 12:8"
+                },
+                {
+                    "title": "Jacob suena con la escalera al cielo",
+                    "chapters": [28],
+                    "verse": "Genesis 28:12-19"
+                },
+                {
+                    "title": "Jacob regresa a Betel y Dios renueva su pacto",
+                    "chapters": [35],
+                    "verse": "Genesis 35:1-15"
+                }
+            ]
+        },
+        {
+            "id": "hebron",
+            "name": "Hebron / Mamre",
+            "lat": 31.529,
+            "lng": 35.096,
+            "icon": "home",
+            "events": [
+                {
+                    "title": "Abraham se establece junto a los encinos de Mamre",
+                    "chapters": [13, 14],
+                    "verse": "Genesis 13:18"
+                },
+                {
+                    "title": "Tres visitantes anuncian el nacimiento de Isaac",
+                    "chapters": [18],
+                    "verse": "Genesis 18:1-15"
+                },
+                {
+                    "title": "Sara muere y Abraham compra la cueva de Macpela",
+                    "chapters": [23],
+                    "verse": "Genesis 23:19"
+                },
+                {
+                    "title": "Jacob e Isaac se reunen; Isaac muere en Hebron",
+                    "chapters": [35],
+                    "verse": "Genesis 35:27-29"
+                }
+            ]
+        },
+        {
+            "id": "beersheba",
+            "name": "Beer-seba",
+            "lat": 31.252,
+            "lng": 34.791,
+            "icon": "well",
+            "events": [
+                {
+                    "title": "Abraham hace pacto con Abimelec junto al pozo",
+                    "chapters": [21],
+                    "verse": "Genesis 21:31-33"
+                },
+                {
+                    "title": "Isaac cava pozos y hace pacto con Abimelec",
+                    "chapters": [26],
+                    "verse": "Genesis 26:33"
+                },
+                {
+                    "title": "Jacob parte hacia Egipto; Dios le habla en vision",
+                    "chapters": [46],
+                    "verse": "Genesis 46:1-4"
+                }
+            ]
+        },
+        {
+            "id": "sodom",
+            "name": "Sodoma y Gomorra",
+            "lat": 31.035,
+            "lng": 35.395,
+            "icon": "destruction",
+            "events": [
+                {
+                    "title": "Lot escoge la llanura del Jordan y se establece",
+                    "chapters": [13],
+                    "verse": "Genesis 13:10-12"
+                },
+                {
+                    "title": "Destruccion de Sodoma y Gomorra con fuego del cielo",
+                    "chapters": [19],
+                    "verse": "Genesis 19:24-25"
+                }
+            ]
+        },
+        {
+            "id": "moriah",
+            "name": "Monte Moriah",
+            "lat": 31.778,
+            "lng": 35.235,
+            "icon": "mountain",
+            "events": [
+                {
+                    "title": "Abraham ofrece a Isaac; Dios provee el carnero",
+                    "chapters": [22],
+                    "verse": "Genesis 22:2-14"
+                }
+            ]
+        },
+        {
+            "id": "peniel",
+            "name": "Peniel",
+            "lat": 32.183,
+            "lng": 35.705,
+            "icon": "star",
+            "events": [
+                {
+                    "title": "Jacob lucha con Dios y recibe el nombre Israel",
+                    "chapters": [32],
+                    "verse": "Genesis 32:28-30"
+                }
+            ]
+        },
+        {
+            "id": "dothan",
+            "name": "Dotan",
+            "lat": 32.408,
+            "lng": 35.236,
+            "icon": "city",
+            "events": [
+                {
+                    "title": "Jose es vendido por sus hermanos a los ismaelitas",
+                    "chapters": [37],
+                    "verse": "Genesis 37:17-28"
+                }
+            ]
+        },
+        {
+            "id": "goshen",
+            "name": "Gosen (Egipto)",
+            "lat": 30.788,
+            "lng": 31.828,
+            "icon": "home",
+            "events": [
+                {
+                    "title": "La familia de Jacob se establece en Gosen",
+                    "chapters": [46, 47],
+                    "verse": "Genesis 47:6"
+                },
+                {
+                    "title": "Jacob bendice a sus hijos y muere",
+                    "chapters": [49],
+                    "verse": "Genesis 49:33"
+                }
+            ]
+        },
+        {
+            "id": "egypt-capital",
+            "name": "Egipto (Corte del Faraon)",
+            "lat": 30.05,
+            "lng": 31.24,
+            "icon": "palace",
+            "events": [
+                {
+                    "title": "Abraham desciende a Egipto por la hambruna",
+                    "chapters": [12],
+                    "verse": "Genesis 12:10"
+                },
+                {
+                    "title": "Jose es vendido a Potifar y encarcelado",
+                    "chapters": [39, 40],
+                    "verse": "Genesis 39:1"
+                },
+                {
+                    "title": "Jose interpreta suenos del Faraon y es nombrado gobernador",
+                    "chapters": [41],
+                    "verse": "Genesis 41:39-41"
+                },
+                {
+                    "title": "Jose se revela a sus hermanos",
+                    "chapters": [45],
+                    "verse": "Genesis 45:1-4"
+                }
+            ]
+        },
+        {
+            "id": "gerar",
+            "name": "Gerar",
+            "lat": 31.38,
+            "lng": 34.45,
+            "icon": "city",
+            "events": [
+                {
+                    "title": "Abraham y Sara ante Abimelec",
+                    "chapters": [20],
+                    "verse": "Genesis 20:1-2"
+                },
+                {
+                    "title": "Isaac vive en Gerar y prospera grandemente",
+                    "chapters": [26],
+                    "verse": "Genesis 26:6"
+                }
+            ]
+        }
+    ],
+    "routes": [
+        {
+            "id": "abraham-journey",
+            "name": "Viaje de Abraham",
+            "color": "#c8a44e",
+            "dashArray": null,
+            "points": [
+                [30.962, 46.103],
+                [36.864, 39.033],
+                [32.214, 35.273],
+                [31.937, 35.233],
+                [30.05, 31.24],
+                [31.937, 35.233],
+                [31.529, 35.096]
+            ],
+            "labels": ["Ur", "Haran", "Siquem", "Betel", "Egipto", "Betel", "Hebron"]
+        },
+        {
+            "id": "jacob-journey",
+            "name": "Viaje de Jacob",
+            "color": "#4a90d9",
+            "dashArray": "10, 8",
+            "points": [
+                [31.252, 34.791],
+                [31.937, 35.233],
+                [36.864, 39.033],
+                [32.183, 35.705],
+                [32.214, 35.273],
+                [31.937, 35.233],
+                [31.529, 35.096]
+            ],
+            "labels": ["Beer-seba", "Betel", "Haran", "Peniel", "Siquem", "Betel", "Hebron"]
+        },
+        {
+            "id": "joseph-route",
+            "name": "Jose vendido a Egipto",
+            "color": "#d9534f",
+            "dashArray": "5, 5",
+            "points": [
+                [31.529, 35.096],
+                [32.408, 35.236],
+                [30.788, 31.828],
+                [30.05, 31.24]
+            ],
+            "labels": ["Hebron", "Dotan", "Gosen", "Egipto"]
+        }
+    ]
+}
