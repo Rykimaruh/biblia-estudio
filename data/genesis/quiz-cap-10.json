@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 10",
+    "book": "Genesis",
+    "chapter": 10,
+    "questions": [
+        {
+            "question": "Genesis 10 es conocido como la tabla de las naciones. De quienes descienden todas estas naciones?",
+            "options": [
+                "De Adan y Eva directamente",
+                "De los hijos de Noe: Sem, Cam y Jafet",
+                "De Abraham y Sara",
+                "De los angeles caidos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Este capitulo presenta las genealogias de los tres hijos de Noe: Sem, Cam y Jafet, de quienes se esparcieron las naciones despues del diluvio.",
+            "verse": "Genesis 10:1"
+        },
+        {
+            "question": "De cual de los hijos de Noe descendieron los pueblos de las costas y las islas de las naciones?",
+            "options": [
+                "Sem",
+                "Cam",
+                "Jafet",
+                "Los tres por igual"
+            ],
+            "correctIndex": 2,
+            "explanation": "De los hijos de Jafet se separaron las naciones en sus tierras, cada una segun su lengua, conforme a sus familias, en sus naciones. Se poblaron las costas.",
+            "verse": "Genesis 10:2-5"
+        },
+        {
+            "question": "Quien fue Nimrod y como se le describe en este capitulo?",
+            "options": [
+                "Fue un sacerdote de Dios",
+                "Fue el primer poderoso cazador en la tierra delante del Senor",
+                "Fue un profeta de Israel",
+                "Fue un pastor pacifico"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nimrod llego a ser el primer poderoso en la tierra. Fue un poderoso cazador delante del Senor, tanto que se decia: 'Como Nimrod, poderoso cazador delante del Senor.'",
+            "verse": "Genesis 10:8-9"
+        },
+        {
+            "question": "De quien fue descendiente Nimrod?",
+            "options": [
+                "De Sem",
+                "De Jafet",
+                "De Cam, a traves de Cus",
+                "De Adan directamente"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cus engendro a Nimrod. Cus era hijo de Cam, por lo tanto Nimrod era descendiente de Cam, hijo de Noe.",
+            "verse": "Genesis 10:6-8"
+        },
+        {
+            "question": "Cual de estas ciudades fue parte del principio del reino de Nimrod?",
+            "options": [
+                "Jerusalen",
+                "Babel (Babilonia)",
+                "Jerico",
+                "Damasco"
+            ],
+            "correctIndex": 1,
+            "explanation": "El comienzo del reino de Nimrod fue Babel, Erec, Acad y Calne, en la tierra de Sinar. Babel seria la futura Babilonia.",
+            "verse": "Genesis 10:10"
+        },
+        {
+            "question": "De cual hijo de Noe desciende el pueblo de Canaan?",
+            "options": [
+                "Sem",
+                "Jafet",
+                "Cam",
+                "Ninguno de los anteriores"
+            ],
+            "correctIndex": 2,
+            "explanation": "Canaan fue hijo de Cam. De Canaan descendieron los pueblos cananeos que luego habitaron la tierra prometida.",
+            "verse": "Genesis 10:6, 15-19"
+        },
+        {
+            "question": "Como se describe a Sem en relacion con Heber?",
+            "options": [
+                "Como enemigo de Heber",
+                "Como padre de todos los hijos de Heber y hermano mayor de Jafet",
+                "Como el menor de los hijos de Noe",
+                "Como sacerdote del Altisimo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Sem es identificado como el padre de todos los hijos de Heber (de donde viene el termino 'hebreo') y hermano mayor de Jafet.",
+            "verse": "Genesis 10:21"
+        }
+    ]
+}

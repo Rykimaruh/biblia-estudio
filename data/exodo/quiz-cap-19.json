@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 19",
+    "book": "Exodo",
+    "chapter": 19,
+    "questions": [
+        {
+            "question": "A que lugar llego Israel al tercer mes despues de salir de Egipto?",
+            "options": [
+                "Al monte Nebo",
+                "Al desierto de Sinai, frente al monte",
+                "A la tierra de Canaan",
+                "Al rio Jordan"
+            ],
+            "correctIndex": 1,
+            "explanation": "Al tercer mes de la salida de los hijos de Israel de la tierra de Egipto, ese mismo dia, llegaron al desierto de Sinai y acamparon frente al monte.",
+            "verse": "Exodo 19:1-2"
+        },
+        {
+            "question": "Que promesa hizo Dios a Israel si obedecian Su voz y guardaban Su pacto?",
+            "options": [
+                "Que les daria riquezas sin medida",
+                "Que serian Su especial tesoro, un reino de sacerdotes y una nacion santa",
+                "Que nunca tendrian que trabajar",
+                "Que destruiria a todos los pueblos de la tierra"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo: 'Vosotros sereis para mi un tesoro especial entre todos los pueblos, porque mia es toda la tierra; y vosotros sereis para mi un reino de sacerdotes y una nacion santa.'",
+            "verse": "Exodo 19:5-6"
+        },
+        {
+            "question": "Que respondio el pueblo a las palabras del Senor?",
+            "options": [
+                "Se negaron a obedecer",
+                "Pidieron mas tiempo para decidir",
+                "Todo lo que el Senor ha dicho, haremos",
+                "Pidieron que Moises hiciera el pacto solo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Todo el pueblo respondio a una y dijo: 'Todo lo que el Senor ha dicho, haremos.'",
+            "verse": "Exodo 19:8"
+        },
+        {
+            "question": "Que debian hacer los israelitas para prepararse antes de que Dios descendiera al monte?",
+            "options": [
+                "Construir un altar de piedra",
+                "Consagrarse, lavar sus vestidos y estar preparados para el tercer dia",
+                "Ofrecer sacrificios de animales cada dia",
+                "Ayunar durante una semana completa"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor dijo a Moises: 'Ve al pueblo y consagralos hoy y manana, y que laven sus vestidos; y que esten preparados para el tercer dia, porque al tercer dia el Senor descenderá a la vista de todo el pueblo.'",
+            "verse": "Exodo 19:10-11"
+        },
+        {
+            "question": "Que le pasaria a cualquier persona o animal que tocara el monte Sinai?",
+            "options": [
+                "Seria bendecido por Dios",
+                "Seria apedreado o asaeteado; no debia vivir",
+                "Seria convertido en sacerdote",
+                "Nada, era solo una advertencia simbolica"
+            ],
+            "correctIndex": 1,
+            "explanation": "Todo el que toque el monte ciertamente morira. Ninguna mano lo tocara, sino que sera apedreado o asaeteado; sea animal o sea hombre, no vivira.",
+            "verse": "Exodo 19:12-13"
+        },
+        {
+            "question": "Que fenomenos naturales ocurrieron cuando Dios descendio sobre el monte Sinai?",
+            "options": [
+                "Una lluvia de estrellas y un arco iris doble",
+                "Truenos, relampagos, una densa nube, un fuerte sonido de trompeta, humo y temblor del monte",
+                "Un silencio absoluto y una brisa suave",
+                "Solo una voz que hablaba desde el cielo azul"
+            ],
+            "correctIndex": 1,
+            "explanation": "Al tercer dia hubo truenos y relampagos y una densa nube sobre el monte y un fuerte sonido de trompeta. Todo el monte Sinai humeaba porque el Senor descendio sobre el en fuego, y todo el monte se estremecio violentamente.",
+            "verse": "Exodo 19:16-18"
+        },
+        {
+            "question": "Que le ordeno Dios a Moises que hiciera respecto al pueblo antes de que El hablara?",
+            "options": [
+                "Que les diera alimento y agua",
+                "Que subieran todos al monte",
+                "Que descendiera y advirtiera al pueblo que no traspasara los limites para ver al Senor",
+                "Que construyeran un templo al pie del monte"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor dijo a Moises: 'Desciende, advierte al pueblo, no sea que traspasen los limites para ver al Senor y caigan muchos de ellos.'",
+            "verse": "Exodo 19:21"
+        }
+    ]
+}

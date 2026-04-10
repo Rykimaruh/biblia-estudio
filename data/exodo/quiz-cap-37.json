@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 37",
+    "book": "Exodo",
+    "chapter": 37,
+    "questions": [
+        {
+            "question": "Quien construyo el arca del testimonio?",
+            "options": [
+                "Moises",
+                "Aaron",
+                "Bezalel",
+                "Oholiab"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bezalel hizo el arca de madera de acacia.",
+            "verse": "Exodo 37:1"
+        },
+        {
+            "question": "De que materiales se construyo el arca?",
+            "options": [
+                "Solo de oro puro",
+                "De madera de acacia revestida de oro puro por dentro y por fuera",
+                "De madera de cedro con incrustaciones de plata",
+                "De bronce y piedras preciosas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Bezalel hizo el arca de madera de acacia y la revistio de oro puro por dentro y por fuera, e hizo una moldura de oro alrededor.",
+            "verse": "Exodo 37:1-2"
+        },
+        {
+            "question": "Cuantos querubines se hicieron sobre el propiciatorio del arca?",
+            "options": [
+                "Uno",
+                "Dos",
+                "Cuatro",
+                "Seis"
+            ],
+            "correctIndex": 1,
+            "explanation": "Se hicieron dos querubines de oro labrados a martillo en los dos extremos del propiciatorio.",
+            "verse": "Exodo 37:7"
+        },
+        {
+            "question": "Hacia donde miraban los querubines del propiciatorio?",
+            "options": [
+                "Hacia arriba al cielo",
+                "Uno al otro, pero hacia afuera",
+                "Hacia el propiciatorio, con sus rostros el uno hacia el otro",
+                "Hacia las tablas de la ley"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los querubines tenian sus alas extendidas por encima, cubriendo el propiciatorio con sus alas, con los rostros el uno hacia el otro, mirando hacia el propiciatorio.",
+            "verse": "Exodo 37:9"
+        },
+        {
+            "question": "Cuantos brazos tenia el candelero de oro puro que se construyo?",
+            "options": [
+                "Cuatro brazos",
+                "Cinco brazos",
+                "Seis brazos, tres de cada lado",
+                "Ocho brazos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Del candelero salian seis brazos: tres brazos de un lado y tres brazos del otro lado.",
+            "verse": "Exodo 37:18"
+        },
+        {
+            "question": "Cuanta cantidad de oro puro se uso para hacer el candelero y todos sus utensilios?",
+            "options": [
+                "Medio talento",
+                "Un talento",
+                "Dos talentos",
+                "Cinco talentos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Se hizo el candelero y todos sus utensilios de un talento de oro puro.",
+            "verse": "Exodo 37:24"
+        },
+        {
+            "question": "Que otros objetos sagrados hizo Bezalel ademas del arca y el candelero?",
+            "options": [
+                "El altar de bronce y la fuente",
+                "La mesa del pan de la presencia y el altar del incienso",
+                "Las vestiduras sacerdotales y el pectoral",
+                "Las cortinas y las columnas del atrio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Bezalel tambien hizo la mesa de madera de acacia revestida de oro para el pan de la presencia, y el altar del incienso de madera de acacia revestido de oro.",
+            "verse": "Exodo 37:10-11, 25-26"
+        }
+    ]
+}

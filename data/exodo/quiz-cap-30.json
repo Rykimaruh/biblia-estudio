@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 30",
+    "book": "Exodo",
+    "chapter": 30,
+    "questions": [
+        {
+            "question": "Segun Exodo 30:1, de que material debia hacerse el altar del incienso?",
+            "options": [
+                "Piedra labrada",
+                "Bronce",
+                "Madera de acacia",
+                "Oro puro macizo"
+            ],
+            "correctIndex": 2,
+            "explanation": "El altar del incienso debia hacerse de madera de acacia, recubierto de oro puro.",
+            "verse": "Exodo 30:1-3"
+        },
+        {
+            "question": "Cuantas veces al ano debia Aaron hacer expiacion sobre los cuernos del altar del incienso?",
+            "options": [
+                "Una vez al ano",
+                "Dos veces al ano",
+                "Cuatro veces al ano",
+                "Cada mes"
+            ],
+            "correctIndex": 0,
+            "explanation": "Aaron debia hacer expiacion sobre los cuernos del altar una vez al ano con la sangre de la ofrenda de expiacion, por todas las generaciones.",
+            "verse": "Exodo 30:10"
+        },
+        {
+            "question": "Segun Exodo 30:13, cuanto era el rescate que cada persona mayor de veinte anos debia pagar al ser censada?",
+            "options": [
+                "Un siclo de plata",
+                "Medio siclo segun el siclo del santuario",
+                "Dos siclos de oro",
+                "Diez monedas de plata"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cada uno que era contado en el censo debia dar medio siclo conforme al siclo del santuario como ofrenda al Senor.",
+            "verse": "Exodo 30:13"
+        },
+        {
+            "question": "Para que servia la fuente de bronce que debia colocarse entre la tienda de reunion y el altar?",
+            "options": [
+                "Para bautizar a los nuevos creyentes",
+                "Para que Aaron y sus hijos se lavaran las manos y los pies",
+                "Para almacenar agua para los sacrificios",
+                "Para limpiar los utensilios del altar"
+            ],
+            "correctIndex": 1,
+            "explanation": "La fuente de bronce era para que Aaron y sus hijos se lavaran las manos y los pies cuando entraran en la tienda de reunion o se acercaran al altar, para que no murieran.",
+            "verse": "Exodo 30:18-21"
+        },
+        {
+            "question": "Cuales eran las especias principales del aceite de la santa uncion?",
+            "options": [
+                "Canela, comino, eneldo e hisopo",
+                "Mirra, canela aromatica, calamo aromatico y casia",
+                "Incienso, estacte, galbanon y nardo",
+                "Aloe, mirra, cedro y cipres"
+            ],
+            "correctIndex": 1,
+            "explanation": "El aceite de la santa uncion se preparaba con mirra fluida, canela aromatica, calamo aromatico y casia, mezclados con aceite de oliva.",
+            "verse": "Exodo 30:23-24"
+        },
+        {
+            "question": "Que advertencia dio Dios sobre el uso del aceite de la santa uncion y el incienso sagrado?",
+            "options": [
+                "Solo podian usarse una vez al ano",
+                "Quien los preparara igual para uso personal seria cortado de su pueblo",
+                "Debian guardarse en el Lugar Santisimo unicamente",
+                "Solo Moises podia tocarlos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios advirtio que cualquiera que hiciera una mezcla semejante al aceite de uncion o al incienso sagrado para uso personal, seria cortado de su pueblo.",
+            "verse": "Exodo 30:33,38"
+        },
+        {
+            "question": "Segun Exodo 30:15, por que el rico no debia dar mas ni el pobre menos de medio siclo?",
+            "options": [
+                "Para evitar la envidia entre el pueblo",
+                "Para hacer expiacion por sus vidas, siendo todos iguales ante Dios",
+                "Porque Dios no necesitaba mas dinero",
+                "Para simplificar el conteo del pueblo"
+            ],
+            "correctIndex": 1,
+            "explanation": "El rico no daba mas ni el pobre menos de medio siclo al dar la ofrenda al Senor para hacer expiacion por sus vidas, mostrando igualdad ante Dios.",
+            "verse": "Exodo 30:15"
+        }
+    ]
+}

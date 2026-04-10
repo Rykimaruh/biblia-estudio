@@ -1,0 +1,224 @@
+{
+    "book": "Exodo",
+    "bookSlug": "exodo",
+    "sections": [
+        {
+            "id": "cap1-10",
+            "title": "Capitulos 1-10: De Egipto a las Plagas",
+            "description": "El nacimiento de Moises, la zarza ardiente, las primeras plagas de Egipto y la confrontacion con el faraon.",
+            "puzzles": [
+                {
+                    "title": "Nacimiento y llamado de Moises (Cap. 1-3)",
+                    "words": [
+                        { "word": "PARTERAS", "clue": "Mujeres que desobedecieron al faraon salvando a los ninos hebreos" },
+                        { "word": "CANASTA", "clue": "Recipiente de juncos donde fue puesto el bebe Moises en el rio" },
+                        { "word": "MOISES", "clue": "Fue sacado de las aguas del rio Nilo por la hija del faraon" },
+                        { "word": "FARAON", "clue": "Rey de Egipto que ordeno matar a los ninos hebreos" },
+                        { "word": "MADIAN", "clue": "Tierra donde huyo Moises tras matar al egipcio" },
+                        { "word": "ZARZA", "clue": "Arbusto que ardia con fuego pero no se consumia" },
+                        { "word": "NILO", "clue": "Rio donde la hija del faraon encontro al bebe" }
+                    ]
+                },
+                {
+                    "title": "Senales y confrontacion con el faraon (Cap. 4-5)",
+                    "words": [
+                        { "word": "SERPIENTE", "clue": "La vara de Moises se convirtio en esto al lanzarla al suelo" },
+                        { "word": "LADRILLOS", "clue": "Los israelitas debian fabricar estos sin que les dieran paja" },
+                        { "word": "HEBREOS", "clue": "Pueblo esclavizado en Egipto que clamo a Dios" },
+                        { "word": "AARON", "clue": "Hermano mayor de Moises designado como su portavoz" },
+                        { "word": "LEPRA", "clue": "Enfermedad que aparecio en la mano de Moises como senal divina" },
+                        { "word": "PAJA", "clue": "Material que el faraon dejo de proveer a los esclavos" },
+                        { "word": "VARA", "clue": "Instrumento que Moises lanzo al suelo y se transformo" }
+                    ]
+                },
+                {
+                    "title": "Las primeras plagas de Egipto (Cap. 7-8)",
+                    "words": [
+                        { "word": "SANGRE", "clue": "Primera plaga: toda el agua del Nilo se convirtio en esto" },
+                        { "word": "MOSCAS", "clue": "Cuarta plaga que invadio las casas de los egipcios" },
+                        { "word": "PIOJOS", "clue": "Tercera plaga que los magos del faraon no pudieron reproducir" },
+                        { "word": "GOSHEN", "clue": "Region donde vivian los israelitas, protegida de las plagas" },
+                        { "word": "RANAS", "clue": "Segunda plaga: anfibios que cubrieron toda la tierra de Egipto" },
+                        { "word": "MAGOS", "clue": "Hechiceros del faraon que intentaron imitar las senales de Dios" },
+                        { "word": "PLAGA", "clue": "Castigo divino enviado sobre Egipto para liberar al pueblo" }
+                    ]
+                },
+                {
+                    "title": "Las ultimas plagas antes del exodo (Cap. 9-10)",
+                    "words": [
+                        { "word": "LANGOSTAS", "clue": "Octava plaga: insectos que devoraron toda la vegetacion" },
+                        { "word": "TINIEBLAS", "clue": "Novena plaga: tres dias de oscuridad total sobre Egipto" },
+                        { "word": "GRANIZO", "clue": "Septima plaga que destruyo cosechas y arboles en el campo" },
+                        { "word": "ULCERAS", "clue": "Sexta plaga: llagas dolorosas en la piel de los egipcios" },
+                        { "word": "GANADO", "clue": "Animales que murieron masivamente por la quinta plaga" },
+                        { "word": "FUEGO", "clue": "Cayo mezclado con el granizo sobre la tierra de Egipto" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cap11-20",
+            "title": "Capitulos 11-20: De la Pascua al Sinai",
+            "description": "La Pascua, el cruce del Mar Rojo, el mana en el desierto y los Diez Mandamientos en el Monte Sinai.",
+            "puzzles": [
+                {
+                    "title": "La Pascua y la decima plaga (Cap. 11-12)",
+                    "words": [
+                        { "word": "PRIMOGENITO", "clue": "Todo primer nacido que murio en la decima y ultima plaga de Egipto" },
+                        { "word": "CORDERO", "clue": "Animal sin defecto sacrificado la noche de la liberacion" },
+                        { "word": "PASCUA", "clue": "Fiesta instituida por Dios para recordar la liberacion de Egipto" },
+                        { "word": "DINTEL", "clue": "Parte superior de la puerta que fue marcada con sangre" },
+                        { "word": "AZIMOS", "clue": "Panes sin levadura que el pueblo debia comer por siete dias" },
+                        { "word": "HISOPO", "clue": "Planta usada para aplicar la sangre del cordero en las puertas" },
+                        { "word": "NOCHE", "clue": "Momento en que el angel destructor paso por toda la tierra de Egipto" }
+                    ]
+                },
+                {
+                    "title": "El cruce del Mar Rojo (Cap. 13-14)",
+                    "words": [
+                        { "word": "COLUMNA", "clue": "Guiaba al pueblo de dia como nube y de noche como fuego" },
+                        { "word": "CARROS", "clue": "Vehiculos de guerra del ejercito del faraon que perseguian a Israel" },
+                        { "word": "EGIPTO", "clue": "Pais del que el pueblo de Israel fue liberado por Dios" },
+                        { "word": "FUEGO", "clue": "De noche, la columna que guiaba al pueblo era de esto" },
+                        { "word": "SECO", "clue": "Asi estaba el fondo del mar cuando los israelitas cruzaron" },
+                        { "word": "MURO", "clue": "Las aguas se levantaron como esto a la derecha y a la izquierda" },
+                        { "word": "NUBE", "clue": "De dia, la columna que guiaba al pueblo era de esto" }
+                    ]
+                },
+                {
+                    "title": "El viaje por el desierto (Cap. 15-17)",
+                    "words": [
+                        { "word": "CODORNICES", "clue": "Aves enviadas por Dios al atardecer para alimentar al pueblo" },
+                        { "word": "AMALEC", "clue": "Pueblo enemigo que ataco a Israel en Refidim" },
+                        { "word": "MIRIAM", "clue": "Profetisa y hermana de Moises que canto con pandero tras cruzar el mar" },
+                        { "word": "MANA", "clue": "Alimento del cielo que aparecia cada manana sobre el rocio" },
+                        { "word": "ROCA", "clue": "Moises la golpeo con su vara en Horeb y broto agua" },
+                        { "word": "MARA", "clue": "Lugar donde las aguas eran amargas y Dios las endulzo" },
+                        { "word": "AGUA", "clue": "El pueblo se quejo a Moises por la falta de esto en el desierto" }
+                    ]
+                },
+                {
+                    "title": "El Sinai y los Diez Mandamientos (Cap. 18-20)",
+                    "words": [
+                        { "word": "MANDAMIENTOS", "clue": "Las diez leyes sagradas que Dios entrego en el monte" },
+                        { "word": "TRUENOS", "clue": "Sonidos que se escucharon cuando Dios descendio al Sinai" },
+                        { "word": "JUECES", "clue": "Lideres que Jetro aconsejo a Moises nombrar para ayudarle" },
+                        { "word": "SINAI", "clue": "Monte sagrado donde Dios entrego la ley a su pueblo" },
+                        { "word": "JETRO", "clue": "Suegro de Moises que le visito y le aconsejo delegar autoridad" },
+                        { "word": "ROBAR", "clue": "Accion prohibida por el octavo mandamiento" },
+                        { "word": "MATAR", "clue": "Accion prohibida por el sexto mandamiento" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cap21-30",
+            "title": "Capitulos 21-30: Leyes, Arca y Tabernaculo",
+            "description": "Leyes y ordenanzas, el arca del pacto, el tabernaculo, las vestiduras sacerdotales y la consagracion.",
+            "puzzles": [
+                {
+                    "title": "Leyes y ordenanzas para el pueblo (Cap. 21-23)",
+                    "words": [
+                        { "word": "PRIMICIAS", "clue": "Los primeros frutos de la cosecha que debian ser ofrecidos a Dios" },
+                        { "word": "ESCLAVO", "clue": "Siervo hebreo que debia ser liberado al septimo ano" },
+                        { "word": "FIESTAS", "clue": "Tres celebraciones anuales que Dios ordeno al pueblo guardar" },
+                        { "word": "REPOSO", "clue": "Descanso que la tierra debia tener cada siete anos" },
+                        { "word": "ANGEL", "clue": "Dios prometio enviar uno delante del pueblo para guiarlo y protegerlo" },
+                        { "word": "LECHE", "clue": "No coceras el cabrito en la de su madre" },
+                        { "word": "BUEY", "clue": "Si este animal corneaba a alguien, su dueno era responsable" }
+                    ]
+                },
+                {
+                    "title": "El pacto y el diseno del tabernaculo (Cap. 24-26)",
+                    "words": [
+                        { "word": "QUERUBINES", "clue": "Figuras aladas de oro puro colocadas sobre la tapa del arca" },
+                        { "word": "CANDELERO", "clue": "Objeto de oro puro con siete brazos para dar luz en el santuario" },
+                        { "word": "ACACIA", "clue": "Madera usada para construir el arca del pacto" },
+                        { "word": "PACTO", "clue": "Alianza que Moises sello con sangre entre Dios y el pueblo" },
+                        { "word": "ARCA", "clue": "Cofre sagrado cubierto de oro por dentro y por fuera" },
+                        { "word": "MESA", "clue": "Mueble de oro para colocar los panes de la proposicion" },
+                        { "word": "VELO", "clue": "Cortina que separaba el Lugar Santo del Lugar Santisimo" }
+                    ]
+                },
+                {
+                    "title": "El altar y las vestiduras sacerdotales (Cap. 27-28)",
+                    "words": [
+                        { "word": "PECTORAL", "clue": "Prenda del sumo sacerdote adornada con doce piedras preciosas" },
+                        { "word": "CORTINAS", "clue": "Cubiertas del tabernaculo tejidas con lino fino torcido" },
+                        { "word": "PIEDRAS", "clue": "Doce gemas grabadas con los nombres de las tribus de Israel" },
+                        { "word": "BRONCE", "clue": "Metal usado para construir el altar de los holocaustos" },
+                        { "word": "ALTAR", "clue": "Lugar sagrado donde se presentaban los sacrificios a Dios" },
+                        { "word": "EFOD", "clue": "Vestidura sacerdotal sobre la cual se colocaba el pectoral" },
+                        { "word": "LINO", "clue": "Tela fina y blanca usada en las vestiduras de los sacerdotes" }
+                    ]
+                },
+                {
+                    "title": "Consagracion y objetos sagrados (Cap. 29-30)",
+                    "words": [
+                        { "word": "SACRIFICIO", "clue": "Ofrenda de animales presentada sobre el altar ante Dios" },
+                        { "word": "INCIENSO", "clue": "Sustancia aromatica quemada cada manana sobre el altar de oro" },
+                        { "word": "LAVACRO", "clue": "Fuente de bronce donde los sacerdotes debian lavarse manos y pies" },
+                        { "word": "RESCATE", "clue": "Medio siclo de plata que cada israelita debia pagar como tributo" },
+                        { "word": "UNCION", "clue": "Aceite sagrado para consagrar a los sacerdotes y los objetos santos" },
+                        { "word": "ACEITE", "clue": "Ingrediente principal del oleo sagrado de consagracion" },
+                        { "word": "BECERRO", "clue": "Animal sacrificado durante la ceremonia de consagracion sacerdotal" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cap31-40",
+            "title": "Capitulos 31-40: Del becerro de oro a la gloria de Dios",
+            "description": "El becerro de oro, nuevas tablas de la ley, la construccion del tabernaculo y la gloria de Dios.",
+            "puzzles": [
+                {
+                    "title": "El becerro de oro y el arrepentimiento (Cap. 31-33)",
+                    "words": [
+                        { "word": "BEZALEEL", "clue": "Artesano lleno del Espiritu de Dios, escogido para construir el tabernaculo" },
+                        { "word": "BECERRO", "clue": "Idolo de oro que el pueblo fabrico mientras Moises estaba en el monte" },
+                        { "word": "GLORIA", "clue": "Moises le pidio a Dios que le permitiera ver su..." },
+                        { "word": "TABLAS", "clue": "Dos piedras donde Dios mismo escribio los diez mandamientos" },
+                        { "word": "PECADO", "clue": "Gran transgresion del pueblo al adorar un idolo de oro" },
+                        { "word": "DANZA", "clue": "El pueblo celebraba con esto alrededor del idolo de oro" },
+                        { "word": "TIENDA", "clue": "De reunion, lugar fuera del campamento donde Moises hablaba con Dios" }
+                    ]
+                },
+                {
+                    "title": "Nuevas tablas y ofrendas generosas (Cap. 34-36)",
+                    "words": [
+                        { "word": "RESPLANDOR", "clue": "El rostro de Moises tenia esto al bajar del monte Sinai" },
+                        { "word": "OFRENDAS", "clue": "El pueblo trajo tantas que Moises tuvo que pedir que dejaran de traer" },
+                        { "word": "ALIANZA", "clue": "Dios renovo este pacto con Moises y todo el pueblo" },
+                        { "word": "CELOSO", "clue": "Nombre con que Dios se describio a si mismo ante Moises" },
+                        { "word": "ROSTRO", "clue": "Parte de Moises que brillaba despues de hablar con Dios" },
+                        { "word": "PIEDRA", "clue": "Material de las nuevas tablas donde Dios volvio a escribir la ley" },
+                        { "word": "VELO", "clue": "Moises usaba esto para cubrir su rostro resplandeciente ante el pueblo" }
+                    ]
+                },
+                {
+                    "title": "Construccion de los objetos sagrados (Cap. 37-38)",
+                    "words": [
+                        { "word": "CANDELERO", "clue": "Objeto de oro puro labrado a martillo con siete brazos" },
+                        { "word": "COLUMNAS", "clue": "Estructuras que sostenian las cortinas del atrio del tabernaculo" },
+                        { "word": "PERFUME", "clue": "Compuesto aromatico sagrado cuya formula no podia ser imitada" },
+                        { "word": "BRONCE", "clue": "Metal del altar de los holocaustos y de la fuente para lavarse" },
+                        { "word": "ATRIO", "clue": "Patio exterior que rodeaba todo el tabernaculo" },
+                        { "word": "PLATA", "clue": "Metal usado para las basas donde se sostenian las columnas" }
+                    ]
+                },
+                {
+                    "title": "Inauguracion del tabernaculo (Cap. 39-40)",
+                    "words": [
+                        { "word": "TABERNACULO", "clue": "Santuario portatil que Moises levanto el primer dia del primer mes" },
+                        { "word": "TESTIMONIO", "clue": "Las tablas de la ley guardadas dentro del arca sagrada" },
+                        { "word": "VESTIDURAS", "clue": "Aaron y sus hijos fueron revestidos con estas ropas sagradas" },
+                        { "word": "ACEITE", "clue": "Moises ungio el tabernaculo y todos sus utensilios con este" },
+                        { "word": "GLORIA", "clue": "La presencia de Dios que lleno el tabernaculo al ser levantado" },
+                        { "word": "NUBE", "clue": "Cubrio la tienda de reunion cuando el tabernaculo fue terminado" },
+                        { "word": "ARCA", "clue": "Primer objeto sagrado que Moises coloco dentro del tabernaculo" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

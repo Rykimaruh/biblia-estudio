@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 20",
+    "book": "Genesis",
+    "chapter": 20,
+    "questions": [
+        {
+            "question": "A que region se traslado Abraham desde donde estaba?",
+            "options": [
+                "A Egipto",
+                "A la tierra del Neguev, entre Cades y Shur, y habito en Gerar",
+                "A Haran",
+                "A Siquem"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham partio de alli hacia la tierra del Neguev y habito entre Cades y Shur; luego residio en Gerar.",
+            "verse": "Genesis 20:1"
+        },
+        {
+            "question": "Que dijo Abraham acerca de Sara ante Abimelec?",
+            "options": [
+                "Que era su sirvienta",
+                "Que era su prima",
+                "Que era su hermana",
+                "Que era viuda"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham dijo de Sara su mujer: 'Es mi hermana.' Entonces Abimelec, rey de Gerar, mando traer a Sara.",
+            "verse": "Genesis 20:2"
+        },
+        {
+            "question": "Como advirtio Dios a Abimelec sobre Sara?",
+            "options": [
+                "Por medio de un angel visible",
+                "Por medio de una senal en el cielo",
+                "En un sueno durante la noche",
+                "Por medio de un profeta"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios vino a Abimelec en un sueno de noche y le dijo: 'He aqui, eres hombre muerto a causa de la mujer que has tomado, pues es casada.'",
+            "verse": "Genesis 20:3"
+        },
+        {
+            "question": "Que argumento uso Abimelec para defenderse ante Dios?",
+            "options": [
+                "Que no sabia que Sara era hermosa",
+                "Que Abraham le habia mentido y el lo hizo con integridad de corazon y limpieza de manos",
+                "Que Sara habia aceptado voluntariamente",
+                "Que era costumbre del rey tomar mujeres"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abimelec dijo: 'Senor, destruiras a una nacion aunque sea inocente? El mismo me dijo: Es mi hermana. Con integridad de corazon y con limpieza de manos he hecho esto.'",
+            "verse": "Genesis 20:4-5"
+        },
+        {
+            "question": "Como llamo Dios a Abraham cuando hablo con Abimelec en el sueno?",
+            "options": [
+                "Mi siervo",
+                "Un hombre justo",
+                "Profeta",
+                "Patriarca"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo a Abimelec: 'Devuelve la mujer al hombre, porque el es profeta y orara por ti, y viviras.'",
+            "verse": "Genesis 20:7"
+        },
+        {
+            "question": "Que explicacion dio Abraham de por que dijo que Sara era su hermana?",
+            "options": [
+                "Que era una mentira por miedo",
+                "Que en verdad era hija de su padre pero no de su madre, y ademas era su mujer",
+                "Que era una costumbre de su tierra",
+                "Que Dios le habia dicho que lo hiciera"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham dijo: 'En verdad es mi hermana, hija de mi padre, aunque no hija de mi madre, y vino a ser mi mujer.'",
+            "verse": "Genesis 20:12"
+        },
+        {
+            "question": "Que sucedio despues de que Abraham oro por Abimelec?",
+            "options": [
+                "Abimelec recibio grandes riquezas",
+                "Dios sano a Abimelec, a su mujer y a sus siervas, y pudieron tener hijos",
+                "Abimelec tuvo un sueno de bendicion",
+                "Abraham recibio la tierra de Gerar"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham oro a Dios, y Dios sano a Abimelec, a su mujer y a sus siervas, y ellas tuvieron hijos. Porque el Senor habia cerrado por completo toda matriz de la casa de Abimelec.",
+            "verse": "Genesis 20:17-18"
+        }
+    ]
+}

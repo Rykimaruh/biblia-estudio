@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 21",
+    "book": "Genesis",
+    "chapter": 21,
+    "questions": [
+        {
+            "question": "Que hizo el Senor por Sara tal como habia prometido?",
+            "options": [
+                "Le dio riquezas abundantes",
+                "La sano de una enfermedad",
+                "Sara concibio y dio a luz un hijo a Abraham en su vejez",
+                "Le dio una tierra nueva"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor visito a Sara como habia dicho, y ella concibio y dio a luz un hijo a Abraham en el tiempo que Dios le habia senalado.",
+            "verse": "Genesis 21:1-2"
+        },
+        {
+            "question": "Que nombre le puso Abraham al hijo que Sara le dio a luz?",
+            "options": [
+                "Ismael",
+                "Isaac",
+                "Esau",
+                "Jacob"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham le puso el nombre de Isaac al hijo que le nacio, tal como Dios se lo habia ordenado.",
+            "verse": "Genesis 21:3"
+        },
+        {
+            "question": "Que edad tenia Abraham cuando nacio Isaac?",
+            "options": [
+                "Noventa anos",
+                "Noventa y cinco anos",
+                "Cien anos",
+                "Ciento cinco anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham tenia cien anos cuando le nacio su hijo Isaac.",
+            "verse": "Genesis 21:5"
+        },
+        {
+            "question": "Por que le pidio Sara a Abraham que echara fuera a Agar y a su hijo Ismael?",
+            "options": [
+                "Porque Agar habia robado comida",
+                "Porque el hijo de la sierva no habia de ser heredero con su hijo Isaac",
+                "Porque Agar queria gobernar la casa",
+                "Porque Ismael estaba enfermo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Sara vio que el hijo de Agar se burlaba de Isaac, y le dijo a Abraham que echara a la sierva y a su hijo, porque el hijo de la sierva no seria heredero con Isaac.",
+            "verse": "Genesis 21:9-10"
+        },
+        {
+            "question": "Cuando se les acabo el agua en el desierto, que hizo Agar con el nino Ismael?",
+            "options": [
+                "Lo dejo debajo de un arbusto y se alejo para no verlo morir",
+                "Lo llevo a una ciudad cercana",
+                "Cavo un pozo en la arena",
+                "Regreso a la casa de Abraham"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cuando se acabo el agua del odre, Agar dejo al muchacho debajo de uno de los arbustos, y se fue y se sento enfrente, a distancia de un tiro de arco, porque dijo que no queria ver morir al nino.",
+            "verse": "Genesis 21:15-16"
+        },
+        {
+            "question": "Que le mostro Dios a Agar para salvarla a ella y a Ismael?",
+            "options": [
+                "Un camino de regreso a Egipto",
+                "Un angel que les trajo comida",
+                "Un pozo de agua",
+                "Un arbol con frutos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le abrio los ojos a Agar y ella vio un pozo de agua; fue y lleno el odre de agua y dio de beber al muchacho.",
+            "verse": "Genesis 21:19"
+        },
+        {
+            "question": "Que pacto hicieron Abraham y Abimelec en Beerseba?",
+            "options": [
+                "Un pacto de guerra contra los filisteos",
+                "Un pacto de amistad y no agresion, y Abraham reclamo un pozo que sus siervos habian cavado",
+                "Un pacto para dividir la tierra de Canaan",
+                "Un pacto para intercambiar ganado"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham y Abimelec hicieron un pacto. Abraham le reprocho a Abimelec por el pozo que sus siervos le habian quitado, y pusieron siete corderas aparte como testimonio de que Abraham habia cavado el pozo.",
+            "verse": "Genesis 21:27-31"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 8",
+    "book": "Genesis",
+    "chapter": 8,
+    "questions": [
+        {
+            "question": "Que hizo Dios para que las aguas del diluvio comenzaran a disminuir?",
+            "options": [
+                "Envio un terremoto",
+                "Hizo pasar un viento sobre la tierra y las aguas comenzaron a disminuir",
+                "Abrio grietas en la tierra",
+                "Envio el sol con mas fuerza"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios hizo pasar un viento sobre la tierra, y las aguas disminuyeron. Se cerraron las fuentes del abismo y las compuertas del cielo.",
+            "verse": "Genesis 8:1-2"
+        },
+        {
+            "question": "Sobre que monte reposo el arca?",
+            "options": [
+                "Monte Sinai",
+                "Monte Carmelo",
+                "Montes de Ararat",
+                "Monte Sion"
+            ],
+            "correctIndex": 2,
+            "explanation": "En el mes septimo, el dia diecisiete del mes, el arca reposo sobre los montes de Ararat.",
+            "verse": "Genesis 8:4"
+        },
+        {
+            "question": "Cual fue la primera ave que Noe envio para ver si las aguas habian disminuido?",
+            "options": [
+                "Una paloma",
+                "Un aguila",
+                "Un cuervo",
+                "Una golondrina"
+            ],
+            "correctIndex": 2,
+            "explanation": "Noe envio primero un cuervo, el cual estuvo yendo y volviendo hasta que las aguas se secaron sobre la tierra.",
+            "verse": "Genesis 8:7"
+        },
+        {
+            "question": "Que trajo la paloma en su pico cuando regreso al arca la segunda vez?",
+            "options": [
+                "Una rama de olivo",
+                "Una hoja de olivo recien cortada",
+                "Un fruto del arbol",
+                "Una flor"
+            ],
+            "correctIndex": 1,
+            "explanation": "La paloma volvio al atardecer, y he aqui, traia en su pico una hoja de olivo recien cortada. Asi supo Noe que las aguas habian disminuido sobre la tierra.",
+            "verse": "Genesis 8:11"
+        },
+        {
+            "question": "Que sucedio cuando Noe envio la paloma por tercera vez?",
+            "options": [
+                "Volvio con otra rama",
+                "Volvio mojada",
+                "No regreso mas a el",
+                "Trajo alimento"
+            ],
+            "correctIndex": 2,
+            "explanation": "Noe envio la paloma de nuevo y esta ya no regreso mas a el, senalando que la tierra ya estaba seca.",
+            "verse": "Genesis 8:12"
+        },
+        {
+            "question": "Que fue lo primero que hizo Noe al salir del arca?",
+            "options": [
+                "Construyo una casa",
+                "Planto una vina",
+                "Edifico un altar al Senor y ofrecio holocaustos",
+                "Exploro la tierra"
+            ],
+            "correctIndex": 2,
+            "explanation": "Noe edifico un altar al Senor, tomo de todo animal limpio y de toda ave limpia, y ofrecio holocaustos en el altar.",
+            "verse": "Genesis 8:20"
+        },
+        {
+            "question": "Que prometio el Senor despues de oler el aroma agradable del sacrificio de Noe?",
+            "options": [
+                "Que el hombre nunca mas pecaria",
+                "Que no volveria a maldecir la tierra por causa del hombre ni destruiria todo ser viviente como lo habia hecho",
+                "Que enviaria otro diluvio en el futuro",
+                "Que el hombre viviria para siempre"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor dijo en su corazon: 'Nunca mas volvere a maldecir la tierra por causa del hombre... ni volvere a destruir todo ser viviente como lo he hecho.'",
+            "verse": "Genesis 8:21"
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+{
+    "book": "Genesis",
+    "bookSlug": "genesis",
+    "overview": "Genesis es el libro de los comienzos, que narra la creacion del universo, la caida del hombre en pecado y el inicio del plan redentor de Dios a traves de los patriarcas. Abarca desde la creacion hasta la llegada de la familia de Jacob a Egipto, estableciendo los fundamentos de la fe y las promesas del pacto de Dios con Abraham, Isaac y Jacob.",
+    "chapters": [
+        {
+            "chapter": 1,
+            "title": "La Creacion",
+            "summary": "Dios crea los cielos y la tierra en seis dias, formando la luz, el firmamento, los mares, la vegetacion, los astros, los animales y finalmente al hombre a Su imagen y semejanza. Al concluir cada dia de creacion, Dios ve que todo lo que ha hecho es bueno.",
+            "keyVerses": ["Genesis 1:1", "Genesis 1:27", "Genesis 1:31"]
+        },
+        {
+            "chapter": 2,
+            "title": "El Jardin del Eden",
+            "summary": "Dios descansa en el septimo dia y lo santifica. Forma al hombre del polvo de la tierra, lo coloca en el jardin del Eden y crea a la mujer de una de sus costillas como ayuda idonea para el.",
+            "keyVerses": ["Genesis 2:7", "Genesis 2:18", "Genesis 2:24"]
+        },
+        {
+            "chapter": 3,
+            "title": "La Caida del Hombre",
+            "summary": "La serpiente engana a la mujer y ella come del fruto prohibido, dandole tambien a su marido. Como consecuencia del pecado, Dios pronuncia maldiciones sobre la serpiente, la mujer y el hombre, y los expulsa del jardin del Eden.",
+            "keyVerses": ["Genesis 3:6", "Genesis 3:15", "Genesis 3:23"]
+        },
+        {
+            "chapter": 4,
+            "title": "Cain y Abel",
+            "summary": "Cain y Abel presentan ofrendas a Dios, pero solo la de Abel es aceptada. Lleno de ira y celos, Cain mata a su hermano Abel, y Dios lo maldice a ser errante y vagabundo sobre la tierra. Set nace como descendiente de Adan en lugar de Abel.",
+            "keyVerses": ["Genesis 4:7", "Genesis 4:9", "Genesis 4:26"]
+        },
+        {
+            "chapter": 5,
+            "title": "Descendientes de Adan",
+            "summary": "Se presenta la genealogia desde Adan hasta Noe, registrando las edades extraordinariamente largas de los patriarcas antediluvianos. Destaca Enoc, quien camino con Dios y fue llevado por El sin ver muerte, y Matusalen, quien vivio 969 anos.",
+            "keyVerses": ["Genesis 5:1", "Genesis 5:24", "Genesis 5:27"]
+        },
+        {
+            "chapter": 6,
+            "title": "La Maldad del Hombre",
+            "summary": "La maldad del hombre se multiplica sobre la tierra y Dios se lamenta de haberlo creado, decidiendo destruir a la humanidad con un diluvio. Sin embargo, Noe halla gracia ante los ojos del Senor, y Dios le ordena construir un arca para preservar a su familia y a los animales.",
+            "keyVerses": ["Genesis 6:5", "Genesis 6:8", "Genesis 6:22"]
+        },
+        {
+            "chapter": 7,
+            "title": "El Diluvio",
+            "summary": "Noe entra en el arca con su familia y los animales segun el mandato de Dios. Las fuentes del gran abismo se rompen y las compuertas del cielo se abren, y llueve durante cuarenta dias y cuarenta noches, destruyendo a todo ser viviente sobre la faz de la tierra.",
+            "keyVerses": ["Genesis 7:1", "Genesis 7:11", "Genesis 7:23"]
+        },
+        {
+            "chapter": 8,
+            "title": "Las Aguas se Retiran",
+            "summary": "Las aguas del diluvio comienzan a descender y el arca reposa sobre los montes de Ararat. Noe envia un cuervo y luego una paloma para verificar si las aguas se han retirado, y finalmente sale del arca y ofrece holocaustos a Dios.",
+            "keyVerses": ["Genesis 8:1", "Genesis 8:11", "Genesis 8:21"]
+        },
+        {
+            "chapter": 9,
+            "title": "Pacto con Noe",
+            "summary": "Dios bendice a Noe y establece un pacto con el, prometiendo no volver a destruir la tierra con un diluvio y colocando el arco iris como senal de esta alianza. Noe planta una vina, se embriaga, y como resultado Canaan, hijo de Cam, es maldecido mientras Sem y Jafet son bendecidos.",
+            "keyVerses": ["Genesis 9:1", "Genesis 9:13", "Genesis 9:25"]
+        },
+        {
+            "chapter": 10,
+            "title": "La Tabla de Naciones",
+            "summary": "Se registran las generaciones de los hijos de Noe: Sem, Cam y Jafet, y como de ellos se esparcieron las naciones sobre la tierra despues del diluvio. Nimrod, descendiente de Cam, se destaca como un poderoso cazador y fundador de grandes ciudades como Babel y Ninive.",
+            "keyVerses": ["Genesis 10:1", "Genesis 10:9", "Genesis 10:32"]
+        },
+        {
+            "chapter": 11,
+            "title": "La Torre de Babel",
+            "summary": "Los hombres, hablando un solo idioma, intentan construir una torre que llegue al cielo para hacerse un nombre. Dios confunde sus lenguas y los dispersa por toda la tierra. Se presenta la genealogia de Sem hasta Abram.",
+            "keyVerses": ["Genesis 11:4", "Genesis 11:7", "Genesis 11:31"]
+        },
+        {
+            "chapter": 12,
+            "title": "El Llamado de Abram",
+            "summary": "Dios llama a Abram a salir de su tierra y le promete hacer de el una gran nacion y bendecir a todas las familias de la tierra por medio de el. Abram obedece y viaja a Canaan, pero luego desciende a Egipto por causa del hambre, donde hace pasar a Sarai por su hermana.",
+            "keyVerses": ["Genesis 12:1", "Genesis 12:2-3", "Genesis 12:7"]
+        },
+        {
+            "chapter": 13,
+            "title": "Abram y Lot se Separan",
+            "summary": "Abram y Lot regresan de Egipto con grandes riquezas, pero surge contienda entre sus pastores por la tierra. Abram generosamente permite a Lot elegir primero, y Lot escoge la llanura del Jordan cerca de Sodoma, mientras Dios renueva Su promesa a Abram.",
+            "keyVerses": ["Genesis 13:8-9", "Genesis 13:14-15", "Genesis 13:18"]
+        },
+        {
+            "chapter": 14,
+            "title": "Abram Rescata a Lot",
+            "summary": "Cuatro reyes del oriente derrotan a los reyes de Sodoma y Gomorra y capturan a Lot junto con sus bienes. Abram arma a sus siervos, persigue a los captores y rescata a Lot. A su regreso, Melquisedec, rey de Salem y sacerdote del Dios Altisimo, bendice a Abram.",
+            "keyVerses": ["Genesis 14:14", "Genesis 14:18-19", "Genesis 14:20"]
+        },
+        {
+            "chapter": 15,
+            "title": "El Pacto con Abram",
+            "summary": "Dios se aparece a Abram en una vision y le promete un heredero de su propia descendencia, y que sus descendientes seran tan numerosos como las estrellas. Abram cree al Senor y le es contado por justicia, y Dios hace un pacto formal con el, prometiendole la tierra desde el rio de Egipto hasta el Eufrates.",
+            "keyVerses": ["Genesis 15:1", "Genesis 15:6", "Genesis 15:18"]
+        },
+        {
+            "chapter": 16,
+            "title": "Agar e Ismael",
+            "summary": "Sarai, al no poder tener hijos, da a su sierva Agar a Abram como mujer. Agar concibe y menosprecia a Sarai, quien la aflije, y Agar huye al desierto. El angel del Senor encuentra a Agar y le promete que su hijo Ismael sera padre de una gran multitud.",
+            "keyVerses": ["Genesis 16:2", "Genesis 16:11", "Genesis 16:13"]
+        },
+        {
+            "chapter": 17,
+            "title": "La Circuncision y el Pacto",
+            "summary": "Dios renueva Su pacto con Abram, cambiando su nombre a Abraham y el de Sarai a Sara, y estableciendo la circuncision como senal del pacto. Dios promete que Sara dara a luz un hijo llamado Isaac, con quien confirmara Su pacto eterno.",
+            "keyVerses": ["Genesis 17:5", "Genesis 17:10-11", "Genesis 17:19"]
+        },
+        {
+            "chapter": 18,
+            "title": "Visita de Tres Varones",
+            "summary": "Tres varones visitan a Abraham junto a los encinos de Mamre, y el Senor le confirma que Sara tendra un hijo al ano siguiente, a pesar de su avanzada edad. Abraham intercede ante Dios por Sodoma, pidiendo que no destruya a los justos con los impios.",
+            "keyVerses": ["Genesis 18:10", "Genesis 18:14", "Genesis 18:25"]
+        },
+        {
+            "chapter": 19,
+            "title": "Destruccion de Sodoma",
+            "summary": "Dos angeles llegan a Sodoma y Lot los recibe, pero los hombres de la ciudad rodean la casa con intenciones perversas. Dios destruye Sodoma y Gomorra con fuego y azufre, salvando a Lot y sus dos hijas, pero la mujer de Lot mira hacia atras y se convierte en estatua de sal.",
+            "keyVerses": ["Genesis 19:13", "Genesis 19:24-25", "Genesis 19:26"]
+        },
+        {
+            "chapter": 20,
+            "title": "Abraham y Abimelec",
+            "summary": "Abraham viaja al Neguev y presenta a Sara como su hermana ante Abimelec, rey de Gerar, quien la toma. Dios advierte a Abimelec en suenos que Sara es casada, y el rey la devuelve a Abraham con regalos y reprension.",
+            "keyVerses": ["Genesis 20:2", "Genesis 20:6-7", "Genesis 20:17"]
+        },
+        {
+            "chapter": 21,
+            "title": "Nacimiento de Isaac",
+            "summary": "Sara da a luz a Isaac conforme a la promesa de Dios, y Abraham circuncida al nino al octavo dia. Sara exige que Agar e Ismael sean echados, y Dios consuela a Abraham confirmando que de Ismael tambien hara una gran nacion. Abraham hace un pacto con Abimelec en Beerseba.",
+            "keyVerses": ["Genesis 21:1-3", "Genesis 21:12", "Genesis 21:33"]
+        },
+        {
+            "chapter": 22,
+            "title": "El Sacrificio de Isaac",
+            "summary": "Dios prueba a Abraham ordenandole que ofrezca a Isaac en holocausto en el monte Moriah. Abraham obedece con fe, pero en el ultimo momento el angel del Senor lo detiene y provee un carnero en lugar de Isaac. Dios renueva Sus promesas a Abraham por su obediencia.",
+            "keyVerses": ["Genesis 22:2", "Genesis 22:8", "Genesis 22:17-18"]
+        },
+        {
+            "chapter": 23,
+            "title": "Muerte de Sara",
+            "summary": "Sara muere a los 127 anos en Quiriat-arba, que es Hebron, en la tierra de Canaan. Abraham llora por ella y negocia con los hijos de Het la compra de la cueva de Macpela para sepultarla, adquiriendo su primera propiedad en la tierra prometida.",
+            "keyVerses": ["Genesis 23:1-2", "Genesis 23:4", "Genesis 23:19-20"]
+        },
+        {
+            "chapter": 24,
+            "title": "Esposa para Isaac",
+            "summary": "Abraham envia a su siervo mas antiguo a Mesopotamia para buscar esposa para Isaac entre su parentela. El siervo ora a Dios pidiendo una senal, y Rebeca, nieta de Nacor, hermano de Abraham, aparece y cumple exactamente la senal pedida. Rebeca acepta ir con el siervo e Isaac la toma por esposa.",
+            "keyVerses": ["Genesis 24:7", "Genesis 24:14", "Genesis 24:67"]
+        },
+        {
+            "chapter": 25,
+            "title": "Nacimiento de Esau y Jacob",
+            "summary": "Abraham muere a los 175 anos y es sepultado en la cueva de Macpela. Rebeca da a luz a los gemelos Esau y Jacob, y el Senor le revela que el mayor servira al menor. Esau vende su primogenitura a Jacob por un plato de guiso de lentejas.",
+            "keyVerses": ["Genesis 25:8", "Genesis 25:23", "Genesis 25:33-34"]
+        },
+        {
+            "chapter": 26,
+            "title": "Isaac en Gerar",
+            "summary": "Hay hambre en la tierra e Isaac va a Gerar donde Dios le confirma las promesas hechas a Abraham. Isaac miente diciendo que Rebeca es su hermana, pero prospera grandemente y Abimelec le pide que se vaya por envidia. Isaac cava pozos y hace un pacto de paz con Abimelec en Beerseba.",
+            "keyVerses": ["Genesis 26:3-4", "Genesis 26:12-13", "Genesis 26:24"]
+        },
+        {
+            "chapter": 27,
+            "title": "Jacob Obtiene la Bendicion",
+            "summary": "Isaac, ya viejo y casi ciego, se prepara para bendecir a Esau, pero Rebeca y Jacob lo enganan para que la bendicion recaiga sobre Jacob. Cuando Esau descubre el engano, llora amargamente y recibe una bendicion menor. Esau planea matar a Jacob, y Rebeca lo envia a Haran con su hermano Laban.",
+            "keyVerses": ["Genesis 27:27-29", "Genesis 27:36", "Genesis 27:41"]
+        },
+        {
+            "chapter": 28,
+            "title": "El Sueno de Jacob",
+            "summary": "Jacob parte hacia Haran y en el camino se detiene a dormir en un lugar donde suena con una escalera que llega al cielo con angeles subiendo y bajando. Dios se le aparece y le confirma las promesas del pacto hechas a Abraham e Isaac. Jacob llama al lugar Betel y hace un voto al Senor.",
+            "keyVerses": ["Genesis 28:12-13", "Genesis 28:15", "Genesis 28:22"]
+        },
+        {
+            "chapter": 29,
+            "title": "Jacob Sirve por Raquel",
+            "summary": "Jacob llega a Haran y conoce a Raquel, hija de Laban, en un pozo. Acepta trabajar siete anos por Raquel, pero Laban lo engana dandole a Lea en su lugar en la noche de bodas. Jacob trabaja otros siete anos por Raquel, y Lea, aunque menos amada, comienza a tener hijos.",
+            "keyVerses": ["Genesis 29:18", "Genesis 29:25", "Genesis 29:35"]
+        },
+        {
+            "chapter": 30,
+            "title": "Hijos de Jacob",
+            "summary": "La rivalidad entre Lea y Raquel continua mientras ambas, junto con sus siervas Bilha y Zilpa, dan hijos a Jacob, completando once de los doce hijos. Finalmente Dios se acuerda de Raquel y ella da a luz a Jose. Jacob negocia con Laban su salario y prospera grandemente con su ganado.",
+            "keyVerses": ["Genesis 30:1-2", "Genesis 30:22-24", "Genesis 30:43"]
+        },
+        {
+            "chapter": 31,
+            "title": "Jacob Huye de Laban",
+            "summary": "Dios ordena a Jacob que regrese a la tierra de sus padres, y Jacob huye secretamente con su familia y posesiones mientras Laban esta trasquilando sus ovejas. Laban lo persigue, pero Dios le advierte en suenos que no le haga dano a Jacob. Finalmente hacen un pacto en Galaad y se separan en paz.",
+            "keyVerses": ["Genesis 31:3", "Genesis 31:24", "Genesis 31:49"]
+        },
+        {
+            "chapter": 32,
+            "title": "Jacob Lucha con Dios",
+            "summary": "Jacob se prepara para reencontrarse con Esau, temiendo su venganza, y divide su campamento y ora a Dios pidiendo proteccion. Durante la noche, un varon lucha con Jacob hasta el amanecer y le toca la coyuntura del muslo. Jacob no lo suelta hasta recibir una bendicion, y su nombre es cambiado a Israel.",
+            "keyVerses": ["Genesis 32:9-10", "Genesis 32:26", "Genesis 32:28"]
+        },
+        {
+            "chapter": 33,
+            "title": "Reencuentro con Esau",
+            "summary": "Jacob se encuentra con Esau, quien corre a su encuentro y lo abraza con afecto, mostrando que su enemistad ha terminado. Jacob le ofrece regalos a Esau como muestra de reconciliacion. Despues se separan, y Jacob se establece en Siquem donde compra un terreno y erige un altar.",
+            "keyVerses": ["Genesis 33:4", "Genesis 33:10", "Genesis 33:20"]
+        },
+        {
+            "chapter": 34,
+            "title": "Deshonra de Dina",
+            "summary": "Siquem, hijo de Hamor el heveo, deshonra a Dina, hija de Jacob, y luego pide casarse con ella. Simeon y Levi, hermanos de Dina, enganan a los siquemitas persuadiendolos a circuncidarse y los matan mientras estan debilitados. Jacob reprende a sus hijos por el peligro en que han puesto a la familia.",
+            "keyVerses": ["Genesis 34:2", "Genesis 34:25-26", "Genesis 34:30"]
+        },
+        {
+            "chapter": 35,
+            "title": "Jacob Regresa a Betel",
+            "summary": "Dios ordena a Jacob regresar a Betel, donde renueva el pacto y le confirma el nombre Israel. Raquel muere al dar a luz a Benjamin en el camino a Efrata, y es sepultada alli. Isaac muere a los 180 anos y es sepultado por Esau y Jacob.",
+            "keyVerses": ["Genesis 35:10-11", "Genesis 35:18", "Genesis 35:29"]
+        },
+        {
+            "chapter": 36,
+            "title": "Descendientes de Esau",
+            "summary": "Se registra la genealogia de Esau, quien se establece en la region montanosa de Seir, separandose de Jacob porque la tierra no podia sostener a ambos. Se enumeran sus hijos, nietos y los jefes de las tribus de Edom, asi como los reyes que gobernaron en Edom antes de que Israel tuviera rey.",
+            "keyVerses": ["Genesis 36:1", "Genesis 36:8", "Genesis 36:31"]
+        },
+        {
+            "chapter": 37,
+            "title": "Jose y sus Suenos",
+            "summary": "Jose, hijo predilecto de Jacob, tiene suenos que indican que su familia se inclinara ante el, lo que provoca la envidia de sus hermanos. Sus hermanos lo venden como esclavo a mercaderes ismaelitas que lo llevan a Egipto. Los hermanos enganan a Jacob haciendole creer que Jose ha muerto devorado por una fiera.",
+            "keyVerses": ["Genesis 37:5-7", "Genesis 37:28", "Genesis 37:34"]
+        },
+        {
+            "chapter": 38,
+            "title": "Juda y Tamar",
+            "summary": "Juda se casa con una cananea y tiene tres hijos: Er, Onan y Sela. Tras la muerte de Er y Onan, Juda no cumple su promesa de dar a Sela como esposo a Tamar, quien se disfraza de ramera y concibe de Juda. Cuando la verdad se revela, Juda reconoce que Tamar fue mas justa que el.",
+            "keyVerses": ["Genesis 38:8", "Genesis 38:14", "Genesis 38:26"]
+        },
+        {
+            "chapter": 39,
+            "title": "Jose en Casa de Potifar",
+            "summary": "Jose es vendido a Potifar, oficial del faraon, y el Senor prospera todo lo que Jose hace en su casa. La esposa de Potifar intenta seducir a Jose repetidamente, pero el se niega por fidelidad a Dios. Ella lo acusa falsamente y Jose es encarcelado, pero aun alli el Senor esta con el.",
+            "keyVerses": ["Genesis 39:2-3", "Genesis 39:9", "Genesis 39:21"]
+        },
+        {
+            "chapter": 40,
+            "title": "Jose Interpreta Suenos",
+            "summary": "En la carcel, Jose interpreta los suenos del copero y del panadero del faraon. Al copero le anuncia que sera restaurado a su puesto en tres dias, y al panadero que sera ejecutado. Ambas interpretaciones se cumplen, pero el copero se olvida de Jose.",
+            "keyVerses": ["Genesis 40:8", "Genesis 40:13", "Genesis 40:23"]
+        },
+        {
+            "chapter": 41,
+            "title": "Jose Gobernador de Egipto",
+            "summary": "El faraon tiene dos suenos que nadie puede interpretar, y finalmente el copero recuerda a Jose. Jose interpreta que vendran siete anos de abundancia seguidos de siete de hambruna, y aconseja al faraon prepararse. Impresionado, el faraon nombra a Jose gobernador sobre toda la tierra de Egipto.",
+            "keyVerses": ["Genesis 41:16", "Genesis 41:32", "Genesis 41:41"]
+        },
+        {
+            "chapter": 42,
+            "title": "Los Hermanos en Egipto",
+            "summary": "El hambre alcanza a Canaan y Jacob envia a diez de sus hijos a comprar grano en Egipto, reteniendo a Benjamin. Jose los reconoce pero no se da a conocer, los acusa de ser espias y retiene a Simeon como prisionero hasta que traigan a Benjamin. Los hermanos reconocen entre si su culpa por lo que hicieron a Jose.",
+            "keyVerses": ["Genesis 42:6", "Genesis 42:21", "Genesis 42:36"]
+        },
+        {
+            "chapter": 43,
+            "title": "Benjamin Va a Egipto",
+            "summary": "El hambre continua y Jacob finalmente acepta enviar a Benjamin con sus hermanos a Egipto, persuadido por la garantia de Juda. Jose los recibe en su casa y prepara un banquete para ellos, conmoviendose profundamente al ver a Benjamin. Los hermanos se asombran al verse sentados en orden de edad.",
+            "keyVerses": ["Genesis 43:8-9", "Genesis 43:30", "Genesis 43:34"]
+        },
+        {
+            "chapter": 44,
+            "title": "La Copa de Jose",
+            "summary": "Jose ordena que escondan su copa de plata en el costal de Benjamin y luego envia a perseguir a sus hermanos, acusandolos de robo. Al encontrar la copa en el costal de Benjamin, todos regresan angustiados ante Jose. Juda hace un conmovedor discurso ofreciendo quedarse como esclavo en lugar de Benjamin para no causar la muerte de su padre.",
+            "keyVerses": ["Genesis 44:2", "Genesis 44:16", "Genesis 44:33-34"]
+        },
+        {
+            "chapter": 45,
+            "title": "Jose se Revela",
+            "summary": "Jose no puede contenerse mas y se da a conocer a sus hermanos, llorando en alta voz. Les dice que no se entristezcan porque Dios lo envio delante de ellos para preservar la vida. Jose invita a su padre y toda la familia a trasladarse a Egipto, a la tierra de Gosen, y el faraon aprueba con generosidad.",
+            "keyVerses": ["Genesis 45:4-5", "Genesis 45:7-8", "Genesis 45:10"]
+        },
+        {
+            "chapter": 46,
+            "title": "Jacob Va a Egipto",
+            "summary": "Jacob parte hacia Egipto con toda su familia y se detiene en Beerseba donde Dios le confirma que no tema descender a Egipto porque alli lo hara una gran nacion. Se enumera la lista de los descendientes de Jacob que entran en Egipto, un total de setenta personas. Jose sale al encuentro de su padre y se abrazan con gran emocion.",
+            "keyVerses": ["Genesis 46:2-4", "Genesis 46:27", "Genesis 46:29"]
+        },
+        {
+            "chapter": 47,
+            "title": "Israel en Gosen",
+            "summary": "Jose presenta a su padre Jacob ante el faraon, quien les concede la tierra de Gosen. Durante la hambruna, Jose administra sabiamente los recursos de Egipto, adquiriendo tierras y ganado para el faraon a cambio de alimento. Jacob vive diecisiete anos en Egipto y hace jurar a Jose que lo sepultara en Canaan.",
+            "keyVerses": ["Genesis 47:6", "Genesis 47:9", "Genesis 47:29-30"]
+        },
+        {
+            "chapter": 48,
+            "title": "Jacob Bendice a Efrain y Manases",
+            "summary": "Jacob enferma y Jose trae a sus dos hijos Manases y Efrain para recibir la bendicion del patriarca. Jacob adopta a los dos hijos de Jose como propios y, guiado por Dios, cruza sus manos para dar la bendicion mayor a Efrain, el menor, sobre Manases, el primogenito. Jose protesta, pero Jacob insiste profeticamente.",
+            "keyVerses": ["Genesis 48:5", "Genesis 48:14", "Genesis 48:20"]
+        },
+        {
+            "chapter": 49,
+            "title": "Bendiciones de Jacob",
+            "summary": "Jacob reune a sus doce hijos y pronuncia palabras profeticas sobre cada uno de ellos y sus tribus futuras. Destaca la bendicion sobre Juda, de cuya tribu vendra el cetro y el gobernante esperado, y sobre Jose, quien es bendecido abundantemente. Jacob da instrucciones para ser sepultado en la cueva de Macpela y muere.",
+            "keyVerses": ["Genesis 49:8-10", "Genesis 49:22-26", "Genesis 49:33"]
+        },
+        {
+            "chapter": 50,
+            "title": "Muerte de Jose",
+            "summary": "Jose llora sobre su padre y hace embalsamar a Jacob, y lo llevan a Canaan para sepultarlo en la cueva de Macpela como el habia pedido. Los hermanos temen que Jose tome venganza, pero el los consuela diciendo que lo que ellos pensaron para mal, Dios lo encamino para bien. Jose muere a los 110 anos y es embalsamado en Egipto.",
+            "keyVerses": ["Genesis 50:13", "Genesis 50:20", "Genesis 50:24"]
+        }
+    ]
+}

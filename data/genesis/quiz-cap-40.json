@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 40",
+    "book": "Genesis",
+    "chapter": 40,
+    "questions": [
+        {
+            "question": "Quienes fueron puestos en la carcel donde estaba Jose?",
+            "options": [
+                "Dos soldados del faraon",
+                "El copero y el panadero del rey de Egipto",
+                "Dos principes egipcios",
+                "El mayordomo y el tesorero del faraon"
+            ],
+            "correctIndex": 1,
+            "explanation": "El copero del rey de Egipto y el panadero ofendieron a su senor, y el faraon se enojo con ellos y los puso en la carcel donde Jose estaba preso.",
+            "verse": "Genesis 40:1-3"
+        },
+        {
+            "question": "Por que estaban tristes el copero y el panadero una manana?",
+            "options": [
+                "Porque extrañaban a sus familias",
+                "Porque habian recibido malas noticias",
+                "Porque cada uno habia tenido un sueno y no habia quien lo interpretara",
+                "Porque iban a ser ejecutados al dia siguiente"
+            ],
+            "correctIndex": 2,
+            "explanation": "Ambos tuvieron un sueno en la misma noche, cada uno con su propio significado, y estaban tristes porque no habia quien los interpretara.",
+            "verse": "Genesis 40:5-8"
+        },
+        {
+            "question": "Que le dijo Jose al copero y al panadero sobre la interpretacion de los suenos?",
+            "options": [
+                "Que consultaran a los magos de Egipto",
+                "Que las interpretaciones pertenecen a Dios",
+                "Que el habia estudiado el arte de interpretar suenos",
+                "Que no era posible interpretar suenos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose les dijo: 'Las interpretaciones pertenecen a Dios. Contadmelo, os ruego.' Reconocio que solo Dios puede revelar el significado de los suenos.",
+            "verse": "Genesis 40:8"
+        },
+        {
+            "question": "Que significaban las tres ramas de vid en el sueno del copero?",
+            "options": [
+                "Tres meses de prision mas",
+                "Tres anos de servicio al faraon",
+                "Tres dias, despues de los cuales el faraon lo restauraria a su puesto",
+                "Tres hijos que tendria"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose interpreto que las tres ramas eran tres dias, y que dentro de tres dias el faraon levantaria la cabeza del copero y lo restauraria a su puesto.",
+            "verse": "Genesis 40:12-13"
+        },
+        {
+            "question": "Que le pidio Jose al copero como favor?",
+            "options": [
+                "Que le diera comida especial",
+                "Que se acordara de el y mencionara su caso al faraon para sacarlo de la carcel",
+                "Que le enviara un mensaje a su padre Jacob",
+                "Que le consiguiera un abogado"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose le pidio que se acordara de el cuando le fuera bien, que lo mencionara al faraon y lo sacara de esa casa, pues habia sido secuestrado de la tierra de los hebreos y no habia hecho nada para merecer la carcel.",
+            "verse": "Genesis 40:14-15"
+        },
+        {
+            "question": "Que significaban los tres canastillos en el sueno del panadero?",
+            "options": [
+                "Tres dias, despues de los cuales seria restaurado a su puesto",
+                "Tres meses de abundancia en Egipto",
+                "Tres dias, despues de los cuales el faraon lo haria colgar en un madero y las aves comerian su carne",
+                "Tres reyes que gobernarian Egipto"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose interpreto que los tres canastillos eran tres dias, y dentro de tres dias el faraon lo haria colgar en un madero y las aves comerian su carne.",
+            "verse": "Genesis 40:18-19"
+        },
+        {
+            "question": "Que sucedio con el copero despues de ser restaurado a su puesto?",
+            "options": [
+                "Inmediatamente hablo al faraon sobre Jose",
+                "Envio regalos a Jose en la carcel",
+                "No se acordo de Jose, sino que lo olvido",
+                "Visito a Jose cada semana en la carcel"
+            ],
+            "correctIndex": 2,
+            "explanation": "El jefe de los coperos no se acordo de Jose, sino que lo olvido, dejandolo en la carcel.",
+            "verse": "Genesis 40:23"
+        }
+    ]
+}

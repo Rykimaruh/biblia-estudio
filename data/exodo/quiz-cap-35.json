@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 35",
+    "book": "Exodo",
+    "chapter": 35,
+    "questions": [
+        {
+            "question": "Que mandamiento les recordo Moises al pueblo al inicio de este capitulo?",
+            "options": [
+                "No tendras otros dioses delante de Mi",
+                "Honra a tu padre y a tu madre",
+                "Guardar el dia de reposo; seis dias se trabajara pero el septimo dia sera santo",
+                "No haras imagen tallada"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises reunio a toda la congregacion y les dijo que durante seis dias se trabajara, pero el septimo dia sera santo, dia de reposo completo para el Senor.",
+            "verse": "Exodo 35:2"
+        },
+        {
+            "question": "Que no se debia hacer en el dia de reposo segun este capitulo?",
+            "options": [
+                "No se debia comer carne",
+                "No se debia encender fuego en ninguna de sus moradas",
+                "No se debia hablar con extranjeros",
+                "No se debia salir de la tienda"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises les dijo: 'No encendereis fuego en ninguna de vuestras moradas en el dia de reposo.'",
+            "verse": "Exodo 35:3"
+        },
+        {
+            "question": "Que tipo de ofrenda pidio Moises al pueblo para la construccion del tabernaculo?",
+            "options": [
+                "Una ofrenda obligatoria de cada familia",
+                "Un impuesto fijo de medio siclo por persona",
+                "Una ofrenda voluntaria de todo aquel cuyo corazon lo moviera",
+                "Una ofrenda solo de los ricos del pueblo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises les dijo: 'Tomad de entre vosotros una ofrenda para el Senor; todo aquel que sea de corazon generoso, traigala.'",
+            "verse": "Exodo 35:5"
+        },
+        {
+            "question": "Que trajeron las mujeres habiles como contribucion para el tabernaculo?",
+            "options": [
+                "Vasijas de barro y ceramica",
+                "Alimentos y bebidas",
+                "Hilo que habian hilado: azul, purpura, carmesi y lino fino",
+                "Joyas de Egipto"
+            ],
+            "correctIndex": 2,
+            "explanation": "Todas las mujeres habiles hilaron con sus manos y trajeron lo que habian hilado: azul, purpura, carmesi y lino fino.",
+            "verse": "Exodo 35:25"
+        },
+        {
+            "question": "Que trajo cada uno de los lideres del pueblo como ofrenda?",
+            "options": [
+                "Oro y plata solamente",
+                "Piedras de onice y piedras de engaste para el efod y el pectoral",
+                "Madera de acacia y bronce",
+                "Pieles de carnero tenidas de rojo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los lideres trajeron las piedras de onice y las piedras de engaste para el efod y para el pectoral.",
+            "verse": "Exodo 35:27"
+        },
+        {
+            "question": "A quien designo Dios y lleno de sabiduria para ensenar a otros artesanos?",
+            "options": [
+                "Moises y Aaron",
+                "Josue y Caleb",
+                "Bezalel y Oholiab",
+                "Nadab y Abihu"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios lleno de sabiduria a Bezalel y a Oholiab para que hicieran toda la obra y tambien para ensenar a otros.",
+            "verse": "Exodo 35:30-35"
+        },
+        {
+            "question": "Ademas de habilidad artesanal, de que mas fueron llenados Bezalel y Oholiab segun este capitulo?",
+            "options": [
+                "De fuerza fisica sobrenatural",
+                "De sabiduria de corazon para hacer toda obra de artesano, disenador y bordador",
+                "De poder para hacer milagros",
+                "De autoridad para gobernar al pueblo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios los lleno de sabiduria de corazon para hacer toda obra de grabador, de artesano, de disenador y de bordador, y de tejedor.",
+            "verse": "Exodo 35:35"
+        }
+    ]
+}

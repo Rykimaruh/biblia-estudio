@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 11",
+    "book": "Exodo",
+    "chapter": 11,
+    "questions": [
+        {
+            "question": "Segun Exodo 11:1, que le dijo el Senor a Moises acerca de la ultima plaga?",
+            "options": [
+                "Que enviaria langostas sobre Egipto",
+                "Que traeria una plaga mas sobre Faraon y Egipto, y despues los dejaria ir",
+                "Que oscureceria toda la tierra por siete dias",
+                "Que secaria el rio Nilo completamente"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo a Moises que traeria una plaga mas sobre Faraon y sobre Egipto, y despues de eso los dejaria ir, e incluso los echaria de alli.",
+            "verse": "Exodo 11:1"
+        },
+        {
+            "question": "Que debian pedir los israelitas a sus vecinos egipcios segun Exodo 11:2?",
+            "options": [
+                "Alimentos y ganado",
+                "Objetos de plata y objetos de oro",
+                "Ropa y calzado",
+                "Carros y caballos"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor instruyo que cada hombre pidiera a su vecino y cada mujer a su vecina objetos de plata y objetos de oro.",
+            "verse": "Exodo 11:2"
+        },
+        {
+            "question": "Que posicion tenia Moises ante los egipcios segun Exodo 11:3?",
+            "options": [
+                "Era considerado un esclavo rebelde",
+                "Era temido como un hechicero",
+                "Era muy estimado en la tierra de Egipto",
+                "Era ignorado por todos"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor dio gracia al pueblo ante los egipcios, y Moises era considerado un gran hombre en la tierra de Egipto.",
+            "verse": "Exodo 11:3"
+        },
+        {
+            "question": "A que hora ocurriria la ultima plaga segun el anuncio de Moises?",
+            "options": [
+                "Al amanecer",
+                "Al mediodia",
+                "A la puesta del sol",
+                "Cerca de la medianoche"
+            ],
+            "correctIndex": 3,
+            "explanation": "Moises dijo: 'Asi dice el Senor: Como a la medianoche yo saldre por en medio de Egipto.'",
+            "verse": "Exodo 11:4"
+        },
+        {
+            "question": "Quienes moririan en la ultima plaga, desde el primogenito de quien hasta el primogenito de quien?",
+            "options": [
+                "Desde el primogenito de Faraon hasta el primogenito de la sierva que esta detras del molino",
+                "Desde el primogenito del sacerdote hasta el primogenito del esclavo",
+                "Solo los primogenitos de los soldados egipcios",
+                "Desde el primogenito del pueblo hasta el primogenito del ganado"
+            ],
+            "correctIndex": 0,
+            "explanation": "Moriria todo primogenito en la tierra de Egipto, desde el primogenito de Faraon que se sienta en su trono, hasta el primogenito de la sierva que esta detras del molino, y todo primogenito del ganado.",
+            "verse": "Exodo 11:5"
+        },
+        {
+            "question": "Que sucederia con los hijos de Israel mientras ocurria la plaga, segun Exodo 11:7?",
+            "options": [
+                "Tambien serian afectados por la plaga",
+                "Ni siquiera un perro les ladraria, mostrando la distincion que Dios hace",
+                "Debian esconderse en cuevas",
+                "Debian huir inmediatamente de Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Contra ninguno de los hijos de Israel ni siquiera un perro ladraria, para que supieran que el Senor hace distincion entre Egipto e Israel.",
+            "verse": "Exodo 11:7"
+        },
+        {
+            "question": "Como salio Moises de la presencia de Faraon segun Exodo 11:8?",
+            "options": [
+                "Con miedo y temblando",
+                "En silencio y con tristeza",
+                "Ardiendo de ira",
+                "Con alegria y cantando"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises salio de la presencia de Faraon ardiendo de ira, porque Faraon no quiso escuchar.",
+            "verse": "Exodo 11:8"
+        }
+    ]
+}

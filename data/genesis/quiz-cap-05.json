@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 5",
+    "book": "Genesis",
+    "chapter": 5,
+    "questions": [
+        {
+            "question": "Segun Genesis 5:1-2, a semejanza de quien fue creado Adan?",
+            "options": [
+                "A semejanza de los angeles",
+                "A semejanza de Dios",
+                "A semejanza de los animales",
+                "A semejanza de la tierra"
+            ],
+            "correctIndex": 1,
+            "explanation": "Genesis 5:1 dice: 'El dia que Dios creo al hombre, a semejanza de Dios lo hizo.' Esta verdad se repite desde Genesis 1:27.",
+            "verse": "Genesis 5:1"
+        },
+        {
+            "question": "Cuantos anos vivio Adan en total?",
+            "options": [
+                "800 anos",
+                "930 anos",
+                "969 anos",
+                "950 anos"
+            ],
+            "correctIndex": 1,
+            "explanation": "El total de los dias que Adan vivio fue de novecientos treinta anos, y murio.",
+            "verse": "Genesis 5:5"
+        },
+        {
+            "question": "Que personaje de este capitulo no murio porque Dios se lo llevo?",
+            "options": [
+                "Set",
+                "Matusalen",
+                "Enoc",
+                "Noe"
+            ],
+            "correctIndex": 2,
+            "explanation": "Enoc camino con Dios, y desaparecio porque Dios se lo llevo. Es uno de los dos personajes biblicos que no experimentaron la muerte.",
+            "verse": "Genesis 5:24"
+        },
+        {
+            "question": "Quien fue el hombre que mas anos vivio segun este capitulo?",
+            "options": [
+                "Adan, con 930 anos",
+                "Noe, con 950 anos",
+                "Jared, con 962 anos",
+                "Matusalen, con 969 anos"
+            ],
+            "correctIndex": 3,
+            "explanation": "Matusalen vivio novecientos sesenta y nueve anos, siendo la persona mas longeva registrada en la Biblia.",
+            "verse": "Genesis 5:27"
+        },
+        {
+            "question": "Quien fue el padre de Noe?",
+            "options": [
+                "Enoc",
+                "Matusalen",
+                "Lamec",
+                "Jared"
+            ],
+            "correctIndex": 2,
+            "explanation": "Lamec fue el padre de Noe. Cuando nacio Noe, Lamec dijo que este les daria descanso de su trabajo y del dolor de sus manos por causa de la tierra que el Senor habia maldecido.",
+            "verse": "Genesis 5:28-29"
+        },
+        {
+            "question": "Cuales fueron los tres hijos de Noe mencionados en este capitulo?",
+            "options": [
+                "Cain, Abel y Set",
+                "Sem, Cam y Jafet",
+                "Enoc, Lamec y Matusalen",
+                "Adan, Set y Enos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Noe engendro tres hijos: Sem, Cam y Jafet. Estos tres serian fundamentales en la historia posterior del diluvio.",
+            "verse": "Genesis 5:32"
+        },
+        {
+            "question": "Que edad tenia Noe cuando engendro a sus hijos segun Genesis 5:32?",
+            "options": [
+                "300 anos",
+                "600 anos",
+                "500 anos",
+                "450 anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Noe tenia quinientos anos cuando engendro a Sem, Cam y Jafet.",
+            "verse": "Genesis 5:32"
+        }
+    ]
+}

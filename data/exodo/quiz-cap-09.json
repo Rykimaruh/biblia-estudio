@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 9",
+    "book": "Exodo",
+    "chapter": 9,
+    "questions": [
+        {
+            "question": "Cual fue la quinta plaga que Dios envio sobre Egipto?",
+            "options": [
+                "Ulceras y sarpullido",
+                "Una peste muy grave sobre el ganado de Egipto",
+                "Granizo mezclado con fuego",
+                "Langostas que devoraron todo"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor envio una peste muy grave sobre el ganado de Egipto: caballos, asnos, camellos, vacas y ovejas. Pero del ganado de Israel no murio ni uno.",
+            "verse": "Exodo 9:3-6"
+        },
+        {
+            "question": "Que sucedio con el ganado de los hijos de Israel durante la quinta plaga?",
+            "options": [
+                "Tambien murio como el de los egipcios",
+                "Fue llevado a otra tierra",
+                "No murio ni un solo animal del ganado de Israel",
+                "Solo sobrevivio la mitad"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor hizo distincion entre el ganado de Israel y el ganado de Egipto. No murio ni un solo animal del ganado de los hijos de Israel.",
+            "verse": "Exodo 9:4-6"
+        },
+        {
+            "question": "Como se produjo la sexta plaga de ulceras?",
+            "options": [
+                "Dios envio lluvia contaminada",
+                "Moises y Aaron tomaron hollin de un horno y lo esparcieron hacia el cielo",
+                "Aaron golpeo la tierra con su vara",
+                "Moises soplo polvo del desierto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises y Aaron tomaron hollin de un horno, y Moises lo esparcion hacia el cielo en presencia de Faraon, y se convirtio en ulceras con sarpullido en hombres y animales.",
+            "verse": "Exodo 9:8-10"
+        },
+        {
+            "question": "Que les paso a los hechiceros de Egipto con la plaga de ulceras?",
+            "options": [
+                "Pudieron protegerse con sus artes",
+                "No pudieron estar delante de Moises a causa de las ulceras",
+                "Huyeron de Egipto",
+                "Se convirtieron al Dios de Israel"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hechiceros no podian estar delante de Moises a causa de las ulceras, porque las ulceras estaban en los hechiceros y en todos los egipcios.",
+            "verse": "Exodo 9:11"
+        },
+        {
+            "question": "Que razon dio Dios para no haber destruido a Faraon completamente?",
+            "options": [
+                "Porque tenia misericordia de el",
+                "Porque aun esperaba que se arrepintiera",
+                "Para mostrar en el Su poder y para que Su nombre fuera proclamado en toda la tierra",
+                "Porque los israelitas aun no estaban listos para salir"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo: 'Te he dejado con vida para mostrarte mi poder y para que mi nombre sea proclamado por toda la tierra.'",
+            "verse": "Exodo 9:16"
+        },
+        {
+            "question": "Que hicieron los siervos de Faraon que temieron la palabra del Senor antes de la plaga de granizo?",
+            "options": [
+                "Huyeron de Egipto",
+                "Pusieron a cubierto a sus siervos y su ganado",
+                "Rogaron a Faraon que dejara ir a Israel",
+                "Ofrecieron sacrificios al Senor"
+            ],
+            "correctIndex": 1,
+            "explanation": "El que de los siervos de Faraon temia la palabra del Senor hizo que sus siervos y su ganado se refugiaran en las casas.",
+            "verse": "Exodo 9:20"
+        },
+        {
+            "question": "Que dijo Faraon a Moises durante la plaga de granizo?",
+            "options": [
+                "Que Dios era injusto",
+                "Que esta vez habia pecado, que el Senor es justo y el y su pueblo son los impios",
+                "Que nunca dejaria ir al pueblo",
+                "Que los hechiceros resolverian el problema"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon mando llamar a Moises y dijo: 'Esta vez he pecado; el Senor es justo, y yo y mi pueblo somos los impios.'",
+            "verse": "Exodo 9:27"
+        }
+    ]
+}

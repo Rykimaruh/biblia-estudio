@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 44",
+    "book": "Genesis",
+    "chapter": 44,
+    "questions": [
+        {
+            "question": "Que ordeno Jose que pusieran en el costal de Benjamin ademas del dinero?",
+            "options": [
+                "Un anillo de oro",
+                "Su copa de plata",
+                "Una piedra preciosa",
+                "Un sello real del Faraon"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose ordeno a su mayordomo que pusiera su copa de plata en la boca del costal del menor, junto con el dinero de su grano.",
+            "verse": "Genesis 44:2"
+        },
+        {
+            "question": "Que dijeron los hermanos que le sucederia al que fuera hallado con la copa?",
+            "options": [
+                "Pagaria diez veces su valor",
+                "Seria azotado publicamente",
+                "Moriria, y los demas serian esclavos",
+                "Seria desterrado para siempre"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los hermanos dijeron: 'Aquel de tus siervos en cuyo poder se encuentre, que muera, y nosotros tambien seremos esclavos de mi senor.'",
+            "verse": "Genesis 44:9"
+        },
+        {
+            "question": "En el costal de quien fue encontrada la copa de plata?",
+            "options": [
+                "Ruben",
+                "Juda",
+                "Simeon",
+                "Benjamin"
+            ],
+            "correctIndex": 3,
+            "explanation": "La copa fue encontrada en el costal de Benjamin, tal como Jose habia ordenado que la pusieran.",
+            "verse": "Genesis 44:12"
+        },
+        {
+            "question": "Como reaccionaron los hermanos cuando se encontro la copa en el costal de Benjamin?",
+            "options": [
+                "Huyeron inmediatamente",
+                "Acusaron a Benjamin de haberla robado",
+                "Rasgaron sus vestidos y regresaron todos a la ciudad",
+                "Solo Juda regreso a suplicar"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cada uno rasgo sus vestidos, cargo de nuevo su asno, y regresaron todos juntos a la ciudad para presentarse ante Jose.",
+            "verse": "Genesis 44:13"
+        },
+        {
+            "question": "Quien se adelanto para hablar en defensa de Benjamin ante Jose?",
+            "options": [
+                "Ruben, por ser el primogenito",
+                "Levi, por ser el mas valiente",
+                "Juda, porque era fiador de Benjamin",
+                "Todos hablaron a la vez"
+            ],
+            "correctIndex": 2,
+            "explanation": "Juda se acerco a Jose y hablo extensamente, recordando que el se habia hecho fiador de Benjamin ante su padre.",
+            "verse": "Genesis 44:18, 32"
+        },
+        {
+            "question": "Que argumento uso Juda para convencer a Jose de liberar a Benjamin?",
+            "options": [
+                "Que Benjamin era inocente del robo",
+                "Que si Benjamin no volvia, su padre moriria de dolor",
+                "Que pagarian cualquier precio por su libertad",
+                "Que Benjamin era menor de edad"
+            ],
+            "correctIndex": 1,
+            "explanation": "Juda explico que el alma del padre estaba ligada al alma del muchacho, y que si veian que Benjamin no estaba con ellos, moriria, y ellos harian descender las canas de su padre con dolor al Seol.",
+            "verse": "Genesis 44:30-31"
+        },
+        {
+            "question": "Que ofrecio Juda para sustituir a Benjamin?",
+            "options": [
+                "Todas las riquezas de la familia",
+                "A dos de sus propios hijos",
+                "Quedarse el como esclavo en lugar de Benjamin",
+                "Servir al Faraon durante siete anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Juda suplico que le permitiera quedarse como esclavo en lugar del muchacho, y que Benjamin regresara con sus hermanos a su padre.",
+            "verse": "Genesis 44:33"
+        }
+    ]
+}

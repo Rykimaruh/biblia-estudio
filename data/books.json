@@ -1,0 +1,662 @@
+[
+  {
+    "name": "Genesis",
+    "slug": "genesis",
+    "chapters": 50,
+    "testament": "antiguo",
+    "group": "Pentateuco",
+    "order": 1,
+    "status": "active",
+    "activities": { "crosswords": true, "quizzes": true }
+  },
+  {
+    "name": "Exodo",
+    "slug": "exodo",
+    "chapters": 40,
+    "testament": "antiguo",
+    "group": "Pentateuco",
+    "order": 2,
+    "status": "active",
+    "activities": { "crosswords": true, "quizzes": true }
+  },
+  {
+    "name": "Levitico",
+    "slug": "levitico",
+    "chapters": 27,
+    "testament": "antiguo",
+    "group": "Pentateuco",
+    "order": 3,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Numeros",
+    "slug": "numeros",
+    "chapters": 36,
+    "testament": "antiguo",
+    "group": "Pentateuco",
+    "order": 4,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Deuteronomio",
+    "slug": "deuteronomio",
+    "chapters": 34,
+    "testament": "antiguo",
+    "group": "Pentateuco",
+    "order": 5,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Josue",
+    "slug": "josue",
+    "chapters": 24,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 6,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Jueces",
+    "slug": "jueces",
+    "chapters": 21,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 7,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Rut",
+    "slug": "rut",
+    "chapters": 4,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 8,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "1 Samuel",
+    "slug": "1-samuel",
+    "chapters": 31,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 9,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "2 Samuel",
+    "slug": "2-samuel",
+    "chapters": 24,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 10,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "1 Reyes",
+    "slug": "1-reyes",
+    "chapters": 22,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 11,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "2 Reyes",
+    "slug": "2-reyes",
+    "chapters": 25,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 12,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "1 Cronicas",
+    "slug": "1-cronicas",
+    "chapters": 29,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 13,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "2 Cronicas",
+    "slug": "2-cronicas",
+    "chapters": 36,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 14,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Esdras",
+    "slug": "esdras",
+    "chapters": 10,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 15,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Nehemias",
+    "slug": "nehemias",
+    "chapters": 13,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 16,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Ester",
+    "slug": "ester",
+    "chapters": 10,
+    "testament": "antiguo",
+    "group": "Historicos",
+    "order": 17,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Job",
+    "slug": "job",
+    "chapters": 42,
+    "testament": "antiguo",
+    "group": "Poeticos",
+    "order": 18,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Salmos",
+    "slug": "salmos",
+    "chapters": 150,
+    "testament": "antiguo",
+    "group": "Poeticos",
+    "order": 19,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Proverbios",
+    "slug": "proverbios",
+    "chapters": 31,
+    "testament": "antiguo",
+    "group": "Poeticos",
+    "order": 20,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Eclesiastes",
+    "slug": "eclesiastes",
+    "chapters": 12,
+    "testament": "antiguo",
+    "group": "Poeticos",
+    "order": 21,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Cantares",
+    "slug": "cantares",
+    "chapters": 8,
+    "testament": "antiguo",
+    "group": "Poeticos",
+    "order": 22,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Isaias",
+    "slug": "isaias",
+    "chapters": 66,
+    "testament": "antiguo",
+    "group": "Profetas Mayores",
+    "order": 23,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Jeremias",
+    "slug": "jeremias",
+    "chapters": 52,
+    "testament": "antiguo",
+    "group": "Profetas Mayores",
+    "order": 24,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Lamentaciones",
+    "slug": "lamentaciones",
+    "chapters": 5,
+    "testament": "antiguo",
+    "group": "Profetas Mayores",
+    "order": 25,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Ezequiel",
+    "slug": "ezequiel",
+    "chapters": 48,
+    "testament": "antiguo",
+    "group": "Profetas Mayores",
+    "order": 26,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Daniel",
+    "slug": "daniel",
+    "chapters": 12,
+    "testament": "antiguo",
+    "group": "Profetas Mayores",
+    "order": 27,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Oseas",
+    "slug": "oseas",
+    "chapters": 14,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 28,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Joel",
+    "slug": "joel",
+    "chapters": 3,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 29,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Amos",
+    "slug": "amos",
+    "chapters": 9,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 30,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Abdias",
+    "slug": "abdias",
+    "chapters": 1,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 31,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Jonas",
+    "slug": "jonas",
+    "chapters": 4,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 32,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Miqueas",
+    "slug": "miqueas",
+    "chapters": 7,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 33,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Nahum",
+    "slug": "nahum",
+    "chapters": 3,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 34,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Habacuc",
+    "slug": "habacuc",
+    "chapters": 3,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 35,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Sofonias",
+    "slug": "sofonias",
+    "chapters": 3,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 36,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Hageo",
+    "slug": "hageo",
+    "chapters": 2,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 37,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Zacarias",
+    "slug": "zacarias",
+    "chapters": 14,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 38,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Malaquias",
+    "slug": "malaquias",
+    "chapters": 4,
+    "testament": "antiguo",
+    "group": "Profetas Menores",
+    "order": 39,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Mateo",
+    "slug": "mateo",
+    "chapters": 28,
+    "testament": "nuevo",
+    "group": "Evangelios",
+    "order": 40,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Marcos",
+    "slug": "marcos",
+    "chapters": 16,
+    "testament": "nuevo",
+    "group": "Evangelios",
+    "order": 41,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Lucas",
+    "slug": "lucas",
+    "chapters": 24,
+    "testament": "nuevo",
+    "group": "Evangelios",
+    "order": 42,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Juan",
+    "slug": "juan",
+    "chapters": 21,
+    "testament": "nuevo",
+    "group": "Evangelios",
+    "order": 43,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Hechos",
+    "slug": "hechos",
+    "chapters": 28,
+    "testament": "nuevo",
+    "group": "Historia",
+    "order": 44,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Romanos",
+    "slug": "romanos",
+    "chapters": 16,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 45,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "1 Corintios",
+    "slug": "1-corintios",
+    "chapters": 16,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 46,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "2 Corintios",
+    "slug": "2-corintios",
+    "chapters": 13,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 47,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Galatas",
+    "slug": "galatas",
+    "chapters": 6,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 48,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Efesios",
+    "slug": "efesios",
+    "chapters": 6,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 49,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Filipenses",
+    "slug": "filipenses",
+    "chapters": 4,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 50,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Colosenses",
+    "slug": "colosenses",
+    "chapters": 4,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 51,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "1 Tesalonicenses",
+    "slug": "1-tesalonicenses",
+    "chapters": 5,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 52,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "2 Tesalonicenses",
+    "slug": "2-tesalonicenses",
+    "chapters": 3,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 53,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "1 Timoteo",
+    "slug": "1-timoteo",
+    "chapters": 6,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 54,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "2 Timoteo",
+    "slug": "2-timoteo",
+    "chapters": 4,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 55,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Tito",
+    "slug": "tito",
+    "chapters": 3,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 56,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Filemon",
+    "slug": "filemon",
+    "chapters": 1,
+    "testament": "nuevo",
+    "group": "Cartas Paulinas",
+    "order": 57,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Hebreos",
+    "slug": "hebreos",
+    "chapters": 13,
+    "testament": "nuevo",
+    "group": "Cartas Generales",
+    "order": 58,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Santiago",
+    "slug": "santiago",
+    "chapters": 5,
+    "testament": "nuevo",
+    "group": "Cartas Generales",
+    "order": 59,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "1 Pedro",
+    "slug": "1-pedro",
+    "chapters": 5,
+    "testament": "nuevo",
+    "group": "Cartas Generales",
+    "order": 60,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "2 Pedro",
+    "slug": "2-pedro",
+    "chapters": 3,
+    "testament": "nuevo",
+    "group": "Cartas Generales",
+    "order": 61,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "1 Juan",
+    "slug": "1-juan",
+    "chapters": 5,
+    "testament": "nuevo",
+    "group": "Cartas Generales",
+    "order": 62,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "2 Juan",
+    "slug": "2-juan",
+    "chapters": 1,
+    "testament": "nuevo",
+    "group": "Cartas Generales",
+    "order": 63,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "3 Juan",
+    "slug": "3-juan",
+    "chapters": 1,
+    "testament": "nuevo",
+    "group": "Cartas Generales",
+    "order": 64,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Judas",
+    "slug": "judas",
+    "chapters": 1,
+    "testament": "nuevo",
+    "group": "Cartas Generales",
+    "order": 65,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  },
+  {
+    "name": "Apocalipsis",
+    "slug": "apocalipsis",
+    "chapters": 22,
+    "testament": "nuevo",
+    "group": "Profecia",
+    "order": 66,
+    "status": "coming_soon",
+    "activities": { "crosswords": false, "quizzes": false }
+  }
+]

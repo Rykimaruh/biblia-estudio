@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 24",
+    "book": "Exodo",
+    "chapter": 24,
+    "questions": [
+        {
+            "question": "Segun Exodo 24:1, a quienes invito Dios a subir al monte junto con Moises?",
+            "options": [
+                "A todo el pueblo de Israel",
+                "A Aaron, Nadab, Abihu y setenta de los ancianos de Israel",
+                "A Josue y Caleb unicamente",
+                "A los doce jefes de las tribus"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo a Moises que subiera con Aaron, Nadab, Abihu y setenta de los ancianos de Israel, y que adoraran desde lejos.",
+            "verse": "Exodo 24:1"
+        },
+        {
+            "question": "Que respondio todo el pueblo cuando Moises les comunico las palabras del Senor?",
+            "options": [
+                "Pidieron mas tiempo para decidir",
+                "Haremos todas las cosas que el Senor ha dicho",
+                "Preguntaron por que debian obedecer",
+                "Guardaron silencio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Todo el pueblo respondio a una voz: 'Haremos todas las cosas que el Senor ha dicho.'",
+            "verse": "Exodo 24:3"
+        },
+        {
+            "question": "Que hizo Moises con la sangre de los sacrificios para confirmar el pacto?",
+            "options": [
+                "La derramo al pie del altar unicamente",
+                "La puso en los postes de las puertas",
+                "Rocio la mitad sobre el altar y la otra mitad sobre el pueblo",
+                "La ofrecio como libacion ante el Senor"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises tomo la mitad de la sangre y la puso en vasijas, y la otra mitad la rocio sobre el altar. Luego rocio la sangre sobre el pueblo diciendo: 'Esta es la sangre del pacto.'",
+            "verse": "Exodo 24:6-8"
+        },
+        {
+            "question": "Que vieron Moises, Aaron, Nadab, Abihu y los setenta ancianos cuando subieron al monte?",
+            "options": [
+                "Una zarza ardiente",
+                "Al Dios de Israel, y debajo de sus pies habia como un embaldosado de zafiro",
+                "Una nube oscura con relampagos",
+                "Un angel con una espada de fuego"
+            ],
+            "correctIndex": 1,
+            "explanation": "Ellos vieron al Dios de Israel, y debajo de sus pies habia como un embaldosado de zafiro, tan claro como el cielo mismo.",
+            "verse": "Exodo 24:10"
+        },
+        {
+            "question": "Cuantos dias estuvo Moises en el monte con Dios?",
+            "options": [
+                "Siete dias",
+                "Diez dias",
+                "Treinta dias",
+                "Cuarenta dias y cuarenta noches"
+            ],
+            "correctIndex": 3,
+            "explanation": "Moises estuvo en el monte cuarenta dias y cuarenta noches.",
+            "verse": "Exodo 24:18"
+        },
+        {
+            "question": "Quien acompano a Moises al subir al monte de Dios, segun Exodo 24:13?",
+            "options": [
+                "Aaron su hermano",
+                "Josue su servidor",
+                "Nadab y Abihu",
+                "Los setenta ancianos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises se levanto con Josue su servidor, y Moises subio al monte de Dios.",
+            "verse": "Exodo 24:13"
+        },
+        {
+            "question": "Segun Exodo 24:17, como aparecia la gloria del Senor en la cumbre del monte a los ojos de los israelitas?",
+            "options": [
+                "Como una nube blanca resplandeciente",
+                "Como un fuego consumidor",
+                "Como un arcoiris brillante",
+                "Como una luz suave y apacible"
+            ],
+            "correctIndex": 1,
+            "explanation": "La apariencia de la gloria del Senor en la cumbre del monte era como un fuego consumidor a los ojos de los hijos de Israel.",
+            "verse": "Exodo 24:17"
+        }
+    ]
+}

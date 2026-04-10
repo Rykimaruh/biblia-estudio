@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 22",
+    "book": "Genesis",
+    "chapter": 22,
+    "questions": [
+        {
+            "question": "Que le pidio Dios a Abraham que hiciera con su hijo Isaac?",
+            "options": [
+                "Que lo enviara a otra tierra",
+                "Que lo ofreciera en holocausto en la tierra de Moriah",
+                "Que lo circuncidara nuevamente",
+                "Que lo casara con una mujer de su parentela"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios probo a Abraham y le dijo que tomara a su hijo Isaac, su unico, a quien amaba, y lo ofreciera en holocausto en uno de los montes de la tierra de Moriah.",
+            "verse": "Genesis 22:1-2"
+        },
+        {
+            "question": "Que le pregunto Isaac a su padre cuando iban camino al lugar del sacrificio?",
+            "options": [
+                "A donde vamos, padre?",
+                "Por que no viene mi madre?",
+                "He aqui el fuego y la lena, pero donde esta el cordero para el holocausto?",
+                "Cuanto tiempo estaremos fuera?"
+            ],
+            "correctIndex": 2,
+            "explanation": "Isaac le dijo a Abraham: 'He aqui el fuego y la lena, pero donde esta el cordero para el holocausto?' Abraham respondio que Dios proveeria el cordero.",
+            "verse": "Genesis 22:7"
+        },
+        {
+            "question": "Que respondio Abraham cuando Isaac le pregunto por el cordero?",
+            "options": [
+                "Le dijo la verdad sobre el sacrificio",
+                "Dios provera para si el cordero para el holocausto, hijo mio",
+                "Le dijo que comprarian uno al llegar",
+                "Le dijo que no necesitaban cordero"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham respondio: 'Dios provera para si el cordero para el holocausto, hijo mio.' Y los dos iban juntos.",
+            "verse": "Genesis 22:8"
+        },
+        {
+            "question": "Quien detuvo a Abraham cuando estaba a punto de sacrificar a Isaac?",
+            "options": [
+                "Sara, su esposa",
+                "Un profeta de Dios",
+                "El angel del Senor desde el cielo",
+                "Isaac mismo"
+            ],
+            "correctIndex": 2,
+            "explanation": "El angel del Senor lo llamo desde el cielo y le dijo: 'Abraham, Abraham! No extiendas tu mano contra el muchacho.'",
+            "verse": "Genesis 22:11-12"
+        },
+        {
+            "question": "Que proveyó Dios en lugar de Isaac para el holocausto?",
+            "options": [
+                "Un cordero",
+                "Un buey",
+                "Un carnero trabado por los cuernos en un matorral",
+                "Una paloma"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham alzo los ojos y vio un carnero detras de el, trabado por los cuernos en un matorral, y lo ofrecio en holocausto en lugar de su hijo.",
+            "verse": "Genesis 22:13"
+        },
+        {
+            "question": "Que nombre le puso Abraham al lugar donde Dios proveyo el carnero?",
+            "options": [
+                "Beerseba",
+                "Bet-el",
+                "Jehova-jireh (el Senor provera)",
+                "Moriah"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham llamo aquel lugar con el nombre de 'El Senor provera' (Jehova-jireh), como se dice hasta hoy: 'En el monte del Senor se provera.'",
+            "verse": "Genesis 22:14"
+        },
+        {
+            "question": "Que le prometio Dios a Abraham despues de que mostro su obediencia?",
+            "options": [
+                "Que viviria para siempre",
+                "Que le daria toda la tierra de Egipto",
+                "Que multiplicaria su descendencia como las estrellas del cielo y la arena del mar, y en su simiente serian benditas todas las naciones",
+                "Que nunca mas seria probado"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios juro por si mismo que bendeciria grandemente a Abraham, multiplicaria su descendencia como las estrellas y la arena, y en su simiente serian benditas todas las naciones de la tierra.",
+            "verse": "Genesis 22:16-18"
+        }
+    ]
+}

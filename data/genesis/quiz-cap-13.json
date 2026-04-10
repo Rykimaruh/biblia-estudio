@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 13",
+    "book": "Genesis",
+    "chapter": 13,
+    "questions": [
+        {
+            "question": "Segun Genesis 13:2, en que era muy rico Abram?",
+            "options": [
+                "En tierras y esclavos",
+                "En ganado, plata y oro",
+                "En camellos y asnos",
+                "En joyas y piedras preciosas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Genesis 13:2 dice que Abram era muy rico en ganado, en plata y en oro.",
+            "verse": "Genesis 13:2"
+        },
+        {
+            "question": "Cual fue la causa de la contienda entre los pastores de Abram y los pastores de Lot?",
+            "options": [
+                "Disputas sobre el agua",
+                "La tierra no era suficiente para que habitaran juntos porque sus posesiones eran muchas",
+                "Los pastores de Lot robaron ganado de Abram",
+                "Los cananeos los atacaron"
+            ],
+            "correctIndex": 1,
+            "explanation": "La tierra no les permitia habitar juntos, porque sus posesiones eran tantas que no podian habitar juntos, y hubo contienda entre los pastores.",
+            "verse": "Genesis 13:6-7"
+        },
+        {
+            "question": "Que le propuso Abram a Lot para resolver el conflicto?",
+            "options": [
+                "Que Lot regresara a Haran",
+                "Que dividieran el ganado por igual",
+                "Que se separaran y Lot eligiera la direccion que quisiera",
+                "Que construyeran cercas para separar el ganado"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abram le dijo a Lot: 'Te ruego que no haya contienda entre nosotros. Si vas a la izquierda, yo ire a la derecha; y si a la derecha, yo ire a la izquierda.'",
+            "verse": "Genesis 13:8-9"
+        },
+        {
+            "question": "Que region escogio Lot para habitar?",
+            "options": [
+                "Las montanas de Canaan",
+                "El desierto del Neguev",
+                "Toda la llanura del Jordan",
+                "La tierra de Siquem"
+            ],
+            "correctIndex": 2,
+            "explanation": "Lot alzo sus ojos y vio toda la llanura del Jordan, que toda ella tenia riego, y escogio para si toda la llanura del Jordan.",
+            "verse": "Genesis 13:10-11"
+        },
+        {
+            "question": "Cerca de que ciudad fue a habitar Lot?",
+            "options": [
+                "Jerusalen",
+                "Betel",
+                "Sodoma",
+                "Haran"
+            ],
+            "correctIndex": 2,
+            "explanation": "Lot habito en las ciudades de la llanura y fue poniendo sus tiendas hasta Sodoma. Los hombres de Sodoma eran malos y grandes pecadores contra el Senor.",
+            "verse": "Genesis 13:12-13"
+        },
+        {
+            "question": "Que le prometio Dios a Abram despues de que Lot se separo de el?",
+            "options": [
+                "Que derrotaria a todos sus enemigos",
+                "Que le daria toda la tierra que veia y su descendencia seria como el polvo de la tierra",
+                "Que Lot volveria a unirse con el",
+                "Que construiria una gran ciudad"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo: 'Alza ahora los ojos y mira... toda la tierra que ves te la dare a ti y a tu descendencia para siempre. Hare tu descendencia como el polvo de la tierra.'",
+            "verse": "Genesis 13:14-16"
+        },
+        {
+            "question": "Donde se establecio Abram despues de separarse de Lot?",
+            "options": [
+                "En Siquem",
+                "En Betel",
+                "Junto a las encinas de Mamre que estan en Hebron",
+                "En el Neguev"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abram movio su tienda y fue a habitar junto a las encinas de Mamre, que estan en Hebron, y edifico alli un altar al Senor.",
+            "verse": "Genesis 13:18"
+        }
+    ]
+}

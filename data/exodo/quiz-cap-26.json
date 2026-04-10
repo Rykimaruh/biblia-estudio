@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 26",
+    "book": "Exodo",
+    "chapter": 26,
+    "questions": [
+        {
+            "question": "Segun Exodo 26:1, cuantas cortinas de lino fino torcido debian hacerse para el tabernaculo?",
+            "options": [
+                "Cinco cortinas",
+                "Ocho cortinas",
+                "Diez cortinas",
+                "Doce cortinas"
+            ],
+            "correctIndex": 2,
+            "explanation": "El tabernaculo debia hacerse con diez cortinas de lino fino torcido, de material azul, purpura y escarlata, con querubines.",
+            "verse": "Exodo 26:1"
+        },
+        {
+            "question": "Que figuras debian tener bordadas las cortinas del tabernaculo?",
+            "options": [
+                "Estrellas y lunas",
+                "Querubines",
+                "Flores y palmeras",
+                "Leones y aguilas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Las cortinas de lino fino torcido debian tener querubines bordados, obra de disenador habil.",
+            "verse": "Exodo 26:1"
+        },
+        {
+            "question": "De que material se hacian las cortinas que iban sobre las cortinas de lino como cubierta del tabernaculo?",
+            "options": [
+                "Lana de oveja",
+                "Lino purpura",
+                "Pelo de cabra",
+                "Pieles de carnero"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sobre las cortinas de lino, debian hacerse cortinas de pelo de cabra como tienda sobre el tabernaculo, en total once cortinas.",
+            "verse": "Exodo 26:7"
+        },
+        {
+            "question": "De que material debian hacerse las tablas verticales para el tabernaculo?",
+            "options": [
+                "Madera de cedro",
+                "Madera de acacia",
+                "Madera de olivo",
+                "Madera de cipres"
+            ],
+            "correctIndex": 1,
+            "explanation": "Las tablas para el tabernaculo debian hacerse de madera de acacia, puestas verticalmente.",
+            "verse": "Exodo 26:15"
+        },
+        {
+            "question": "Que separaba el velo interior del tabernaculo?",
+            "options": [
+                "El atrio del Lugar Santo",
+                "El altar de bronce del altar de incienso",
+                "El Lugar Santo del Lugar Santisimo",
+                "El tabernaculo del campamento"
+            ],
+            "correctIndex": 2,
+            "explanation": "El velo servia de separacion entre el Lugar Santo y el Lugar Santisimo, detras del cual se colocaba el arca del testimonio.",
+            "verse": "Exodo 26:33"
+        },
+        {
+            "question": "De que colores era el velo que separaba el Lugar Santo del Lugar Santisimo?",
+            "options": [
+                "Blanco y dorado",
+                "Azul, purpura y escarlata con querubines",
+                "Rojo y negro",
+                "Verde y azul con flores"
+            ],
+            "correctIndex": 1,
+            "explanation": "El velo debia ser de material azul, purpura y escarlata, y de lino fino torcido, con querubines bordados, obra de disenador habil.",
+            "verse": "Exodo 26:31"
+        },
+        {
+            "question": "Segun Exodo 26:32, sobre cuantas columnas de madera de acacia recubierta de oro debia colgarse el velo?",
+            "options": [
+                "Dos columnas",
+                "Tres columnas",
+                "Cuatro columnas",
+                "Cinco columnas"
+            ],
+            "correctIndex": 2,
+            "explanation": "El velo debia colgarse sobre cuatro columnas de madera de acacia revestidas de oro, con ganchos de oro, sobre cuatro basas de plata.",
+            "verse": "Exodo 26:32"
+        }
+    ]
+}

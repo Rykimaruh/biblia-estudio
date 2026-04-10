@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 18",
+    "book": "Genesis",
+    "chapter": 18,
+    "questions": [
+        {
+            "question": "Donde se le aparecio el Senor a Abraham cuando vinieron los tres visitantes?",
+            "options": [
+                "En Betel junto al altar",
+                "Junto a las encinas de Mamre, estando sentado a la puerta de su tienda",
+                "En el desierto de Shur",
+                "En la ciudad de Hebron"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor se aparecio a Abraham junto a las encinas de Mamre, mientras el estaba sentado a la puerta de la tienda en el calor del dia.",
+            "verse": "Genesis 18:1"
+        },
+        {
+            "question": "Cuantos varones se le aparecieron a Abraham?",
+            "options": [
+                "Uno",
+                "Dos",
+                "Tres",
+                "Cuatro"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham alzo los ojos y miro, y he aqui que tres varones estaban parados frente a el.",
+            "verse": "Genesis 18:2"
+        },
+        {
+            "question": "Que le dijo uno de los visitantes a Abraham acerca de Sara?",
+            "options": [
+                "Que tendria muchas riquezas",
+                "Que volveria al tiempo senalado y Sara tendria un hijo",
+                "Que debia viajar a Egipto",
+                "Que viviria ciento veinte anos mas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dijo: 'Ciertamente volvere a ti en esta epoca el ano que viene; y he aqui, Sara tu mujer tendra un hijo.'",
+            "verse": "Genesis 18:10"
+        },
+        {
+            "question": "Cual fue la reaccion de Sara cuando escucho la promesa del hijo?",
+            "options": [
+                "Lloro de alegria",
+                "Salio corriendo a contarle a Abraham",
+                "Se rio dentro de si pensando que era vieja",
+                "Se arrodillo en adoracion"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sara se rio entre si, diciendo: 'Despues de haber envejecido, tendre deleite, siendo tambien viejo mi senor?'",
+            "verse": "Genesis 18:12"
+        },
+        {
+            "question": "Que pregunta importante hizo el Senor a Abraham acerca de la risa de Sara?",
+            "options": [
+                "Por que no cree Sara en mi poder?",
+                "Hay algo demasiado dificil para el Senor?",
+                "Acaso Sara no tiene fe?",
+                "No le dijiste a Sara mis promesas?"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor dijo a Abraham: 'Por que se rio Sara?... Hay algo demasiado dificil para el Senor?'",
+            "verse": "Genesis 18:13-14"
+        },
+        {
+            "question": "Cuando Abraham intercedio por Sodoma, con cuantos justos comenzo pidiendo que Dios perdonara la ciudad?",
+            "options": [
+                "Cien justos",
+                "Cincuenta justos",
+                "Treinta justos",
+                "Veinte justos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham comenzo preguntando: 'Destruiras tambien al justo con el impio? Tal vez haya cincuenta justos dentro de la ciudad.'",
+            "verse": "Genesis 18:23-24"
+        },
+        {
+            "question": "Hasta que numero bajo Abraham en su intercesion por Sodoma?",
+            "options": [
+                "Veinte justos",
+                "Quince justos",
+                "Diez justos",
+                "Cinco justos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham fue bajando de cincuenta a cuarenta y cinco, cuarenta, treinta, veinte y finalmente diez justos, y el Senor dijo que no la destruiria por amor a los diez.",
+            "verse": "Genesis 18:32"
+        }
+    ]
+}

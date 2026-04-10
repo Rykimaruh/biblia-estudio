@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 28",
+    "book": "Genesis",
+    "chapter": 28,
+    "questions": [
+        {
+            "question": "Que le ordeno Isaac a Jacob antes de enviarlo a Padan-aram?",
+            "options": [
+                "Que no regresara nunca",
+                "Que no tomara mujer de las hijas de Canaan, sino que fuera a casa de Betuel y tomara mujer de las hijas de Laban",
+                "Que llevara muchos regalos",
+                "Que se reconciliara primero con Esau"
+            ],
+            "correctIndex": 1,
+            "explanation": "Isaac llamo a Jacob y lo bendijo, y le ordeno diciendo: 'No tomes mujer de las hijas de Canaan. Levantate, ve a Padan-aram, a casa de Betuel, padre de tu madre, y toma de alli mujer de las hijas de Laban, hermano de tu madre.'",
+            "verse": "Genesis 28:1-2"
+        },
+        {
+            "question": "Que hizo Esau al ver que las hijas de Canaan desagradaban a su padre Isaac?",
+            "options": [
+                "Se divorcio de sus esposas",
+                "Se fue de la casa de su padre",
+                "Fue a Ismael y tomo por mujer a Mahalat, hija de Ismael",
+                "Le pidio perdon a su padre"
+            ],
+            "correctIndex": 2,
+            "explanation": "Esau fue a Ismael y tomo por mujer, ademas de las mujeres que tenia, a Mahalat, hija de Ismael, hijo de Abraham, hermana de Nebaiot.",
+            "verse": "Genesis 28:8-9"
+        },
+        {
+            "question": "Que vio Jacob en su sueno en Bet-el?",
+            "options": [
+                "Un rio de fuego",
+                "Una escalera apoyada en la tierra cuyo extremo tocaba el cielo, con angeles de Dios que subian y bajaban por ella",
+                "Un gran ejercito de angeles",
+                "Una nube brillante sobre la tierra"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob sono, y he aqui, habia una escalera apoyada en la tierra cuyo extremo superior alcanzaba el cielo, y los angeles de Dios subian y bajaban por ella.",
+            "verse": "Genesis 28:12"
+        },
+        {
+            "question": "Que le prometio Dios a Jacob en el sueno de Bet-el?",
+            "options": [
+                "Que seria el hombre mas rico de la tierra",
+                "Que la tierra donde estaba acostado seria para el y su descendencia, que seria como el polvo de la tierra, y que en el serian benditas todas las familias",
+                "Que Esau nunca lo encontraria",
+                "Que reinaria sobre Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor le dijo que la tierra donde estaba acostado se la daria a el y a su descendencia, que seria como el polvo de la tierra, y que en el y su simiente serian benditas todas las familias de la tierra.",
+            "verse": "Genesis 28:13-14"
+        },
+        {
+            "question": "Que dijo Jacob al despertar del sueno?",
+            "options": [
+                "Fue solo un sueno",
+                "Ciertamente el Senor esta en este lugar y yo no lo sabia; cuan imponente es este lugar!",
+                "Debo regresar a casa de mi padre",
+                "Tengo que contarle esto a Esau"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob desperto y dijo: 'Ciertamente el Senor esta en este lugar y yo no lo sabia.' Y tuvo temor y dijo: 'Cuan imponente es este lugar! Esto no es mas que la casa de Dios y la puerta del cielo.'",
+            "verse": "Genesis 28:16-17"
+        },
+        {
+            "question": "Que hizo Jacob con la piedra que habia puesto de cabecera?",
+            "options": [
+                "La arrojo lejos",
+                "La uso para construir un altar",
+                "La levanto como columna y derramo aceite sobre ella",
+                "La enterro en el suelo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob se levanto temprano, tomo la piedra que habia puesto de cabecera, la levanto como columna y derramo aceite sobre ella. Llamo aquel lugar Bet-el.",
+            "verse": "Genesis 28:18-19"
+        },
+        {
+            "question": "Que voto hizo Jacob a Dios en Bet-el?",
+            "options": [
+                "Que construiria un gran templo",
+                "Que si Dios estaba con el, lo guardaba, le daba pan y vestido, y volvia en paz a casa de su padre, entonces el Senor seria su Dios y daria el diezmo de todo",
+                "Que nunca mas mentiria",
+                "Que se reconciliaria con Esau inmediatamente"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob hizo un voto: si Dios estaba con el, lo guardaba en el camino, le daba pan y vestido, y volvia sano y salvo a casa de su padre, el Senor seria su Dios, la piedra seria casa de Dios, y daria el diezmo de todo.",
+            "verse": "Genesis 28:20-22"
+        }
+    ]
+}

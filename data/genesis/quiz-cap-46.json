@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 46",
+    "book": "Genesis",
+    "chapter": 46,
+    "questions": [
+        {
+            "question": "A donde fue Israel primero antes de partir hacia Egipto, y que hizo alli?",
+            "options": [
+                "Fue a Betania y edifico un altar",
+                "Fue a Beerseba y ofrecio sacrificios al Dios de su padre Isaac",
+                "Fue a Belen y oro ante Dios",
+                "Fue a Hebron y visito la tumba de Abraham"
+            ],
+            "correctIndex": 1,
+            "explanation": "Israel partio con todo lo que tenia, y fue a Beerseba donde ofrecio sacrificios al Dios de su padre Isaac.",
+            "verse": "Genesis 46:1"
+        },
+        {
+            "question": "Que le prometio Dios a Jacob en visiones de noche en Beerseba?",
+            "options": [
+                "Que nunca mas tendria hambre",
+                "Que lo haria una nacion grande en Egipto y que El mismo lo haria volver",
+                "Que reinaria sobre Egipto",
+                "Que sus enemigos serian destruidos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo: 'No temas descender a Egipto, porque alli te hare una gran nacion. Yo descendere contigo a Egipto, y ciertamente te hare volver.'",
+            "verse": "Genesis 46:3-4"
+        },
+        {
+            "question": "Cuantas personas de la familia de Jacob descendieron a Egipto en total?",
+            "options": [
+                "Cuarenta y cinco",
+                "Sesenta",
+                "Setenta",
+                "Cien"
+            ],
+            "correctIndex": 2,
+            "explanation": "Todas las personas de la casa de Jacob que vinieron a Egipto fueron setenta.",
+            "verse": "Genesis 46:27"
+        },
+        {
+            "question": "A quien envio Jacob delante de el a Egipto para preparar su llegada?",
+            "options": [
+                "A Ruben",
+                "A Benjamin",
+                "A Juda",
+                "A Levi"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob envio a Juda delante de el a Jose, para que le indicara el camino a Goshen.",
+            "verse": "Genesis 46:28"
+        },
+        {
+            "question": "Que hizo Jose cuando se encontro con su padre Jacob en Goshen?",
+            "options": [
+                "Se arrodillo ante el",
+                "Se presento ante el, se echo sobre su cuello y lloro largamente sobre su cuello",
+                "Le entrego las llaves de su casa en Egipto",
+                "Lo llevo inmediatamente ante el Faraon"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose preparo su carro y fue a Goshen al encuentro de su padre Israel. Se presento ante el, se echo sobre su cuello y lloro largamente sobre su cuello.",
+            "verse": "Genesis 46:29"
+        },
+        {
+            "question": "Que dijo Israel a Jose despues de verlo?",
+            "options": [
+                "Que queria conocer al Faraon",
+                "Que estaba listo para morir, ya que habia visto el rostro de Jose y sabia que aun vivia",
+                "Que queria regresar a Canaan lo antes posible",
+                "Que estaba enojado por los anos de separacion"
+            ],
+            "correctIndex": 1,
+            "explanation": "Israel dijo a Jose: 'Ahora puedo morir, ya que he visto tu rostro y se que aun vives.'",
+            "verse": "Genesis 46:30"
+        },
+        {
+            "question": "Que instruccion le dio Jose a su familia sobre lo que debian decir al Faraon acerca de su oficio?",
+            "options": [
+                "Que eran comerciantes de especias",
+                "Que eran constructores de ciudades",
+                "Que habian sido hombres de ganado desde su juventud",
+                "Que eran agricultores de trigo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose les instruyo que cuando el Faraon les preguntara su ocupacion, dijeran que habian sido hombres de ganado desde su juventud, para que pudieran habitar en la tierra de Goshen.",
+            "verse": "Genesis 46:33-34"
+        }
+    ]
+}

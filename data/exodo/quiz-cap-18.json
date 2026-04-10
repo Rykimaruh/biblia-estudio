@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 18",
+    "book": "Exodo",
+    "chapter": 18,
+    "questions": [
+        {
+            "question": "Quien era Jetro y que relacion tenia con Moises?",
+            "options": [
+                "Era su hermano mayor",
+                "Era sacerdote de Madian y suegro de Moises",
+                "Era un profeta de Israel",
+                "Era un principe de Egipto y amigo de Moises"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jetro, sacerdote de Madian, suegro de Moises, oyo de todo lo que Dios habia hecho por Moises y por su pueblo Israel.",
+            "verse": "Exodo 18:1"
+        },
+        {
+            "question": "A quienes trajo Jetro a Moises en el desierto?",
+            "options": [
+                "A un grupo de sacerdotes madianitas",
+                "A la esposa de Moises, Sefora, y sus dos hijos",
+                "A un ejercito de guerreros",
+                "A comerciantes con provisiones"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jetro tomo a Sefora, mujer de Moises, y a sus dos hijos, Gerson y Eliezer, y los trajo a Moises al desierto.",
+            "verse": "Exodo 18:2-5"
+        },
+        {
+            "question": "Como se llamaban los dos hijos de Moises?",
+            "options": [
+                "Nadab y Abiu",
+                "Efrain y Manases",
+                "Gerson y Eliezer",
+                "Simeeon y Levi"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los dos hijos de Moises se llamaban Gerson (porque dijo: 'Forastero he sido en tierra extranjera') y Eliezer (porque dijo: 'El Dios de mi padre fue mi ayuda').",
+            "verse": "Exodo 18:3-4"
+        },
+        {
+            "question": "Que hizo Jetro despues de oir todo lo que Dios habia hecho por Israel?",
+            "options": [
+                "Se fue enojado a su tierra",
+                "Se alegro y dijo: 'Bendito sea el Senor', y ofrecio holocaustos y sacrificios a Dios",
+                "Pidio que lo llevaran a Egipto",
+                "Lloro de tristeza por los egipcios"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jetro se alegro por todo el bien que el Senor habia hecho a Israel. Dijo: 'Bendito sea el Senor.' Y tomo holocaustos y sacrificios para Dios.",
+            "verse": "Exodo 18:9-12"
+        },
+        {
+            "question": "Que problema observo Jetro en la manera en que Moises gobernaba al pueblo?",
+            "options": [
+                "Que Moises no oraba lo suficiente",
+                "Que el pueblo no obedecia a Moises",
+                "Que Moises juzgaba al pueblo solo, desde la manana hasta la tarde, y se cansaria",
+                "Que Aaron queria tomar el liderazgo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jetro vio que Moises se sentaba a juzgar al pueblo y el pueblo estaba delante de el desde la manana hasta la tarde. Le dijo: 'Desfalleceras del todo, tanto tu como este pueblo; porque el trabajo es demasiado pesado para ti.'",
+            "verse": "Exodo 18:13-18"
+        },
+        {
+            "question": "Que consejo le dio Jetro a Moises para resolver el problema?",
+            "options": [
+                "Que dejara el liderazgo en manos de Aaron",
+                "Que escogiera hombres capaces y los pusiera como jefes sobre el pueblo para juzgar asuntos menores",
+                "Que solo atendiera casos los dias de reposo",
+                "Que construyera un tribunal permanente"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jetro aconsejo a Moises que escogiera de entre el pueblo hombres capaces, temerosos de Dios, hombres de verdad que aborrezcan las ganancias deshonestas, y los pusiera como jefes de miles, de cientos, de cincuenta y de diez.",
+            "verse": "Exodo 18:21-22"
+        },
+        {
+            "question": "Que tipo de asuntos debia seguir juzgando Moises personalmente?",
+            "options": [
+                "Todos los asuntos sin excepcion",
+                "Solo los asuntos de las mujeres",
+                "Los asuntos graves y dificiles",
+                "Solo los asuntos del sacerdocio"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los jueces designados juzgarian todo asunto menor, pero todo asunto grave lo traierian a Moises para que el lo juzgara.",
+            "verse": "Exodo 18:22"
+        }
+    ]
+}

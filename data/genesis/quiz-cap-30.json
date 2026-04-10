@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 30",
+    "book": "Genesis",
+    "chapter": 30,
+    "questions": [
+        {
+            "question": "Que le pidio Raquel a Jacob cuando vio que no le daba hijos?",
+            "options": [
+                "Que orara por ella",
+                "Que la dejara ir a su padre",
+                "Dame hijos, porque si no, me muero",
+                "Que tomara otra esposa"
+            ],
+            "correctIndex": 2,
+            "explanation": "Raquel, al ver que no le daba hijos a Jacob, tuvo envidia de su hermana y le dijo a Jacob: 'Dame hijos, porque si no, me muero.'",
+            "verse": "Genesis 30:1"
+        },
+        {
+            "question": "Que hizo Raquel para tener hijos a traves de otra mujer?",
+            "options": [
+                "Le pidio a Lea que le diera uno de sus hijos",
+                "Le dio a Jacob su sierva Bilha para que tuviera hijos en su nombre",
+                "Adopto un nino del pueblo",
+                "Le pidio a Laban que orara por ella"
+            ],
+            "correctIndex": 1,
+            "explanation": "Raquel dijo: 'Aqui esta mi sierva Bilha; llegale a ella para que de a luz sobre mis rodillas, y por medio de ella yo tambien tendre hijos.' Y le dio a su sierva Bilha por mujer.",
+            "verse": "Genesis 30:3-4"
+        },
+        {
+            "question": "Como se llamaron los dos hijos que Bilha, sierva de Raquel, le dio a Jacob?",
+            "options": [
+                "Ruben y Simeon",
+                "Gad y Aser",
+                "Dan y Neftali",
+                "Isacar y Zabulon"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bilha concibio y dio a luz un hijo a Jacob, y Raquel lo llamo Dan. Luego Bilha concibio otra vez y dio a luz un segundo hijo, y Raquel lo llamo Neftali.",
+            "verse": "Genesis 30:5-8"
+        },
+        {
+            "question": "Que sierva dio Lea a Jacob como mujer, y como se llamaron sus hijos?",
+            "options": [
+                "Bilha, y sus hijos fueron Dan y Neftali",
+                "Zilpa, y sus hijos fueron Gad y Aser",
+                "Debora, y sus hijos fueron Jose y Benjamin",
+                "Agar, y su hijo fue Ismael"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando Lea vio que habia dejado de dar a luz, tomo a Zilpa, su sierva, y se la dio a Jacob por mujer. Zilpa dio a luz a Gad y luego a Aser.",
+            "verse": "Genesis 30:9-13"
+        },
+        {
+            "question": "Que encontro Ruben en el campo durante la siega del trigo y le llevo a su madre Lea?",
+            "options": [
+                "Un cordero perdido",
+                "Mandragoras",
+                "Espigas de oro",
+                "Un manantial de agua"
+            ],
+            "correctIndex": 1,
+            "explanation": "Ruben fue en los dias de la siega del trigo y hallo mandragoras en el campo, y se las llevo a su madre Lea.",
+            "verse": "Genesis 30:14"
+        },
+        {
+            "question": "Como se llamo el primer hijo propio de Raquel, y que dijo ella al nombrarlo?",
+            "options": [
+                "Benjamin, y dijo: 'Hijo de mi mano derecha'",
+                "Dan, y dijo: 'Dios me ha hecho justicia'",
+                "Jose, y dijo: 'Dios ha quitado mi afrenta', y pidio que el Senor le anadiera otro hijo",
+                "Juda, y dijo: 'Esta vez alabare al Senor'"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios se acordo de Raquel, y ella concibio y dio a luz un hijo, y dijo: 'Dios ha quitado mi afrenta.' Y lo llamo Jose, diciendo: 'Anadame el Senor otro hijo.'",
+            "verse": "Genesis 30:22-24"
+        },
+        {
+            "question": "Que estrategia uso Jacob con las varas peladas junto a los abrevaderos para aumentar sus rebanos?",
+            "options": [
+                "Puso veneno en el agua para matar el ganado de Laban",
+                "Puso varas de alamo, avellano y castano peladas con rayas blancas frente a los rebanos cuando se apareaban, y los animales parian crias listadas y manchadas",
+                "Robo el ganado de Laban por la noche",
+                "Uso hierbas especiales para alimentar a las ovejas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob tomo varas verdes de alamo, avellano y castano, les pelo rayas blancas y las puso en los abrevaderos frente a los rebanos cuando venian a beber y se apareaban, y las crias nacian listadas, pintadas y manchadas.",
+            "verse": "Genesis 30:37-39"
+        }
+    ]
+}

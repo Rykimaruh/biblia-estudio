@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 28",
+    "book": "Exodo",
+    "chapter": 28,
+    "questions": [
+        {
+            "question": "Segun Exodo 28:1, a quienes separo Dios para servir como sacerdotes?",
+            "options": [
+                "A Moises y sus hijos",
+                "A Aaron, Nadab, Abihu, Eleazar e Itamar",
+                "A los primogenitos de cada tribu",
+                "A los setenta ancianos de Israel"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios ordeno que Aaron y sus hijos Nadab, Abihu, Eleazar e Itamar fueran apartados de entre los hijos de Israel para servir como sacerdotes.",
+            "verse": "Exodo 28:1"
+        },
+        {
+            "question": "Para que proposito debian hacerse las vestiduras sagradas de Aaron?",
+            "options": [
+                "Para proteccion en la batalla",
+                "Para gloria y hermosura",
+                "Para distinguirlo como lider politico",
+                "Para uso diario en el campamento"
+            ],
+            "correctIndex": 1,
+            "explanation": "Las vestiduras sagradas de Aaron debian hacerse para gloria y hermosura.",
+            "verse": "Exodo 28:2"
+        },
+        {
+            "question": "Cuantas piedras preciosas tenia el pectoral del juicio y que representaban?",
+            "options": [
+                "Siete piedras, representando los dias de la creacion",
+                "Diez piedras, representando los mandamientos",
+                "Doce piedras, representando las doce tribus de Israel",
+                "Dos piedras, representando las tablas de la ley"
+            ],
+            "correctIndex": 2,
+            "explanation": "El pectoral tenia doce piedras preciosas, con los nombres de los hijos de Israel grabados en ellas, una por cada tribu.",
+            "verse": "Exodo 28:17-21"
+        },
+        {
+            "question": "Que debian ponerse en el pectoral del juicio segun Exodo 28:30?",
+            "options": [
+                "Dos piedras de onice",
+                "El Urim y el Tumim",
+                "Una placa de oro con el nombre de Dios",
+                "Doce campanas de oro"
+            ],
+            "correctIndex": 1,
+            "explanation": "En el pectoral del juicio debian ponerse el Urim y el Tumim, y estarian sobre el corazon de Aaron cuando entrara delante del Senor.",
+            "verse": "Exodo 28:30"
+        },
+        {
+            "question": "Que se alternaba en el borde inferior del manto del efod?",
+            "options": [
+                "Flores de oro y borlas de lino",
+                "Granadas de material azul, purpura y escarlata, y campanillas de oro",
+                "Piedras preciosas y borlas de seda",
+                "Estrellas de plata y lunas de oro"
+            ],
+            "correctIndex": 1,
+            "explanation": "En el borde del manto del efod se alternaban granadas de material azul, purpura y escarlata, con campanillas de oro entre ellas.",
+            "verse": "Exodo 28:33-34"
+        },
+        {
+            "question": "Que inscripcion debia llevar la lamina de oro puro colocada sobre la mitra de Aaron?",
+            "options": [
+                "Siervo de Dios",
+                "Santo al Senor",
+                "Sacerdote del Altisimo",
+                "Consagrado a Jehova"
+            ],
+            "correctIndex": 1,
+            "explanation": "En la lamina de oro puro debian grabar: 'Santidad al Senor' o 'Santo al Senor', y estaria sobre la frente de Aaron.",
+            "verse": "Exodo 28:36"
+        },
+        {
+            "question": "Sobre que piedras se grabaron los nombres de los doce hijos de Israel que iban sobre las hombreras del efod?",
+            "options": [
+                "Dos piedras de rubi",
+                "Dos piedras de onice",
+                "Dos piedras de zafiro",
+                "Dos piedras de esmeralda"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los nombres de los hijos de Israel debian grabarse en dos piedras de onice, seis nombres en una piedra y seis en la otra, colocadas sobre las hombreras del efod.",
+            "verse": "Exodo 28:9-12"
+        }
+    ]
+}

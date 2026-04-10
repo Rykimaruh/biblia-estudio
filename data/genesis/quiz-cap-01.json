@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 1",
+    "book": "Genesis",
+    "chapter": 1,
+    "questions": [
+        {
+            "question": "Segun Genesis 1:1, que creo Dios en el principio?",
+            "options": [
+                "Los angeles y los cielos",
+                "Los cielos y la tierra",
+                "La luz y las tinieblas",
+                "El hombre y la mujer"
+            ],
+            "correctIndex": 1,
+            "explanation": "Genesis 1:1 dice: 'En el principio creo Dios los cielos y la tierra.'",
+            "verse": "Genesis 1:1"
+        },
+        {
+            "question": "Que fue lo primero que Dios creo al decir 'Sea'?",
+            "options": [
+                "El firmamento",
+                "Los animales",
+                "La luz",
+                "Las aguas"
+            ],
+            "correctIndex": 2,
+            "explanation": "En Genesis 1:3, Dios dijo: 'Sea la luz', y fue la luz. Este fue el primer acto creativo por medio de la palabra hablada.",
+            "verse": "Genesis 1:3"
+        },
+        {
+            "question": "En que dia creo Dios las lumbreras en el firmamento del cielo, incluyendo el sol y la luna?",
+            "options": [
+                "Dia primero",
+                "Dia segundo",
+                "Dia tercero",
+                "Dia cuarto"
+            ],
+            "correctIndex": 3,
+            "explanation": "En el dia cuarto, Dios hizo las dos grandes lumbreras: la mayor para gobernar el dia y la menor para gobernar la noche, y tambien las estrellas.",
+            "verse": "Genesis 1:14-19"
+        },
+        {
+            "question": "Que creo Dios en el quinto dia?",
+            "options": [
+                "La vegetacion y los arboles frutales",
+                "Los grandes monstruos marinos, los seres vivientes del agua y las aves",
+                "Los animales terrestres y al hombre",
+                "El firmamento y la expansion de las aguas"
+            ],
+            "correctIndex": 1,
+            "explanation": "En el quinto dia, Dios creo los grandes monstruos marinos, todo ser viviente que se mueve en las aguas, y toda ave segun su especie.",
+            "verse": "Genesis 1:20-23"
+        },
+        {
+            "question": "Segun Genesis 1:27, como creo Dios al hombre?",
+            "options": [
+                "A semejanza de los angeles",
+                "Del polvo de la tierra",
+                "A imagen de Dios lo creo; varon y hembra los creo",
+                "De las aguas y del barro"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genesis 1:27 declara: 'Creo, pues, Dios al hombre a imagen suya, a imagen de Dios lo creo; varon y hembra los creo.'",
+            "verse": "Genesis 1:27"
+        },
+        {
+            "question": "Que les dio Dios al hombre y a la mujer como alimento segun este capitulo?",
+            "options": [
+                "Los animales del campo",
+                "Los peces del mar",
+                "Toda planta que da semilla y todo arbol con fruto que da semilla",
+                "Solo los frutos del huerto del Eden"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios les dio toda planta que da semilla que hay en la superficie de la tierra, y todo arbol que tiene fruto que da semilla como alimento.",
+            "verse": "Genesis 1:29"
+        },
+        {
+            "question": "Que hizo Dios en el septimo dia despues de completar Su obra de creacion?",
+            "options": [
+                "Creo mas animales",
+                "Hablo con Adan",
+                "Reposo de toda la obra que habia hecho",
+                "Planto el huerto del Eden"
+            ],
+            "correctIndex": 2,
+            "explanation": "Aunque Genesis 2:2-3 detalla el reposo, Genesis 1:31-2:1 establece que Dios termino toda su obra. En el septimo dia, Dios reposo de toda la obra que habia hecho.",
+            "verse": "Genesis 1:31"
+        }
+    ]
+}

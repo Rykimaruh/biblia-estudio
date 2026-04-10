@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 17",
+    "book": "Genesis",
+    "chapter": 17,
+    "questions": [
+        {
+            "question": "Que edad tenia Abram cuando Dios se le aparecio y establecio el pacto de la circuncision?",
+            "options": [
+                "Ochenta y seis anos",
+                "Noventa anos",
+                "Noventa y nueve anos",
+                "Cien anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genesis 17:1 dice: 'Cuando Abram tenia noventa y nueve anos, el Senor se le aparecio y le dijo: Yo soy el Dios Todopoderoso; anda delante de mi y se perfecto.'",
+            "verse": "Genesis 17:1"
+        },
+        {
+            "question": "Que nuevo nombre le dio Dios a Abram y que significa?",
+            "options": [
+                "Israel, que significa 'el que lucha con Dios'",
+                "Abraham, que significa 'padre de multitud de naciones'",
+                "Daniel, que significa 'Dios es mi juez'",
+                "Samuel, que significa 'Dios ha escuchado'"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo: 'No sera satisfactoriamente tu nombre Abram, sino que tu nombre sera Abraham; porque yo te he hecho padre de multitud de naciones.'",
+            "verse": "Genesis 17:5"
+        },
+        {
+            "question": "Cual fue la senal del pacto entre Dios y Abraham?",
+            "options": [
+                "Un altar de piedras",
+                "Un arco iris en el cielo",
+                "La circuncision de todo varon",
+                "Una ofrenda de animales"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo: 'Sera circuncidado todo varon de entre vosotros... y sera la senal del pacto entre yo y vosotros.'",
+            "verse": "Genesis 17:10-11"
+        },
+        {
+            "question": "A que edad debia ser circuncidado cada nino varon?",
+            "options": [
+                "Al nacer",
+                "A los ocho dias de nacido",
+                "Al primer mes",
+                "Al primer ano"
+            ],
+            "correctIndex": 1,
+            "explanation": "Genesis 17:12 dice: 'A la edad de ocho dias sera circuncidado entre vosotros todo varon por vuestras generaciones.'",
+            "verse": "Genesis 17:12"
+        },
+        {
+            "question": "Que nuevo nombre le dio Dios a Sarai?",
+            "options": [
+                "Rebeca",
+                "Sara",
+                "Raquel",
+                "Lea"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo a Abraham: 'A Sarai tu mujer, no la llamaras Sarai, sino que Sara sera su nombre.'",
+            "verse": "Genesis 17:15"
+        },
+        {
+            "question": "Cual fue la reaccion de Abraham cuando Dios le dijo que Sara tendria un hijo?",
+            "options": [
+                "Lloro de alegria",
+                "Se enojo con Dios",
+                "Se postro sobre su rostro y se rio",
+                "Se quedo en silencio"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham se postro sobre su rostro, y se rio, y dijo en su corazon: 'A un hombre de cien anos le nacera un hijo? Y Sara, que tiene noventa anos, concebira?'",
+            "verse": "Genesis 17:17"
+        },
+        {
+            "question": "Que edad tenia Ismael cuando fue circuncidado?",
+            "options": [
+                "Ocho dias",
+                "Un ano",
+                "Diez anos",
+                "Trece anos"
+            ],
+            "correctIndex": 3,
+            "explanation": "Genesis 17:25 dice que Ismael tenia trece anos cuando fue circuncidado.",
+            "verse": "Genesis 17:25"
+        }
+    ]
+}

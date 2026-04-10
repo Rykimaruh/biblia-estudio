@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 13",
+    "book": "Exodo",
+    "chapter": 13,
+    "questions": [
+        {
+            "question": "Que ordeno el Senor que se le consagrara en Exodo 13:2?",
+            "options": [
+                "Todo el ganado de Israel",
+                "Todo primogenito, tanto de hombres como de animales",
+                "Todos los sacerdotes levitas",
+                "Todas las primicias de la cosecha"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor dijo: 'Consagrad a mi todo primogenito; todo el que abre la matriz entre los hijos de Israel, tanto de hombres como de animales, es mio.'",
+            "verse": "Exodo 13:2"
+        },
+        {
+            "question": "Que debian recordar los israelitas segun Exodo 13:3?",
+            "options": [
+                "El dia en que Abraham recibio la promesa",
+                "El dia en que salieron de Egipto, de la casa de servidumbre",
+                "El dia en que Jose fue vendido como esclavo",
+                "El dia en que Moises nacio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises dijo al pueblo: 'Acordaos de este dia en que salisteis de Egipto, de la casa de servidumbre; porque el Senor os saco de este lugar con mano poderosa.'",
+            "verse": "Exodo 13:3"
+        },
+        {
+            "question": "Por que Dios no llevo al pueblo por el camino de la tierra de los filisteos, aunque era mas corto?",
+            "options": [
+                "Porque habia una gran sequia en esa ruta",
+                "Porque no quiso que el pueblo viera guerra y regresara a Egipto",
+                "Porque los filisteos eran aliados de Faraon",
+                "Porque ese camino estaba destruido"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios penso que el pueblo podria cambiar de parecer al ver la guerra y regresar a Egipto, asi que los llevo por el camino del desierto junto al Mar Rojo.",
+            "verse": "Exodo 13:17"
+        },
+        {
+            "question": "Que llevaron los israelitas consigo al salir de Egipto, cumpliendo un juramento antiguo?",
+            "options": [
+                "El arca del pacto de Abraham",
+                "Los huesos de Jose",
+                "Las tablas de la ley",
+                "El baculo de Jacob"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises tomo consigo los huesos de Jose, porque Jose habia hecho jurar a los hijos de Israel diciendo: 'Dios ciertamente os visitara, y llevareis mis huesos de aqui con vosotros.'",
+            "verse": "Exodo 13:19"
+        },
+        {
+            "question": "Como guiaba el Senor al pueblo durante el dia?",
+            "options": [
+                "Con una estrella brillante",
+                "Con un angel visible",
+                "Con una columna de nube",
+                "Con un fuerte viento"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor iba delante de ellos, de dia en una columna de nube para guiarlos por el camino.",
+            "verse": "Exodo 13:21"
+        },
+        {
+            "question": "Como guiaba el Senor al pueblo durante la noche?",
+            "options": [
+                "Con la luz de la luna llena",
+                "Con una columna de fuego para alumbrarlos",
+                "Con el sonido de trompetas",
+                "Con un rio de luz en el cielo"
+            ],
+            "correctIndex": 1,
+            "explanation": "De noche los guiaba en una columna de fuego para alumbrarlos, a fin de que pudieran caminar de dia y de noche.",
+            "verse": "Exodo 13:21"
+        },
+        {
+            "question": "Que dice Exodo 13:22 acerca de la columna de nube y la columna de fuego?",
+            "options": [
+                "Aparecian solo cuando el pueblo oraba",
+                "Nunca se apartaron de delante del pueblo",
+                "Solo aparecian los dias de reposo",
+                "Se alternaban cada semana"
+            ],
+            "correctIndex": 1,
+            "explanation": "No se aparto de delante del pueblo la columna de nube durante el dia, ni la columna de fuego durante la noche.",
+            "verse": "Exodo 13:22"
+        }
+    ]
+}

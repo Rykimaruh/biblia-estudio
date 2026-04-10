@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 3",
+    "book": "Exodo",
+    "chapter": 3,
+    "questions": [
+        {
+            "question": "Que estaba haciendo Moises cuando vio la zarza ardiente?",
+            "options": [
+                "Orando en el desierto",
+                "Apacentando el rebano de su suegro Jetro",
+                "Buscando agua en el monte",
+                "Viajando de regreso a Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises estaba apacentando el rebano de Jetro, su suegro, sacerdote de Madian, y llevo el rebano al lado occidental del desierto hasta Horeb, el monte de Dios.",
+            "verse": "Exodo 3:1"
+        },
+        {
+            "question": "Que tenia de especial la zarza que Moises vio en el monte Horeb?",
+            "options": [
+                "Brillaba con luz dorada",
+                "Tenia frutos milagrosos",
+                "Ardia en fuego pero no se consumia",
+                "Crecio de la nada ante sus ojos"
+            ],
+            "correctIndex": 2,
+            "explanation": "El angel del Senor se le aparecio en una llama de fuego en medio de una zarza, y Moises vio que la zarza ardia en fuego pero no se consumia.",
+            "verse": "Exodo 3:2"
+        },
+        {
+            "question": "Que le ordeno Dios a Moises que hiciera cuando se acerco a la zarza?",
+            "options": [
+                "Que se arrodillara y orara",
+                "Que quitara las sandalias de sus pies porque el lugar era tierra santa",
+                "Que cubriera su rostro con un velo",
+                "Que ofreciera un sacrificio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo: 'No te acerques aqui; quitate las sandalias de los pies, porque el lugar donde estas parado es tierra santa.'",
+            "verse": "Exodo 3:5"
+        },
+        {
+            "question": "Cual fue el nombre con el que Dios se identifico ante Moises?",
+            "options": [
+                "El Todopoderoso",
+                "El Senor de los ejercitos",
+                "YO SOY EL QUE SOY",
+                "El Dios Altisimo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios respondio a Moises: 'YO SOY EL QUE SOY.' Y anadio: 'Asi diras a los hijos de Israel: YO SOY me ha enviado a vosotros.'",
+            "verse": "Exodo 3:14"
+        },
+        {
+            "question": "A que tierra prometio Dios llevar a los israelitas sacandolos de Egipto?",
+            "options": [
+                "A una tierra grande y buena, que mana leche y miel",
+                "Al desierto de Sinai para siempre",
+                "A la tierra de Madian",
+                "De regreso a Mesopotamia"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dios prometio sacarlos a una tierra buena y espaciosa, a una tierra que mana leche y miel, la tierra de los cananeos, heteos, amorreos, ferezeos, heveos y jebuseos.",
+            "verse": "Exodo 3:8"
+        },
+        {
+            "question": "Que debian pedir las mujeres israelitas a sus vecinas egipcias antes de salir de Egipto?",
+            "options": [
+                "Alimentos y agua para el viaje",
+                "Objetos de plata, objetos de oro y vestidos",
+                "Camellos y burros para el transporte",
+                "Permiso para salir del pais"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo que cada mujer pediria a su vecina objetos de plata, objetos de oro y vestidos, y asi despojarian a los egipcios.",
+            "verse": "Exodo 3:22"
+        },
+        {
+            "question": "Que dijo Dios que haria Faraon cuando Moises le pidiera dejar salir al pueblo?",
+            "options": [
+                "Los dejaria ir inmediatamente",
+                "Se entristeceria pero los dejaria ir",
+                "No los dejaria ir sino obligado por una mano fuerte",
+                "Los perseguiria hasta el desierto"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le dijo a Moises que el rey de Egipto no los dejaria ir sino obligado por una mano poderosa.",
+            "verse": "Exodo 3:19"
+        }
+    ]
+}

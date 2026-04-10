@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblia Estudio Interactivo</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header id="site-header"></header>
+
+    <main>
+        <h2>Bienvenido</h2>
+        <p class="intro-text">
+            Explora la Biblia libro por libro con resumenes de cada capitulo,
+            crucigramas tematicos y cuestionarios de seleccion multiple.
+            Todo el contenido esta basado en la Santa Biblia de las Americas (LBLA).
+        </p>
+
+        <h2 style="margin-top: 2rem;">Libros de la Biblia</h2>
+
+        <div id="books-container"></div>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script src="js/admin.js"></script>
+    <script src="js/layout.js"></script>
+    <script>
+    fetch('data/books.json')
+        .then(r => r.json())
+        .then(books => {
+            const container = document.getElementById('books-container');
+            const antiguo = books.filter(b => b.testament === 'antiguo');
+            const nuevo = books.filter(b => b.testament === 'nuevo');
+
+            function renderGroup(title, bookList) {
+                let html = `<h3 class="testament-header">${title}</h3>`;
+                html += '<div class="card-grid">';
+
+                for (const b of bookList) {
+                    const isActive = b.status === 'active';
+                    const badgeClass = isActive ? 'badge-active' : 'badge-soon';
+                    const badgeText = isActive ? 'Disponible' : 'Proximamente';
+                    const cardClass = isActive ? 'card' : 'card disabled';
+                    const href = isActive ? `${b.slug}/` : '#';
+                    const onclick = isActive ? '' : 'onclick="return false"';
+
+                    html += `
+                        <a class="${cardClass}" href="${href}" ${onclick}>
+                            <h3>${b.name}</h3>
+                            <p>${b.chapters} capitulos</p>
+                            <span class="badge ${badgeClass}">${badgeText}</span>
+                        </a>
+                    `;
+                }
+                html += '</div>';
+                return html;
+            }
+
+            container.innerHTML = renderGroup('Antiguo Testamento', antiguo) + renderGroup('Nuevo Testamento', nuevo);
+        })
+        .catch(err => {
+            console.error('Error loading books:', err);
+            document.getElementById('books-container').innerHTML = '<p>Error cargando los libros. Intente recargar la pagina.</p>';
+        });
+    </script>
+</body>
+</html>

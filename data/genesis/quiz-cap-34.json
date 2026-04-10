@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 34",
+    "book": "Genesis",
+    "chapter": 34,
+    "questions": [
+        {
+            "question": "Quien era Dina y que le sucedio cuando salio a visitar a las mujeres de la tierra?",
+            "options": [
+                "Era hija de Raquel; se perdio en el camino",
+                "Era hija de Lea; Siquem hijo de Hamor la vio, la tomo y la deshonro",
+                "Era sierva de Jacob; fue capturada por los cananeos",
+                "Era hija de Bilha; fue vendida como esclava"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dina, hija de Lea que esta habia dado a luz a Jacob, salio a visitar a las hijas de la tierra, y Siquem hijo de Hamor heveo la vio, la tomo y la deshonro.",
+            "verse": "Genesis 34:1-2"
+        },
+        {
+            "question": "Que pidio Siquem a su padre Hamor despues de lo que le hizo a Dina?",
+            "options": [
+                "Que le permitiera huir de la ciudad",
+                "Que le consiguiera a esta joven por mujer",
+                "Que hiciera la guerra contra Jacob",
+                "Que le diera mas tierras"
+            ],
+            "correctIndex": 1,
+            "explanation": "Siquem hablo a su padre Hamor diciendo: 'Tomame a esta joven por mujer', porque se habia enamorado de ella.",
+            "verse": "Genesis 34:4"
+        },
+        {
+            "question": "Que condicion pusieron los hijos de Jacob con engano para aceptar el matrimonio con Siquem?",
+            "options": [
+                "Que Siquem pagara una dote de cien monedas de plata",
+                "Que todos los varones de la ciudad se circuncidaran",
+                "Que Hamor les diera la mitad de sus tierras",
+                "Que Siquem trabajara siete anos para Jacob"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hijos de Jacob respondieron con engano y les dijeron que solo podian consentir si todos los varones de la ciudad se circuncidaban.",
+            "verse": "Genesis 34:13-15"
+        },
+        {
+            "question": "Que hicieron Simeon y Levi al tercer dia despues de que los hombres de Siquem se circuncidaron?",
+            "options": [
+                "Hicieron un pacto de paz con ellos",
+                "Huyeron con Dina en secreto",
+                "Tomaron cada uno su espada, atacaron la ciudad y mataron a todos los varones",
+                "Pidieron mas regalos a Hamor"
+            ],
+            "correctIndex": 2,
+            "explanation": "Al tercer dia, cuando los hombres estaban adoloridos, Simeon y Levi tomaron cada uno su espada, vinieron contra la ciudad sin ser estorbados y mataron a todos los varones.",
+            "verse": "Genesis 34:25"
+        },
+        {
+            "question": "Que parentesco tenian Simeon y Levi con Dina?",
+            "options": [
+                "Eran sus primos",
+                "Eran hijos de Raquel",
+                "Eran hermanos de Dina, hijos de Lea",
+                "Eran hijos de Bilha"
+            ],
+            "correctIndex": 2,
+            "explanation": "Simeon y Levi eran hermanos de Dina, ya que los tres eran hijos de Lea.",
+            "verse": "Genesis 34:25"
+        },
+        {
+            "question": "Que le dijo Jacob a Simeon y Levi despues de la matanza?",
+            "options": [
+                "Que estaba orgulloso de su valentía",
+                "Que me habeis perturbado haciendome odioso entre los habitantes de la tierra",
+                "Que debian conquistar mas ciudades",
+                "Que debia ofrecer sacrificios para expiar su pecado"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob les dijo: 'Me habeis perturbado haciendome odioso entre los habitantes de la tierra', temiendo que se juntaran contra el y lo destruyeran.",
+            "verse": "Genesis 34:30"
+        },
+        {
+            "question": "Que respondieron Simeon y Levi cuando Jacob los reprendio?",
+            "options": [
+                "Pidieron perdon por lo que habian hecho",
+                "Dijeron que Dios les habia ordenado hacerlo",
+                "Preguntaron: 'Habia el de tratar a nuestra hermana como a una ramera?'",
+                "Prometieron no volver a hacerlo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Simeon y Levi respondieron: 'Habia el de tratar a nuestra hermana como a una ramera?', justificando asi su accion violenta.",
+            "verse": "Genesis 34:31"
+        }
+    ]
+}

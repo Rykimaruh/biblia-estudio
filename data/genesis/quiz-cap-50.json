@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 50",
+    "book": "Genesis",
+    "chapter": 50,
+    "questions": [
+        {
+            "question": "Que hizo Jose inmediatamente despues de la muerte de su padre Jacob?",
+            "options": [
+                "Organizo el viaje a Canaan de inmediato",
+                "Se echo sobre el rostro de su padre, lloro sobre el y lo beso",
+                "Envio un mensaje al Faraon",
+                "Reunio a todos sus hermanos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose se echo sobre el rostro de su padre, lloro sobre el y lo beso tras su muerte.",
+            "verse": "Genesis 50:1"
+        },
+        {
+            "question": "Cuantos dias tomaron los egipcios para embalsamar a Jacob?",
+            "options": [
+                "Siete dias",
+                "Treinta dias",
+                "Cuarenta dias",
+                "Setenta dias"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose mando a los medicos que embalsamaran a su padre, y los medicos lo embalsamaron en cuarenta dias, que es el tiempo completo del embalsamamiento.",
+            "verse": "Genesis 50:2-3"
+        },
+        {
+            "question": "Cuantos dias lloraron los egipcios a Jacob?",
+            "options": [
+                "Treinta dias",
+                "Cuarenta dias",
+                "Sesenta dias",
+                "Setenta dias"
+            ],
+            "correctIndex": 3,
+            "explanation": "Los egipcios lloraron a Jacob setenta dias, lo cual demuestra el gran honor que le dieron por ser padre de Jose.",
+            "verse": "Genesis 50:3"
+        },
+        {
+            "question": "Que temian los hermanos de Jose despues de la muerte de su padre?",
+            "options": [
+                "Que el Faraon los expulsaria de Egipto",
+                "Que Jose les guardaria rencor y se vengaria por haberlo vendido",
+                "Que perderian sus tierras en Goshen",
+                "Que tendrian que regresar a Canaan sin provisiones"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hermanos temieron que Jose les guardara rencor y les devolviera todo el mal que le habian hecho.",
+            "verse": "Genesis 50:15"
+        },
+        {
+            "question": "Que frase celebre dijo Jose a sus hermanos para consolarlos?",
+            "options": [
+                "Lo pasado, pasado esta",
+                "Vosotros pensasteis hacerme mal, pero Dios lo encamino a bien para preservar a mucho pueblo con vida",
+                "Yo soy vuestro hermano y nada malo les hare",
+                "Dios castiga a los malvados, pero a vosotros os ha perdonado"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose les dijo: 'Vosotros pensasteis hacerme mal, pero Dios lo encamino a bien, para hacer lo que hoy vemos, a fin de preservar la vida de mucho pueblo.'",
+            "verse": "Genesis 50:20"
+        },
+        {
+            "question": "Que edad tenia Jose cuando murio?",
+            "options": [
+                "Cien anos",
+                "Ciento diez anos",
+                "Ciento veinte anos",
+                "Ciento treinta anos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose murio a la edad de ciento diez anos.",
+            "verse": "Genesis 50:26"
+        },
+        {
+            "question": "Que pidio Jose a los hijos de Israel que hicieran con sus restos cuando Dios los visitara?",
+            "options": [
+                "Que lo sepultaran junto al Nilo",
+                "Que lo embalsamaran como a un faraon",
+                "Que llevaran sus huesos de Egipto a la tierra prometida",
+                "Que edificaran un monumento en su honor"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose hizo jurar a los hijos de Israel diciendo: 'Dios ciertamente os visitara, y entonces llevareis mis huesos de aqui.' Fue embalsamado y puesto en un ataud en Egipto.",
+            "verse": "Genesis 50:25-26"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 5",
+    "book": "Exodo",
+    "chapter": 5,
+    "questions": [
+        {
+            "question": "Que le pidieron Moises y Aaron a Faraon de parte del Senor?",
+            "options": [
+                "Que liberara a todos los esclavos",
+                "Que dejara ir a Su pueblo para celebrar una fiesta en el desierto",
+                "Que les pagara por su trabajo",
+                "Que les diera tierras en Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises y Aaron dijeron a Faraon: 'Asi dice el Senor, Dios de Israel: Deja ir a mi pueblo para que me celebre fiesta en el desierto.'",
+            "verse": "Exodo 5:1"
+        },
+        {
+            "question": "Cual fue la respuesta de Faraon cuando le pidieron que dejara ir al pueblo?",
+            "options": [
+                "Acepto dejarlos ir despues de tres dias",
+                "Dijo que no conocia al Senor y no dejaria ir a Israel",
+                "Pidio tiempo para pensarlo",
+                "Ofrecio dejar ir solo a las mujeres y ninos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon respondio: 'Quien es el Senor para que yo escuche su voz y deje ir a Israel? No conozco al Senor, y ademas no dejare ir a Israel.'",
+            "verse": "Exodo 5:2"
+        },
+        {
+            "question": "Que castigo impuso Faraon sobre los israelitas despues de la peticion de Moises?",
+            "options": [
+                "Los encarcelo a todos",
+                "Ordeno que ya no se les diera paja para hacer ladrillos pero debian producir la misma cantidad",
+                "Duplico las horas de trabajo",
+                "Los separo de sus familias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon ordeno que ya no se les diera paja para hacer ladrillos como antes, sino que ellos mismos la recogieran, pero la cuota de ladrillos seguia siendo la misma.",
+            "verse": "Exodo 5:7-8"
+        },
+        {
+            "question": "Que razon dio Faraon por la que los israelitas pedian ir al desierto?",
+            "options": [
+                "Porque querian rebelarse",
+                "Porque eran ociosos y por eso decian 'Vamos a ofrecer sacrificios'",
+                "Porque querian escapar para siempre",
+                "Porque seguian a un lider falso"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon dijo que el pueblo estaba ocioso, y por eso clamaban diciendo: 'Vamos a ofrecer sacrificios a nuestro Dios.' Ordeno que el trabajo fuera mas pesado.",
+            "verse": "Exodo 5:8"
+        },
+        {
+            "question": "A quienes golpearon los capataces egipcios por no cumplir con la cuota de ladrillos?",
+            "options": [
+                "A Moises y Aaron",
+                "A los ancianos de Israel",
+                "A los jefes de cuadrilla de los hijos de Israel",
+                "A las mujeres y ninos hebreos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los jefes de cuadrilla de los hijos de Israel, que los capataces de Faraon habian puesto sobre ellos, fueron golpeados por no cumplir la cuota de ladrillos.",
+            "verse": "Exodo 5:14"
+        },
+        {
+            "question": "Que les dijeron los jefes de cuadrilla israelitas a Moises y Aaron al salir de la presencia de Faraon?",
+            "options": [
+                "Que siguieran insistiendo ante Faraon",
+                "Que oraran a Dios por ayuda",
+                "Que el Senor los mirara y los juzgara, porque los habian hecho odiosos ante Faraon",
+                "Que huyeran al desierto"
+            ],
+            "correctIndex": 2,
+            "explanation": "Les dijeron: 'Que el Senor os mire y os juzgue, pues nos habeis hecho odiosos ante los ojos de Faraon y ante sus siervos, poniendoles una espada en la mano para que nos maten.'",
+            "verse": "Exodo 5:21"
+        },
+        {
+            "question": "Que hizo Moises despues de que el pueblo lo culpo por empeorar su situacion?",
+            "options": [
+                "Huyo de regreso a Madian",
+                "Se enojo con el pueblo",
+                "Volvio al Senor y le pregunto por que habia maltratado a este pueblo",
+                "Renuncio a su mision"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises volvio al Senor y dijo: 'Senor, por que has hecho mal a este pueblo? Por que me enviaste? Desde que fui a Faraon, el ha maltratado a este pueblo.'",
+            "verse": "Exodo 5:22-23"
+        }
+    ]
+}

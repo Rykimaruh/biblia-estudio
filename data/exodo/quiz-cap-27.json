@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 27",
+    "book": "Exodo",
+    "chapter": 27,
+    "questions": [
+        {
+            "question": "Segun Exodo 27:1, de que material debia construirse el altar del holocausto?",
+            "options": [
+                "Piedras sin labrar",
+                "Madera de acacia",
+                "Bronce puro",
+                "Madera de cedro"
+            ],
+            "correctIndex": 1,
+            "explanation": "El altar debia hacerse de madera de acacia, de cinco codos de largo, cinco de ancho (cuadrado) y tres codos de alto.",
+            "verse": "Exodo 27:1"
+        },
+        {
+            "question": "Cuales eran las dimensiones del altar del holocausto?",
+            "options": [
+                "Tres codos de largo, tres de ancho y dos de alto",
+                "Cinco codos de largo, cinco de ancho y tres de alto",
+                "Diez codos de largo, diez de ancho y cinco de alto",
+                "Siete codos de largo, siete de ancho y cuatro de alto"
+            ],
+            "correctIndex": 1,
+            "explanation": "El altar debia medir cinco codos de largo y cinco codos de ancho, siendo cuadrado, y su altura debia ser de tres codos.",
+            "verse": "Exodo 27:1"
+        },
+        {
+            "question": "De que material debian ser todos los utensilios del altar del holocausto?",
+            "options": [
+                "Oro puro",
+                "Plata",
+                "Bronce",
+                "Hierro"
+            ],
+            "correctIndex": 2,
+            "explanation": "Todos los utensilios del altar: calderos, paletas, tazones, garfios y braseros, debian hacerse de bronce.",
+            "verse": "Exodo 27:3"
+        },
+        {
+            "question": "Segun Exodo 27:9-13, cual era la longitud del atrio del tabernaculo en el lado sur?",
+            "options": [
+                "Cincuenta codos",
+                "Cien codos",
+                "Ciento cincuenta codos",
+                "Doscientos codos"
+            ],
+            "correctIndex": 1,
+            "explanation": "El atrio tenia cortinas de lino fino torcido de cien codos de longitud en el lado sur.",
+            "verse": "Exodo 27:9"
+        },
+        {
+            "question": "De que material debian ser las basas de las columnas del atrio?",
+            "options": [
+                "Oro",
+                "Plata",
+                "Bronce",
+                "Piedra"
+            ],
+            "correctIndex": 2,
+            "explanation": "Las basas de las columnas del atrio debian ser de bronce, mientras que los ganchos y las varillas de las columnas debian ser de plata.",
+            "verse": "Exodo 27:10"
+        },
+        {
+            "question": "Segun Exodo 27:20, que tipo de aceite debian traer los israelitas para la lampara?",
+            "options": [
+                "Aceite de mirra pura",
+                "Aceite puro de olivas machacadas",
+                "Aceite de balsamero",
+                "Aceite mezclado con especias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hijos de Israel debian traer aceite puro de olivas machacadas para el alumbrado, para hacer arder las lamparas continuamente.",
+            "verse": "Exodo 27:20"
+        },
+        {
+            "question": "Segun Exodo 27:21, donde debian mantener las lamparas encendidas y quienes eran responsables de esto?",
+            "options": [
+                "En el Lugar Santisimo, por Moises",
+                "En el atrio exterior, por los levitas",
+                "En la tienda de reunion fuera del velo, por Aaron y sus hijos",
+                "Sobre el altar del holocausto, por los ancianos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Aaron y sus hijos debian mantener las lamparas en orden desde la tarde hasta la manana delante del Senor, en la tienda de reunion, fuera del velo que esta delante del testimonio.",
+            "verse": "Exodo 27:21"
+        }
+    ]
+}

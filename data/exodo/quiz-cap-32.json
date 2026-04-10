@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 32",
+    "book": "Exodo",
+    "chapter": 32,
+    "questions": [
+        {
+            "question": "Que le pidio el pueblo a Aaron cuando vio que Moises tardaba en descender del monte?",
+            "options": [
+                "Que subiera al monte a buscar a Moises",
+                "Que les hiciera dioses que fueran delante de ellos",
+                "Que nombrara un nuevo lider",
+                "Que los llevara de regreso a Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "El pueblo le dijo a Aaron: 'Levantate, haznos un dios que vaya delante de nosotros; porque a ese Moises, el hombre que nos saco de la tierra de Egipto, no sabemos que le haya acontecido.'",
+            "verse": "Exodo 32:1"
+        },
+        {
+            "question": "Que les pidio Aaron al pueblo para hacer el idolo?",
+            "options": [
+                "Plata y bronce",
+                "Piedras preciosas",
+                "Los zarcillos de oro de sus mujeres, hijos e hijas",
+                "Las vestiduras finas de Egipto"
+            ],
+            "correctIndex": 2,
+            "explanation": "Aaron les dijo: 'Arrancad los zarcillos de oro que estan en las orejas de vuestras mujeres, de vuestros hijos y de vuestras hijas, y traedmelos.'",
+            "verse": "Exodo 32:2"
+        },
+        {
+            "question": "Que forma le dio Aaron al idolo que hizo con el oro del pueblo?",
+            "options": [
+                "Un aguila de oro",
+                "Un becerro de fundicion",
+                "Una serpiente de oro",
+                "Un toro alado"
+            ],
+            "correctIndex": 1,
+            "explanation": "Aaron tomo el oro de sus manos, lo labro con un buril e hizo un becerro de fundicion.",
+            "verse": "Exodo 32:4"
+        },
+        {
+            "question": "Que hizo Moises con las tablas del testimonio cuando vio al becerro y las danzas?",
+            "options": [
+                "Las escondio en su tienda",
+                "Las entrego a Josue",
+                "Las arrojo de sus manos y las quebro al pie del monte",
+                "Las devolvio a Dios en el monte"
+            ],
+            "correctIndex": 2,
+            "explanation": "La ira de Moises se encendio, y arrojo las tablas de sus manos y las hizo pedazos al pie del monte.",
+            "verse": "Exodo 32:19"
+        },
+        {
+            "question": "Que hizo Moises con el becerro de oro que habia hecho el pueblo?",
+            "options": [
+                "Lo enterro en el desierto",
+                "Lo quemo en el fuego, lo molio hasta hacerlo polvo, lo esparcio sobre las aguas y lo hizo beber al pueblo",
+                "Lo fundio y lo convirtio en utensilios del tabernaculo",
+                "Lo arrojo al mar"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises tomo el becerro que habian hecho, lo quemo en el fuego, lo molio hasta reducirlo a polvo, lo esparcio sobre la superficie del agua e hizo que los hijos de Israel lo bebieran.",
+            "verse": "Exodo 32:20"
+        },
+        {
+            "question": "Que tribu respondio al llamado de Moises diciendo 'Quien esta de parte del Senor?'",
+            "options": [
+                "La tribu de Juda",
+                "La tribu de Benjamin",
+                "La tribu de Levi",
+                "La tribu de Efrain"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cuando Moises dijo '!Quien este de parte del Senor, vengase a mi!', todos los hijos de Levi se juntaron con el.",
+            "verse": "Exodo 32:26"
+        },
+        {
+            "question": "Que le dijo Moises a Dios cuando intercedio por el pueblo despues del pecado del becerro?",
+            "options": [
+                "Que destruyera solo a Aaron",
+                "Que los perdonara, y si no, que lo borrara a el del libro que habia escrito",
+                "Que los llevara a otra tierra",
+                "Que enviara un angel para guiarlos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises dijo a Dios: 'Pero ahora, si es Tu voluntad, perdona su pecado, y si no, borrame del libro que has escrito.'",
+            "verse": "Exodo 32:32"
+        }
+    ]
+}

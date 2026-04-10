@@ -1,0 +1,479 @@
+/* ============================================
+   Biblia Estudio — Estilos Globales
+   Diseño accesible para personas mayores
+   ============================================ */
+
+:root {
+    --color-bg: #f8f3eb;
+    --color-text: #2a1a0a;
+    --color-heading: #3a2510;
+    --color-gold: #c8a44e;
+    --color-gold-dark: #b8943e;
+    --color-brown-dark: #2d1f14;
+    --color-brown: #4a3425;
+    --color-brown-light: #5c4a34;
+    --color-cream: #f0e6d3;
+    --color-cream-dark: #e8dcc8;
+    --color-border: #d4c8b4;
+    --color-card-bg: #fff;
+    --color-success: #28a745;
+    --color-success-light: #c8e6c9;
+    --color-danger: #d9534f;
+    --color-info: #4a90d9;
+    --color-muted: #888;
+    --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-heading: Georgia, 'Times New Roman', serif;
+    --max-width: 1300px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: var(--font-body);
+    background: var(--color-bg);
+    color: var(--color-text);
+    min-height: 100vh;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ---- Header ---- */
+header {
+    background: linear-gradient(135deg, var(--color-brown-dark), var(--color-brown));
+    color: var(--color-cream);
+    padding: 1.2rem 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+}
+header h1 {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-gold);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+header h1 a {
+    color: inherit;
+    text-decoration: none;
+}
+header .subtitle {
+    font-size: 1rem;
+    color: var(--color-cream-dark);
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+/* ---- Navigation ---- */
+nav { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+nav a {
+    color: var(--color-cream-dark);
+    text-decoration: none;
+    padding: 0.7rem 1.4rem;
+    border-radius: 6px;
+    transition: all 0.2s;
+    font-size: 1.15rem;
+    font-weight: 500;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+nav a:hover {
+    background: rgba(200,164,78,0.25);
+    color: #fff;
+    border-color: rgba(200,164,78,0.4);
+}
+nav a.active {
+    background: var(--color-gold);
+    color: var(--color-brown-dark);
+    font-weight: bold;
+    border-color: var(--color-gold);
+}
+
+/* ---- Main ---- */
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 1.5rem 2rem;
+}
+main > h2, .section-title {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: var(--color-heading);
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 3px solid var(--color-gold);
+}
+
+/* ---- Sections ---- */
+.section { display: none; }
+.section.active { display: block; }
+
+/* ---- Tabs ---- */
+.tabs { display: flex; gap: 0.6rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+.tab-btn {
+    padding: 0.8rem 1.6rem;
+    background: #e8dfd3;
+    border: 3px solid #b8a88e;
+    border-radius: 8px 8px 0 0;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #4a3a28;
+    transition: all 0.2s;
+    font-weight: 600;
+}
+.tab-btn:hover { background: #d4c8b4; border-color: #9a8a70; }
+.tab-btn.active {
+    background: #fff;
+    color: var(--color-brown-dark);
+    font-weight: bold;
+    border-color: var(--color-gold);
+    border-bottom-color: #fff;
+}
+
+/* ---- Cards ---- */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+.card {
+    background: var(--color-card-bg);
+    border-radius: 12px;
+    padding: 1.8rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border-left: 6px solid var(--color-gold);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    cursor: pointer;
+}
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+.card h3 {
+    font-family: var(--font-heading);
+    color: var(--color-heading);
+    margin-bottom: 0.6rem;
+    font-size: 1.4rem;
+}
+.card p {
+    font-size: 1.1rem;
+    color: var(--color-brown-light);
+    line-height: 1.6;
+}
+.card.disabled {
+    opacity: 0.5;
+    cursor: default;
+    border-left-color: #ccc;
+}
+.card.disabled:hover {
+    transform: none;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.card .badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.badge-active { background: var(--color-success-light); color: #1b5e20; }
+.badge-soon { background: #e0e0e0; color: #666; }
+
+/* ---- Intro / Instructions ---- */
+.intro-text {
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: #3a2a1a;
+    max-width: 750px;
+    margin-bottom: 1rem;
+}
+.instructions {
+    background: #fff;
+    border-radius: 10px;
+    padding: 1.3rem 1.8rem;
+    margin: 1.5rem 0;
+    border-left: 6px solid var(--color-info);
+    font-size: 1.1rem;
+    line-height: 1.7;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.instructions h3 {
+    color: var(--color-brown-dark);
+    margin-bottom: 0.6rem;
+    font-size: 1.3rem;
+}
+
+/* ---- Activity Icons ---- */
+.activity-icons {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.activity-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    color: var(--color-brown-light);
+    background: var(--color-bg);
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+}
+
+/* ---- Breadcrumb ---- */
+.breadcrumb {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    font-size: 1rem;
+    color: var(--color-muted);
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.breadcrumb a {
+    color: var(--color-info);
+    text-decoration: none;
+}
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb .sep { color: #ccc; }
+
+/* ---- Footer ---- */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    color: var(--color-muted);
+    font-size: 1rem;
+    margin-top: 2rem;
+    border-top: 2px solid var(--color-border);
+}
+
+/* ---- Hidden mobile input ---- */
+#mobile-input {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    border: none;
+    font-size: 16px;
+    z-index: -1;
+}
+
+/* ---- Testament Section Headers ---- */
+.testament-header {
+    font-family: var(--font-heading);
+    font-size: 1.6rem;
+    color: var(--color-brown);
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--color-border);
+}
+.testament-header:first-of-type { margin-top: 1rem; }
+
+/* ---- Section Links (Book Page Nav) ---- */
+.section-links {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.section-link-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: var(--color-card-bg);
+    border-radius: 12px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    border: 2px solid var(--color-border);
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    min-width: 180px;
+    flex: 1;
+}
+.section-link-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    border-color: var(--color-gold);
+}
+.section-link-icon {
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+}
+.section-link-label {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--color-heading);
+}
+.section-link-desc {
+    font-size: 0.95rem;
+    color: var(--color-muted);
+    margin-top: 0.3rem;
+}
+
+/* ---- Chapter Search Filter ---- */
+.chapter-filter {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.chapter-filter label {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--color-brown);
+    white-space: nowrap;
+}
+.chapter-filter input {
+    flex: 1;
+    max-width: 400px;
+    padding: 0.7rem 1rem;
+    font-size: 1.1rem;
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--color-card-bg);
+    color: var(--color-text);
+    transition: border-color 0.2s;
+}
+.chapter-filter input:focus {
+    outline: none;
+    border-color: var(--color-gold);
+    box-shadow: 0 0 0 3px rgba(200,164,78,0.2);
+}
+
+/* ---- Chapter Cards (Book Page) ---- */
+.chapters-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.chapter-card {
+    background: var(--color-card-bg);
+    border-radius: 10px;
+    padding: 1.2rem 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    border-left: 5px solid var(--color-gold);
+    transition: box-shadow 0.2s;
+}
+.chapter-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+.chapter-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+.chapter-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    min-width: 42px;
+    background: linear-gradient(135deg, var(--color-gold), var(--color-gold-dark));
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+.chapter-title {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: var(--color-heading);
+    margin: 0;
+}
+.chapter-summary {
+    font-size: 1.05rem;
+    color: var(--color-brown-light);
+    line-height: 1.6;
+    margin-bottom: 0.6rem;
+}
+.chapter-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.chapter-verses {
+    font-size: 0.9rem;
+    color: var(--color-muted);
+    font-style: italic;
+}
+.chapter-quiz-link {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-gold-dark);
+    text-decoration: none;
+    padding: 0.3rem 0.8rem;
+    border: 2px solid var(--color-gold);
+    border-radius: 6px;
+    transition: all 0.2s;
+    white-space: nowrap;
+}
+.chapter-quiz-link:hover {
+    background: var(--color-gold);
+    color: #fff;
+}
+
+/* ---- Chapter Navigation (Quiz Pages) ---- */
+.chapter-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid var(--color-border);
+    gap: 0.5rem;
+}
+.nav-btn {
+    color: var(--color-gold-dark);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.2rem;
+    border: 2px solid var(--color-gold);
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+.nav-btn:hover {
+    background: var(--color-gold);
+    color: #fff;
+}
+
+/* ---- Responsive ---- */
+@media (max-width: 900px) {
+    header { padding: 1rem; }
+    header h1 { font-size: 1.6rem; }
+    nav a { padding: 0.5rem 0.8rem; font-size: 1rem; }
+    main { padding: 1rem; }
+    main > h2, .section-title { font-size: 1.4rem; }
+    .tab-btn { padding: 0.6rem 1rem; font-size: 1rem; }
+    .section-links { flex-direction: column; }
+    .section-link-card { flex-direction: row; gap: 1rem; padding: 1rem 1.5rem; min-width: auto; }
+    .section-link-icon { font-size: 1.8rem; margin-bottom: 0; }
+    .section-link-card { text-align: left; align-items: flex-start; }
+    .chapter-filter { flex-direction: column; align-items: stretch; }
+    .chapter-filter input { max-width: none; }
+}
+
+@media (max-width: 500px) {
+    nav { gap: 0.3rem; }
+    nav a { padding: 0.4rem 0.5rem; font-size: 0.9rem; }
+    .card-grid { grid-template-columns: 1fr; }
+    .chapter-card { padding: 1rem; }
+    .chapter-card-header { gap: 0.7rem; }
+    .chapter-number { width: 36px; height: 36px; min-width: 36px; font-size: 0.95rem; }
+    .chapter-title { font-size: 1.1rem; }
+    .chapter-meta { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+    .section-link-card { padding: 0.8rem 1rem; }
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 36",
+    "book": "Exodo",
+    "chapter": 36,
+    "questions": [
+        {
+            "question": "Que problema inusual surgio con las ofrendas del pueblo para la construccion del tabernaculo?",
+            "options": [
+                "El pueblo no queria dar ofrendas",
+                "Las ofrendas eran de mala calidad",
+                "El pueblo traia mas de lo necesario, y tuvieron que detener las ofrendas",
+                "Solo algunas tribus contribuian"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los artesanos dijeron a Moises que el pueblo traia mucho mas de lo necesario para la obra, asi que Moises ordeno que se proclamara que nadie trajera mas ofrenda.",
+            "verse": "Exodo 36:5-7"
+        },
+        {
+            "question": "Cuantas cortinas de lino fino se hicieron para el tabernaculo?",
+            "options": [
+                "Cinco cortinas",
+                "Ocho cortinas",
+                "Diez cortinas",
+                "Doce cortinas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Se hicieron diez cortinas de lino fino torcido, azul, purpura y carmesi, con querubines de obra de disenador.",
+            "verse": "Exodo 36:8-9"
+        },
+        {
+            "question": "Que se uso para unir las cortinas del tabernaculo entre si?",
+            "options": [
+                "Clavos de bronce",
+                "Lazadas y broches de oro",
+                "Cuerdas de lino",
+                "Pegamento de resina"
+            ],
+            "correctIndex": 1,
+            "explanation": "Se hicieron lazadas de azul en el borde de cada cortina, y cincuenta broches de oro para unir las cortinas una con otra.",
+            "verse": "Exodo 36:11-13"
+        },
+        {
+            "question": "De que material se hicieron las cortinas de la cubierta sobre el tabernaculo?",
+            "options": [
+                "Lino fino egipcio",
+                "Pelo de cabra",
+                "Seda importada",
+                "Lana de oveja"
+            ],
+            "correctIndex": 1,
+            "explanation": "Se hicieron cortinas de pelo de cabra como tienda sobre el tabernaculo; se hicieron once cortinas.",
+            "verse": "Exodo 36:14"
+        },
+        {
+            "question": "De que madera se hicieron las tablas verticales para el tabernaculo?",
+            "options": [
+                "Madera de cedro",
+                "Madera de olivo",
+                "Madera de acacia",
+                "Madera de cipres"
+            ],
+            "correctIndex": 2,
+            "explanation": "Se hicieron las tablas para el tabernaculo de madera de acacia, colocadas verticalmente.",
+            "verse": "Exodo 36:20"
+        },
+        {
+            "question": "De que eran las basas que sostenian las tablas del tabernaculo?",
+            "options": [
+                "De oro puro",
+                "De bronce",
+                "De piedra",
+                "De plata"
+            ],
+            "correctIndex": 3,
+            "explanation": "Se hicieron cuarenta basas de plata debajo de las veinte tablas, dos basas debajo de cada tabla.",
+            "verse": "Exodo 36:24"
+        },
+        {
+            "question": "Con que se cubrieron las tablas del tabernaculo y sus barras?",
+            "options": [
+                "Con plata",
+                "Con bronce",
+                "Con oro",
+                "Con pieles de carnero"
+            ],
+            "correctIndex": 2,
+            "explanation": "Las tablas se revistieron de oro, y se hicieron sus argollas de oro para meter las barras, y las barras tambien se revistieron de oro.",
+            "verse": "Exodo 36:34"
+        }
+    ]
+}

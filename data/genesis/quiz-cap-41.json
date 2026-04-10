@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 41",
+    "book": "Genesis",
+    "chapter": 41,
+    "questions": [
+        {
+            "question": "En el sueno del Faraon, cuantas vacas gordas y hermosas salieron del rio Nilo?",
+            "options": [
+                "Cinco",
+                "Siete",
+                "Diez",
+                "Doce"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Faraon sono que del Nilo subian siete vacas hermosas y gordas que pacian en el carrizal.",
+            "verse": "Genesis 41:2"
+        },
+        {
+            "question": "Que sucedio con las siete vacas gordas en el sueno del Faraon?",
+            "options": [
+                "Se escaparon al desierto",
+                "Se multiplicaron en catorce",
+                "Las siete vacas flacas y feas las devoraron",
+                "Murieron de una plaga"
+            ],
+            "correctIndex": 2,
+            "explanation": "Las siete vacas feas y flacas devoraron a las siete vacas hermosas y gordas, pero no se notaba que las hubieran comido.",
+            "verse": "Genesis 41:4"
+        },
+        {
+            "question": "Quien recomendo a Jose ante el Faraon para interpretar sus suenos?",
+            "options": [
+                "El capitan de la guardia",
+                "El jefe de los coperos",
+                "El jefe de los panaderos",
+                "La esposa del Faraon"
+            ],
+            "correctIndex": 1,
+            "explanation": "El jefe de los coperos recordo a Jose y le dijo al Faraon que un joven hebreo en la carcel le habia interpretado correctamente su sueno.",
+            "verse": "Genesis 41:9-13"
+        },
+        {
+            "question": "Segun la interpretacion de Jose, que representaban los dos suenos del Faraon?",
+            "options": [
+                "Siete anos de guerra seguidos de siete anos de paz",
+                "Siete anos de abundancia seguidos de siete anos de hambre",
+                "Siete naciones que conquistaria Egipto",
+                "Catorce anos de prosperidad continua"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose explico que ambos suenos tenian el mismo significado: vendrian siete anos de gran abundancia en Egipto, seguidos por siete anos de hambre severa.",
+            "verse": "Genesis 41:29-31"
+        },
+        {
+            "question": "Que cargo le dio el Faraon a Jose sobre la tierra de Egipto?",
+            "options": [
+                "Capitan de la guardia real",
+                "Sacerdote principal del templo",
+                "Gobernador sobre toda la tierra de Egipto",
+                "Administrador de los graneros solamente"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Faraon puso a Jose sobre toda la tierra de Egipto, solo el trono seria mayor que Jose. Lo hizo senor de toda su casa y gobernador de todo Egipto.",
+            "verse": "Genesis 41:41-43"
+        },
+        {
+            "question": "Como se llamo la esposa que el Faraon le dio a Jose?",
+            "options": [
+                "Asenat",
+                "Agar",
+                "Raquel",
+                "Sefora"
+            ],
+            "correctIndex": 0,
+            "explanation": "El Faraon le dio a Jose por esposa a Asenat, hija de Potifera, sacerdote de On.",
+            "verse": "Genesis 41:45"
+        },
+        {
+            "question": "Cuantos anos tenia Jose cuando se presento ante el Faraon, rey de Egipto?",
+            "options": [
+                "Veinticinco anos",
+                "Veintiocho anos",
+                "Treinta anos",
+                "Treinta y tres anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose tenia treinta anos cuando se presento ante el Faraon, rey de Egipto.",
+            "verse": "Genesis 41:46"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 31",
+    "book": "Genesis",
+    "chapter": 31,
+    "questions": [
+        {
+            "question": "Que escucho Jacob que decian los hijos de Laban acerca de el?",
+            "options": [
+                "Que Jacob era un hombre honesto y trabajador",
+                "Que Jacob habia tomado todo lo que pertenecia a su padre y habia adquirido toda esta riqueza a costa de su padre",
+                "Que Jacob era un buen pastor de ovejas",
+                "Que Jacob debia quedarse en Padan-aram"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hijos de Laban decian que Jacob habia tomado todo lo que era de su padre y de lo que pertenecia a su padre habia adquirido toda esta riqueza.",
+            "verse": "Genesis 31:1"
+        },
+        {
+            "question": "Que le dijo Dios a Jacob que hiciera?",
+            "options": [
+                "Que se quedara con Laban y trabajara siete anos mas",
+                "Que volviera a la tierra de sus padres y a sus parientes, y que El estaria con el",
+                "Que fuera a Egipto a buscar alimento",
+                "Que hiciera las paces con Laban"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor dijo a Jacob: 'Vuelve a la tierra de tus padres y a tus parientes, y yo estare contigo.'",
+            "verse": "Genesis 31:3"
+        },
+        {
+            "question": "Que robo Raquel de la casa de su padre Laban cuando Jacob huyo?",
+            "options": [
+                "Oro y plata",
+                "Joyas preciosas",
+                "Los idolos del hogar (terafines)",
+                "Los rebaños de ovejas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Raquel hurto los idolos del hogar (terafines) que eran de su padre Laban.",
+            "verse": "Genesis 31:19"
+        },
+        {
+            "question": "Cuantos dias tardo Laban en alcanzar a Jacob despues de enterarse de su huida?",
+            "options": [
+                "Cinco dias",
+                "Siete dias",
+                "Diez dias",
+                "Tres dias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Al tercer dia se le informo a Laban que Jacob habia huido, y el lo persiguio durante siete dias hasta alcanzarlo en la region montanosa de Galaad.",
+            "verse": "Genesis 31:22-23"
+        },
+        {
+            "question": "Que le dijo Dios a Laban en un sueno durante la noche antes de encontrarse con Jacob?",
+            "options": [
+                "Que castigara a Jacob severamente",
+                "Que tomara de vuelta todos sus rebaños",
+                "Que tuviera cuidado de no hablar a Jacob ni bien ni mal",
+                "Que llevara a sus hijas de regreso a casa"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios vino a Laban arameo en un sueno de noche y le dijo: 'Ten cuidado de no hablar a Jacob ni bien ni mal.'",
+            "verse": "Genesis 31:24"
+        },
+        {
+            "question": "Cuantos anos dijo Jacob que habia servido a Laban en total?",
+            "options": [
+                "Catorce anos",
+                "Siete anos",
+                "Veinte anos",
+                "Diez anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob le dijo a Laban que durante veinte anos habia estado en su casa: catorce anos sirvio por sus dos hijas y seis anos por su rebano.",
+            "verse": "Genesis 31:41"
+        },
+        {
+            "question": "Que nombre le dio Laban al majano de piedras que sirvio como testimonio del pacto entre el y Jacob?",
+            "options": [
+                "Betel",
+                "Jegar Sahaduta",
+                "Peniel",
+                "Mizpa"
+            ],
+            "correctIndex": 1,
+            "explanation": "Laban lo llamo Jegar Sahaduta (en arameo), y Jacob lo llamo Galaad (en hebreo). Tambien fue llamado Mizpa, porque Laban dijo: 'Que el Senor vigile entre tu y yo.'",
+            "verse": "Genesis 31:47-49"
+        }
+    ]
+}

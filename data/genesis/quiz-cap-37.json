@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 37",
+    "book": "Genesis",
+    "chapter": 37,
+    "questions": [
+        {
+            "question": "Por que Israel amaba mas a Jose que a todos sus otros hijos?",
+            "options": [
+                "Porque Jose era el mas fuerte",
+                "Porque era hijo de su vejez",
+                "Porque Jose era el primogenito",
+                "Porque Jose era el mas sabio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Israel amaba a Jose mas que a todos sus hijos porque era hijo de su vejez, y le hizo una tunica de muchos colores.",
+            "verse": "Genesis 37:3"
+        },
+        {
+            "question": "Que le hizo Israel a Jose como muestra de su amor especial?",
+            "options": [
+                "Le dio la mayor parte de la herencia",
+                "Le hizo una tunica de muchos colores",
+                "Lo nombro lider sobre sus hermanos",
+                "Le dio un rebano propio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Israel le hizo a Jose una tunica de muchos colores, lo cual provoco los celos de sus hermanos.",
+            "verse": "Genesis 37:3"
+        },
+        {
+            "question": "En el primer sueno de Jose, que hacia su gavilla mientras las gavillas de sus hermanos la rodeaban?",
+            "options": [
+                "Se consumia en fuego",
+                "Desaparecia en el viento",
+                "Se levantaba y se mantenia erguida, y las gavillas de sus hermanos se inclinaban ante ella",
+                "Se convertia en un arbol grande"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose sono que su gavilla se levantaba y se mantenia erguida, y las gavillas de sus hermanos rodeaban y se inclinaban ante su gavilla.",
+            "verse": "Genesis 37:7"
+        },
+        {
+            "question": "En el segundo sueno de Jose, quienes se inclinaban ante el?",
+            "options": [
+                "Once estrellas solamente",
+                "El sol, la luna y once estrellas",
+                "Doce estrellas y el sol",
+                "Los reyes de la tierra"
+            ],
+            "correctIndex": 1,
+            "explanation": "En su segundo sueno, el sol, la luna y once estrellas se inclinaban ante Jose.",
+            "verse": "Genesis 37:9"
+        },
+        {
+            "question": "Que querian hacer inicialmente los hermanos de Jose cuando lo vieron venir de lejos?",
+            "options": [
+                "Enviarlo de vuelta a su padre",
+                "Matarlo y echarlo en una cisterna",
+                "Venderlo inmediatamente a los mercaderes",
+                "Quitarle la tunica y dejarlo ir"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hermanos conspiraron contra Jose para matarlo, diciendo: 'Viene el sonador. Venid, pues, matémoslo y echémoslo en una cisterna.'",
+            "verse": "Genesis 37:18-20"
+        },
+        {
+            "question": "Quien propuso no matar a Jose sino echarlo vivo en la cisterna, con la intencion de rescatarlo despues?",
+            "options": [
+                "Judas",
+                "Simeon",
+                "Ruben",
+                "Levi"
+            ],
+            "correctIndex": 2,
+            "explanation": "Ruben dijo: 'No derramemos sangre. Echadlo en esta cisterna que esta en el desierto, pero no pongais la mano sobre el', con la intencion de rescatarlo y devolverlo a su padre.",
+            "verse": "Genesis 37:21-22"
+        },
+        {
+            "question": "Por cuantas piezas de plata vendieron los hermanos a Jose, y a quienes lo vendieron?",
+            "options": [
+                "Treinta piezas de plata a los egipcios",
+                "Veinte piezas de plata a los madianitas (ismaelitas)",
+                "Diez piezas de plata a los filisteos",
+                "Cincuenta piezas de plata a los moabitas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hermanos vendieron a Jose por veinte piezas de plata a los madianitas ismaelitas, quienes lo llevaron a Egipto.",
+            "verse": "Genesis 37:28"
+        }
+    ]
+}

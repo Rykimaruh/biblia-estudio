@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 4",
+    "book": "Genesis",
+    "chapter": 4,
+    "questions": [
+        {
+            "question": "Cuales fueron las ocupaciones de Cain y Abel?",
+            "options": [
+                "Cain era pescador y Abel era pastor",
+                "Cain era labrador de la tierra y Abel era pastor de ovejas",
+                "Cain era pastor de ovejas y Abel era labrador",
+                "Ambos eran constructores"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abel fue pastor de ovejas y Cain fue labrador de la tierra. Cada uno trajo ofrenda al Senor segun su oficio.",
+            "verse": "Genesis 4:2"
+        },
+        {
+            "question": "Por que se enojo Cain con Abel?",
+            "options": [
+                "Porque Abel le robo sus cosechas",
+                "Porque el Senor miro con agrado la ofrenda de Abel, pero no la de Cain",
+                "Porque Abel tenia mas tierras",
+                "Porque sus padres preferian a Abel"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor miro con agrado a Abel y su ofrenda, pero a Cain y su ofrenda no miro con agrado. Esto enojo mucho a Cain y su semblante se demudo.",
+            "verse": "Genesis 4:4-5"
+        },
+        {
+            "question": "Que le dijo Dios a Cain acerca del pecado antes de que matara a Abel?",
+            "options": [
+                "Que el pecado no existia",
+                "Que el pecado esta a la puerta y desea dominarlo, pero el debe dominarlo",
+                "Que huyera lejos de Abel",
+                "Que ofreciera un mejor sacrificio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le advirtio a Cain: 'El pecado esta a la puerta, al acecho, y su deseo es contra ti, pero tu debes dominarlo.'",
+            "verse": "Genesis 4:7"
+        },
+        {
+            "question": "Cuando Dios le pregunto a Cain donde estaba su hermano Abel, que respondio Cain?",
+            "options": [
+                "Confeso que lo habia matado",
+                "Dijo que estaba en el campo",
+                "Dijo: 'No se. Soy yo acaso guardian de mi hermano?'",
+                "No respondio nada"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cain respondio al Senor: 'No se. Soy yo acaso guardian de mi hermano?' Mintio y mostro desafio ante Dios.",
+            "verse": "Genesis 4:9"
+        },
+        {
+            "question": "Cual fue el castigo que Dios le impuso a Cain?",
+            "options": [
+                "La muerte inmediata",
+                "Seria vagabundo y errante en la tierra, y la tierra no le daria mas su fruto",
+                "Tendria que trabajar como esclavo para siempre",
+                "Seria convertido en animal"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios maldijo a Cain de la tierra. Cuando la cultivara, no le daria mas su fuerza, y seria vagabundo y errante en la tierra.",
+            "verse": "Genesis 4:11-12"
+        },
+        {
+            "question": "Que puso el Senor sobre Cain para que nadie que lo encontrara lo matara?",
+            "options": [
+                "Un angel guardian",
+                "Una armadura celestial",
+                "Una senal o marca",
+                "Un muro invisible"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor puso una senal (marca) en Cain para que cualquiera que lo hallase no lo matara, y advirtio que quien matara a Cain seria vengado siete veces.",
+            "verse": "Genesis 4:15"
+        },
+        {
+            "question": "Como se llamo el hijo que Eva dio a luz para reemplazar a Abel, segun ella dijo?",
+            "options": [
+                "Enoc",
+                "Lamec",
+                "Set",
+                "Tubal-cain"
+            ],
+            "correctIndex": 2,
+            "explanation": "Eva dio a luz un hijo y lo llamo Set, diciendo: 'Porque Dios me ha dado otro hijo en lugar de Abel, pues Cain lo mato.'",
+            "verse": "Genesis 4:25"
+        }
+    ]
+}

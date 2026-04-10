@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 35",
+    "book": "Genesis",
+    "chapter": 35,
+    "questions": [
+        {
+            "question": "Adonde le dijo Dios a Jacob que subiera y habitara?",
+            "options": [
+                "A Siquem",
+                "A Hebron",
+                "A Betel",
+                "A Beerseba"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo a Jacob: 'Levantate, sube a Betel y habita alli; y haz alli un altar al Dios que se te aparecio cuando huias de tu hermano Esau.'",
+            "verse": "Genesis 35:1"
+        },
+        {
+            "question": "Que les pidio Jacob a los de su casa antes de ir a Betel?",
+            "options": [
+                "Que ayunaran durante tres dias",
+                "Que quitaran los dioses extranjeros, se purificaran y mudaran sus vestidos",
+                "Que ofrecieran sacrificios de animales",
+                "Que recogieran todas sus riquezas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob dijo a su familia que quitaran los dioses extranjeros que habia entre ellos, se purificaran y mudaran sus vestidos para subir a Betel.",
+            "verse": "Genesis 35:2"
+        },
+        {
+            "question": "Que nombre le confirmo Dios a Jacob en Betel?",
+            "options": [
+                "Abraham",
+                "Jacob",
+                "Israel",
+                "Judas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le dijo: 'Tu nombre es Jacob; no se llamara mas tu nombre Jacob, sino que tu nombre sera Israel.'",
+            "verse": "Genesis 35:10"
+        },
+        {
+            "question": "Como murio Raquel?",
+            "options": [
+                "De una enfermedad prolongada",
+                "En un accidente durante el viaje",
+                "Al dar a luz a Benjamin, tuvo un parto dificil y murio",
+                "De vejez en Hebron"
+            ],
+            "correctIndex": 2,
+            "explanation": "Raquel tuvo un parto muy dificil y al dar a luz a su segundo hijo, su alma partia pues estaba muriendose.",
+            "verse": "Genesis 35:16-18"
+        },
+        {
+            "question": "Que nombre le puso Raquel a su hijo antes de morir, y que nombre le dio Jacob?",
+            "options": [
+                "Raquel lo llamo Ben-oni y Jacob lo llamo Benjamin",
+                "Raquel lo llamo Jose y Jacob lo llamo Benjamin",
+                "Raquel lo llamo Efrain y Jacob lo llamo Manases",
+                "Raquel lo llamo Ruben y Jacob lo llamo Simeon"
+            ],
+            "correctIndex": 0,
+            "explanation": "Raquel lo llamo Ben-oni (hijo de mi afliccion), pero su padre lo llamo Benjamin (hijo de la mano derecha).",
+            "verse": "Genesis 35:18"
+        },
+        {
+            "question": "Que pecado cometio Ruben mencionado en este capitulo?",
+            "options": [
+                "Robo los idolos de su padre",
+                "Se acosto con Bilha, concubina de su padre",
+                "Vendio a su hermano como esclavo",
+                "Mato a un habitante de Siquem"
+            ],
+            "correctIndex": 1,
+            "explanation": "Ruben fue y se acosto con Bilha, concubina de su padre, y lo supo Israel.",
+            "verse": "Genesis 35:22"
+        },
+        {
+            "question": "A que edad murio Isaac y quienes lo sepultaron?",
+            "options": [
+                "A los 160 anos; lo sepulto solo Jacob",
+                "A los 180 anos; lo sepultaron sus hijos Esau y Jacob",
+                "A los 175 anos; lo sepultaron los hijos de Jacob",
+                "A los 200 anos; lo sepultaron en Betel"
+            ],
+            "correctIndex": 1,
+            "explanation": "Isaac vivio ciento ochenta anos, y lo sepultaron sus hijos Esau y Jacob.",
+            "verse": "Genesis 35:28-29"
+        }
+    ]
+}

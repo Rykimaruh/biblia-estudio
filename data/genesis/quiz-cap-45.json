@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 45",
+    "book": "Genesis",
+    "chapter": 45,
+    "questions": [
+        {
+            "question": "Que hizo Jose antes de revelarse a sus hermanos?",
+            "options": [
+                "Oro a Dios en silencio",
+                "Mando salir a todos los egipcios de su presencia",
+                "Se quito sus vestiduras egipcias",
+                "Envio un mensaje al Faraon"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose no pudo contenerse mas y mando que salieran todos de su presencia. Asi no quedo nadie con el cuando se dio a conocer a sus hermanos.",
+            "verse": "Genesis 45:1"
+        },
+        {
+            "question": "Que les dijo Jose a sus hermanos para que no se entristecieran por haberlo vendido?",
+            "options": [
+                "Que ya los habia perdonado completamente",
+                "Que Dios lo habia enviado delante de ellos para preservar la vida",
+                "Que el Faraon les daria tierras como recompensa",
+                "Que todo fue un malentendido"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose les dijo: 'No os entristezcais ni os pese el haberme vendido aqui, pues para preservar vidas me envio Dios delante de vosotros.'",
+            "verse": "Genesis 45:5"
+        },
+        {
+            "question": "Segun Jose, cuantos anos mas de hambre quedaban cuando se revelo a sus hermanos?",
+            "options": [
+                "Dos anos",
+                "Tres anos",
+                "Cinco anos",
+                "Siete anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose les dijo que aun quedaban cinco anos en los que no habria ni arada ni siega, pues el hambre habia durado ya dos anos.",
+            "verse": "Genesis 45:6, 11"
+        },
+        {
+            "question": "En que region de Egipto invito Jose a su padre y familia a establecerse?",
+            "options": [
+                "En Menfis, la capital",
+                "En la tierra de Goshen",
+                "En la ciudad de On",
+                "En las orillas del Nilo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose les dijo que habitaran en la tierra de Goshen, y que estarian cerca de el con sus hijos, nietos, rebaños y todo lo que tenian.",
+            "verse": "Genesis 45:10"
+        },
+        {
+            "question": "Como reacciono el Faraon cuando supo que habian venido los hermanos de Jose?",
+            "options": [
+                "Se enojo y los mando prender",
+                "Les impuso tributos",
+                "Le agrado la noticia y ofrecio lo mejor de la tierra de Egipto",
+                "Les ordeno que se fueran inmediatamente"
+            ],
+            "correctIndex": 2,
+            "explanation": "Al Faraon y a sus siervos les agrado la noticia, y el Faraon dijo a Jose que trajera a su familia y les daria lo mejor de la tierra de Egipto.",
+            "verse": "Genesis 45:16-18"
+        },
+        {
+            "question": "Que les dio Jose a cada uno de sus hermanos para el viaje de regreso?",
+            "options": [
+                "Oro y piedras preciosas",
+                "Camellos cargados de grano",
+                "Mudas de vestidos a cada uno",
+                "Carros llenos de regalos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose dio a cada uno de ellos mudas de vestidos, pero a Benjamin le dio trescientas piezas de plata y cinco mudas de vestidos.",
+            "verse": "Genesis 45:22"
+        },
+        {
+            "question": "Como reacciono Jacob al escuchar que Jose aun vivia y era gobernador de Egipto?",
+            "options": [
+                "Lloro de alegria inmediatamente",
+                "Su corazon se quedo frio porque no les creia",
+                "Cayo de rodillas y oro a Dios",
+                "Envio mensajeros para verificar la noticia"
+            ],
+            "correctIndex": 1,
+            "explanation": "El corazon de Jacob se quedo frio, porque no les creia. Pero cuando vio los carros que Jose habia enviado, su espiritu revivio.",
+            "verse": "Genesis 45:26-27"
+        }
+    ]
+}

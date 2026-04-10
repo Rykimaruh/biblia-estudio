@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 36",
+    "book": "Genesis",
+    "chapter": 36,
+    "questions": [
+        {
+            "question": "De quien se presentan las generaciones en este capitulo?",
+            "options": [
+                "De Jacob (Israel)",
+                "De Esau (Edom)",
+                "De Abraham",
+                "De Isaac"
+            ],
+            "correctIndex": 1,
+            "explanation": "Este capitulo presenta las generaciones de Esau, que es Edom, detallando sus descendientes y los jefes de sus clanes.",
+            "verse": "Genesis 36:1"
+        },
+        {
+            "question": "De donde tomo Esau sus mujeres?",
+            "options": [
+                "De las hijas de Padan-aram",
+                "De las hijas de Egipto",
+                "De las hijas de Canaan",
+                "De las hijas de Moab"
+            ],
+            "correctIndex": 2,
+            "explanation": "Esau tomo sus mujeres de las hijas de Canaan: Ada hija de Elon heteo, Oholibama hija de Ana, y Basemat hija de Ismael.",
+            "verse": "Genesis 36:2-3"
+        },
+        {
+            "question": "Por que se separo Esau de su hermano Jacob?",
+            "options": [
+                "Porque estaban en guerra",
+                "Porque Dios le ordeno irse",
+                "Porque sus posesiones eran demasiadas para habitar juntos y la tierra no podia sostenerlos",
+                "Porque Jacob lo expulso de la tierra"
+            ],
+            "correctIndex": 2,
+            "explanation": "Esau se fue a otra tierra lejos de su hermano Jacob, porque sus posesiones eran demasiadas para habitar juntos y la tierra donde residian no podia sostenerlos.",
+            "verse": "Genesis 36:6-7"
+        },
+        {
+            "question": "En que region se establecio Esau?",
+            "options": [
+                "En Canaan",
+                "En la region montanosa de Seir",
+                "En Egipto",
+                "En Padan-aram"
+            ],
+            "correctIndex": 1,
+            "explanation": "Esau habito en la region montanosa de Seir. Esau es Edom.",
+            "verse": "Genesis 36:8"
+        },
+        {
+            "question": "Quien fue Amalec segun este capitulo?",
+            "options": [
+                "Hijo de Ismael",
+                "Hijo de Jacob",
+                "Nieto de Esau, hijo de Elifaz y su concubina Timna",
+                "Hijo de Laban"
+            ],
+            "correctIndex": 2,
+            "explanation": "Timna era concubina de Elifaz, hijo de Esau, y ella le dio a luz a Amalec. Amalec fue nieto de Esau.",
+            "verse": "Genesis 36:12"
+        },
+        {
+            "question": "Cual de los siguientes era uno de los hijos de Esau?",
+            "options": [
+                "Ruben",
+                "Elifaz",
+                "Ismael",
+                "Moab"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hijos de Esau fueron Elifaz (hijo de Ada), Reuel (hijo de Basemat) y Jeus, Jaalam y Cora (hijos de Oholibama).",
+            "verse": "Genesis 36:4-5"
+        },
+        {
+            "question": "Que dato notable se menciona sobre los reyes de Edom en este capitulo?",
+            "options": [
+                "Que todos fueron descendientes directos de Esau",
+                "Que reinaron reyes en la tierra de Edom antes de que reinara rey alguno sobre los hijos de Israel",
+                "Que gobernaron sobre Canaan durante cien anos",
+                "Que fueron aliados de Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "El texto dice que estos son los reyes que reinaron en la tierra de Edom antes de que rey alguno reinara sobre los hijos de Israel.",
+            "verse": "Genesis 36:31"
+        }
+    ]
+}

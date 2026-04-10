@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 8",
+    "book": "Exodo",
+    "chapter": 8,
+    "questions": [
+        {
+            "question": "Cual fue la segunda plaga que Dios envio sobre Egipto?",
+            "options": [
+                "Piojos",
+                "Moscas",
+                "Ranas",
+                "Langostas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Aaron extendio su mano sobre las aguas de Egipto, y subieron ranas que cubrieron toda la tierra de Egipto. Esta fue la segunda plaga.",
+            "verse": "Exodo 8:6"
+        },
+        {
+            "question": "Que le pidio Faraon a Moises durante la plaga de ranas?",
+            "options": [
+                "Que se fuera de Egipto",
+                "Que rogara al Senor para que quitara las ranas, y dejaria ir al pueblo",
+                "Que convirtiera las ranas en peces",
+                "Que las ranas fueran al desierto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon llamo a Moises y le dijo: 'Rogad al Senor que quite las ranas de mi y de mi pueblo, y dejare ir al pueblo para que ofrezca sacrificios.'",
+            "verse": "Exodo 8:8"
+        },
+        {
+            "question": "Que hizo Faraon despues de que las ranas murieron y fueron amontonadas?",
+            "options": [
+                "Dejo ir al pueblo como prometio",
+                "Pidio otra senal",
+                "Al ver que habia alivio, endurecio su corazon y no los dejo ir",
+                "Ofrecio sacrificios al Dios de Israel"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cuando Faraon vio que habia alivio, endurecio su corazon y no los escucho, tal como el Senor habia dicho.",
+            "verse": "Exodo 8:15"
+        },
+        {
+            "question": "Cual fue la tercera plaga y que tenia de especial respecto a los hechiceros?",
+            "options": [
+                "Fue la plaga de moscas y los hechiceros la replicaron",
+                "Fue la plaga de piojos y los hechiceros no pudieron replicarla",
+                "Fue la plaga de granizo y los hechiceros huyeron",
+                "Fue la plaga de tinieblas y los hechiceros se rindieron"
+            ],
+            "correctIndex": 1,
+            "explanation": "Aaron golpeo el polvo de la tierra y se convirtio en piojos. Los hechiceros trataron de hacer lo mismo pero no pudieron, y dijeron a Faraon: 'Este es el dedo de Dios.'",
+            "verse": "Exodo 8:17-19"
+        },
+        {
+            "question": "Que distincion hizo Dios entre Egipto y la tierra de Gosen durante la plaga de moscas?",
+            "options": [
+                "Las moscas eran diferentes en Gosen",
+                "Puso distincion entre su pueblo y el de Faraon: no hubo moscas en Gosen",
+                "Las moscas solo estaban en los campos",
+                "No hubo ninguna distincion"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo que pondria distincion entre su pueblo y el pueblo de Faraon. En la tierra de Gosen donde habitaba Israel no habria enjambres de moscas.",
+            "verse": "Exodo 8:22-23"
+        },
+        {
+            "question": "Que oferta le hizo Faraon a Moises durante la plaga de moscas?",
+            "options": [
+                "Les dio permiso de ir al desierto sin condiciones",
+                "Les permitio sacrificar a su Dios pero solo dentro de Egipto",
+                "Les ofrecio oro y plata para que se quedaran",
+                "Les dijo que solo los hombres podian ir"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon les dijo: 'Id, ofreced sacrificio a vuestro Dios en esta tierra.' Pero Moises respondio que no era apropiado hacerlo en Egipto.",
+            "verse": "Exodo 8:25"
+        },
+        {
+            "question": "Que le advirtio Moises a Faraon despues de orar para que se fueran las moscas?",
+            "options": [
+                "Que Dios enviaria mas plagas",
+                "Que Faraon no deberia volver a enganar, no dejando ir al pueblo",
+                "Que deberia arrepentirse de sus pecados",
+                "Que los egipcios serian destruidos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises dijo: 'Solamente que Faraon no vuelva a enganar, no dejando ir al pueblo para ofrecer sacrificios al Senor.'",
+            "verse": "Exodo 8:29"
+        }
+    ]
+}

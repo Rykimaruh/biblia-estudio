@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 29",
+    "book": "Genesis",
+    "chapter": 29,
+    "questions": [
+        {
+            "question": "A quien vio Jacob primero cuando llego al pozo en la tierra de los orientales?",
+            "options": [
+                "A Laban",
+                "A Lea",
+                "A Raquel, hija de Laban, que venia con las ovejas de su padre",
+                "A un siervo de Laban"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mientras Jacob hablaba con los pastores, llego Raquel con las ovejas de su padre, porque ella era pastora.",
+            "verse": "Genesis 29:9"
+        },
+        {
+            "question": "Que hizo Jacob cuando vio a Raquel y las ovejas de Laban?",
+            "options": [
+                "Le pidio agua para beber",
+                "Removio la piedra de la boca del pozo y abrevó las ovejas de Laban",
+                "Se escondio detras de los otros pastores",
+                "Le envio un mensaje a Laban"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando Jacob vio a Raquel, se acerco, removio la piedra de la boca del pozo y dio de beber a las ovejas de Laban, hermano de su madre.",
+            "verse": "Genesis 29:10"
+        },
+        {
+            "question": "Cuanto tiempo ofrecio Jacob trabajar para Laban a cambio de casarse con Raquel?",
+            "options": [
+                "Tres anos",
+                "Cinco anos",
+                "Siete anos",
+                "Diez anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob dijo: 'Te servire siete anos por Raquel, tu hija menor.' Y los siete anos le parecieron como unos pocos dias porque la amaba.",
+            "verse": "Genesis 29:18,20"
+        },
+        {
+            "question": "Que engano cometio Laban contra Jacob la noche de la boda?",
+            "options": [
+                "Le cobro mas dinero del acordado",
+                "Le dio a Lea, su hija mayor, en lugar de Raquel",
+                "Le robo sus pertenencias",
+                "Invito a Esau para atraparlo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Laban reunio a todos los hombres del lugar e hizo un banquete. Pero por la noche tomo a Lea, su hija, y se la trajo a Jacob. Y por la manana, he aqui que era Lea.",
+            "verse": "Genesis 29:22-25"
+        },
+        {
+            "question": "Que excusa dio Laban por haber engañado a Jacob con Lea?",
+            "options": [
+                "Que Lea estaba enferma y necesitaba un esposo",
+                "Que no era costumbre del lugar dar la menor antes que la mayor",
+                "Que Raquel no queria casarse todavia",
+                "Que Jacob no habia trabajado suficiente"
+            ],
+            "correctIndex": 1,
+            "explanation": "Laban dijo: 'No es la costumbre en nuestro lugar dar la menor antes que la mayor.' Le propuso a Jacob completar la semana nupcial de Lea y luego le daria a Raquel por otros siete anos de servicio.",
+            "verse": "Genesis 29:26-27"
+        },
+        {
+            "question": "Como se llamaron los primeros tres hijos que Lea le dio a Jacob?",
+            "options": [
+                "Dan, Neftali y Gad",
+                "Ruben, Simeon y Levi",
+                "Jose, Benjamin y Juda",
+                "Isacar, Zabulon y Dina"
+            ],
+            "correctIndex": 1,
+            "explanation": "Lea concibio y dio a luz un hijo al que llamo Ruben, luego concibio otra vez y dio a luz a Simeon, y concibio de nuevo y dio a luz a Levi.",
+            "verse": "Genesis 29:32-34"
+        },
+        {
+            "question": "Cual fue el cuarto hijo de Lea, y que dijo ella al nombrarlo?",
+            "options": [
+                "Isacar, y dijo: 'Dios me ha dado mi recompensa'",
+                "Zabulon, y dijo: 'Dios me ha dotado de una buena dote'",
+                "Juda, y dijo: 'Esta vez alabare al Senor'",
+                "Ruben, y dijo: 'El Senor ha visto mi afliccion'"
+            ],
+            "correctIndex": 2,
+            "explanation": "Lea concibio otra vez y dio a luz un hijo, y dijo: 'Esta vez alabare al Senor.' Por eso lo llamo Juda. Despues dejo de dar a luz.",
+            "verse": "Genesis 29:35"
+        }
+    ]
+}

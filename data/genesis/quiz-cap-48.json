@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 48",
+    "book": "Genesis",
+    "chapter": 48,
+    "questions": [
+        {
+            "question": "Cuales eran los nombres de los dos hijos de Jose que Jacob adopto como suyos?",
+            "options": [
+                "Ruben y Simeon",
+                "Gad y Aser",
+                "Manases y Efrain",
+                "Dan y Neftali"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob dijo que Efrain y Manases, los hijos de Jose nacidos en Egipto, serian suyos como Ruben y Simeon.",
+            "verse": "Genesis 48:5"
+        },
+        {
+            "question": "En que lugar murio Raquel segun Jacob lo recuerda en este capitulo?",
+            "options": [
+                "En Beerseba",
+                "En Hebron",
+                "En el camino de Efrata, que es Belen",
+                "En Siquem"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob recordo que cuando venia de Padan-aram, Raquel murio en la tierra de Canaan, en el camino de Efrata, que es Belen, y la sepulto alli.",
+            "verse": "Genesis 48:7"
+        },
+        {
+            "question": "Por que cruzo Jacob sus manos al bendecir a los hijos de Jose?",
+            "options": [
+                "Porque no podia ver bien y se confundio",
+                "Porque era una costumbre egipcia",
+                "A proposito, para poner su mano derecha sobre Efrain, el menor",
+                "Porque Jose asi se lo pidio"
+            ],
+            "correctIndex": 2,
+            "explanation": "Israel extendio su mano derecha y la puso sobre la cabeza de Efrain, que era el menor, y su mano izquierda sobre la de Manases, cruzando sus manos deliberadamente.",
+            "verse": "Genesis 48:14"
+        },
+        {
+            "question": "Que hizo Jose cuando vio que su padre ponia la mano derecha sobre Efrain?",
+            "options": [
+                "Se alegro porque entendia el proposito",
+                "Le desagrado e intento mover la mano de su padre a la cabeza de Manases",
+                "Guardo silencio por respeto",
+                "Pidio que bendijera a ambos por igual"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando Jose vio que su padre ponia su mano derecha sobre Efrain, le desagrado, y tomo la mano de su padre para pasarla de la cabeza de Efrain a la de Manases.",
+            "verse": "Genesis 48:17-18"
+        },
+        {
+            "question": "Que dijo Jacob sobre Efrain y Manases al bendecirlos?",
+            "options": [
+                "Que Manases seria mas grande que Efrain",
+                "Que ambos serian iguales en grandeza",
+                "Que el menor Efrain seria mas grande que Manases y su descendencia seria multitud de naciones",
+                "Que ninguno de los dos seria tan grande como Juda"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob dijo que aunque Manases tambien seria grande, su hermano menor Efrain seria mas grande que el, y su descendencia llegaria a ser multitud de naciones.",
+            "verse": "Genesis 48:19"
+        },
+        {
+            "question": "Con que formula de bendicion dijo Jacob que Israel bendeciria en el futuro?",
+            "options": [
+                "Que Dios te haga como Abraham e Isaac",
+                "Que Dios te haga como Efrain y como Manases",
+                "Que Dios te haga como Jose el soñador",
+                "Que Dios te haga como Jacob y Esau"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob dijo: 'En ti bendecira Israel, diciendo: Que Dios te haga como Efrain y como Manases.' Y puso a Efrain antes de Manases.",
+            "verse": "Genesis 48:20"
+        },
+        {
+            "question": "Que porcion extra le dio Jacob a Jose sobre sus hermanos?",
+            "options": [
+                "Toda la tierra de Goshen",
+                "Una porcion de tierra (Siquem) que tomo de mano del amorreo",
+                "El doble del ganado de la familia",
+                "La bendicion sacerdotal"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob le dio a Jose una porcion mas que a sus hermanos, la cual tomo de la mano del amorreo con su espada y con su arco. Esta porcion se refiere a Siquem.",
+            "verse": "Genesis 48:22"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 34",
+    "book": "Exodo",
+    "chapter": 34,
+    "questions": [
+        {
+            "question": "Que le ordeno Dios a Moises que hiciera para reemplazar las tablas que se quebraron?",
+            "options": [
+                "Recoger los pedazos y pegarlos",
+                "Labrar dos tablas de piedra como las primeras",
+                "Escribir las leyes en un rollo de papiro",
+                "Grabar las leyes en una pared de roca"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo a Moises: 'Labrate dos tablas de piedra como las primeras, y escribire sobre las tablas las palabras que estaban en las primeras tablas que quebraste.'",
+            "verse": "Exodo 34:1"
+        },
+        {
+            "question": "Cuando Dios proclamo Su nombre ante Moises, como se describio a Si mismo?",
+            "options": [
+                "Dios fuerte y vengador",
+                "El Senor, compasivo y clemente, lento para la ira y abundante en misericordia y verdad",
+                "Dios de los ejercitos y Senor de la guerra",
+                "El Creador de todas las cosas"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor paso delante de Moises y proclamo: 'El Senor, el Senor, Dios compasivo y clemente, lento para la ira y abundante en misericordia y verdad.'",
+            "verse": "Exodo 34:6"
+        },
+        {
+            "question": "Que le ordeno Dios al pueblo respecto a los habitantes de la tierra prometida?",
+            "options": [
+                "Que hicieran alianza con ellos",
+                "Que los convirtieran a su fe",
+                "Que no hicieran pacto con ellos y destruyeran sus altares",
+                "Que comerciaran con ellos pacificamente"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios les advirtio que no hicieran pacto con los habitantes de la tierra, y que derribaran sus altares, quebraran sus pilares sagrados y cortaran sus imagenes de Asera.",
+            "verse": "Exodo 34:12-13"
+        },
+        {
+            "question": "Cuantos dias estuvo Moises con el Senor en el monte cuando se renovaron las tablas?",
+            "options": [
+                "Siete dias y siete noches",
+                "Diez dias y diez noches",
+                "Treinta dias y treinta noches",
+                "Cuarenta dias y cuarenta noches"
+            ],
+            "correctIndex": 3,
+            "explanation": "Moises estuvo alli con el Senor cuarenta dias y cuarenta noches; no comio pan ni bebio agua.",
+            "verse": "Exodo 34:28"
+        },
+        {
+            "question": "Que sucedio con el rostro de Moises cuando descendio del monte Sinai con las dos tablas?",
+            "options": [
+                "Se oscurecio como la noche",
+                "La piel de su rostro resplandecia por haber hablado con Dios",
+                "Se cubrio de cicatrices",
+                "Se volvio palido como la nieve"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises no sabia que la piel de su rostro resplandecia por haber hablado con Dios.",
+            "verse": "Exodo 34:29"
+        },
+        {
+            "question": "Que hicieron Aaron y los hijos de Israel cuando vieron que el rostro de Moises resplandecia?",
+            "options": [
+                "Se postraron y adoraron a Dios",
+                "Se acercaron para tocarlo",
+                "Tuvieron miedo de acercarse a el",
+                "Le pidieron que subiera al monte de nuevo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cuando Aaron y todos los hijos de Israel vieron a Moises, la piel de su rostro resplandecia, y tuvieron miedo de acercarse a el.",
+            "verse": "Exodo 34:30"
+        },
+        {
+            "question": "Que hacia Moises cuando terminaba de hablar con el pueblo?",
+            "options": [
+                "Se lavaba el rostro con agua",
+                "Se ponia un velo sobre el rostro",
+                "Subia al monte a orar",
+                "Entraba en el tabernaculo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando Moises terminaba de hablar con ellos, se ponia un velo sobre el rostro, y lo quitaba cuando entraba a hablar con el Senor.",
+            "verse": "Exodo 34:33-35"
+        }
+    ]
+}

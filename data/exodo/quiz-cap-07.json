@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 7",
+    "book": "Exodo",
+    "chapter": 7,
+    "questions": [
+        {
+            "question": "Que papel le asigno Dios a Moises frente a Faraon?",
+            "options": [
+                "Seria su siervo",
+                "Seria como Dios para Faraon, y Aaron seria su profeta",
+                "Seria su consejero",
+                "Seria su interprete"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo a Moises: 'Yo te he puesto como Dios para Faraon, y tu hermano Aaron sera tu profeta.'",
+            "verse": "Exodo 7:1"
+        },
+        {
+            "question": "Cuantos anos tenian Moises y Aaron cuando hablaron a Faraon?",
+            "options": [
+                "Moises 70 y Aaron 73",
+                "Moises 80 y Aaron 83",
+                "Moises 60 y Aaron 63",
+                "Moises 90 y Aaron 93"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises tenia ochenta anos de edad y Aaron ochenta y tres cuando hablaron a Faraon.",
+            "verse": "Exodo 7:7"
+        },
+        {
+            "question": "Que sucedio cuando Aaron arrojo su vara delante de Faraon?",
+            "options": [
+                "Se convirtio en fuego",
+                "Se partio en dos",
+                "Se convirtio en una serpiente",
+                "Se convirtio en un arbol"
+            ],
+            "correctIndex": 2,
+            "explanation": "Aaron arrojo su vara delante de Faraon y de sus siervos, y la vara se convirtio en una serpiente.",
+            "verse": "Exodo 7:10"
+        },
+        {
+            "question": "Que paso cuando los hechiceros de Egipto tambien convirtieron sus varas en serpientes?",
+            "options": [
+                "Las serpientes de los hechiceros eran mas grandes",
+                "La vara de Aaron devoro las varas de ellos",
+                "Todas las serpientes escaparon",
+                "Las serpientes se unieron en una sola"
+            ],
+            "correctIndex": 1,
+            "explanation": "Aunque los hechiceros de Egipto hicieron lo mismo con sus artes secretas, la vara de Aaron devoro las varas de ellos, mostrando la superioridad del poder de Dios.",
+            "verse": "Exodo 7:12"
+        },
+        {
+            "question": "Cual fue la primera plaga que Dios envio sobre Egipto?",
+            "options": [
+                "La plaga de ranas",
+                "La plaga de oscuridad",
+                "Las aguas del Nilo se convirtieron en sangre",
+                "La plaga de langostas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Aaron extendio su vara y golpeo las aguas del Nilo, y todas las aguas se convirtieron en sangre. Esta fue la primera plaga sobre Egipto.",
+            "verse": "Exodo 7:20"
+        },
+        {
+            "question": "Que efecto tuvo la plaga de sangre sobre Egipto?",
+            "options": [
+                "Solo afecto al rio Nilo",
+                "Los peces murieron, el rio se contamino y los egipcios no podian beber el agua",
+                "Solo duro unas pocas horas",
+                "Los egipcios se convirtieron a Dios"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los peces que habia en el Nilo murieron, el rio se contamino y los egipcios no podian beber agua del Nilo, y habia sangre por toda la tierra de Egipto.",
+            "verse": "Exodo 7:21"
+        },
+        {
+            "question": "Cuantos dias pasaron despues de que el Senor hirio el Nilo con la primera plaga?",
+            "options": [
+                "Tres dias",
+                "Siete dias",
+                "Diez dias",
+                "Cuarenta dias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Se cumplieron siete dias despues de que el Senor hirio el Nilo con la plaga de sangre.",
+            "verse": "Exodo 7:25"
+        }
+    ]
+}

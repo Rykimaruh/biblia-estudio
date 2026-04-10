@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 23",
+    "book": "Genesis",
+    "chapter": 23,
+    "questions": [
+        {
+            "question": "Cuantos anos vivio Sara?",
+            "options": [
+                "Cien anos",
+                "Ciento diez anos",
+                "Ciento veintisiete anos",
+                "Ciento treinta anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sara vivio ciento veintisiete anos; estos fueron los anos de la vida de Sara.",
+            "verse": "Genesis 23:1"
+        },
+        {
+            "question": "En que lugar murio Sara?",
+            "options": [
+                "En Beerseba",
+                "En Quiriat-arba, es decir, Hebron, en la tierra de Canaan",
+                "En Egipto",
+                "En Haran"
+            ],
+            "correctIndex": 1,
+            "explanation": "Sara murio en Quiriat-arba, es decir, Hebron, en la tierra de Canaan.",
+            "verse": "Genesis 23:2"
+        },
+        {
+            "question": "Como se describio Abraham a si mismo ante los hijos de Het?",
+            "options": [
+                "Como un profeta de Dios",
+                "Como un rey poderoso",
+                "Como un extranjero y peregrino entre ellos",
+                "Como un comerciante rico"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham les dijo a los hijos de Het: 'Extranjero y peregrino soy entre vosotros; dadme en propiedad un sepulcro entre vosotros para sepultar a mi muerta.'",
+            "verse": "Genesis 23:4"
+        },
+        {
+            "question": "Quien era el dueno del campo y la cueva que Abraham queria comprar?",
+            "options": [
+                "Abimelec el filisteo",
+                "Efron hijo de Zohar, el heteo",
+                "Lot, sobrino de Abraham",
+                "Melquisedec, rey de Salem"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham pidio que intercedieran ante Efron hijo de Zohar para que le vendiera la cueva de Macpela que estaba al final de su campo.",
+            "verse": "Genesis 23:8-9"
+        },
+        {
+            "question": "Cuanto pago Abraham por la cueva de Macpela y el campo?",
+            "options": [
+                "Doscientos siclos de plata",
+                "Trescientos siclos de plata",
+                "Cuatrocientos siclos de plata",
+                "Quinientos siclos de plata"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abraham peso para Efron la plata que este habia mencionado: cuatrocientos siclos de plata, de moneda corriente entre los mercaderes.",
+            "verse": "Genesis 23:15-16"
+        },
+        {
+            "question": "Donde estaba ubicada la cueva de Macpela?",
+            "options": [
+                "Al norte de Beerseba",
+                "Frente a Mamre, es decir, Hebron",
+                "Junto al rio Jordan",
+                "En las afueras de Jerusalen"
+            ],
+            "correctIndex": 1,
+            "explanation": "El campo de Efron que estaba en Macpela, frente a Mamre, el campo y la cueva que habia en el, quedo confirmado como propiedad de Abraham.",
+            "verse": "Genesis 23:17-19"
+        },
+        {
+            "question": "Para que proposito compro Abraham la cueva de Macpela?",
+            "options": [
+                "Para guardar sus riquezas",
+                "Para usarla como lugar de adoracion",
+                "Para sepultar a Sara, su esposa",
+                "Para refugiarse de sus enemigos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Despues de esto, Abraham sepulto a Sara su mujer en la cueva del campo de Macpela, frente a Mamre, es decir, Hebron, en la tierra de Canaan.",
+            "verse": "Genesis 23:19"
+        }
+    ]
+}

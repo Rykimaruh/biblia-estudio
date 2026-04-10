@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 32",
+    "book": "Genesis",
+    "chapter": 32,
+    "questions": [
+        {
+            "question": "Que nombre le dio Jacob al lugar donde lo encontraron los angeles de Dios?",
+            "options": [
+                "Betel",
+                "Mahanaim",
+                "Peniel",
+                "Galaad"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob llamo a aquel lugar Mahanaim, que significa 'dos campamentos', porque dijo: 'Este es el campamento de Dios.'",
+            "verse": "Genesis 32:1-2"
+        },
+        {
+            "question": "Que noticia le trajeron los mensajeros a Jacob sobre Esau?",
+            "options": [
+                "Que Esau estaba enfermo y no podia venir",
+                "Que Esau habia muerto",
+                "Que Esau venia a su encuentro con cuatrocientos hombres",
+                "Que Esau queria hacer un pacto de paz"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los mensajeros regresaron diciendo que Esau venia a su encuentro y que cuatrocientos hombres venian con el.",
+            "verse": "Genesis 32:6"
+        },
+        {
+            "question": "Que estrategia uso Jacob por temor al encuentro con Esau?",
+            "options": [
+                "Huyo en direccion contraria",
+                "Dividio su gente y ganado en dos campamentos para que si Esau atacaba uno, el otro pudiera escapar",
+                "Construyo una fortaleza para protegerse",
+                "Envio a sus esposas e hijos lejos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob dividio la gente que estaba con el, y los rebanos, las vacadas y los camellos en dos campamentos, pensando que si Esau atacaba uno, el otro podria escapar.",
+            "verse": "Genesis 32:7-8"
+        },
+        {
+            "question": "Que presentes envio Jacob delante de el para apaciguar a Esau?",
+            "options": [
+                "Oro, plata y piedras preciosas",
+                "Vestidos finos y perfumes",
+                "Doscientas cabras, veinte machos cabrios, doscientas ovejas, veinte carneros, y mas ganado",
+                "Cien camellos cargados de provisiones"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob envio un regalo generoso que incluia cabras, machos cabrios, ovejas, carneros, camellas con sus crias, vacas, toros y asnas.",
+            "verse": "Genesis 32:13-15"
+        },
+        {
+            "question": "Que le paso a Jacob cuando se quedo solo en el vado de Jaboc durante la noche?",
+            "options": [
+                "Tuvo un sueno con angeles subiendo y bajando",
+                "Un varon lucho con el hasta el amanecer",
+                "Dios le hablo desde una zarza ardiente",
+                "Un angel le entrego tablas de piedra"
+            ],
+            "correctIndex": 1,
+            "explanation": "Estando Jacob solo, un varon lucho con el hasta rayar el alba. Esta fue una lucha con Dios mismo.",
+            "verse": "Genesis 32:24"
+        },
+        {
+            "question": "Que nuevo nombre recibio Jacob despues de luchar con Dios?",
+            "options": [
+                "Abraham",
+                "Judas",
+                "Israel",
+                "Benjamin"
+            ],
+            "correctIndex": 2,
+            "explanation": "El varon le dijo: 'Ya no sera satisfecho tu nombre Jacob, sino Israel; porque has luchado con Dios y con los hombres, y has prevalecido.'",
+            "verse": "Genesis 32:28"
+        },
+        {
+            "question": "Que parte del cuerpo de Jacob fue afectada durante la lucha?",
+            "options": [
+                "Su brazo derecho",
+                "La coyuntura de su muslo (cadera)",
+                "Su espalda",
+                "Su rodilla"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando el varon vio que no podia con Jacob, le toco la coyuntura del muslo, y se le disloco la coyuntura del muslo a Jacob mientras luchaba con el.",
+            "verse": "Genesis 32:25"
+        }
+    ]
+}

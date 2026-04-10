@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 6",
+    "book": "Exodo",
+    "chapter": 6,
+    "questions": [
+        {
+            "question": "Que le dijo Dios a Moises que haria con Faraon?",
+            "options": [
+                "Lo destruiria con fuego",
+                "Por una mano fuerte los dejaria ir, y por una mano fuerte los echaria de su tierra",
+                "Lo convertiria al Dios de Israel",
+                "Lo haria esclavo de los israelitas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo: 'Ahora veras lo que hare a Faraon; porque por una mano fuerte los dejara ir, y por una mano fuerte los echara de su tierra.'",
+            "verse": "Exodo 6:1"
+        },
+        {
+            "question": "Con que nombre dijo Dios que no se habia dado a conocer a Abraham, Isaac y Jacob?",
+            "options": [
+                "El Shaddai",
+                "Elohim",
+                "YHWH (el Senor / Jehova)",
+                "Adonai"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo que se aparecio a Abraham, Isaac y Jacob como Dios Todopoderoso (El Shaddai), pero por su nombre YHWH (Senor/Jehova) no se dio a conocer a ellos.",
+            "verse": "Exodo 6:3"
+        },
+        {
+            "question": "Que cuatro cosas prometio Dios hacer por los hijos de Israel en este capitulo?",
+            "options": [
+                "Castigarlos, disciplinarlos, ensenarles y guiarlos",
+                "Sacarlos, librarlos, redimirlos y tomarlos como su pueblo",
+                "Alimentarlos, vestirlos, protegerlos y enriquecerlos",
+                "Darles tierra, ganado, oro y siervos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios prometio: 'Os sacare de debajo de las cargas de los egipcios, os librare de su esclavitud, os redimire, y os tomare por mi pueblo.'",
+            "verse": "Exodo 6:6-7"
+        },
+        {
+            "question": "Por que los hijos de Israel no escucharon a Moises cuando les transmitio el mensaje de Dios?",
+            "options": [
+                "Porque no creian en Dios",
+                "Porque desconfiaban de Moises",
+                "Por su desaliento y por la dureza de su servidumbre",
+                "Porque preferian quedarse en Egipto"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises hablo asi a los hijos de Israel, pero ellos no escucharon a Moises a causa de su desaliento y de la dureza de su servidumbre.",
+            "verse": "Exodo 6:9"
+        },
+        {
+            "question": "Quienes fueron los hijos de Levi mencionados en la genealogia de este capitulo?",
+            "options": [
+                "Moises, Aaron y Maria",
+                "Gerson, Coat y Merari",
+                "Nadab, Abiu y Eleazar",
+                "Amram, Izhar y Hebron"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hijos de Levi fueron Gerson, Coat y Merari. Los anos de la vida de Levi fueron ciento treinta y siete anos.",
+            "verse": "Exodo 6:16"
+        },
+        {
+            "question": "Como se llamaban los padres de Moises y Aaron?",
+            "options": [
+                "Coat y Sera",
+                "Izhar y Maria",
+                "Amram y Jocabed",
+                "Merari y Milca"
+            ],
+            "correctIndex": 2,
+            "explanation": "Amram tomo por mujer a Jocabed, su tia, y ella le dio a luz a Aaron y a Moises.",
+            "verse": "Exodo 6:20"
+        },
+        {
+            "question": "Que argumento uso Moises ante Dios para no hablar con Faraon?",
+            "options": [
+                "Que Faraon era muy poderoso",
+                "Que era incircunciso de labios y Faraon no lo escucharia",
+                "Que Aaron ya no queria ir con el",
+                "Que el pueblo lo habia rechazado"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises dijo ante el Senor: 'Si los hijos de Israel no me escuchan, como me escuchara Faraon, siendo yo incircunciso de labios?'",
+            "verse": "Exodo 6:12"
+        }
+    ]
+}

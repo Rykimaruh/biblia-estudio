@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 25",
+    "book": "Exodo",
+    "chapter": 25,
+    "questions": [
+        {
+            "question": "Segun Exodo 25:2, de quienes debian recibir las ofrendas para el tabernaculo?",
+            "options": [
+                "De todos los israelitas obligatoriamente",
+                "De todo hombre cuyo corazon le mueva a hacerlo",
+                "Solo de los levitas y sacerdotes",
+                "De los jefes de las tribus unicamente"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo que tomaran una ofrenda de todo hombre cuyo corazon le moviera a darla, estableciendo el principio de la ofrenda voluntaria.",
+            "verse": "Exodo 25:2"
+        },
+        {
+            "question": "De que material debia hacerse el arca del pacto?",
+            "options": [
+                "Madera de cedro recubierta de plata",
+                "Madera de acacia recubierta de oro puro",
+                "Oro puro macizo",
+                "Madera de olivo recubierta de bronce"
+            ],
+            "correctIndex": 1,
+            "explanation": "El arca debia hacerse de madera de acacia y ser recubierta de oro puro por dentro y por fuera.",
+            "verse": "Exodo 25:10-11"
+        },
+        {
+            "question": "Que debian colocar sobre el arca del pacto, uno frente al otro?",
+            "options": [
+                "Dos leones de oro",
+                "Dos querubines de oro",
+                "Dos candelabros de oro",
+                "Dos tablas de piedra"
+            ],
+            "correctIndex": 1,
+            "explanation": "Sobre el propiciatorio debian colocarse dos querubines de oro labrado a martillo, uno en cada extremo, con las alas extendidas.",
+            "verse": "Exodo 25:18-20"
+        },
+        {
+            "question": "Que debia ponerse dentro del arca del pacto segun Exodo 25:16?",
+            "options": [
+                "El mana del desierto",
+                "La vara de Aaron",
+                "El testimonio que Dios le daria a Moises",
+                "El libro de la ley"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios ordeno: 'Pondras en el arca el testimonio que yo te dare.'",
+            "verse": "Exodo 25:16"
+        },
+        {
+            "question": "Cuantos brazos debian salir de los lados del candelabro de oro?",
+            "options": [
+                "Cuatro brazos, dos de cada lado",
+                "Seis brazos, tres de cada lado",
+                "Ocho brazos, cuatro de cada lado",
+                "Diez brazos, cinco de cada lado"
+            ],
+            "correctIndex": 1,
+            "explanation": "Del candelabro debian salir seis brazos: tres brazos de un lado y tres brazos del otro lado.",
+            "verse": "Exodo 25:32"
+        },
+        {
+            "question": "Cuantos panes de la Presencia debian ponerse sobre la mesa continuamente?",
+            "options": [
+                "Siete panes",
+                "Diez panes",
+                "Doce panes",
+                "Tres panes"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sobre la mesa debian poner el pan de la Presencia delante de Dios continuamente. Segun Levitico 24:5-6, eran doce panes representando las doce tribus.",
+            "verse": "Exodo 25:30"
+        },
+        {
+            "question": "De cuanto oro puro debia hacerse el candelabro con todos sus utensilios?",
+            "options": [
+                "Medio talento",
+                "Un talento",
+                "Dos talentos",
+                "Diez talentos"
+            ],
+            "correctIndex": 1,
+            "explanation": "El candelabro y todos sus utensilios debian hacerse de un talento de oro puro.",
+            "verse": "Exodo 25:39"
+        }
+    ]
+}

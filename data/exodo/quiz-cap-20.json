@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 20",
+    "book": "Exodo",
+    "chapter": 20,
+    "questions": [
+        {
+            "question": "Cual es el primer mandamiento que Dios dio en Exodo 20?",
+            "options": [
+                "No mataras",
+                "No tendras otros dioses delante de mi",
+                "Honra a tu padre y a tu madre",
+                "No haras imagen de escultura"
+            ],
+            "correctIndex": 1,
+            "explanation": "El primer mandamiento es: 'No tendras otros dioses delante de mi.' Dios establece que El es el unico Dios verdadero que los saco de Egipto.",
+            "verse": "Exodo 20:3"
+        },
+        {
+            "question": "Segun el segundo mandamiento, que prohibe Dios hacer?",
+            "options": [
+                "Tomar Su nombre en vano",
+                "Trabajar en el dia de reposo",
+                "Hacerse imagenes de escultura ni semejanza alguna para adorarlas",
+                "Codiciar los bienes del projimo"
+            ],
+            "correctIndex": 2,
+            "explanation": "El segundo mandamiento dice: 'No te haras imagen de escultura, ni semejanza alguna de lo que esta arriba en el cielo, ni abajo en la tierra, ni en las aguas debajo de la tierra. No las adoraras ni las serviras.'",
+            "verse": "Exodo 20:4-5"
+        },
+        {
+            "question": "Que dia mando Dios santificar y guardar como dia de reposo?",
+            "options": [
+                "El primer dia de cada mes",
+                "El dia de la luna nueva",
+                "El septimo dia, el dia de reposo",
+                "El decimo dia de cada mes"
+            ],
+            "correctIndex": 2,
+            "explanation": "El cuarto mandamiento dice: 'Acuerdate del dia de reposo para santificarlo. Seis dias trabajaras y haras toda tu obra, pero el septimo dia es dia de reposo para el Senor tu Dios.'",
+            "verse": "Exodo 20:8-10"
+        },
+        {
+            "question": "Cual es el unico mandamiento que incluye una promesa de bendicion?",
+            "options": [
+                "No mataras",
+                "No robaras",
+                "Honra a tu padre y a tu madre, para que tus dias sean prolongados",
+                "No codiciaras"
+            ],
+            "correctIndex": 2,
+            "explanation": "El quinto mandamiento dice: 'Honra a tu padre y a tu madre, para que tus dias sean prolongados en la tierra que el Senor tu Dios te da.' Es el unico que incluye una promesa.",
+            "verse": "Exodo 20:12"
+        },
+        {
+            "question": "Cuales de los siguientes son tres mandamientos consecutivos en los Diez Mandamientos?",
+            "options": [
+                "No mataras, no robaras, no mentiras",
+                "No mataras, no cometeras adulterio, no robaras",
+                "No robaras, no mataras, no codiciaras",
+                "No mentiras, no robaras, no mataras"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los mandamientos sexto, septimo y octavo en orden son: 'No mataras. No cometeras adulterio. No robaras.'",
+            "verse": "Exodo 20:13-15"
+        },
+        {
+            "question": "Que sintio el pueblo cuando vio los truenos, relampagos y el monte humeando?",
+            "options": [
+                "Se acercaron con alegria al monte",
+                "Temblaron y se mantuvieron a distancia, pidiendo que Moises les hablara en vez de Dios",
+                "Se arrodillaron en silencio",
+                "Cantaron alabanzas de gozo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Todo el pueblo percibio los truenos y relampagos, el sonido de la trompeta y el monte que humeaba; y temblaron y se mantuvieron a distancia. Dijeron a Moises: 'Habla tu con nosotros y escucharemos; pero que no hable Dios con nosotros, no sea que muramos.'",
+            "verse": "Exodo 20:18-19"
+        },
+        {
+            "question": "Segun Exodo 20:24-25, como debia ser el altar que construyeran para Dios?",
+            "options": [
+                "De madera de cedro cubierto de oro",
+                "De tierra, o de piedras sin labrar, porque la herramienta lo profanaria",
+                "De bronce pulido",
+                "De ladrillos cocidos al fuego"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo que le hicieran un altar de tierra, y si hacian un altar de piedras, no debian labrarlo con herramienta de cantero, porque al alzar la herramienta sobre el, lo profanarian.",
+            "verse": "Exodo 20:24-25"
+        }
+    ]
+}

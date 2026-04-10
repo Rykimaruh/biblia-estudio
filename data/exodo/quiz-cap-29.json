@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 29",
+    "book": "Exodo",
+    "chapter": 29,
+    "questions": [
+        {
+            "question": "Que animales debian tomarse para la consagracion de Aaron y sus hijos como sacerdotes?",
+            "options": [
+                "Un becerro y un carnero",
+                "Un becerro y dos carneros sin defecto",
+                "Dos becerros y un carnero",
+                "Un cordero y una cabra"
+            ],
+            "correctIndex": 1,
+            "explanation": "Para la consagracion se debian tomar un becerro y dos carneros sin defecto, ademas de panes sin levadura.",
+            "verse": "Exodo 29:1"
+        },
+        {
+            "question": "Donde debian ser lavados Aaron y sus hijos antes de ser vestidos con las vestiduras sacerdotales?",
+            "options": [
+                "En el rio Nilo",
+                "A la entrada de la tienda de reunion, con agua",
+                "En una fuente especial del altar",
+                "En el Lugar Santisimo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises debia llevar a Aaron y a sus hijos a la entrada de la tienda de reunion y lavarlos con agua.",
+            "verse": "Exodo 29:4"
+        },
+        {
+            "question": "En que parte del cuerpo de Aaron y sus hijos se ponia la sangre del carnero de la consagracion?",
+            "options": [
+                "En la frente y las manos",
+                "En el lobulo de la oreja derecha, el pulgar de la mano derecha y el pulgar del pie derecho",
+                "En ambas manos y ambos pies",
+                "En la cabeza y el pecho"
+            ],
+            "correctIndex": 1,
+            "explanation": "La sangre del carnero de la consagracion se ponia en el lobulo de la oreja derecha de Aaron y sus hijos, en el pulgar de la mano derecha y en el pulgar del pie derecho.",
+            "verse": "Exodo 29:20"
+        },
+        {
+            "question": "Cuantos dias duraba el proceso de consagracion de los sacerdotes?",
+            "options": [
+                "Un dia",
+                "Tres dias",
+                "Siete dias",
+                "Cuarenta dias"
+            ],
+            "correctIndex": 2,
+            "explanation": "El proceso de consagracion de los sacerdotes duraba siete dias, durante los cuales se ofrecian sacrificios cada dia.",
+            "verse": "Exodo 29:35"
+        },
+        {
+            "question": "Que debia ofrecerse diariamente sobre el altar como ofrenda continua?",
+            "options": [
+                "Un becerro por la manana y otro por la tarde",
+                "Dos corderos de un ano, uno por la manana y otro al atardecer",
+                "Un carnero por la manana y un cabrito por la tarde",
+                "Diez palomas cada dia"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cada dia debian ofrecerse dos corderos de un ano sobre el altar como ofrenda continua: uno por la manana y otro al atardecer.",
+            "verse": "Exodo 29:38-39"
+        },
+        {
+            "question": "Que prometio Dios hacer al santificar la tienda de reunion y el altar?",
+            "options": [
+                "Destruir a los enemigos de Israel",
+                "Habitaria en medio de los hijos de Israel y seria su Dios",
+                "Les daria riquezas y prosperidad",
+                "Los llevaria inmediatamente a la tierra prometida"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios prometio: 'Habitare en medio de los hijos de Israel, y sere su Dios.' Esta era la razon principal del tabernaculo.",
+            "verse": "Exodo 29:45"
+        },
+        {
+            "question": "Que debia hacerse con el becerro de la ofrenda por el pecado segun Exodo 29:14?",
+            "options": [
+                "Comerlo en el Lugar Santo",
+                "Ofrecerlo completamente sobre el altar",
+                "Quemar su carne, piel y estiercol fuera del campamento",
+                "Distribuirlo entre los sacerdotes"
+            ],
+            "correctIndex": 2,
+            "explanation": "La carne del becerro, su piel y su estiercol debian ser quemados fuera del campamento; era ofrenda por el pecado.",
+            "verse": "Exodo 29:14"
+        }
+    ]
+}

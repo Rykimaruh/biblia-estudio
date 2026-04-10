@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 1",
+    "book": "Exodo",
+    "chapter": 1,
+    "questions": [
+        {
+            "question": "Cuantas personas de la familia de Jacob llegaron a Egipto segun Exodo 1:5?",
+            "options": [
+                "Doce personas",
+                "Setenta personas",
+                "Cien personas",
+                "Cuarenta personas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Exodo 1:5 dice que todas las personas que descendieron de Jacob fueron setenta. Jose ya estaba en Egipto.",
+            "verse": "Exodo 1:5"
+        },
+        {
+            "question": "Que sucedio con los hijos de Israel despues de la muerte de Jose y sus hermanos?",
+            "options": [
+                "Regresaron a la tierra de Canaan",
+                "Fueron fructiferos, aumentaron mucho y se multiplicaron",
+                "Se mezclaron con los egipcios",
+                "Dejaron de adorar a Dios"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hijos de Israel fueron fructiferos y aumentaron mucho, se multiplicaron y llegaron a ser poderosos en gran manera, y la tierra se lleno de ellos.",
+            "verse": "Exodo 1:7"
+        },
+        {
+            "question": "Por que el nuevo rey de Egipto decidio oprimir a los israelitas?",
+            "options": [
+                "Porque no pagaban impuestos",
+                "Porque adoraban a un Dios diferente",
+                "Porque eran mas numerosos y mas fuertes que los egipcios",
+                "Porque habian cometido crimenes"
+            ],
+            "correctIndex": 2,
+            "explanation": "El nuevo Faraon dijo: 'He aqui, el pueblo de los hijos de Israel es mas numeroso y mas fuerte que nosotros', y temio que se aliaran con enemigos.",
+            "verse": "Exodo 1:9-10"
+        },
+        {
+            "question": "Que tipo de trabajos forzados impusieron los egipcios sobre los israelitas?",
+            "options": [
+                "Trabajo en minas de oro",
+                "Construccion de las ciudades de almacenaje Pitom y Rameses",
+                "Servicio en el ejercito egipcio",
+                "Trabajo en los templos egipcios"
+            ],
+            "correctIndex": 1,
+            "explanation": "Pusieron sobre ellos capataces para oprimirlos con trabajos forzados, y edificaron para Faraon las ciudades de almacenaje Pitom y Rameses.",
+            "verse": "Exodo 1:11"
+        },
+        {
+            "question": "Como se llamaban las dos parteras hebreas mencionadas en este capitulo?",
+            "options": [
+                "Raquel y Lea",
+                "Maria y Ester",
+                "Sifra y Pua",
+                "Rebeca y Sara"
+            ],
+            "correctIndex": 2,
+            "explanation": "El rey de Egipto hablo a las parteras de las hebreas, una de las cuales se llamaba Sifra y la otra Pua.",
+            "verse": "Exodo 1:15"
+        },
+        {
+            "question": "Que les ordeno Faraon a las parteras que hicieran con los bebes hebreos?",
+            "options": [
+                "Que los entregaran a familias egipcias",
+                "Que mataran a los varones y dejaran vivir a las ninas",
+                "Que los arrojaran al rio Nilo",
+                "Que mataran a todos los recien nacidos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon les ordeno que cuando asistieran a las hebreas en el parto, si era hijo lo mataran, pero si era hija la dejaran vivir.",
+            "verse": "Exodo 1:16"
+        },
+        {
+            "question": "Que hizo Dios con las parteras porque temieron a Dios y no obedecieron a Faraon?",
+            "options": [
+                "Les dio riquezas y tierras",
+                "Las llevo a la tierra prometida",
+                "Les establecio hogares (familias)",
+                "Las hizo sacerdotisas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Y porque las parteras temieron a Dios, El les establecio hogares. Dios las bendijo con familias propias por su obediencia.",
+            "verse": "Exodo 1:21"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 6",
+    "book": "Genesis",
+    "chapter": 6,
+    "questions": [
+        {
+            "question": "Que vio el Senor respecto a la maldad del hombre en la tierra?",
+            "options": [
+                "Que solo algunos eran malos",
+                "Que la maldad del hombre era grande y que toda intencion de los pensamientos de su corazon era solo mala continuamente",
+                "Que el hombre habia mejorado con el tiempo",
+                "Que solo las mujeres eran malvadas"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor vio que la maldad del hombre era mucha en la tierra, y que toda intencion de los pensamientos de su corazon era solo mala continuamente.",
+            "verse": "Genesis 6:5"
+        },
+        {
+            "question": "Como se sintio Dios al ver la corrupcion de la humanidad?",
+            "options": [
+                "Se alegro de haberlos creado",
+                "Le peso haber hecho al hombre en la tierra, y le dolio en su corazon",
+                "Fue indiferente ante la situacion",
+                "Se enojo pero no tomo accion"
+            ],
+            "correctIndex": 1,
+            "explanation": "Al Senor le peso haber hecho al hombre en la tierra, y le dolio en su corazon. Por eso decidio destruir al hombre de la faz de la tierra.",
+            "verse": "Genesis 6:6"
+        },
+        {
+            "question": "Por que Noe encontro gracia ante los ojos del Senor?",
+            "options": [
+                "Porque era el hombre mas rico de su tiempo",
+                "Porque era varon justo, perfecto entre sus contemporaneos, y caminaba con Dios",
+                "Porque ofrecio los mejores sacrificios",
+                "Porque era el mas fuerte de todos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Noe era varon justo, perfecto entre sus contemporaneos; Noe caminaba con Dios. Por eso hallo gracia ante los ojos del Senor.",
+            "verse": "Genesis 6:8-9"
+        },
+        {
+            "question": "De que material le ordeno Dios a Noe construir el arca?",
+            "options": [
+                "Madera de cedro",
+                "Madera de cipres (madera de gofer)",
+                "Piedra y barro",
+                "Madera de olivo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le ordeno a Noe: 'Hazte un arca de madera de gofer (cipres).' Tambien debio calafatearla con brea por dentro y por fuera.",
+            "verse": "Genesis 6:14"
+        },
+        {
+            "question": "Cuales fueron las dimensiones del arca que Dios le ordeno construir a Noe?",
+            "options": [
+                "200 codos de largo, 40 de ancho y 20 de alto",
+                "300 codos de largo, 50 de ancho y 30 de alto",
+                "150 codos de largo, 30 de ancho y 15 de alto",
+                "400 codos de largo, 60 de ancho y 40 de alto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Las dimensiones del arca fueron: trescientos codos de largo, cincuenta codos de ancho y treinta codos de alto.",
+            "verse": "Genesis 6:15"
+        },
+        {
+            "question": "Cuantas personas de la familia de Noe entrarian al arca segun el pacto de Dios?",
+            "options": [
+                "Solo Noe",
+                "Noe y sus tres hijos (4 personas)",
+                "Noe, su esposa, sus tres hijos y las esposas de estos (8 personas)",
+                "Toda la familia extendida de Noe"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios establecio su pacto con Noe. Entrarian al arca Noe, sus hijos Sem, Cam y Jafet, la esposa de Noe y las tres esposas de sus hijos: ocho personas en total.",
+            "verse": "Genesis 6:18"
+        },
+        {
+            "question": "Cuantos animales de cada especie debio llevar Noe al arca segun la instruccion general?",
+            "options": [
+                "Uno de cada especie",
+                "Dos de cada especie, macho y hembra",
+                "Siete pares de cada especie",
+                "Tres de cada especie"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo a Noe que introdujera en el arca dos de cada especie, macho y hembra, para conservar la vida sobre la tierra.",
+            "verse": "Genesis 6:19-20"
+        }
+    ]
+}

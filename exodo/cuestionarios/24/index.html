@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="book" content="exodo">
+    <title>Capitulo 24 — Exodo — Biblia Estudio</title>
+    <link rel="stylesheet" href="../../../css/main.css">
+    <link rel="stylesheet" href="../../../css/quiz.css">
+</head>
+<body>
+    <header id="site-header"></header>
+
+    <main>
+        <div class="breadcrumb" id="breadcrumb"></div>
+
+        <div id="quiz-container">
+            <p>Cargando cuestionario...</p>
+        </div>
+
+        <div class="chapter-nav">
+            <a href="../23/" class="nav-btn">&larr; Capitulo 23</a>
+            <a href="../" class="nav-btn">Todos los capitulos</a>
+            <a href="../25/" class="nav-btn">Capitulo 25 &rarr;</a>
+        </div>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script src="../../../js/admin.js"></script>
+    <script src="../../../js/layout.js"></script>
+    <script src="../../../js/quiz-engine.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            renderBreadcrumb([
+                { label: 'Inicio', href: '../../../' },
+                { label: 'Exodo', href: '../../../exodo/' },
+                { label: 'Cuestionarios', href: '../' },
+                { label: 'Capitulo 24' }
+            ]);
+
+            const capNum = String(24).padStart(2, '0');
+            fetch('../../../data/exodo/quiz-cap-' + capNum + '.json')
+                .then(r => {
+                    if (!r.ok) throw new Error('Quiz not found');
+                    return r.json();
+                })
+                .then(data => {
+                    new MultipleChoiceQuiz('quiz-container', data);
+                })
+                .catch(err => {
+                    document.getElementById('quiz-container').innerHTML =
+                        '<div class="instructions"><h3>Cuestionario no disponible</h3>' +
+                        '<p>Este cuestionario aun no esta disponible. Estamos trabajando en el contenido.</p></div>';
+                });
+        });
+    </script>
+</body>
+</html>

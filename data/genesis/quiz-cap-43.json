@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 43",
+    "book": "Genesis",
+    "chapter": 43,
+    "questions": [
+        {
+            "question": "Quien convencio a Jacob de enviar a Benjamin a Egipto?",
+            "options": [
+                "Ruben",
+                "Simeon",
+                "Juda",
+                "Levi"
+            ],
+            "correctIndex": 2,
+            "explanation": "Juda hablo a su padre Israel y se ofrecio como fiador de Benjamin, diciendo que el seria responsable de el para siempre si no se lo traia de vuelta.",
+            "verse": "Genesis 43:8-9"
+        },
+        {
+            "question": "Que les dijo Jacob a sus hijos que llevaran como presente al gobernador de Egipto?",
+            "options": [
+                "Oro y plata",
+                "Ganado y ovejas",
+                "Balsamo, miel, resina, mirra, nueces de pistacho y almendras",
+                "Telas finas y especias"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob les dijo que llevaran de los mejores productos de la tierra como regalo: un poco de balsamo, un poco de miel, resina, mirra, nueces de pistacho y almendras.",
+            "verse": "Genesis 43:11"
+        },
+        {
+            "question": "Cuanto dinero les dijo Jacob que llevaran a Egipto?",
+            "options": [
+                "Solo el dinero para comprar grano nuevo",
+                "El doble de dinero, incluyendo el devuelto en los costales",
+                "La mitad de todas sus riquezas",
+                "Tres veces el precio del grano"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob les ordeno llevar el doble de dinero: el que fue devuelto en la boca de sus costales y dinero adicional para comprar mas grano.",
+            "verse": "Genesis 43:12"
+        },
+        {
+            "question": "Que temian los hermanos de Jose cuando fueron llevados a su casa?",
+            "options": [
+                "Que Jose los mataria",
+                "Que los harian esclavos por causa del dinero devuelto en sus costales",
+                "Que Simeon ya habia muerto",
+                "Que los acusarian de robar grano"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hermanos tuvieron temor cuando fueron llevados a la casa de Jose, pensando que era por el dinero devuelto en sus costales, y que buscaba ocasion contra ellos para hacerlos esclavos.",
+            "verse": "Genesis 43:18"
+        },
+        {
+            "question": "Que hizo Jose cuando vio a Benjamin, su hermano de madre?",
+            "options": [
+                "Lo abrazo inmediatamente frente a todos",
+                "Se conmovio profundamente y busco un lugar para llorar",
+                "Lo acuso de ser espia como a los demas",
+                "Le dio un regalo de oro"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose se apresuro porque se le conmovieron las entranas a causa de su hermano Benjamin, y busco donde llorar. Entro en su camara y lloro alli.",
+            "verse": "Genesis 43:30"
+        },
+        {
+            "question": "Como estaban sentados los hermanos en la mesa de Jose que les causo asombro?",
+            "options": [
+                "Segun sus oficios y profesiones",
+                "En orden desde el primogenito hasta el menor, segun sus edades",
+                "Separados en dos grupos iguales",
+                "Mezclados con los oficiales egipcios"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los hermanos estaban sentados delante de Jose, el primogenito conforme a su primogenitura y el menor conforme a su juventud, y los hombres se miraban asombrados unos a otros.",
+            "verse": "Genesis 43:33"
+        },
+        {
+            "question": "Cuanto mayor fue la porcion de comida que recibio Benjamin comparada con la de sus hermanos?",
+            "options": [
+                "El doble",
+                "El triple",
+                "Cinco veces mas",
+                "Diez veces mas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jose les sirvio porciones de su propia mesa, pero la porcion de Benjamin era cinco veces mayor que la de cualquiera de los demas.",
+            "verse": "Genesis 43:34"
+        }
+    ]
+}

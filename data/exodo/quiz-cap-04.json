@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 4",
+    "book": "Exodo",
+    "chapter": 4,
+    "questions": [
+        {
+            "question": "Cual fue la primera senal que Dios le dio a Moises para que el pueblo creyera?",
+            "options": [
+                "Su mano se volvio leprosa",
+                "El agua se convirtio en sangre",
+                "Su vara se convirtio en serpiente",
+                "Fuego cayo del cielo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le dijo a Moises que arrojara su vara al suelo, y esta se convirtio en una serpiente. Cuando Moises la tomo por la cola, volvio a ser vara.",
+            "verse": "Exodo 4:2-4"
+        },
+        {
+            "question": "Que sucedio cuando Moises metio la mano en su seno como segunda senal?",
+            "options": [
+                "La mano brillo con luz",
+                "La mano se volvio leprosa, blanca como la nieve",
+                "La mano se hizo mas fuerte",
+                "La mano desaparecio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando Moises metio la mano en su seno y la saco, estaba leprosa, blanca como la nieve. Al meterla de nuevo y sacarla, se restauro como el resto de su carne.",
+            "verse": "Exodo 4:6-7"
+        },
+        {
+            "question": "Cual fue la tercera senal que Dios le indico a Moises en caso de que no creyeran las dos primeras?",
+            "options": [
+                "Partir el mar en dos",
+                "Hacer llover fuego del cielo",
+                "Tomar agua del Nilo y derramarla en tierra seca, y se convertiria en sangre",
+                "Hacer temblar la tierra"
+            ],
+            "correctIndex": 2,
+            "explanation": "Si no creian las dos primeras senales, Moises debia tomar agua del Nilo y derramarla en tierra seca, y el agua se convertiria en sangre.",
+            "verse": "Exodo 4:9"
+        },
+        {
+            "question": "Que excusa puso Moises diciendo que no podia ir ante Faraon?",
+            "options": [
+                "Que era demasiado viejo",
+                "Que era tardo en el habla y torpe de lengua",
+                "Que tenia miedo de los egipcios",
+                "Que el pueblo no lo conocia"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises le dijo a Dios que nunca habia sido hombre elocuente, sino que era tardo en el habla y torpe de lengua.",
+            "verse": "Exodo 4:10"
+        },
+        {
+            "question": "A quien designo Dios como portavoz de Moises?",
+            "options": [
+                "A Josue hijo de Nun",
+                "A Aaron su hermano",
+                "A Jetro su suegro",
+                "A Caleb hijo de Jefone"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios se enojo con Moises y le dijo que Aaron, su hermano levita, hablaria bien y seria su portavoz ante el pueblo y ante Faraon.",
+            "verse": "Exodo 4:14-16"
+        },
+        {
+            "question": "Como llamo Dios a Israel al hablarle a Faraon por medio de Moises?",
+            "options": [
+                "Mi siervo Israel",
+                "Mi pueblo escogido",
+                "Israel mi hijo, mi primogenito",
+                "Mi herencia preciosa"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le dijo a Moises que dijera a Faraon: 'Israel es mi hijo, mi primogenito. Te he dicho: Deja ir a mi hijo para que me sirva.'",
+            "verse": "Exodo 4:22-23"
+        },
+        {
+            "question": "Que hicieron Moises y Aaron cuando se reunieron con los ancianos de Israel?",
+            "options": [
+                "Les pidieron armas para luchar",
+                "Aaron hablo las palabras de Dios y Moises hizo las senales ante el pueblo",
+                "Les ordenaron huir de Egipto inmediatamente",
+                "Ofrecieron un sacrificio en el monte"
+            ],
+            "correctIndex": 1,
+            "explanation": "Aaron hablo todas las palabras que el Senor habia dicho a Moises, e hizo las senales a la vista del pueblo. El pueblo creyo y adoro.",
+            "verse": "Exodo 4:30-31"
+        }
+    ]
+}

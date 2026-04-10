@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 33",
+    "book": "Exodo",
+    "chapter": 33,
+    "questions": [
+        {
+            "question": "Que le dijo Dios a Moises que hiciera con el pueblo despues del pecado del becerro de oro?",
+            "options": [
+                "Que permanecieran en el monte Sinai",
+                "Que partieran y subieran a la tierra que habia jurado a Abraham, Isaac y Jacob",
+                "Que regresaran a Egipto",
+                "Que ayunaran cuarenta dias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo a Moises: 'Anda, sube de aqui, tu y el pueblo que sacaste de la tierra de Egipto, a la tierra que jure a Abraham, a Isaac y a Jacob.'",
+            "verse": "Exodo 33:1"
+        },
+        {
+            "question": "Por que dijo Dios que no subiria en medio del pueblo?",
+            "options": [
+                "Porque eran muy numerosos",
+                "Porque el camino era muy largo",
+                "Porque eran un pueblo de dura cerviz y podria destruirlos en el camino",
+                "Porque necesitaban aprender a caminar solos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo que no subiria en medio de ellos porque eran un pueblo de dura cerviz, no fuera que los destruyera en el camino.",
+            "verse": "Exodo 33:3"
+        },
+        {
+            "question": "Que hizo el pueblo cuando oyo la mala noticia de que Dios no iria en medio de ellos?",
+            "options": [
+                "Se rebelaron contra Moises",
+                "Hicieron fiesta",
+                "Hicieron duelo y ninguno se puso sus atavios",
+                "Regresaron a adorar idolos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Al oir el pueblo estas malas noticias, hicieron duelo, y ninguno de ellos se puso sus atavios.",
+            "verse": "Exodo 33:4"
+        },
+        {
+            "question": "Donde ponia Moises la tienda de reunion y que sucedia cuando el entraba en ella?",
+            "options": [
+                "En el centro del campamento; llovia fuego del cielo",
+                "Fuera del campamento, lejos; la columna de nube descendia y se ponia a la entrada",
+                "Sobre el monte Sinai; relampagueaba",
+                "Junto al altar; se escuchaba una voz de trueno"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises tomaba la tienda y la levantaba fuera del campamento, a buena distancia, y cuando Moises entraba en la tienda, la columna de nube descendia y se ponia a la entrada de la tienda.",
+            "verse": "Exodo 33:7-9"
+        },
+        {
+            "question": "Como hablaba el Senor con Moises en la tienda de reunion?",
+            "options": [
+                "A traves de suenos y visiones",
+                "Por medio de un angel mensajero",
+                "Cara a cara, como habla un hombre con su amigo",
+                "Escribiendo en tablas de piedra"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor acostumbraba hablar con Moises cara a cara, como habla un hombre con su amigo.",
+            "verse": "Exodo 33:11"
+        },
+        {
+            "question": "Que le pidio Moises a Dios en este capitulo como senal de Su favor?",
+            "options": [
+                "Que le mostrara Su gloria",
+                "Que le diera mas poder sobre el pueblo",
+                "Que destruyera a sus enemigos",
+                "Que le permitiera entrar en la tierra prometida"
+            ],
+            "correctIndex": 0,
+            "explanation": "Moises le dijo a Dios: 'Te ruego que me muestres tu gloria.'",
+            "verse": "Exodo 33:18"
+        },
+        {
+            "question": "Que le dijo Dios a Moises sobre ver Su rostro?",
+            "options": [
+                "Que podia verlo despues de cuarenta dias",
+                "Que no podia ver Su rostro, porque ningun hombre puede verlo y seguir viviendo",
+                "Que lo veria en suenos",
+                "Que solo Aaron podia ver Su rostro"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo: 'No puedes ver mi rostro; porque nadie puede verme, y vivir.'",
+            "verse": "Exodo 33:20"
+        }
+    ]
+}

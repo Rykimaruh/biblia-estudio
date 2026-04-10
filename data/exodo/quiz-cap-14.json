@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 14",
+    "book": "Exodo",
+    "chapter": 14,
+    "questions": [
+        {
+            "question": "Que hizo Faraon cuando se le informo que el pueblo habia huido?",
+            "options": [
+                "Se alegro de que se fueron",
+                "Envio mensajeros para negociar",
+                "Su corazon y el de sus siervos cambio contra el pueblo y preparo su ejercito",
+                "Se encerro en su palacio con miedo"
+            ],
+            "correctIndex": 2,
+            "explanation": "El corazon de Faraon y de sus siervos cambio contra el pueblo, y dijeron: 'Que es esto que hemos hecho, que hemos dejado ir a Israel?' Entonces preparo su carro y tomo su ejercito.",
+            "verse": "Exodo 14:5-6"
+        },
+        {
+            "question": "Cuantos carros escogidos tomo Faraon para perseguir a Israel?",
+            "options": [
+                "Trescientos carros",
+                "Seiscientos carros escogidos",
+                "Mil carros",
+                "Doscientos carros"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon tomo seiscientos carros escogidos y todos los demas carros de Egipto, con capitanes sobre todos ellos.",
+            "verse": "Exodo 14:7"
+        },
+        {
+            "question": "Que dijo Moises al pueblo cuando estaban aterrados al ver al ejercito egipcio?",
+            "options": [
+                "Preparense para la guerra contra Egipto",
+                "No temais; estad firmes y ved la salvacion del Senor",
+                "Corran hacia las montanas y escondanse",
+                "Recen y ayunen por tres dias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises dijo al pueblo: 'No temais; estad firmes y ved la salvacion que el Senor hara hoy por vosotros; porque los egipcios que hoy habeis visto, no los vereis nunca mas.'",
+            "verse": "Exodo 14:13"
+        },
+        {
+            "question": "Que uso Moises para dividir las aguas del mar?",
+            "options": [
+                "Sus dos manos alzadas al cielo",
+                "Una piedra arrojada al agua",
+                "Su vara, extendiendo su mano sobre el mar",
+                "Las palabras de una oracion especial"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor dijo a Moises: 'Alza tu vara y extiende tu mano sobre el mar y dividelo.' Moises extendio su mano sobre el mar y el Senor hizo que el mar se retirara.",
+            "verse": "Exodo 14:16,21"
+        },
+        {
+            "question": "Que hizo que las aguas del mar se dividieran fisicamente durante la noche?",
+            "options": [
+                "Un terremoto debajo del mar",
+                "Un recio viento oriental que soplo toda la noche",
+                "El calor del sol evaporo las aguas",
+                "Un angel movio las aguas con sus manos"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor hizo que el mar se retirara por medio de un recio viento oriental que soplo toda aquella noche, y cambio el mar en tierra seca.",
+            "verse": "Exodo 14:21"
+        },
+        {
+            "question": "Que le sucedio al ejercito egipcio cuando entro al mar detras de Israel?",
+            "options": [
+                "Se perdieron en la oscuridad y regresaron",
+                "Las aguas volvieron y los cubrieron; no quedo ni uno de ellos",
+                "Fueron atacados por peces gigantes",
+                "El suelo se abrio y los trago"
+            ],
+            "correctIndex": 1,
+            "explanation": "Las aguas volvieron y cubrieron los carros y la caballeria de todo el ejercito de Faraon que habia entrado en el mar detras de ellos; no quedo ni uno de ellos.",
+            "verse": "Exodo 14:28"
+        },
+        {
+            "question": "Cual fue el resultado espiritual de este evento para los israelitas segun Exodo 14:31?",
+            "options": [
+                "Se enojaron con Moises por ponerlos en peligro",
+                "Temieron al Senor y creyeron en el Senor y en su siervo Moises",
+                "Decidieron regresar a Egipto",
+                "Pidieron un nuevo lider en lugar de Moises"
+            ],
+            "correctIndex": 1,
+            "explanation": "El pueblo temio al Senor, y creyeron en el Senor y en su siervo Moises al ver la gran obra que el Senor habia hecho contra los egipcios.",
+            "verse": "Exodo 14:31"
+        }
+    ]
+}

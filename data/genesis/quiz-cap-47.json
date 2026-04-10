@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 47",
+    "book": "Genesis",
+    "chapter": 47,
+    "questions": [
+        {
+            "question": "Cuantos de sus hermanos presento Jose ante el Faraon?",
+            "options": [
+                "Tres",
+                "Cinco",
+                "Siete",
+                "Todos los doce"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose tomo a cinco de sus hermanos y los presento ante el Faraon.",
+            "verse": "Genesis 47:2"
+        },
+        {
+            "question": "En que tierra les dio el Faraon permiso para habitar a la familia de Jacob?",
+            "options": [
+                "En la ciudad de Menfis",
+                "En la tierra de Rameses, en lo mejor de la tierra de Goshen",
+                "En las orillas del rio Nilo",
+                "En la tierra de On"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Faraon hablo a Jose y le dijo que estableciera a su padre y hermanos en lo mejor de la tierra, en la tierra de Rameses, como Jose habia dicho.",
+            "verse": "Genesis 47:6, 11"
+        },
+        {
+            "question": "Cuantos anos dijo Jacob que tenia cuando se presento ante el Faraon?",
+            "options": [
+                "Ciento diez anos",
+                "Ciento veinte anos",
+                "Ciento treinta anos",
+                "Ciento cuarenta anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob respondio al Faraon: 'Los anos de mi peregrinacion son ciento treinta anos.'",
+            "verse": "Genesis 47:9"
+        },
+        {
+            "question": "Que recibio Jose de los egipcios a cambio de alimento cuando se les acabo el dinero?",
+            "options": [
+                "Sus casas y templos",
+                "Su ganado: caballos, rebaños, vacas y asnos",
+                "Sus hijos como siervos",
+                "Sus joyas y objetos de valor"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando se les acabo el dinero, trajeron su ganado a Jose, y el les dio alimento a cambio de sus caballos, rebaños, vacas y asnos.",
+            "verse": "Genesis 47:17"
+        },
+        {
+            "question": "Que porcentaje de la cosecha debian entregar los egipcios al Faraon segun la ley que Jose establecio?",
+            "options": [
+                "Un decimo (el diezmo)",
+                "Un quinto (la quinta parte)",
+                "Un tercio",
+                "La mitad"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose establecio como ley que la quinta parte de la cosecha seria del Faraon, y las cuatro quintas partes serian para los egipcios.",
+            "verse": "Genesis 47:26"
+        },
+        {
+            "question": "Que tierra fue la unica que Jose no compro para el Faraon?",
+            "options": [
+                "La tierra de Goshen",
+                "La tierra de los sacerdotes",
+                "La tierra junto al rio Nilo",
+                "La tierra de los comerciantes"
+            ],
+            "correctIndex": 1,
+            "explanation": "Solo la tierra de los sacerdotes no fue comprada, porque los sacerdotes tenian una racion asignada por el Faraon y comian de lo que el Faraon les daba.",
+            "verse": "Genesis 47:22, 26"
+        },
+        {
+            "question": "Que le pidio Jacob a Jose que jurara antes de morir?",
+            "options": [
+                "Que cuidaria de Benjamin siempre",
+                "Que no lo sepultaria en Egipto sino en la sepultura de sus padres",
+                "Que liberaria a los israelitas de Egipto",
+                "Que repartiria su herencia equitativamente"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob hizo jurar a Jose que no lo sepultaria en Egipto, sino que lo llevaria de Egipto y lo sepultaria en el sepulcro de sus padres.",
+            "verse": "Genesis 47:29-30"
+        }
+    ]
+}

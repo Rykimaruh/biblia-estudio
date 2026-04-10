@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 12",
+    "book": "Exodo",
+    "chapter": 12,
+    "questions": [
+        {
+            "question": "Segun Exodo 12:2, que significado tendria el mes de la salida de Egipto para Israel?",
+            "options": [
+                "Seria el ultimo mes del ano",
+                "Seria el mes de ayuno",
+                "Seria el principio de los meses, el primer mes del ano",
+                "Seria el mes de la siembra"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor dijo que ese mes seria para ellos el principio de los meses; seria el primer mes del ano.",
+            "verse": "Exodo 12:2"
+        },
+        {
+            "question": "Como debia ser el cordero para la Pascua segun Exodo 12:5?",
+            "options": [
+                "Un macho de cualquier edad, sin importar su condicion",
+                "Un macho de un ano, sin defecto",
+                "Una hembra joven sin mancha",
+                "Un macho de dos anos, gordo y saludable"
+            ],
+            "correctIndex": 1,
+            "explanation": "El cordero debia ser un macho sin defecto, de un ano, pudiendo tomarlo de las ovejas o de las cabras.",
+            "verse": "Exodo 12:5"
+        },
+        {
+            "question": "Que debian hacer los israelitas con la sangre del cordero?",
+            "options": [
+                "Derramarla en el suelo frente a la puerta",
+                "Llevarla al altar del templo",
+                "Ponerla en los dos postes y en el dintel de la puerta de sus casas",
+                "Mezclarla con agua y beberla"
+            ],
+            "correctIndex": 2,
+            "explanation": "Debian tomar la sangre y ponerla en los dos postes y en el dintel de las casas donde lo comieran.",
+            "verse": "Exodo 12:7"
+        },
+        {
+            "question": "Con que debian comer la carne del cordero esa noche?",
+            "options": [
+                "Con pan con levadura y vino",
+                "Con panes sin levadura y hierbas amargas",
+                "Con frutas y miel",
+                "Con verduras cocidas y aceite"
+            ],
+            "correctIndex": 1,
+            "explanation": "Debian comer la carne asada al fuego esa noche, con panes sin levadura y con hierbas amargas.",
+            "verse": "Exodo 12:8"
+        },
+        {
+            "question": "Cuantos dias debian comer panes sin levadura segun las instrucciones de la Pascua?",
+            "options": [
+                "Tres dias",
+                "Cinco dias",
+                "Siete dias",
+                "Diez dias"
+            ],
+            "correctIndex": 2,
+            "explanation": "Por siete dias debian comer panes sin levadura, desde el dia catorce hasta el dia veintiuno del mes.",
+            "verse": "Exodo 12:15"
+        },
+        {
+            "question": "Que sucedio a la medianoche segun Exodo 12:29?",
+            "options": [
+                "Un terremoto sacudio toda la tierra de Egipto",
+                "El Senor hirio a todo primogenito en la tierra de Egipto",
+                "Una tormenta destruyo las cosechas",
+                "El rio Nilo se desbordo sobre Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "A la medianoche, el Senor hirio a todo primogenito en la tierra de Egipto, desde el primogenito de Faraon hasta el primogenito del cautivo en la carcel, y todo primogenito del ganado.",
+            "verse": "Exodo 12:29"
+        },
+        {
+            "question": "Cuanto tiempo habian morado los hijos de Israel en Egipto segun Exodo 12:40?",
+            "options": [
+                "Doscientos anos",
+                "Trescientos anos",
+                "Cuatrocientos treinta anos",
+                "Quinientos anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "El tiempo que los hijos de Israel moraron en Egipto fue cuatrocientos treinta anos.",
+            "verse": "Exodo 12:40"
+        }
+    ]
+}

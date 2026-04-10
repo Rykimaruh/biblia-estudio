@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 31",
+    "book": "Exodo",
+    "chapter": 31,
+    "questions": [
+        {
+            "question": "A quien llamo Dios por nombre y lleno del Espiritu de Dios para dirigir la construccion del tabernaculo?",
+            "options": [
+                "Aaron hijo de Amram",
+                "Bezalel hijo de Uri",
+                "Oholiab hijo de Ahisamac",
+                "Moises hijo de Amram"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios llamo por nombre a Bezalel hijo de Uri, hijo de Hur, de la tribu de Juda, y lo lleno del Espiritu de Dios en sabiduria, inteligencia y conocimiento.",
+            "verse": "Exodo 31:2-3"
+        },
+        {
+            "question": "De que tribu era Bezalel?",
+            "options": [
+                "Levi",
+                "Dan",
+                "Juda",
+                "Benjamin"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bezalel era hijo de Uri, hijo de Hur, de la tribu de Juda.",
+            "verse": "Exodo 31:2"
+        },
+        {
+            "question": "Quien fue designado como ayudante de Bezalel en la obra del tabernaculo?",
+            "options": [
+                "Josue hijo de Nun",
+                "Oholiab hijo de Ahisamac",
+                "Itamar hijo de Aaron",
+                "Hur hijo de Caleb"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios designo a Oholiab hijo de Ahisamac, de la tribu de Dan, para que trabajara junto a Bezalel.",
+            "verse": "Exodo 31:6"
+        },
+        {
+            "question": "De que tribu era Oholiab?",
+            "options": [
+                "Juda",
+                "Levi",
+                "Efrain",
+                "Dan"
+            ],
+            "correctIndex": 3,
+            "explanation": "Oholiab hijo de Ahisamac era de la tribu de Dan.",
+            "verse": "Exodo 31:6"
+        },
+        {
+            "question": "Que castigo establece Dios en este capitulo para quien profane el dia de reposo?",
+            "options": [
+                "Sera desterrado del campamento",
+                "Pagara una multa de plata",
+                "Sera muerto; cortado de entre su pueblo",
+                "Ofrecera un sacrificio de expiacion"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios declaro que cualquiera que profane el dia de reposo morira, y todo el que haga obra en el sera cortado de entre su pueblo.",
+            "verse": "Exodo 31:14-15"
+        },
+        {
+            "question": "Que dijo Dios que seria el dia de reposo entre El y los hijos de Israel?",
+            "options": [
+                "Un mandamiento temporal",
+                "Una senal perpetua entre Dios e Israel",
+                "Un dia de sacrificios",
+                "Una fiesta de celebracion"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo que el dia de reposo es una senal entre El y los hijos de Israel para siempre, porque en seis dias hizo el Senor los cielos y la tierra y en el septimo dia reposo.",
+            "verse": "Exodo 31:17"
+        },
+        {
+            "question": "Que le dio Dios a Moises al terminar de hablar con el en el monte Sinai?",
+            "options": [
+                "Un baculo de autoridad",
+                "Las dos tablas del testimonio, tablas de piedra escritas por el dedo de Dios",
+                "Un rollo con las leyes",
+                "El diseno del tabernaculo en papiro"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando termino de hablar con Moises en el monte Sinai, Dios le dio las dos tablas del testimonio, tablas de piedra escritas por el dedo de Dios.",
+            "verse": "Exodo 31:18"
+        }
+    ]
+}

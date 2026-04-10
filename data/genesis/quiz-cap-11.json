@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 11",
+    "book": "Genesis",
+    "chapter": 11,
+    "questions": [
+        {
+            "question": "Segun Genesis 11:1, que caracteristica tenia toda la tierra al principio?",
+            "options": [
+                "Tenia muchos idiomas diferentes",
+                "Tenia una sola lengua y las mismas palabras",
+                "No habia comunicacion entre los pueblos",
+                "Solo se hablaba hebreo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Genesis 11:1 dice: 'Toda la tierra hablaba la misma lengua y las mismas palabras.'",
+            "verse": "Genesis 11:1"
+        },
+        {
+            "question": "En que llanura se establecieron los hombres donde decidieron construir la torre?",
+            "options": [
+                "La llanura de Moab",
+                "La llanura del Jordan",
+                "La llanura de Sinar",
+                "La llanura de Mamre"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genesis 11:2 indica que hallaron una llanura en la tierra de Sinar y se establecieron alli.",
+            "verse": "Genesis 11:2"
+        },
+        {
+            "question": "Que materiales usaron para construir la torre de Babel?",
+            "options": [
+                "Piedras y argamasa",
+                "Madera y clavos",
+                "Ladrillos cocidos y asfalto como mezcla",
+                "Adobe y paja"
+            ],
+            "correctIndex": 2,
+            "explanation": "Se dijeron: 'Hagamos ladrillos y cozamoslos bien.' Usaron ladrillo en lugar de piedra, y asfalto en lugar de mezcla.",
+            "verse": "Genesis 11:3"
+        },
+        {
+            "question": "Cual era el proposito de los hombres al construir la ciudad y la torre?",
+            "options": [
+                "Adorar a Dios en lo alto",
+                "Hacerse un nombre y no ser esparcidos sobre la faz de la tierra",
+                "Llegar al cielo para ver a los angeles",
+                "Protegerse de otro diluvio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dijeron: 'Edifiquemonos una ciudad y una torre cuya cupula llegue al cielo, y hagamonos un nombre famoso, para no ser dispersados sobre la faz de toda la tierra.'",
+            "verse": "Genesis 11:4"
+        },
+        {
+            "question": "Que hizo el Senor para detener la construccion de la torre?",
+            "options": [
+                "Envio un terremoto que destruyo la torre",
+                "Envio fuego del cielo",
+                "Confundio su lengua para que no se entendieran",
+                "Los castigo con una plaga"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor dijo: 'Descendamos y confundamos alli su lengua, para que nadie entienda el lenguaje del otro.' Asi los disperso sobre la faz de la tierra.",
+            "verse": "Genesis 11:7-8"
+        },
+        {
+            "question": "Quien fue el padre de Abram segun la genealogia de este capitulo?",
+            "options": [
+                "Nacor",
+                "Sem",
+                "Haran",
+                "Tare"
+            ],
+            "correctIndex": 3,
+            "explanation": "Genesis 11:26-27 dice que Tare engendro a Abram, a Nacor y a Haran.",
+            "verse": "Genesis 11:26-27"
+        },
+        {
+            "question": "De que ciudad salieron Tare y su familia con destino a la tierra de Canaan?",
+            "options": [
+                "Babel",
+                "Ur de los caldeos",
+                "Haran",
+                "Sinar"
+            ],
+            "correctIndex": 1,
+            "explanation": "Tare tomo a Abram, a Lot y a Sarai, y salieron juntos de Ur de los caldeos, en direccion a la tierra de Canaan, pero se establecieron en Haran.",
+            "verse": "Genesis 11:31"
+        }
+    ]
+}

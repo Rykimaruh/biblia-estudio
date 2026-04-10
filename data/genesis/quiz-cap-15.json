@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 15",
+    "book": "Genesis",
+    "chapter": 15,
+    "questions": [
+        {
+            "question": "Que le dijo Dios a Abram en la vision de Genesis 15:1?",
+            "options": [
+                "Sal de tu tierra y ve a Canaan",
+                "No temas, Abram, yo soy tu escudo y tu recompensa sera muy grande",
+                "Te dare un hijo antes de un ano",
+                "Destruire a tus enemigos"
+            ],
+            "correctIndex": 1,
+            "explanation": "La palabra del Senor vino a Abram en vision diciendo: 'No temas, Abram, yo soy tu escudo; tu recompensa sera muy grande.'",
+            "verse": "Genesis 15:1"
+        },
+        {
+            "question": "Quien pensaba Abram que seria su heredero antes de la promesa de Dios?",
+            "options": [
+                "Lot, su sobrino",
+                "Ismael, su hijo",
+                "Eliezer de Damasco, un siervo de su casa",
+                "Nacor, su hermano"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abram dijo: 'Senor Dios, no me has dado hijo, y el heredero de mi casa es Eliezer de Damasco.'",
+            "verse": "Genesis 15:2-3"
+        },
+        {
+            "question": "Con que comparo Dios la futura descendencia de Abram?",
+            "options": [
+                "Con la arena del mar",
+                "Con las estrellas del cielo",
+                "Con los arboles del bosque",
+                "Con las gotas de lluvia"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios lo llevo fuera y le dijo: 'Mira ahora hacia los cielos y cuenta las estrellas, si te es posible contarlas.' Y anadio: 'Asi sera tu descendencia.'",
+            "verse": "Genesis 15:5"
+        },
+        {
+            "question": "Que hizo Abram que le fue contado por justicia?",
+            "options": [
+                "Ofrecio un sacrificio",
+                "Construyo un altar",
+                "Creyo en el Senor",
+                "Obedecio y salio de su tierra"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genesis 15:6 dice: 'Y Abram creyo en el Senor, y El se lo conto por justicia.' Este versiculo es fundamental en la doctrina de la fe.",
+            "verse": "Genesis 15:6"
+        },
+        {
+            "question": "Que animales le pidio Dios a Abram que trajera para el pacto?",
+            "options": [
+                "Un cordero y dos palomas",
+                "Una novilla de tres anos, una cabra de tres anos, un carnero de tres anos, una tortola y un pichon",
+                "Siete ovejas y un toro",
+                "Dos bueyes y tres cabras"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo: 'Traeme una novilla de tres anos, una cabra de tres anos, un carnero de tres anos, una tortola y un pichon.'",
+            "verse": "Genesis 15:9"
+        },
+        {
+            "question": "Cuantos anos dijo Dios que los descendientes de Abram serian extranjeros en tierra ajena?",
+            "options": [
+                "Doscientos anos",
+                "Trescientos anos",
+                "Cuatrocientos anos",
+                "Quinientos anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le dijo a Abram: 'Ten por cierto que tus descendientes seran extranjeros en una tierra que no es suya, donde seran esclavizados y oprimidos cuatrocientos anos.'",
+            "verse": "Genesis 15:13"
+        },
+        {
+            "question": "Que paso entre las piezas de los animales partidos despues de ponerse el sol?",
+            "options": [
+                "Un angel aparecio y las consumio",
+                "Un horno humeante y una antorcha de fuego pasaron entre las piezas",
+                "Un viento fuerte las disperso",
+                "Fuego del cielo las consumio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando se puso el sol y hubo densas tinieblas, un horno humeante y una antorcha de fuego pasaron por entre las piezas, sellando el pacto de Dios con Abram.",
+            "verse": "Genesis 15:17"
+        }
+    ]
+}

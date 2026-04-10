@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 7",
+    "book": "Genesis",
+    "chapter": 7,
+    "questions": [
+        {
+            "question": "Por que le dijo Dios a Noe que entrara al arca con toda su familia?",
+            "options": [
+                "Porque Noe era el hombre mas viejo",
+                "Porque habia visto que Noe era justo delante de El en aquella generacion",
+                "Porque Noe habia construido el arca mas grande",
+                "Porque no habia nadie mas disponible"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo a Noe: 'Entra en el arca tu y toda tu casa, porque he visto que tu eres justo delante de mi en esta generacion.'",
+            "verse": "Genesis 7:1"
+        },
+        {
+            "question": "Cuantos pares de animales limpios debio llevar Noe al arca?",
+            "options": [
+                "Dos de cada especie",
+                "Cinco pares de cada especie",
+                "Siete parejas de cada especie",
+                "Diez pares de cada especie"
+            ],
+            "correctIndex": 2,
+            "explanation": "De todo animal limpio, Noe debia tomar siete parejas (macho y hembra), y de los animales que no eran limpios, solo dos (macho y hembra).",
+            "verse": "Genesis 7:2"
+        },
+        {
+            "question": "Que edad tenia Noe cuando comenzo el diluvio sobre la tierra?",
+            "options": [
+                "500 anos",
+                "600 anos",
+                "700 anos",
+                "950 anos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Noe tenia seiscientos anos cuando el diluvio vino sobre la tierra.",
+            "verse": "Genesis 7:6"
+        },
+        {
+            "question": "De donde vinieron las aguas del diluvio?",
+            "options": [
+                "Solo de la lluvia del cielo",
+                "Solo del mar",
+                "Se abrieron todas las fuentes del gran abismo y las compuertas del cielo fueron abiertas",
+                "De los rios que se desbordaron"
+            ],
+            "correctIndex": 2,
+            "explanation": "Se rompieron todas las fuentes del gran abismo, y las compuertas del cielo fueron abiertas. Las aguas vinieron tanto de abajo como de arriba.",
+            "verse": "Genesis 7:11"
+        },
+        {
+            "question": "Cuantos dias y noches estuvo lloviendo sobre la tierra?",
+            "options": [
+                "Diez dias y diez noches",
+                "Veinte dias y veinte noches",
+                "Cuarenta dias y cuarenta noches",
+                "Cien dias y cien noches"
+            ],
+            "correctIndex": 2,
+            "explanation": "La lluvia cayo sobre la tierra durante cuarenta dias y cuarenta noches.",
+            "verse": "Genesis 7:12"
+        },
+        {
+            "question": "Quien cerro la puerta del arca despues de que Noe y los animales entraron?",
+            "options": [
+                "Noe",
+                "Los hijos de Noe",
+                "El Senor cerro la puerta detras de el",
+                "Un angel"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor cerro la puerta del arca detras de Noe. Fue Dios mismo quien sello el arca.",
+            "verse": "Genesis 7:16"
+        },
+        {
+            "question": "Que sucedio con todo ser viviente que estaba sobre la faz de la tierra?",
+            "options": [
+                "Algunos sobrevivieron en las montanas",
+                "Fue destruido todo ser viviente: hombres, ganados, reptiles y aves; solo quedo Noe y los que estaban con el en el arca",
+                "Muchos se salvaron nadando",
+                "Los peces tambien murieron"
+            ],
+            "correctIndex": 1,
+            "explanation": "Fue destruido todo ser viviente sobre la faz de la tierra, desde el hombre hasta el ganado, reptiles y aves. Solo quedo Noe y los que estaban con el en el arca.",
+            "verse": "Genesis 7:23"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 16",
+    "book": "Exodo",
+    "chapter": 16,
+    "questions": [
+        {
+            "question": "Contra quien murmuraron los israelitas en el desierto de Sin?",
+            "options": [
+                "Contra Dios directamente",
+                "Contra Moises y Aaron",
+                "Contra los ancianos de Israel",
+                "Contra los egipcios"
+            ],
+            "correctIndex": 1,
+            "explanation": "Toda la congregacion de los hijos de Israel murmuro contra Moises y contra Aaron en el desierto.",
+            "verse": "Exodo 16:2"
+        },
+        {
+            "question": "Que dijo el pueblo que preferirían haber hecho en Egipto?",
+            "options": [
+                "Quedarse como esclavos para siempre",
+                "Haber muerto a manos del Senor cuando se sentaban junto a las ollas de carne",
+                "Haber luchado contra Faraon",
+                "Haber negociado mejores condiciones de servidumbre"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los israelitas dijeron: 'Ojala hubieramos muerto a manos del Senor en la tierra de Egipto, cuando nos sentabamos junto a las ollas de carne, cuando comiamos pan hasta saciarnos.'",
+            "verse": "Exodo 16:3"
+        },
+        {
+            "question": "Que alimento envio Dios por la tarde para el pueblo?",
+            "options": [
+                "Peces del mar",
+                "Frutas del desierto",
+                "Codornices",
+                "Pan sin levadura"
+            ],
+            "correctIndex": 2,
+            "explanation": "Al atardecer subieron codornices y cubrieron el campamento, proveyendo carne para el pueblo.",
+            "verse": "Exodo 16:13"
+        },
+        {
+            "question": "Como era el mana que aparecia por la manana?",
+            "options": [
+                "Era grande y de color verde",
+                "Era una cosa menuda, redonda, menuda como la escarcha sobre la tierra",
+                "Era como piedras pequenas de color rojo",
+                "Era liquido como la miel"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando el rocio se evaporo, habia sobre la superficie del desierto una cosa menuda, redonda, menuda como la escarcha sobre la tierra.",
+            "verse": "Exodo 16:14"
+        },
+        {
+            "question": "Cuanto mana debia recoger cada persona diariamente?",
+            "options": [
+                "Medio gomer por persona",
+                "Un gomer por persona",
+                "Dos gomeres por persona",
+                "Lo que cada uno quisiera"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises les dijo que recogieran un gomer por persona, segun el numero de personas en cada tienda.",
+            "verse": "Exodo 16:16"
+        },
+        {
+            "question": "Que sucedia cuando algunos guardaban mana hasta la manana siguiente en dias regulares?",
+            "options": [
+                "Se multiplicaba al doble",
+                "Se volvia piedra dura",
+                "Criaba gusanos y hedia",
+                "Desaparecia misteriosamente"
+            ],
+            "correctIndex": 2,
+            "explanation": "Algunos dejaron parte de el para la manana siguiente, y crio gusanos y hedio, y Moises se enojo con ellos.",
+            "verse": "Exodo 16:20"
+        },
+        {
+            "question": "Por que debian recoger doble porcion el sexto dia?",
+            "options": [
+                "Porque el septimo dia habria una fiesta especial",
+                "Porque el septimo dia era dia de reposo, y no habria mana",
+                "Porque necesitaban almacenar para el viaje",
+                "Porque el mana del sexto dia era mas nutritivo"
+            ],
+            "correctIndex": 1,
+            "explanation": "El sexto dia recogian doble porcion porque el septimo dia era dia de reposo consagrado al Senor, y ese dia no habria mana en el campo.",
+            "verse": "Exodo 16:25-26"
+        }
+    ]
+}

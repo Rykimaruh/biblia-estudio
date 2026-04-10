@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="book" content="exodo">
+    <title>Cuestionarios — Exodo — Biblia Estudio</title>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    <header id="site-header"></header>
+
+    <main>
+        <div class="breadcrumb" id="breadcrumb"></div>
+
+        <h2>Cuestionarios del Libro de Exodo</h2>
+        <p class="intro-text">
+            Selecciona un capitulo para responder su cuestionario. Cada cuestionario tiene
+            6-7 preguntas de seleccion multiple con explicaciones y versiculos de referencia
+            de la Santa Biblia de las Americas (LBLA).
+        </p>
+
+        <div id="chapters-grid" class="card-grid"></div>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script src="../../js/admin.js"></script>
+    <script src="../../js/layout.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            renderBreadcrumb([
+                { label: 'Inicio', href: '../../' },
+                { label: 'Exodo', href: '../' },
+                { label: 'Cuestionarios' }
+            ]);
+
+            const grid = document.getElementById('chapters-grid');
+            let html = '';
+            for (let i = 1; i <= 40; i++) {
+                html += `
+                    <a class="card" href="${i}/">
+                        <h3>Capitulo ${i}</h3>
+                        <p>6-7 preguntas de seleccion multiple</p>
+                    </a>
+                `;
+            }
+            grid.innerHTML = html;
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 16",
+    "book": "Genesis",
+    "chapter": 16,
+    "questions": [
+        {
+            "question": "Cual era el nombre de la sierva egipcia de Sarai?",
+            "options": [
+                "Zilpa",
+                "Bilha",
+                "Hagar",
+                "Rebeca"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genesis 16:1 dice que Sarai, mujer de Abram, tenia una sierva egipcia que se llamaba Hagar.",
+            "verse": "Genesis 16:1"
+        },
+        {
+            "question": "Por que le dio Sarai su sierva Hagar a Abram?",
+            "options": [
+                "Porque Hagar lo pidio",
+                "Porque Dios se lo ordeno",
+                "Porque Sarai no le habia dado hijos y queria tener familia por medio de ella",
+                "Porque Abram necesitaba mas siervos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sarai dijo a Abram: 'El Senor me ha impedido tener hijos. Te ruego que te llegues a mi sierva; quizas por medio de ella yo tenga hijos.'",
+            "verse": "Genesis 16:2"
+        },
+        {
+            "question": "Cuantos anos habia vivido Abram en la tierra de Canaan cuando tomo a Hagar?",
+            "options": [
+                "Cinco anos",
+                "Diez anos",
+                "Quince anos",
+                "Veinte anos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Genesis 16:3 dice que Sarai dio a Hagar a Abram despues de que Abram habia vivido diez anos en la tierra de Canaan.",
+            "verse": "Genesis 16:3"
+        },
+        {
+            "question": "Que sucedio cuando Hagar vio que habia concebido?",
+            "options": [
+                "Se alegro y bendijo a Sarai",
+                "Miro con desprecio a su senora Sarai",
+                "Huyo inmediatamente",
+                "Pidio su libertad"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando Hagar vio que habia concebido, su senora fue despreciada a sus ojos.",
+            "verse": "Genesis 16:4"
+        },
+        {
+            "question": "Donde encontro el angel del Senor a Hagar cuando huyo?",
+            "options": [
+                "En el desierto de Sinar",
+                "Junto a una fuente de agua en el desierto, en el camino de Shur",
+                "En las montanas de Seir",
+                "Junto al rio Eufrates"
+            ],
+            "correctIndex": 1,
+            "explanation": "El angel del Senor la encontro junto a una fuente de agua en el desierto, junto a la fuente en el camino de Shur.",
+            "verse": "Genesis 16:7"
+        },
+        {
+            "question": "Que nombre le dijo el angel a Hagar que pusiera a su hijo y que significa?",
+            "options": [
+                "Isaac, que significa 'risa'",
+                "Ismael, que significa 'Dios oye'",
+                "Emanuel, que significa 'Dios con nosotros'",
+                "Esau, que significa 'velludo'"
+            ],
+            "correctIndex": 1,
+            "explanation": "El angel le dijo: 'Llamaras su nombre Ismael, porque el Senor ha oido tu afliccion.' Ismael significa 'Dios oye'.",
+            "verse": "Genesis 16:11"
+        },
+        {
+            "question": "Que edad tenia Abram cuando nacio Ismael?",
+            "options": [
+                "Setenta y cinco anos",
+                "Ochenta anos",
+                "Ochenta y seis anos",
+                "Noventa anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genesis 16:16 dice que Abram tenia ochenta y seis anos cuando Hagar le dio a luz a Ismael.",
+            "verse": "Genesis 16:16"
+        }
+    ]
+}

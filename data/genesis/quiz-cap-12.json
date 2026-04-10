@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 12",
+    "book": "Genesis",
+    "chapter": 12,
+    "questions": [
+        {
+            "question": "Que le dijo el Senor a Abram al llamarlo en Genesis 12:1?",
+            "options": [
+                "Construye un arca para tu familia",
+                "Vete de tu tierra, de tu parentela y de la casa de tu padre",
+                "Quedate en Haran y prospera alli",
+                "Ve a Egipto y establece alli tu pueblo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios le dijo a Abram: 'Vete de tu tierra, de tu parentela y de la casa de tu padre, a la tierra que yo te mostrare.'",
+            "verse": "Genesis 12:1"
+        },
+        {
+            "question": "Que edad tenia Abram cuando salio de Haran?",
+            "options": [
+                "Sesenta y cinco anos",
+                "Setenta anos",
+                "Setenta y cinco anos",
+                "Ochenta anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genesis 12:4 dice que Abram tenia setenta y cinco anos cuando salio de Haran.",
+            "verse": "Genesis 12:4"
+        },
+        {
+            "question": "Quien acompano a Abram cuando salio de Haran?",
+            "options": [
+                "Solo Sarai su mujer",
+                "Sarai su mujer y Lot su sobrino",
+                "Tare su padre y Nacor su hermano",
+                "Solo Lot su sobrino"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abram tomo a Sarai su mujer, a Lot hijo de su hermano, y todos los bienes y personas que habian adquirido en Haran.",
+            "verse": "Genesis 12:5"
+        },
+        {
+            "question": "En que lugar se aparecio el Senor a Abram y le prometio dar esa tierra a su descendencia?",
+            "options": [
+                "Betel",
+                "Haran",
+                "Siquem, junto a la encina de More",
+                "Egipto"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abram paso por la tierra hasta el lugar de Siquem, hasta la encina de More, y alli el Senor se le aparecio y le dijo: 'A tu descendencia dare esta tierra.'",
+            "verse": "Genesis 12:6-7"
+        },
+        {
+            "question": "Por que razon bajo Abram a Egipto?",
+            "options": [
+                "Porque Dios le ordeno ir",
+                "Porque queria comerciar",
+                "Porque habia hambre en la tierra",
+                "Porque huia de sus enemigos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Hubo hambre en la tierra, y Abram descendio a Egipto para pasar un tiempo alli, porque el hambre era severa en la tierra.",
+            "verse": "Genesis 12:10"
+        },
+        {
+            "question": "Que le pidio Abram a Sarai que dijera cuando llegaran a Egipto?",
+            "options": [
+                "Que era su sirvienta",
+                "Que era su hermana",
+                "Que era viuda",
+                "Que era extranjera"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abram le dijo a Sarai: 'Di, por favor, que eres mi hermana, para que me vaya bien por causa tuya y yo viva gracias a ti.'",
+            "verse": "Genesis 12:13"
+        },
+        {
+            "question": "Que hizo el Senor al Faraon por causa de Sarai, la mujer de Abram?",
+            "options": [
+                "Lo bendijo con abundancia",
+                "Le envio suenos profeticos",
+                "Hirio al Faraon y a su casa con grandes plagas",
+                "Le quito todo su ganado"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor hirio al Faraon y a su casa con grandes plagas por causa de Sarai, mujer de Abram.",
+            "verse": "Genesis 12:17"
+        }
+    ]
+}

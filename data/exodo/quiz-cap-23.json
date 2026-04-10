@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 23",
+    "book": "Exodo",
+    "chapter": 23,
+    "questions": [
+        {
+            "question": "Segun Exodo 23:2, que prohibio Dios respecto a seguir a la multitud?",
+            "options": [
+                "No seguiras a la multitud para adorar idolos",
+                "No seguiras a la multitud para hacer el mal",
+                "No seguiras a la multitud para ir a la guerra",
+                "No seguiras a la multitud para abandonar la tierra"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios ordeno: 'No seguiras a la multitud para hacer el mal', estableciendo que la justicia no depende de la opinion de la mayoria.",
+            "verse": "Exodo 23:2"
+        },
+        {
+            "question": "Segun Exodo 23:10-11, que debian hacer los israelitas cada septimo ano con la tierra?",
+            "options": [
+                "Venderla a otro israelita",
+                "Sembrarla con trigo unicamente",
+                "Dejarla descansar y sin cultivar para que los pobres comieran de ella",
+                "Dedicarla al Senor con una ofrenda especial"
+            ],
+            "correctIndex": 2,
+            "explanation": "Durante seis anos sembrarian la tierra, pero el septimo ano la dejarian descansar sin cultivar, para que comieran los pobres del pueblo.",
+            "verse": "Exodo 23:10-11"
+        },
+        {
+            "question": "Cuales eran las tres fiestas anuales que los varones israelitas debian celebrar segun Exodo 23:14-16?",
+            "options": [
+                "Pascua, Pentecostes y Tabernaculos",
+                "Fiesta de los Panes sin Levadura, Fiesta de la Siega y Fiesta de la Cosecha",
+                "Fiesta de las Trompetas, Dia de Expiacion y Tabernaculos",
+                "Pascua, Dia de Expiacion y Fiesta de las Primicias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Las tres fiestas eran: la Fiesta de los Panes sin Levadura, la Fiesta de la Siega (de las primicias) y la Fiesta de la Cosecha al fin del ano.",
+            "verse": "Exodo 23:14-16"
+        },
+        {
+            "question": "Segun Exodo 23:19, que estaba prohibido hacer con el cabrito?",
+            "options": [
+                "Ofrecerlo como holocausto",
+                "Comerlo durante la Pascua",
+                "Cocerlo en la leche de su madre",
+                "Sacrificarlo antes de los ocho dias"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios prohibio expresamente: 'No coceras el cabrito en la leche de su madre.'",
+            "verse": "Exodo 23:19"
+        },
+        {
+            "question": "Que prometio Dios enviar delante de Israel para guardarlos en el camino y llevarlos al lugar preparado?",
+            "options": [
+                "Un profeta",
+                "Una columna de fuego",
+                "Un angel",
+                "Un ejercito celestial"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo: 'He aqui, yo envio un angel delante de ti, para que te guarde en el camino y te lleve al lugar que yo he preparado.'",
+            "verse": "Exodo 23:20"
+        },
+        {
+            "question": "Segun Exodo 23:12, que debian hacer en el septimo dia de la semana?",
+            "options": [
+                "Ofrecer sacrificios especiales",
+                "Reposar, para que descansara el buey, el asno, el hijo de la sierva y el extranjero",
+                "Reunirse en asamblea solemne",
+                "Ayunar y orar todo el dia"
+            ],
+            "correctIndex": 1,
+            "explanation": "El septimo dia debian reposar, para que descansaran el buey, el asno, el hijo de la sierva y el extranjero.",
+            "verse": "Exodo 23:12"
+        },
+        {
+            "question": "Segun Exodo 23:25-26, que bendiciones prometio Dios si Israel le servia?",
+            "options": [
+                "Riquezas y fama entre las naciones",
+                "Bendicion sobre el pan y las aguas, quitar enfermedades, y cumplir el numero de sus dias",
+                "Victoria sobre todos sus enemigos sin luchar",
+                "Multiplicar su ganado cien veces"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios prometio bendecir su pan y sus aguas, quitar toda enfermedad de en medio de ellos, no habria mujer que aborte ni esteril, y cumpliria el numero de sus dias.",
+            "verse": "Exodo 23:25-26"
+        }
+    ]
+}

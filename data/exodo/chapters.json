@@ -1,0 +1,247 @@
+{
+    "book": "Exodo",
+    "bookSlug": "exodo",
+    "overview": "Exodo narra la liberacion del pueblo de Israel de la esclavitud en Egipto bajo el liderazgo de Moises, incluyendo las diez plagas, el cruce del Mar Rojo y el viaje al monte Sinai. El libro establece el pacto entre Dios y su pueblo, entregando la Ley y las instrucciones para la construccion del tabernaculo como lugar de la presencia divina en medio de Israel.",
+    "chapters": [
+        {
+            "chapter": 1,
+            "title": "Opresion en Egipto",
+            "summary": "Los descendientes de Israel se multiplican grandemente en Egipto, y un nuevo faraon que no conocia a Jose los somete a dura esclavitud. Faraon ordena a las parteras hebreas matar a los ninos varones, pero ellas temen a Dios y los dejan vivir, por lo cual Dios las bendice.",
+            "keyVerses": ["Exodo 1:7", "Exodo 1:12", "Exodo 1:17"]
+        },
+        {
+            "chapter": 2,
+            "title": "Nacimiento de Moises",
+            "summary": "Moises nace de padres levitas y es puesto en una cesta en el rio Nilo, donde la hija de Faraon lo encuentra y lo adopta. Ya adulto, Moises mata a un egipcio que golpeaba a un hebreo y huye a Madian, donde se casa con Sefora y tiene un hijo.",
+            "keyVerses": ["Exodo 2:10", "Exodo 2:24"]
+        },
+        {
+            "chapter": 3,
+            "title": "La Zarza Ardiente",
+            "summary": "Dios se revela a Moises en una zarza que arde sin consumirse en el monte Horeb y lo llama para liberar a su pueblo de Egipto. Dios revela su nombre 'YO SOY EL QUE SOY' y promete sacar a Israel a una tierra que fluye leche y miel.",
+            "keyVerses": ["Exodo 3:6", "Exodo 3:14"]
+        },
+        {
+            "chapter": 4,
+            "title": "Senales de Moises",
+            "summary": "Dios da a Moises tres senales milagrosas para convencer al pueblo: la vara convertida en serpiente, la mano leprosa y el agua convertida en sangre. Moises objeta su falta de elocuencia, y Dios designa a Aaron como su portavoz; luego Moises regresa a Egipto.",
+            "keyVerses": ["Exodo 4:2", "Exodo 4:12", "Exodo 4:31"]
+        },
+        {
+            "chapter": 5,
+            "title": "Faraon Rechaza a Dios",
+            "summary": "Moises y Aaron se presentan ante Faraon pidiendo que deje salir al pueblo para celebrar una fiesta en el desierto, pero Faraon se niega y aumenta la carga de trabajo. Los israelitas deben fabricar ladrillos sin que se les provea paja, y culpan a Moises por empeorar su situacion.",
+            "keyVerses": ["Exodo 5:1", "Exodo 5:2"]
+        },
+        {
+            "chapter": 6,
+            "title": "Promesa Divina de Liberacion",
+            "summary": "Dios reafirma su pacto con Israel y promete liberarlos con brazo extendido y grandes juicios, recordando su pacto con Abraham, Isaac y Jacob. Se presenta la genealogia de Moises y Aaron, confirmando su linaje levita, y Dios los envia nuevamente ante Faraon.",
+            "keyVerses": ["Exodo 6:6", "Exodo 6:7"]
+        },
+        {
+            "chapter": 7,
+            "title": "Primera Plaga: Sangre",
+            "summary": "Dios endurece el corazon de Faraon y envia a Moises y Aaron a confrontarlo. Aaron arroja su vara que se convierte en serpiente y devora las varas de los magos de Egipto. La primera plaga convierte las aguas del Nilo en sangre, matando los peces y contaminando toda el agua.",
+            "keyVerses": ["Exodo 7:3", "Exodo 7:17", "Exodo 7:20"]
+        },
+        {
+            "chapter": 8,
+            "title": "Plagas de Ranas y Piojos",
+            "summary": "Dios envia la plaga de ranas que invaden todo Egipto; Faraon pide alivio y promete dejar ir al pueblo, pero endurece su corazon al cesar la plaga. Siguen las plagas de piojos y de moscas; los magos reconocen el dedo de Dios, pero Faraon continua negandose a liberar a Israel.",
+            "keyVerses": ["Exodo 8:10", "Exodo 8:19", "Exodo 8:22"]
+        },
+        {
+            "chapter": 9,
+            "title": "Peste, Ulceras y Granizo",
+            "summary": "Dios envia la plaga de peste sobre el ganado egipcio, luego ulceras dolorosas sobre hombres y bestias, y finalmente una terrible tormenta de granizo que destruye cosechas y mata al ganado en el campo. Dios hace distincion entre Egipto y la tierra de Gosen donde habita Israel, pero Faraon sigue endureciendo su corazon.",
+            "keyVerses": ["Exodo 9:14", "Exodo 9:16", "Exodo 9:26"]
+        },
+        {
+            "chapter": 10,
+            "title": "Langostas y Tinieblas",
+            "summary": "La plaga de langostas devora todo lo verde que queda en Egipto despues del granizo, y luego tres dias de densas tinieblas cubren toda la tierra. Faraon ofrece concesiones parciales, pero Moises insiste en que todo el pueblo con sus ganados debe salir, y Faraon lo despide amenazandolo de muerte.",
+            "keyVerses": ["Exodo 10:2", "Exodo 10:21", "Exodo 10:26"]
+        },
+        {
+            "chapter": 11,
+            "title": "Anuncio de la Ultima Plaga",
+            "summary": "Dios anuncia la decima y ultima plaga: la muerte de todos los primogenitos de Egipto, desde el primogenito de Faraon hasta el del esclavo. Moises advierte a Faraon que despues de esta plaga los egipcios rogaran a los israelitas que salgan, y el pueblo halla favor ante los egipcios.",
+            "keyVerses": ["Exodo 11:1", "Exodo 11:5", "Exodo 11:7"]
+        },
+        {
+            "chapter": 12,
+            "title": "La Pascua del Senor",
+            "summary": "Dios instituye la Pascua: cada familia debe sacrificar un cordero sin defecto y poner su sangre en los postes de las puertas para que el angel destructor pase de largo. A medianoche mueren todos los primogenitos de Egipto, y Faraon finalmente deja salir a Israel; el pueblo sale con riquezas de los egipcios despues de 430 anos en Egipto.",
+            "keyVerses": ["Exodo 12:13", "Exodo 12:23", "Exodo 12:40"]
+        },
+        {
+            "chapter": 13,
+            "title": "Consagracion de los Primogenitos",
+            "summary": "Dios ordena consagrar todo primogenito y celebrar la fiesta de los panes sin levadura como memorial perpetuo de la liberacion. Dios no guia al pueblo por el camino de los filisteos sino por el desierto hacia el Mar Rojo, y va delante de ellos en columna de nube de dia y columna de fuego de noche.",
+            "keyVerses": ["Exodo 13:2", "Exodo 13:21", "Exodo 13:22"]
+        },
+        {
+            "chapter": 14,
+            "title": "Cruce del Mar Rojo",
+            "summary": "Faraon persigue a Israel con su ejercito hasta el Mar Rojo, y el pueblo se llena de temor. Moises extiende su vara, Dios divide las aguas con un fuerte viento oriental, e Israel cruza en seco; cuando los egipcios los siguen, las aguas se cierran sobre ellos y todo el ejercito perece.",
+            "keyVerses": ["Exodo 14:13", "Exodo 14:21", "Exodo 14:31"]
+        },
+        {
+            "chapter": 15,
+            "title": "Cantico de Moises",
+            "summary": "Moises e Israel cantan un himno de victoria celebrando la destruccion del ejercito egipcio en el mar y la grandeza del Senor. Maria la profetisa guia a las mujeres con panderos y danzas. Luego en Mara las aguas amargas son endulzadas, y Dios promete salud si Israel obedece sus mandamientos.",
+            "keyVerses": ["Exodo 15:1", "Exodo 15:2", "Exodo 15:26"]
+        },
+        {
+            "chapter": 16,
+            "title": "El Mana del Cielo",
+            "summary": "El pueblo murmura contra Moises por hambre, y Dios provee codornices por la tarde y mana cada manana como pan del cielo. Dios instruye recoger una porcion diaria y doble el sexto dia para guardar el sabado; un gomer de mana se guarda en una vasija como testimonio para las generaciones futuras.",
+            "keyVerses": ["Exodo 16:4", "Exodo 16:15", "Exodo 16:35"]
+        },
+        {
+            "chapter": 17,
+            "title": "Agua de la Roca",
+            "summary": "En Refidim el pueblo pelea con Moises por falta de agua, y Dios le ordena golpear la roca en Horeb, de la cual brota agua. Los amalecitas atacan a Israel, y mientras Moises mantiene sus manos levantadas con la vara de Dios, Josue prevalece en la batalla.",
+            "keyVerses": ["Exodo 17:6", "Exodo 17:11", "Exodo 17:15"]
+        },
+        {
+            "chapter": 18,
+            "title": "Visita de Jetro",
+            "summary": "Jetro, suegro de Moises, llega con Sefora y los hijos de Moises y se regocija al escuchar como Dios libro a Israel de Egipto. Al ver que Moises juzga al pueblo solo desde la manana hasta la noche, Jetro le aconseja nombrar jueces capaces para los casos menores, reservando solo los asuntos dificiles para Moises.",
+            "keyVerses": ["Exodo 18:11", "Exodo 18:21", "Exodo 18:24"]
+        },
+        {
+            "chapter": 19,
+            "title": "Israel en el Sinai",
+            "summary": "Israel llega al monte Sinai y Dios les declara que si obedecen su voz seran un reino de sacerdotes y una nacion santa. El pueblo se consagra durante tres dias, y al tercer dia Dios desciende sobre el monte con truenos, relampagos, humo y sonido de trompeta, prohibiendo que nadie toque el monte.",
+            "keyVerses": ["Exodo 19:5", "Exodo 19:6", "Exodo 19:18"]
+        },
+        {
+            "chapter": 20,
+            "title": "Los Diez Mandamientos",
+            "summary": "Dios proclama los Diez Mandamientos desde el monte Sinai, estableciendo los deberes del hombre hacia Dios y hacia el projimo. El pueblo tiembla de temor ante la presencia divina y pide que Moises sea el intermediario. Dios instruye no hacer dioses de plata ni oro y da instrucciones sobre el altar.",
+            "keyVerses": ["Exodo 20:2", "Exodo 20:3", "Exodo 20:20"]
+        },
+        {
+            "chapter": 21,
+            "title": "Leyes sobre Esclavos y Violencia",
+            "summary": "Dios establece leyes sobre el trato a los siervos hebreos, incluyendo su liberacion al septimo ano. Se dan ordenanzas sobre la justicia en casos de homicidio, agresion fisica y dano corporal, estableciendo el principio de vida por vida, ojo por ojo y diente por diente.",
+            "keyVerses": ["Exodo 21:2", "Exodo 21:23", "Exodo 21:24"]
+        },
+        {
+            "chapter": 22,
+            "title": "Leyes sobre Propiedad y Justicia",
+            "summary": "Se establecen leyes sobre robo, restitucion, danos a la propiedad y responsabilidad por bienes prestados o en custodia. Tambien se dan mandamientos sobre la proteccion de los vulnerables: extranjeros, viudas y huerfanos, y se prohibe la usura contra el pobre.",
+            "keyVerses": ["Exodo 22:21", "Exodo 22:22", "Exodo 22:27"]
+        },
+        {
+            "chapter": 23,
+            "title": "Justicia y Fiestas Anuales",
+            "summary": "Dios ordena justicia imparcial, prohibe el falso testimonio y el soborno, y manda guardar el ano sabatico y el dia de reposo. Se establecen las tres fiestas anuales: los panes sin levadura, la siega y la cosecha. Dios promete enviar su angel delante de Israel para guiarlos a la tierra prometida.",
+            "keyVerses": ["Exodo 23:2", "Exodo 23:20", "Exodo 23:25"]
+        },
+        {
+            "chapter": 24,
+            "title": "Confirmacion del Pacto",
+            "summary": "Moises lee el libro del pacto al pueblo, y todo Israel responde: 'Todo lo que el Senor ha dicho, haremos y obedeceremos.' Moises rocía la sangre del pacto sobre el pueblo. Luego Moises, Aaron, Nadab, Abihu y setenta ancianos suben al monte y ven al Dios de Israel; Moises sube a la cima y permanece cuarenta dias y cuarenta noches.",
+            "keyVerses": ["Exodo 24:7", "Exodo 24:10", "Exodo 24:18"]
+        },
+        {
+            "chapter": 25,
+            "title": "Ofrenda y Arca del Pacto",
+            "summary": "Dios pide una ofrenda voluntaria del pueblo para construir el santuario donde morara en medio de Israel. Se dan instrucciones detalladas para la construccion del arca del pacto revestida de oro, con el propiciatorio y los querubines, asi como la mesa de los panes de la presencia y el candelabro de oro puro.",
+            "keyVerses": ["Exodo 25:8", "Exodo 25:9", "Exodo 25:22"]
+        },
+        {
+            "chapter": 26,
+            "title": "Cortinas del Tabernaculo",
+            "summary": "Dios da instrucciones para las cortinas del tabernaculo: diez cortinas de lino fino con querubines bordados, cubiertas de pelo de cabra, pieles de carnero y pieles de marsopa. Se describen las tablas de madera de acacia revestidas de oro y el velo que separara el lugar santo del lugar santisimo.",
+            "keyVerses": ["Exodo 26:1", "Exodo 26:33", "Exodo 26:34"]
+        },
+        {
+            "chapter": 27,
+            "title": "Altar y Atrio",
+            "summary": "Se dan instrucciones para construir el altar de bronce para los holocaustos, con su enrejado y utensilios. Se describe el atrio del tabernaculo con sus columnas, cortinas y dimensiones. Dios ordena que los hijos de Israel traigan aceite puro de olivas para mantener encendida perpetuamente la lampara en el tabernaculo.",
+            "keyVerses": ["Exodo 27:1", "Exodo 27:9", "Exodo 27:20"]
+        },
+        {
+            "chapter": 28,
+            "title": "Vestiduras Sacerdotales",
+            "summary": "Dios ordena hacer vestiduras sagradas para Aaron y sus hijos para el servicio sacerdotal, incluyendo el efod, el pectoral del juicio con doce piedras preciosas representando las tribus de Israel. Se describen el manto del efod, la mitra con la placa de oro que dice 'Santidad al Senor', y las demas prendas sacerdotales.",
+            "keyVerses": ["Exodo 28:2", "Exodo 28:12", "Exodo 28:36"]
+        },
+        {
+            "chapter": 29,
+            "title": "Consagracion de Sacerdotes",
+            "summary": "Dios da instrucciones detalladas para la ceremonia de consagracion de Aaron y sus hijos como sacerdotes, incluyendo lavamiento, vestiduras y uncion con aceite. Se ofrecen un becerro como ofrenda por el pecado, un carnero como holocausto y otro carnero de consagracion. Dios promete habitar en medio de Israel y ser su Dios.",
+            "keyVerses": ["Exodo 29:7", "Exodo 29:45", "Exodo 29:46"]
+        },
+        {
+            "chapter": 30,
+            "title": "Altar del Incienso",
+            "summary": "Dios ordena construir el altar del incienso de madera de acacia revestido de oro, donde Aaron quemara incienso aromatico cada manana y cada tarde. Se establece el rescate de medio siclo por cada israelita censado, se describe la fuente de bronce para el lavamiento, y se da la formula del aceite de la uncion y del incienso sagrado.",
+            "keyVerses": ["Exodo 30:6", "Exodo 30:12", "Exodo 30:36"]
+        },
+        {
+            "chapter": 31,
+            "title": "Bezaleel y el Sabado",
+            "summary": "Dios designa a Bezaleel hijo de Uri y a Aholiab hijo de Ahisamac, llenandolos de su Espiritu con sabiduria y habilidad para construir el tabernaculo y todos sus utensilios. Dios reafirma la importancia del sabado como senal perpetua del pacto entre El y los hijos de Israel, y entrega a Moises las dos tablas del testimonio escritas con el dedo de Dios.",
+            "keyVerses": ["Exodo 31:3", "Exodo 31:13", "Exodo 31:18"]
+        },
+        {
+            "chapter": 32,
+            "title": "El Becerro de Oro",
+            "summary": "Mientras Moises esta en el monte, el pueblo se impacienta y pide a Aaron que les haga dioses; Aaron fabrica un becerro de oro y el pueblo lo adora con fiestas. Moises desciende, rompe las tablas de la ley al ver la idolatria, destruye el becerro y los levitas ejecutan a unos tres mil hombres. Moises intercede ante Dios por el pueblo para que no los destruya.",
+            "keyVerses": ["Exodo 32:4", "Exodo 32:14", "Exodo 32:32"]
+        },
+        {
+            "chapter": 33,
+            "title": "La Presencia de Dios",
+            "summary": "Dios ordena al pueblo continuar hacia la tierra prometida pero dice que no ira en medio de ellos para no destruirlos por su obstinacion. Moises suplica que la presencia de Dios vaya con ellos, y Dios accede. Moises pide ver la gloria de Dios, y el Senor le muestra su bondad mientras pasa, cubriendolo en la hendidura de la roca.",
+            "keyVerses": ["Exodo 33:11", "Exodo 33:14", "Exodo 33:19"]
+        },
+        {
+            "chapter": 34,
+            "title": "Renovacion del Pacto",
+            "summary": "Dios manda a Moises labrar dos nuevas tablas de piedra y sube al monte Sinai, donde el Senor pasa delante de el proclamando su nombre: misericordioso, piadoso, tardo para la ira y grande en misericordia. Dios renueva el pacto con Israel y da mandamientos sobre la idolatria y las fiestas. El rostro de Moises resplandece al descender del monte, y debe cubrirse con un velo.",
+            "keyVerses": ["Exodo 34:6", "Exodo 34:7", "Exodo 34:29"]
+        },
+        {
+            "chapter": 35,
+            "title": "Ofrendas para el Tabernaculo",
+            "summary": "Moises reune a la congregacion, reafirma el mandamiento del sabado y pide ofrendas voluntarias para la construccion del tabernaculo. El pueblo responde con generosidad trayendo oro, plata, bronce, telas, pieles, madera y piedras preciosas. Se confirma a Bezaleel y Aholiab como los artesanos principales llenos del Espiritu de Dios.",
+            "keyVerses": ["Exodo 35:5", "Exodo 35:21", "Exodo 35:31"]
+        },
+        {
+            "chapter": 36,
+            "title": "Construccion del Tabernaculo",
+            "summary": "Los artesanos comienzan la obra del tabernaculo, y las ofrendas del pueblo son tan abundantes que Moises debe ordenar que dejen de traer. Se construyen las cortinas de lino fino con querubines, las cubiertas de pelo de cabra, las tablas de madera de acacia revestidas de oro y el velo del lugar santisimo.",
+            "keyVerses": ["Exodo 36:5", "Exodo 36:6", "Exodo 36:7"]
+        },
+        {
+            "chapter": 37,
+            "title": "Mobiliario Sagrado Construido",
+            "summary": "Bezaleel construye el arca del pacto de madera de acacia revestida de oro con el propiciatorio y los dos querubines. Tambien fabrica la mesa de los panes de la presencia, el candelabro de oro puro con sus siete lamparas, y el altar del incienso, junto con el aceite de la uncion y el incienso aromatico.",
+            "keyVerses": ["Exodo 37:1", "Exodo 37:6", "Exodo 37:17"]
+        },
+        {
+            "chapter": 38,
+            "title": "Altar y Atrio Construidos",
+            "summary": "Se construye el altar del holocausto de bronce y la fuente de bronce hecha con los espejos de las mujeres que servian a la entrada del tabernaculo. Se levanta el atrio con sus columnas y cortinas, y se hace un inventario de los materiales usados: casi una tonelada de oro, mas de tres toneladas de plata y mas de dos toneladas de bronce.",
+            "keyVerses": ["Exodo 38:1", "Exodo 38:8", "Exodo 38:24"]
+        },
+        {
+            "chapter": 39,
+            "title": "Vestiduras Sacerdotales Confeccionadas",
+            "summary": "Se confeccionan las vestiduras sagradas para Aaron: el efod de oro, azul, purpura y escarlata, el pectoral con las doce piedras preciosas, el manto, la mitra y la placa de oro con la inscripcion 'Santidad al Senor'. Toda la obra del tabernaculo se termina conforme a todo lo que el Senor mando a Moises, y Moises bendice al pueblo.",
+            "keyVerses": ["Exodo 39:30", "Exodo 39:32", "Exodo 39:43"]
+        },
+        {
+            "chapter": 40,
+            "title": "Gloria de Dios en el Tabernaculo",
+            "summary": "Dios ordena a Moises erigir el tabernaculo el primer dia del primer mes del segundo ano, y Moises coloca cada elemento en su lugar segun las instrucciones divinas. Al completarse la obra, la nube cubre el tabernaculo y la gloria del Senor lo llena de tal manera que ni Moises puede entrar. La nube del Senor guiara a Israel en todas sus jornadas.",
+            "keyVerses": ["Exodo 40:17", "Exodo 40:34", "Exodo 40:38"]
+        }
+    ]
+}

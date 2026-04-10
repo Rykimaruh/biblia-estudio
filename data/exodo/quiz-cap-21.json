@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 21",
+    "book": "Exodo",
+    "chapter": 21,
+    "questions": [
+        {
+            "question": "Segun Exodo 21:2, cuantos anos debia servir un esclavo hebreo antes de ser puesto en libertad?",
+            "options": [
+                "Tres anos",
+                "Cinco anos",
+                "Seis anos",
+                "Siete anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "La ley establecia que si comprabas un esclavo hebreo, este serviria seis anos y al septimo saldria libre sin pagar nada.",
+            "verse": "Exodo 21:2"
+        },
+        {
+            "question": "Que debia hacer el esclavo hebreo que declaraba amar a su amo y no queria salir libre?",
+            "options": [
+                "Firmar un documento ante los jueces",
+                "Su amo lo llevaria ante los jueces y le horadaria la oreja con una lesna",
+                "Debia pagar el precio de su libertad",
+                "Debia trabajar tres anos mas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Si el siervo decia que amaba a su amo, a su mujer y a sus hijos y no queria salir libre, su amo lo llevaria ante los jueces y le horadaria la oreja con una lesna, y seria su siervo para siempre.",
+            "verse": "Exodo 21:5-6"
+        },
+        {
+            "question": "Segun Exodo 21:12, cual era el castigo para el que golpeara a otro y este muriera?",
+            "options": [
+                "Seria desterrado",
+                "Pagaria una multa",
+                "Seria puesto irremisiblemente a muerte",
+                "Seria azotado publicamente"
+            ],
+            "correctIndex": 2,
+            "explanation": "El que hiriera a otro y este muriera, seria puesto irremisiblemente a muerte.",
+            "verse": "Exodo 21:12"
+        },
+        {
+            "question": "Cual era el principio de justicia establecido en Exodo 21:24 para las lesiones personales?",
+            "options": [
+                "Perdon y reconciliacion",
+                "Ojo por ojo, diente por diente",
+                "Pago de indemnizacion monetaria",
+                "Encarcelamiento del agresor"
+            ],
+            "correctIndex": 1,
+            "explanation": "La ley establecia el principio de retribucion proporcional: ojo por ojo, diente por diente, mano por mano, pie por pie.",
+            "verse": "Exodo 21:24"
+        },
+        {
+            "question": "Segun Exodo 21:15, que le sucederia al que golpeara a su padre o a su madre?",
+            "options": [
+                "Seria puesto irremisiblemente a muerte",
+                "Seria desterrado de Israel",
+                "Pagaria una multa al sacerdote",
+                "Seria azotado en publico"
+            ],
+            "correctIndex": 0,
+            "explanation": "El que hiriera a su padre o a su madre seria puesto irremisiblemente a muerte, mostrando la gravedad de la falta de respeto a los padres.",
+            "verse": "Exodo 21:15"
+        },
+        {
+            "question": "Si un buey corneaba a un hombre o a una mujer y estos morian, que se debia hacer con el buey?",
+            "options": [
+                "El buey seria vendido",
+                "El buey seria apedreado y no se comeria su carne",
+                "El buey seria entregado a la familia de la victima",
+                "El buey seria sacrificado en el altar"
+            ],
+            "correctIndex": 1,
+            "explanation": "Si un buey corneaba a un hombre o a una mujer causandole la muerte, el buey seria apedreado y no se comeria su carne, pero el dueno del buey quedaria libre.",
+            "verse": "Exodo 21:28"
+        },
+        {
+            "question": "Segun Exodo 21:17, que le sucederia al que maldijera a su padre o a su madre?",
+            "options": [
+                "Seria excluido de la congregacion",
+                "Pagaria una ofrenda de culpa",
+                "Seria puesto irremisiblemente a muerte",
+                "Seria disciplinado por los ancianos"
+            ],
+            "correctIndex": 2,
+            "explanation": "El que maldijera a su padre o a su madre seria puesto irremisiblemente a muerte, al igual que el que los golpeara.",
+            "verse": "Exodo 21:17"
+        }
+    ]
+}

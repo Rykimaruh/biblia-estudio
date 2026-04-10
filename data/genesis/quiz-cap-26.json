@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 26",
+    "book": "Genesis",
+    "chapter": 26,
+    "questions": [
+        {
+            "question": "Por que fue Isaac a Gerar, a donde estaba Abimelec, rey de los filisteos?",
+            "options": [
+                "Para visitar a su familia",
+                "Porque hubo hambre en la tierra",
+                "Para hacer un pacto comercial",
+                "Para buscar esposa"
+            ],
+            "correctIndex": 1,
+            "explanation": "Hubo hambre en la tierra, ademas de la primera hambre que hubo en los dias de Abraham, e Isaac fue a Gerar, a Abimelec, rey de los filisteos.",
+            "verse": "Genesis 26:1"
+        },
+        {
+            "question": "Que le ordeno Dios a Isaac cuando habia hambre en la tierra?",
+            "options": [
+                "Que fuera a Egipto",
+                "Que no descendiera a Egipto, sino que habitara en la tierra que El le diria",
+                "Que regresara a Haran",
+                "Que vendiera todas sus posesiones"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor se le aparecio a Isaac y le dijo: 'No desciendas a Egipto; habita en la tierra que yo te dire. Reside en esta tierra y yo estare contigo y te bendecire.'",
+            "verse": "Genesis 26:2-3"
+        },
+        {
+            "question": "Que dijo Isaac acerca de Rebeca cuando los hombres de Gerar le preguntaron por ella?",
+            "options": [
+                "Que era su prima",
+                "Que era su sierva",
+                "Que era su hermana",
+                "Que era una extranjera"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cuando los hombres del lugar le preguntaron acerca de su mujer, Isaac dijo: 'Es mi hermana', porque temia decir 'mi mujer', pensando que podrian matarlo a causa de Rebeca.",
+            "verse": "Genesis 26:7"
+        },
+        {
+            "question": "Que tan prospero llego a ser Isaac en la tierra de los filisteos?",
+            "options": [
+                "Apenas sobrevivio",
+                "Fue medianamente prospero",
+                "Se enriquecio mucho hasta ser muy poderoso, con rebanos, vacadas y mucha servidumbre",
+                "Perdio todo lo que tenia"
+            ],
+            "correctIndex": 2,
+            "explanation": "Isaac sembro en aquella tierra y cosecho el cientuplo aquel ano. El Senor lo bendijo y se enriquecio, y siguio enriqueciendose hasta que llego a ser muy poderoso.",
+            "verse": "Genesis 26:12-14"
+        },
+        {
+            "question": "Que hicieron los filisteos con los pozos que Abraham habia cavado?",
+            "options": [
+                "Los cuidaron y protegieron",
+                "Los llenaron de tierra y los cegaron",
+                "Los vendieron a otros pueblos",
+                "Los ampliaron para mayor capacidad"
+            ],
+            "correctIndex": 1,
+            "explanation": "Todos los pozos que los siervos de su padre habian cavado en los dias de Abraham, los filisteos los habian cegado, llenandolos de tierra.",
+            "verse": "Genesis 26:15"
+        },
+        {
+            "question": "Que nombre le puso Isaac al pozo por el cual no hubo disputa?",
+            "options": [
+                "Esek (contienda)",
+                "Sitna (enemistad)",
+                "Rehobot (amplitud)",
+                "Beerseba"
+            ],
+            "correctIndex": 2,
+            "explanation": "Isaac se fue de alli y cavo otro pozo, y no rineron por el. Lo llamo Rehobot, diciendo: 'Porque ahora el Senor nos ha dado amplitud, y fructificaremos en la tierra.'",
+            "verse": "Genesis 26:22"
+        },
+        {
+            "question": "Con quienes se caso Esau, causando amargura a Isaac y Rebeca?",
+            "options": [
+                "Con mujeres de la familia de Abraham",
+                "Con Judit hija de Beeri heteo, y Basemat hija de Elon heteo",
+                "Con mujeres egipcias",
+                "Con mujeres de la familia de Lot"
+            ],
+            "correctIndex": 1,
+            "explanation": "Esau tenia cuarenta anos cuando tomo por mujer a Judit, hija de Beeri heteo, y a Basemat, hija de Elon heteo, y ellas fueron causa de amargura para Isaac y Rebeca.",
+            "verse": "Genesis 26:34-35"
+        }
+    ]
+}

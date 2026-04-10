@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="book" content="exodo">
+    <title>Exodo — Biblia Estudio Interactivo</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <header id="site-header"></header>
+
+    <main>
+        <div class="breadcrumb" id="breadcrumb"></div>
+
+        <h2>Libro de Exodo</h2>
+        <p class="intro-text" id="book-overview">Cargando...</p>
+
+        <div class="book-sections">
+            <h2 style="margin-top: 2rem;">Secciones</h2>
+            <div class="section-links">
+                <a href="#capitulos" class="section-link-card">
+                    <span class="section-link-icon">&#128214;</span>
+                    <span class="section-link-label">Capitulos</span>
+                    <span class="section-link-desc">Resumenes de los 40 capitulos</span>
+                </a>
+                <a href="crucigramas/" class="section-link-card">
+                    <span class="section-link-icon">&#9999;</span>
+                    <span class="section-link-label">Crucigramas</span>
+                    <span class="section-link-desc">16 crucigramas tematicos</span>
+                </a>
+                <a href="cuestionarios/" class="section-link-card">
+                    <span class="section-link-icon">&#10003;</span>
+                    <span class="section-link-label">Cuestionarios</span>
+                    <span class="section-link-desc">40 cuestionarios por capitulo</span>
+                </a>
+            </div>
+        </div>
+
+        <h2 style="margin-top: 2rem;" id="capitulos">Capitulos</h2>
+
+        <div class="chapter-filter">
+            <label for="chapter-search">Buscar capitulo:</label>
+            <input type="text" id="chapter-search" placeholder="Ej: Moises, plagas, tabernaculo..." autocomplete="off">
+        </div>
+
+        <div id="chapters-list" class="chapters-list">
+            <p>Cargando capitulos...</p>
+        </div>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script src="../js/admin.js"></script>
+    <script src="../js/layout.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            renderBreadcrumb([
+                { label: 'Inicio', href: '../' },
+                { label: 'Exodo' }
+            ]);
+
+            fetch('../data/exodo/chapters.json')
+                .then(r => r.json())
+                .then(data => {
+                    document.getElementById('book-overview').textContent = data.overview;
+                    renderChapters(data.chapters);
+                    setupSearch(data.chapters);
+                })
+                .catch(err => {
+                    console.error('Error loading chapters:', err);
+                    document.getElementById('chapters-list').innerHTML =
+                        '<p>Error cargando los capitulos. Intente recargar la pagina.</p>';
+                });
+        });
+
+        function renderChapters(chapters) {
+            const container = document.getElementById('chapters-list');
+            let html = '';
+            for (const ch of chapters) {
+                const num = String(ch.chapter).padStart(2, '0');
+                html += `
+                <div class="chapter-card" data-chapter="${ch.chapter}">
+                    <div class="chapter-card-header">
+                        <span class="chapter-number">${ch.chapter}</span>
+                        <h3 class="chapter-title">${ch.title}</h3>
+                    </div>
+                    <p class="chapter-summary">${ch.summary}</p>
+                    <div class="chapter-meta">
+                        <span class="chapter-verses">${ch.keyVerses.join(' | ')}</span>
+                        <a href="cuestionarios/${ch.chapter}/" class="chapter-quiz-link">Cuestionario &rarr;</a>
+                    </div>
+                </div>`;
+            }
+            container.innerHTML = html;
+        }
+
+        function setupSearch(chapters) {
+            const input = document.getElementById('chapter-search');
+            input.addEventListener('input', () => {
+                const query = input.value.toLowerCase().trim();
+                const cards = document.querySelectorAll('.chapter-card');
+                cards.forEach((card, idx) => {
+                    const ch = chapters[idx];
+                    const text = `${ch.title} ${ch.summary} ${ch.keyVerses.join(' ')}`.toLowerCase();
+                    card.style.display = (!query || text.includes(query)) ? '' : 'none';
+                });
+            });
+        }
+    </script>
+</body>
+</html>

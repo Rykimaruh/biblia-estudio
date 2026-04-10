@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 38",
+    "book": "Exodo",
+    "chapter": 38,
+    "questions": [
+        {
+            "question": "De que material se construyo el altar del holocausto?",
+            "options": [
+                "De oro puro",
+                "De piedra",
+                "De madera de acacia revestido de bronce",
+                "De plata maciza"
+            ],
+            "correctIndex": 2,
+            "explanation": "Se hizo el altar del holocausto de madera de acacia y se revistio de bronce.",
+            "verse": "Exodo 38:1-2"
+        },
+        {
+            "question": "Que forma tenia el altar del holocausto?",
+            "options": [
+                "Redondo",
+                "Cuadrado, de cinco codos de largo y cinco de ancho, y de tres codos de alto",
+                "Rectangular, de diez codos de largo",
+                "Triangular"
+            ],
+            "correctIndex": 1,
+            "explanation": "El altar era cuadrado, de cinco codos de largo, cinco codos de ancho y tres codos de alto.",
+            "verse": "Exodo 38:1"
+        },
+        {
+            "question": "De que se hizo la fuente y su base?",
+            "options": [
+                "De oro puro",
+                "De piedra del desierto",
+                "De bronce, usando los espejos de las mujeres que servian a la entrada de la tienda de reunion",
+                "De plata de las ofrendas del pueblo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Se hizo la fuente de bronce y su base de bronce, usando los espejos de las mujeres que servian a la entrada de la tienda de reunion.",
+            "verse": "Exodo 38:8"
+        },
+        {
+            "question": "Cuanto oro se uso en total para toda la obra del santuario?",
+            "options": [
+                "Quince talentos",
+                "Veinte talentos",
+                "Veintinueve talentos y setecientos treinta siclos",
+                "Cincuenta talentos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Todo el oro empleado en la obra del santuario fue veintinueve talentos y setecientos treinta siclos, segun el siclo del santuario.",
+            "verse": "Exodo 38:24"
+        },
+        {
+            "question": "Cuantos eran los empadronados que dieron la contribucion de plata de medio siclo?",
+            "options": [
+                "Trescientos mil",
+                "Quinientos mil",
+                "Seiscientos tres mil quinientos cincuenta",
+                "Setecientos mil"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los empadronados de la congregacion fueron seiscientos tres mil quinientos cincuenta.",
+            "verse": "Exodo 38:26"
+        },
+        {
+            "question": "Para que se uso la plata recolectada de los empadronados?",
+            "options": [
+                "Para hacer el candelero y la mesa",
+                "Para fundir las basas del santuario y las basas del velo",
+                "Para hacer las vestiduras sacerdotales",
+                "Para decorar el arca del pacto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Con los cien talentos de plata se fundieron las basas del santuario y las basas del velo; cien basas de los cien talentos.",
+            "verse": "Exodo 38:27"
+        },
+        {
+            "question": "Quien estaba a cargo de llevar el inventario de los materiales del tabernaculo?",
+            "options": [
+                "Aaron el sacerdote",
+                "Bezalel hijo de Uri",
+                "Itamar hijo de Aaron el sacerdote",
+                "Moises personalmente"
+            ],
+            "correctIndex": 2,
+            "explanation": "Estas son las cuentas del tabernaculo que fueron contadas por orden de Moises por medio del servicio de los levitas bajo la direccion de Itamar, hijo de Aaron el sacerdote.",
+            "verse": "Exodo 38:21"
+        }
+    ]
+}

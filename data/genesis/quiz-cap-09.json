@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 9",
+    "book": "Genesis",
+    "chapter": 9,
+    "questions": [
+        {
+            "question": "Que mandato les dio Dios a Noe y a sus hijos despues del diluvio?",
+            "options": [
+                "Que construyeran una ciudad",
+                "Que sean fecundos, se multipliquen y llenen la tierra",
+                "Que nunca mas comieran carne",
+                "Que se quedaran cerca del arca"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios bendijo a Noe y a sus hijos y les dijo: 'Sed fecundos y multiplicaos, y llenad la tierra.' Similar al mandato dado a Adan y Eva.",
+            "verse": "Genesis 9:1"
+        },
+        {
+            "question": "Que nueva provision de alimento le dio Dios al hombre despues del diluvio?",
+            "options": [
+                "Solo frutas y vegetales",
+                "Solo pan y agua",
+                "Todo lo que se mueve y tiene vida les seria para alimento, ademas de las plantas",
+                "Solo los animales limpios"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios les dijo: 'Todo lo que se mueve y tiene vida os sera para alimento; como os di la hierba verde, ahora os doy todo.'",
+            "verse": "Genesis 9:3"
+        },
+        {
+            "question": "Que prohibicion dio Dios respecto a comer carne?",
+            "options": [
+                "No debian comer carne de cerdo",
+                "No debian comer carne con su vida, es decir, con su sangre",
+                "No debian comer carne cruda",
+                "No debian comer animales jovenes"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios prohibio comer carne con su vida, es decir, su sangre. 'Pero no comereis carne con su vida, es decir, su sangre.'",
+            "verse": "Genesis 9:4"
+        },
+        {
+            "question": "Cual fue la senal del pacto que Dios establecio con Noe y toda la tierra?",
+            "options": [
+                "Una estrella brillante",
+                "Un terremoto",
+                "El arco iris en las nubes",
+                "Un viento fuerte"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo: 'Pongo mi arco en las nubes, y sera por senal del pacto entre yo y la tierra.' El arco iris es la senal de que Dios no destruira la tierra con diluvio otra vez.",
+            "verse": "Genesis 9:13"
+        },
+        {
+            "question": "Que promesa especifica representa el arco iris?",
+            "options": [
+                "Que Dios siempre enviaria lluvia para las cosechas",
+                "Que nunca mas las aguas se convertirian en un diluvio para destruir toda carne",
+                "Que el hombre nunca mas pecaria",
+                "Que Dios crearia un nuevo mundo"
+            ],
+            "correctIndex": 1,
+            "explanation": "El arco iris es la senal del pacto de que nunca mas las aguas se convertirian en un diluvio para destruir toda carne.",
+            "verse": "Genesis 9:15"
+        },
+        {
+            "question": "Que hizo Cam, el padre de Canaan, cuando encontro a su padre Noe ebrio y desnudo?",
+            "options": [
+                "Lo cubrio con respeto",
+                "Vio la desnudez de su padre y se lo conto a sus dos hermanos afuera",
+                "Lo desperto inmediatamente",
+                "Ignoro la situacion"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cam vio la desnudez de su padre y se lo dijo a sus dos hermanos que estaban afuera, en vez de cubrirlo con respeto.",
+            "verse": "Genesis 9:22"
+        },
+        {
+            "question": "Que hicieron Sem y Jafet al enterarse de la condicion de su padre?",
+            "options": [
+                "Se rieron de Noe",
+                "Ignoraron la situacion",
+                "Tomaron un manto, caminaron hacia atras y cubrieron la desnudez de su padre sin mirar",
+                "Despertaron a Noe para avergonzarlo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sem y Jafet tomaron un manto, lo pusieron sobre sus hombros, caminaron hacia atras y cubrieron la desnudez de su padre con el rostro vuelto para no verla.",
+            "verse": "Genesis 9:23"
+        }
+    ]
+}

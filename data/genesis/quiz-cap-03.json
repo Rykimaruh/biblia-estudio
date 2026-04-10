@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 3",
+    "book": "Genesis",
+    "chapter": 3,
+    "questions": [
+        {
+            "question": "Como se describe a la serpiente al comienzo de Genesis 3?",
+            "options": [
+                "La mas fuerte de todos los animales",
+                "La mas astuta de todos los animales del campo que el Senor Dios habia hecho",
+                "La mas hermosa de todas las criaturas",
+                "La mas grande de los reptiles del huerto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Genesis 3:1 dice que la serpiente era mas astuta que cualquiera de los animales del campo que el Senor Dios habia hecho.",
+            "verse": "Genesis 3:1"
+        },
+        {
+            "question": "Que le dijo la serpiente a la mujer acerca de comer del fruto prohibido?",
+            "options": [
+                "Que se volverian mas fuertes que Dios",
+                "Que ciertamente no moririan, sino que serian como Dios, conociendo el bien y el mal",
+                "Que vivirian para siempre en el huerto",
+                "Que podrian hablar con los animales"
+            ],
+            "correctIndex": 1,
+            "explanation": "La serpiente dijo a la mujer: 'Ciertamente no morireis. Pues Dios sabe que el dia que de el comais, seran abiertos vuestros ojos y sereis como Dios, conociendo el bien y el mal.'",
+            "verse": "Genesis 3:4-5"
+        },
+        {
+            "question": "Que sucedio inmediatamente despues de que Adan y Eva comieron del fruto?",
+            "options": [
+                "Cayeron muertos al instante",
+                "Fueron abiertos sus ojos y supieron que estaban desnudos",
+                "Escucharon la voz de Dios de inmediato",
+                "La serpiente desaparecio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Fueron abiertos los ojos de ambos y conocieron que estaban desnudos; entonces cosieron hojas de higuera y se hicieron delantales.",
+            "verse": "Genesis 3:7"
+        },
+        {
+            "question": "Cuando Dios pregunto a Adan si habia comido del arbol prohibido, a quien culpo Adan?",
+            "options": [
+                "A la serpiente",
+                "A si mismo",
+                "A la mujer que Dios le habia dado",
+                "A los animales del campo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Adan respondio: 'La mujer que tu me diste por companera me dio del arbol, y yo comi.' Culpo a la mujer e indirectamente a Dios por haberla creado.",
+            "verse": "Genesis 3:12"
+        },
+        {
+            "question": "Cual fue la maldicion que Dios pronuncio sobre la serpiente?",
+            "options": [
+                "Seria quemada con fuego",
+                "Seria maldita entre todos los animales y se arrastraria sobre su vientre",
+                "Seria desterrada del planeta",
+                "Perderia la capacidad de hablar"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo a la serpiente: 'Maldita seras entre todos los animales... sobre tu vientre andaras, y polvo comeras todos los dias de tu vida.'",
+            "verse": "Genesis 3:14"
+        },
+        {
+            "question": "Que dijo Dios que sucederia entre la descendencia de la mujer y la descendencia de la serpiente?",
+            "options": [
+                "Vivirian en paz eternamente",
+                "La descendencia de la mujer le aplastaria la cabeza, y la serpiente le heriria en el talon",
+                "La serpiente dominaria sobre la humanidad",
+                "Ambas descendencias serian destruidas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo: 'Pondre enemistad entre tu y la mujer, y entre tu simiente y su simiente; el te herira en la cabeza, y tu le heriras en el calcanar.'",
+            "verse": "Genesis 3:15"
+        },
+        {
+            "question": "Que puso Dios al oriente del huerto del Eden para guardar el camino del arbol de la vida?",
+            "options": [
+                "Un muro de fuego",
+                "Querubines y una espada encendida que giraba en todas direcciones",
+                "Un rio de aguas profundas",
+                "Un angel con un escudo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios expulso al hombre y puso al oriente del huerto de Eden querubines, y una espada encendida que giraba en todas direcciones para guardar el camino del arbol de la vida.",
+            "verse": "Genesis 3:24"
+        }
+    ]
+}

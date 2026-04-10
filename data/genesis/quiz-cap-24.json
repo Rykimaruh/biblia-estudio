@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 24",
+    "book": "Genesis",
+    "chapter": 24,
+    "questions": [
+        {
+            "question": "Que le hizo jurar Abraham a su siervo mas antiguo?",
+            "options": [
+                "Que cuidaria de Sara",
+                "Que no tomaria mujer para Isaac de las hijas de los cananeos, sino de la parentela de Abraham",
+                "Que nunca dejaria la casa de Abraham",
+                "Que llevaria a Isaac de regreso a Mesopotamia"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham le hizo jurar a su siervo que no tomaria mujer para su hijo de las hijas de los cananeos, sino que iria a su tierra y a su parentela para tomar mujer para Isaac.",
+            "verse": "Genesis 24:3-4"
+        },
+        {
+            "question": "Que senal pidio el siervo de Abraham para reconocer a la mujer escogida para Isaac?",
+            "options": [
+                "Que fuera la mas hermosa del pueblo",
+                "Que le ofreciera comida",
+                "Que al pedirle agua, ella le diera de beber y tambien ofreciera dar de beber a sus camellos",
+                "Que llevara un velo rojo"
+            ],
+            "correctIndex": 2,
+            "explanation": "El siervo oro pidiendo que la joven a quien le dijera 'baja tu cantaro para que yo beba' y ella respondiera 'bebe, y tambien dare de beber a tus camellos', fuera la que Dios habia designado para Isaac.",
+            "verse": "Genesis 24:14"
+        },
+        {
+            "question": "Quien fue la joven que salio a la fuente y cumplio la senal que el siervo habia pedido?",
+            "options": [
+                "Raquel",
+                "Lea",
+                "Rebeca, hija de Betuel, hijo de Milca, mujer de Nacor",
+                "Zilpa"
+            ],
+            "correctIndex": 2,
+            "explanation": "Antes de que terminara de orar, salio Rebeca, hija de Betuel, hijo de Milca, mujer de Nacor, hermano de Abraham, con su cantaro sobre el hombro.",
+            "verse": "Genesis 24:15"
+        },
+        {
+            "question": "Que le dio el siervo de Abraham a Rebeca despues de que ella dio de beber a los camellos?",
+            "options": [
+                "Un collar de perlas",
+                "Un anillo de oro para la nariz y dos brazaletes de oro para sus manos",
+                "Diez monedas de plata",
+                "Una tunica bordada"
+            ],
+            "correctIndex": 1,
+            "explanation": "El siervo tomo un anillo de oro que pesaba medio siclo, y dos brazaletes para las manos de ella que pesaban diez siclos de oro.",
+            "verse": "Genesis 24:22"
+        },
+        {
+            "question": "Quien era el hermano de Rebeca que salio a recibir al siervo de Abraham?",
+            "options": [
+                "Esau",
+                "Betuel",
+                "Laban",
+                "Nacor"
+            ],
+            "correctIndex": 2,
+            "explanation": "Rebeca tenia un hermano que se llamaba Laban, y Laban corrio hacia el hombre que estaba afuera, junto a la fuente.",
+            "verse": "Genesis 24:29"
+        },
+        {
+            "question": "Que respondio Rebeca cuando le preguntaron si queria ir con el siervo de Abraham?",
+            "options": [
+                "Dijo que necesitaba pensarlo",
+                "Dijo: 'Ire'",
+                "Dijo que no queria ir",
+                "Pidio que esperaran un ano"
+            ],
+            "correctIndex": 1,
+            "explanation": "Llamaron a Rebeca y le dijeron: 'Iras tu con este hombre?' Y ella respondio: 'Ire.'",
+            "verse": "Genesis 24:58"
+        },
+        {
+            "question": "Que hizo Rebeca cuando vio a Isaac por primera vez en el campo?",
+            "options": [
+                "Corrio hacia el",
+                "Descendio del camello y se cubrio con el velo",
+                "Le hablo directamente",
+                "Se escondio detras de los siervos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Rebeca alzo los ojos y vio a Isaac, y descendio del camello. Le pregunto al siervo quien era aquel hombre, y al saber que era Isaac, tomo el velo y se cubrio.",
+            "verse": "Genesis 24:64-65"
+        }
+    ]
+}

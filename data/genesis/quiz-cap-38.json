@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 38",
+    "book": "Genesis",
+    "chapter": 38,
+    "questions": [
+        {
+            "question": "Con quien se caso Juda y de que pueblo era ella?",
+            "options": [
+                "Con Tamar, una mujer israelita",
+                "Con la hija de un cananeo llamado Sua",
+                "Con una mujer egipcia llamada Asenat",
+                "Con una hija de Laban"
+            ],
+            "correctIndex": 1,
+            "explanation": "Juda vio alli a la hija de un cananeo llamado Sua, y la tomo por mujer.",
+            "verse": "Genesis 38:2"
+        },
+        {
+            "question": "Cuales fueron los tres hijos de Juda?",
+            "options": [
+                "Ruben, Simeon y Levi",
+                "Er, Onan y Sela",
+                "Fares, Zara y Sela",
+                "Manases, Efrain y Benjamin"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los tres hijos de Juda fueron Er, Onan y Sela.",
+            "verse": "Genesis 38:3-5"
+        },
+        {
+            "question": "Por que murio Er, el primogenito de Juda?",
+            "options": [
+                "Murio en una batalla",
+                "Murio de una enfermedad",
+                "Era malo ante los ojos del Senor y el Senor le quito la vida",
+                "Fue asesinado por sus hermanos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Er, primogenito de Juda, era malo ante los ojos del Senor, y el Senor le quito la vida.",
+            "verse": "Genesis 38:7"
+        },
+        {
+            "question": "Por que murio Onan?",
+            "options": [
+                "Porque se nego a dar descendencia a su hermano y lo que hacia era malo ante los ojos del Senor",
+                "Porque robo la herencia de su padre",
+                "Porque maldijo a Dios",
+                "Porque desobedecio a su padre Juda"
+            ],
+            "correctIndex": 0,
+            "explanation": "Onan sabia que la descendencia no seria suya, y cuando se llegaba a la mujer de su hermano, derramaba en tierra para no dar descendencia a su hermano. Lo que hacia era malo ante los ojos del Senor, y tambien a el le quito la vida.",
+            "verse": "Genesis 38:9-10"
+        },
+        {
+            "question": "Como logro Tamar quedar embarazada de Juda?",
+            "options": [
+                "Se caso con el legalmente",
+                "Se disfrazo con un velo y se sento junto al camino como una ramera, y Juda se llego a ella sin reconocerla",
+                "Juda la tomo por la fuerza",
+                "Un angel le anuncio el embarazo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Tamar se quito las ropas de viuda, se cubrio con un velo y se sento a la entrada de Enaim en el camino a Timnat. Juda la vio y penso que era una ramera porque tenia cubierto el rostro.",
+            "verse": "Genesis 38:14-16"
+        },
+        {
+            "question": "Que objetos dejo Juda como prenda a Tamar?",
+            "options": [
+                "Su anillo, su manto y sus sandalias",
+                "Su sello, su cordon y su baculo",
+                "Su espada, su escudo y su cinto",
+                "Diez monedas de plata"
+            ],
+            "correctIndex": 1,
+            "explanation": "Juda le dio su sello, su cordon y su baculo como prenda hasta enviarle un cabrito del rebano.",
+            "verse": "Genesis 38:18"
+        },
+        {
+            "question": "Que nombres recibieron los gemelos que Tamar dio a luz?",
+            "options": [
+                "Esau y Jacob",
+                "Manases y Efrain",
+                "Fares y Zara",
+                "Er y Onan"
+            ],
+            "correctIndex": 2,
+            "explanation": "Tamar dio a luz gemelos: Fares (que significa 'brecha') y Zara. Zara saco primero la mano con un hilo escarlata, pero Fares nacio primero.",
+            "verse": "Genesis 38:27-30"
+        }
+    ]
+}

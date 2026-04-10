@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 25",
+    "book": "Genesis",
+    "chapter": 25,
+    "questions": [
+        {
+            "question": "Como se llamaba la mujer que Abraham tomo despues de Sara?",
+            "options": [
+                "Agar",
+                "Cetura",
+                "Rebeca",
+                "Zilpa"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abraham tomo otra mujer, cuyo nombre era Cetura, y ella le dio varios hijos.",
+            "verse": "Genesis 25:1"
+        },
+        {
+            "question": "Cuantos anos vivio Abraham?",
+            "options": [
+                "Ciento cincuenta anos",
+                "Ciento sesenta y cinco anos",
+                "Ciento setenta y cinco anos",
+                "Doscientos anos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los dias de la vida de Abraham fueron ciento setenta y cinco anos. Abraham expiro y murio en buena vejez, anciano y lleno de dias.",
+            "verse": "Genesis 25:7-8"
+        },
+        {
+            "question": "Quienes sepultaron a Abraham en la cueva de Macpela?",
+            "options": [
+                "Los siervos de Abraham",
+                "Isaac e Ismael, sus hijos",
+                "Los hijos de Het",
+                "Lot y sus hijos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Isaac e Ismael, sus hijos, lo sepultaron en la cueva de Macpela, en el campo de Efron, frente a Mamre.",
+            "verse": "Genesis 25:9"
+        },
+        {
+            "question": "Por que luchaban los hijos dentro del vientre de Rebeca?",
+            "options": [
+                "Porque habia tres bebes",
+                "Porque dos naciones estaban en su seno, y el mayor serviria al menor",
+                "Porque nacerian gemelos identicos",
+                "Porque uno seria sacerdote y otro rey"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor le dijo a Rebeca: 'Dos naciones hay en tu seno, y dos pueblos se dividiran desde tus entranas; un pueblo sera mas fuerte que el otro, y el mayor servira al menor.'",
+            "verse": "Genesis 25:23"
+        },
+        {
+            "question": "Como se describe a Esau al nacer?",
+            "options": [
+                "Pequeno y delgado",
+                "Rubio y todo velludo como una pelliza",
+                "Moreno y de ojos oscuros",
+                "Grande y calvo"
+            ],
+            "correctIndex": 1,
+            "explanation": "El primero salio rojizo, todo velludo como una pelliza, y lo llamaron Esau.",
+            "verse": "Genesis 25:25"
+        },
+        {
+            "question": "Que estaba haciendo Jacob cuando Esau llego del campo cansado?",
+            "options": [
+                "Cuidando ovejas",
+                "Orando al Senor",
+                "Cocinando un guiso",
+                "Arando la tierra"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob habia preparado un guiso, y cuando Esau llego del campo cansado, le pidio que le diera de comer del guiso rojo.",
+            "verse": "Genesis 25:29"
+        },
+        {
+            "question": "Que le vendio Esau a Jacob a cambio del guiso?",
+            "options": [
+                "Su rebaño de ovejas",
+                "Su primogenitura",
+                "Su tienda",
+                "Su arco y flechas"
+            ],
+            "correctIndex": 1,
+            "explanation": "Esau menosprrecio su primogenitura y se la vendio a Jacob por pan y un guiso de lentejas.",
+            "verse": "Genesis 25:33-34"
+        }
+    ]
+}

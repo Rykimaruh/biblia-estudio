@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 17",
+    "book": "Exodo",
+    "chapter": 17,
+    "questions": [
+        {
+            "question": "Por que el pueblo rino con Moises en Refidim?",
+            "options": [
+                "Porque no habia alimento para comer",
+                "Porque no habia agua para beber",
+                "Porque estaban perdidos en el desierto",
+                "Porque querian regresar a Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "No habia agua para que el pueblo bebiera, por eso el pueblo rino con Moises diciendo: 'Danos agua para que bebamos.'",
+            "verse": "Exodo 17:1-2"
+        },
+        {
+            "question": "Que le dijo Dios a Moises que hiciera para obtener agua?",
+            "options": [
+                "Cavar un pozo profundo en la arena",
+                "Orar durante tres dias",
+                "Golpear la roca en Horeb con su vara",
+                "Levantar sus manos al cielo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le dijo a Moises: 'He aqui, yo estare alli delante de ti sobre la roca en Horeb; golpearas la roca, y saldra agua de ella para que beba el pueblo.'",
+            "verse": "Exodo 17:6"
+        },
+        {
+            "question": "Que nombres dio Moises a aquel lugar, y que significan?",
+            "options": [
+                "Betel y Peniel, que significan casa de Dios y rostro de Dios",
+                "Masah y Meriba, que significan prueba y contienda",
+                "Ebenezer y Mizpa, que significan piedra de ayuda y atalaya",
+                "Sion y Moria, que significan fortaleza y provision"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises llamo al lugar Masah y Meriba, por la contienda de los hijos de Israel y porque tentaron al Senor diciendo: 'Esta el Senor entre nosotros o no?'",
+            "verse": "Exodo 17:7"
+        },
+        {
+            "question": "Que pueblo vino a pelear contra Israel en Refidim?",
+            "options": [
+                "Los filisteos",
+                "Los moabitas",
+                "Amalec",
+                "Los cananeos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Entonces vino Amalec y peleo contra Israel en Refidim.",
+            "verse": "Exodo 17:8"
+        },
+        {
+            "question": "A quien envio Moises a pelear contra Amalec?",
+            "options": [
+                "A Aaron",
+                "A Josue",
+                "A Caleb",
+                "A Hur"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises dijo a Josue: 'Escogenos hombres, y sal a pelear contra Amalec.'",
+            "verse": "Exodo 17:9"
+        },
+        {
+            "question": "Que sucedia cuando Moises levantaba sus manos durante la batalla?",
+            "options": [
+                "Caian rayos del cielo sobre el enemigo",
+                "Israel prevalecia, pero cuando las bajaba prevalecia Amalec",
+                "El viento soplaba contra los amalecitas",
+                "Los soldados de Israel se volvian mas fuertes"
+            ],
+            "correctIndex": 1,
+            "explanation": "Sucedia que cuando Moises levantaba su mano, Israel prevalecia; y cuando el bajaba su mano, prevalecia Amalec.",
+            "verse": "Exodo 17:11"
+        },
+        {
+            "question": "Quienes sostuvieron las manos de Moises cuando estas se le cansaron?",
+            "options": [
+                "Josue y Caleb",
+                "Aaron y Hur",
+                "Aaron y Josue",
+                "Los ancianos de Israel"
+            ],
+            "correctIndex": 1,
+            "explanation": "Aaron y Hur le sostenian las manos, uno de un lado y otro del otro, y sus manos se mantuvieron firmes hasta la puesta del sol.",
+            "verse": "Exodo 17:12"
+        }
+    ]
+}

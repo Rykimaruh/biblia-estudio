@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 39",
+    "book": "Genesis",
+    "chapter": 39,
+    "questions": [
+        {
+            "question": "Quien compro a Jose cuando fue llevado a Egipto?",
+            "options": [
+                "El faraon de Egipto",
+                "Potifar, oficial del faraon y capitan de la guardia",
+                "El copero del faraon",
+                "Un sacerdote egipcio llamado Potifera"
+            ],
+            "correctIndex": 1,
+            "explanation": "Potifar, oficial del faraon, capitan de la guardia, un egipcio, lo compro de mano de los ismaelitas que lo habian llevado alla.",
+            "verse": "Genesis 39:1"
+        },
+        {
+            "question": "Por que prospero Jose en la casa de Potifar?",
+            "options": [
+                "Porque era muy inteligente y astuto",
+                "Porque tenia experiencia como pastor",
+                "Porque el Senor estaba con Jose y todo lo que el hacia, el Senor lo hacia prosperar",
+                "Porque soborno al mayordomo de la casa"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor estaba con Jose y el era un hombre que prosperaba. Todo lo que Jose hacia, el Senor lo hacia prosperar en su mano.",
+            "verse": "Genesis 39:2-3"
+        },
+        {
+            "question": "Que cargo le dio Potifar a Jose en su casa?",
+            "options": [
+                "Cocinero principal",
+                "Guardian de la puerta",
+                "Lo puso a cargo de su casa y de todo lo que poseia",
+                "Cuidador de sus caballos"
+            ],
+            "correctIndex": 2,
+            "explanation": "Potifar lo hizo mayordomo de su casa y le confio todo lo que poseia. Desde que lo puso a cargo, el Senor bendijo la casa del egipcio por causa de Jose.",
+            "verse": "Genesis 39:4-5"
+        },
+        {
+            "question": "Que le pidio repetidamente la mujer de Potifar a Jose?",
+            "options": [
+                "Que le enseñara sobre el Dios de Israel",
+                "Que le ayudara a escapar de su esposo",
+                "Que se acostara con ella",
+                "Que robara las riquezas de Potifar"
+            ],
+            "correctIndex": 2,
+            "explanation": "La mujer de Potifar puso sus ojos en Jose y le dijo dia tras dia: 'Acuestate conmigo', pero el se nego.",
+            "verse": "Genesis 39:7, 10"
+        },
+        {
+            "question": "Que razon dio Jose para negarse a la tentacion de la mujer de Potifar?",
+            "options": [
+                "Que temia que Potifar lo matara",
+                "Que no podia hacer esta gran maldad y pecar contra Dios",
+                "Que ella no era atractiva",
+                "Que ya estaba comprometido con otra mujer"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose dijo: 'Como entonces haria yo esta gran maldad y pecaria contra Dios?', reconociendo que seria un pecado no solo contra Potifar sino contra Dios.",
+            "verse": "Genesis 39:9"
+        },
+        {
+            "question": "Que hizo Jose cuando la mujer de Potifar lo agarro de la ropa insistiendo?",
+            "options": [
+                "Se quedo y le explico que no podia",
+                "Dejo su ropa en mano de ella y huyo afuera",
+                "Llamo a los siervos para que fueran testigos",
+                "Le pidio que hablara con su esposo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose dejo su ropa en mano de ella, y huyo y salio afuera. Ella uso la ropa como falsa evidencia contra el.",
+            "verse": "Genesis 39:12"
+        },
+        {
+            "question": "Que le sucedio a Jose en la carcel?",
+            "options": [
+                "Fue torturado y maltratado",
+                "Intento escapar varias veces",
+                "El Senor estaba con el, le mostro misericordia y le dio gracia ante el jefe de la carcel, quien puso todo bajo su cargo",
+                "Estuvo completamente solo y abandonado"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor estaba con Jose, le extendio su misericordia y le dio gracia ante los ojos del jefe de la carcel, quien puso a Jose a cargo de todos los presos.",
+            "verse": "Genesis 39:21-23"
+        }
+    ]
+}

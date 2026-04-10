@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 15",
+    "book": "Exodo",
+    "chapter": 15,
+    "questions": [
+        {
+            "question": "Quien canto el cantico registrado en Exodo 15:1?",
+            "options": [
+                "Aaron y los sacerdotes",
+                "Moises y los hijos de Israel",
+                "Miriam sola",
+                "Todo el pueblo en silencio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Entonces Moises y los hijos de Israel cantaron este cantico al Senor: 'Cantare al Senor porque ha triunfado gloriosamente.'",
+            "verse": "Exodo 15:1"
+        },
+        {
+            "question": "Segun el cantico de Moises, que les sucedio a los carros de Faraon y a su ejercito?",
+            "options": [
+                "Fueron capturados por los israelitas",
+                "Huyeron al desierto",
+                "Fueron echados al mar y se hundieron como piedra en las aguas",
+                "Fueron quemados por fuego del cielo"
+            ],
+            "correctIndex": 2,
+            "explanation": "El cantico dice: 'Los carros de Faraon y su ejercito echo al mar, y los mejores de sus oficiales se ahogaron en el Mar Rojo. Los abismos los cubren; descendieron a las profundidades como piedra.'",
+            "verse": "Exodo 15:4-5"
+        },
+        {
+            "question": "Que instrumento toco Miriam la profetisa despues del cruce del mar?",
+            "options": [
+                "Una trompeta",
+                "Un arpa",
+                "Un pandero",
+                "Una flauta"
+            ],
+            "correctIndex": 2,
+            "explanation": "Miriam la profetisa, hermana de Aaron, tomo un pandero en su mano, y todas las mujeres salieron tras ella con panderos y danzas.",
+            "verse": "Exodo 15:20"
+        },
+        {
+            "question": "Que parentesco tenia Miriam segun Exodo 15:20?",
+            "options": [
+                "Era esposa de Moises",
+                "Era hermana de Aaron",
+                "Era hija de Faraon",
+                "Era prima de Moises"
+            ],
+            "correctIndex": 1,
+            "explanation": "El texto la identifica como 'Miriam la profetisa, hermana de Aaron.'",
+            "verse": "Exodo 15:20"
+        },
+        {
+            "question": "Que problema encontraron los israelitas en Mara?",
+            "options": [
+                "No habia alimento para comer",
+                "Fueron atacados por enemigos",
+                "Las aguas eran amargas y no podian beberlas",
+                "Habia serpientes venenosas por todas partes"
+            ],
+            "correctIndex": 2,
+            "explanation": "No pudieron beber las aguas de Mara porque eran amargas; por eso le pusieron el nombre de Mara, que significa amargura.",
+            "verse": "Exodo 15:23"
+        },
+        {
+            "question": "Como hizo el Senor que las aguas amargas de Mara se volvieran dulces?",
+            "options": [
+                "Envio lluvia del cielo sobre el manantial",
+                "Moises soplo sobre las aguas",
+                "El Senor le mostro a Moises un arbol que echo en las aguas y se endulzaron",
+                "Aaron golpeo las aguas con su vara"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises clamo al Senor, y el Senor le mostro un arbol; y el lo echo en las aguas, y las aguas se endulzaron.",
+            "verse": "Exodo 15:25"
+        },
+        {
+            "question": "A que lugar llegaron despues de Mara, donde habia doce fuentes de agua y setenta palmeras?",
+            "options": [
+                "Refidim",
+                "Sinai",
+                "Elim",
+                "Cades"
+            ],
+            "correctIndex": 2,
+            "explanation": "Llegaron a Elim, donde habia doce fuentes de agua y setenta palmeras, y acamparon alli junto a las aguas.",
+            "verse": "Exodo 15:27"
+        }
+    ]
+}

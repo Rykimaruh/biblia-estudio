@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 27",
+    "book": "Genesis",
+    "chapter": 27,
+    "questions": [
+        {
+            "question": "Que le pidio Isaac a Esau antes de darle su bendicion?",
+            "options": [
+                "Que le trajera agua del pozo",
+                "Que fuera al campo a cazar y le preparara un guisado sabroso",
+                "Que le trajera ropa nueva",
+                "Que llamara a toda la familia"
+            ],
+            "correctIndex": 1,
+            "explanation": "Isaac le dijo a Esau: 'Toma tus armas, tu aljaba y tu arco, sal al campo y trame caza; y preparame un guisado sabroso como a mi me gusta, y traemelo para que coma, y que mi alma te bendiga antes que yo muera.'",
+            "verse": "Genesis 27:3-4"
+        },
+        {
+            "question": "Quien ideo el plan para que Jacob recibiera la bendicion en lugar de Esau?",
+            "options": [
+                "Jacob mismo",
+                "Un siervo de la casa",
+                "Rebeca, su madre",
+                "Un angel del Senor"
+            ],
+            "correctIndex": 2,
+            "explanation": "Rebeca estaba escuchando cuando Isaac hablo con Esau, y le dijo a Jacob que le trajera dos cabritos para preparar un guisado e ir ante su padre para recibir la bendicion.",
+            "verse": "Genesis 27:5-10"
+        },
+        {
+            "question": "Como se disfrazo Jacob para enganar a su padre Isaac, que estaba ciego?",
+            "options": [
+                "Se puso una mascara",
+                "Se pinto la cara",
+                "Se cubrio las manos y el cuello con pieles de cabrito, y se puso las ropas de Esau",
+                "Se corto el cabello como Esau"
+            ],
+            "correctIndex": 2,
+            "explanation": "Rebeca puso las pieles de los cabritos sobre las manos de Jacob y sobre la parte lisa de su cuello, y le dio las mejores vestiduras de Esau para que se las pusiera.",
+            "verse": "Genesis 27:15-16"
+        },
+        {
+            "question": "Que dijo Isaac cuando toco las manos de Jacob?",
+            "options": [
+                "Estas manos no son de mi hijo",
+                "La voz es la voz de Jacob, pero las manos son las manos de Esau",
+                "Se que eres Jacob",
+                "Tus manos son muy suaves"
+            ],
+            "correctIndex": 1,
+            "explanation": "Isaac dijo: 'La voz es la voz de Jacob, pero las manos son las manos de Esau.' No lo reconocio porque sus manos estaban velludas como las de Esau.",
+            "verse": "Genesis 27:22-23"
+        },
+        {
+            "question": "Que incluia la bendicion que Isaac le dio a Jacob pensando que era Esau?",
+            "options": [
+                "Solo riquezas materiales",
+                "Que Dios le diera del rocio del cielo, de la abundancia de la tierra, que pueblos le sirvieran y naciones se inclinaran ante el",
+                "Solo que fuera lider de su familia",
+                "Que viviera muchos anos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Isaac lo bendijo diciendo que Dios le diera del rocio del cielo, de la grosura de la tierra y abundancia de grano y mosto. Que pueblos le sirvieran y naciones se inclinaran ante el; que fuera senor de sus hermanos.",
+            "verse": "Genesis 27:28-29"
+        },
+        {
+            "question": "Que reaccion tuvo Esau cuando se entero de que Jacob habia recibido su bendicion?",
+            "options": [
+                "Acepto la situacion con calma",
+                "Lanzo un grito muy grande y amargo, y lloro",
+                "Se fue de la casa en silencio",
+                "Le pidio a Dios que lo vengara"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuando Esau oyo las palabras de su padre, lanzo un grito muy grande y amargo, y le dijo a su padre: 'Bendiceme tambien a mi, padre mio!' Y lloro.",
+            "verse": "Genesis 27:34,38"
+        },
+        {
+            "question": "Que planeo hacer Esau contra Jacob, y que decidio Rebeca para proteger a Jacob?",
+            "options": [
+                "Esau planeo robarle y Rebeca lo envio a Egipto",
+                "Esau planeo matar a Jacob, y Rebeca le dijo a Jacob que huyera a Haran, a casa de su hermano Laban",
+                "Esau planeo desterrarlo y Rebeca hablo con Isaac",
+                "Esau planeo ignorarlo para siempre"
+            ],
+            "correctIndex": 1,
+            "explanation": "Esau guardo rencor contra Jacob y dijo que lo mataria despues de los dias de luto por su padre. Rebeca le dijo a Jacob que huyera a casa de su hermano Laban en Haran hasta que la ira de Esau se calmara.",
+            "verse": "Genesis 27:41-43"
+        }
+    ]
+}

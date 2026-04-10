@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 2",
+    "book": "Exodo",
+    "chapter": 2,
+    "questions": [
+        {
+            "question": "De que tribu era la familia de Moises?",
+            "options": [
+                "Tribu de Juda",
+                "Tribu de Benjamin",
+                "Tribu de Levi",
+                "Tribu de Ruben"
+            ],
+            "correctIndex": 2,
+            "explanation": "Exodo 2:1 dice que un hombre de la casa de Levi fue y tomo por mujer a una hija de Levi. Moises era de la tribu de Levi.",
+            "verse": "Exodo 2:1"
+        },
+        {
+            "question": "Cuanto tiempo escondio la madre de Moises al nino antes de ponerlo en el rio?",
+            "options": [
+                "Un mes",
+                "Dos meses",
+                "Tres meses",
+                "Seis meses"
+            ],
+            "correctIndex": 2,
+            "explanation": "La madre de Moises lo tuvo escondido durante tres meses porque vio que era hermoso, pero al no poder ocultarlo mas, lo puso en una cesta.",
+            "verse": "Exodo 2:2"
+        },
+        {
+            "question": "Con que material fue hecha la canasta donde colocaron a Moises en el Nilo?",
+            "options": [
+                "Madera de cedro",
+                "Juncos cubiertos con asfalto y brea",
+                "Cuero de animal",
+                "Ramas de palmera"
+            ],
+            "correctIndex": 1,
+            "explanation": "Su madre tomo una canasta de juncos y la cubrio con asfalto y brea, coloco al nino en ella y la puso entre los juncos a la orilla del Nilo.",
+            "verse": "Exodo 2:3"
+        },
+        {
+            "question": "Quien sugirio a la hija de Faraon buscar una nodriza hebrea para el bebe?",
+            "options": [
+                "Una sierva egipcia",
+                "La madre de Moises",
+                "La hermana de Moises",
+                "Una partera hebrea"
+            ],
+            "correctIndex": 2,
+            "explanation": "La hermana del nino, que estaba observando desde lejos, se acerco y pregunto a la hija de Faraon si debia buscar una nodriza hebrea.",
+            "verse": "Exodo 2:7"
+        },
+        {
+            "question": "Que significa el nombre 'Moises' segun la hija de Faraon?",
+            "options": [
+                "Salvado por Dios",
+                "De las aguas lo saque",
+                "Hijo del rio",
+                "Protegido del cielo"
+            ],
+            "correctIndex": 1,
+            "explanation": "La hija de Faraon le puso por nombre Moises, diciendo: 'Porque de las aguas lo saque.'",
+            "verse": "Exodo 2:10"
+        },
+        {
+            "question": "Por que huyo Moises de Egipto a la tierra de Madian?",
+            "options": [
+                "Porque Dios le ordeno ir",
+                "Porque queria buscar a su familia",
+                "Porque Faraon queria matarlo por haber dado muerte a un egipcio",
+                "Porque los hebreos lo rechazaron"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises mato a un egipcio que golpeaba a un hebreo. Cuando Faraon se entero, procuro matar a Moises, y este huyo a la tierra de Madian.",
+            "verse": "Exodo 2:12-15"
+        },
+        {
+            "question": "Con quien se caso Moises en Madian y como se llamo su hijo?",
+            "options": [
+                "Se caso con Agar y su hijo fue Ismael",
+                "Se caso con Sefora y su hijo fue Gerson",
+                "Se caso con Rut y su hijo fue Obed",
+                "Se caso con Mara y su hijo fue Eleazar"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises se caso con Sefora, hija del sacerdote de Madian, y ella le dio un hijo al que llamo Gerson, que significa 'forastero en tierra extranjera'.",
+            "verse": "Exodo 2:21-22"
+        }
+    ]
+}

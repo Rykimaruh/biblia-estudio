@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 19",
+    "book": "Genesis",
+    "chapter": 19,
+    "questions": [
+        {
+            "question": "Donde estaba sentado Lot cuando llegaron los dos angeles a Sodoma?",
+            "options": [
+                "En su casa",
+                "En el mercado de la ciudad",
+                "A la puerta de Sodoma",
+                "Junto a las murallas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Genesis 19:1 dice que los dos angeles llegaron a Sodoma al anochecer, y Lot estaba sentado a la puerta de Sodoma.",
+            "verse": "Genesis 19:1"
+        },
+        {
+            "question": "Que les ofrecio Lot a los angeles cuando llegaron?",
+            "options": [
+                "Solo agua para beber",
+                "Que pasaran la noche en la plaza",
+                "Que vinieran a su casa, lavaran sus pies, pasaran la noche y les preparo un banquete con panes sin levadura",
+                "Que fueran a un mesón de la ciudad"
+            ],
+            "correctIndex": 2,
+            "explanation": "Lot insistio en que vinieran a su casa, les lavo los pies, les hizo un banquete y cocio panes sin levadura.",
+            "verse": "Genesis 19:2-3"
+        },
+        {
+            "question": "Que hicieron los angeles a los hombres de Sodoma que rodearon la casa de Lot?",
+            "options": [
+                "Los mataron con fuego",
+                "Los hirieron con ceguera",
+                "Los hicieron huir con un viento fuerte",
+                "Los convirtieron en sal"
+            ],
+            "correctIndex": 1,
+            "explanation": "Los varones que estaban dentro extendieron la mano y metieron a Lot en la casa, y a los hombres que estaban a la puerta de la casa los hirieron con ceguera.",
+            "verse": "Genesis 19:10-11"
+        },
+        {
+            "question": "Cuando Lot aviso a sus yernos sobre la destruccion, como reaccionaron?",
+            "options": [
+                "Le creyeron y huyeron inmediatamente",
+                "Pidieron mas tiempo para prepararse",
+                "Les parecio que bromeaba",
+                "Se enojaron con el"
+            ],
+            "correctIndex": 2,
+            "explanation": "Lot salio y hablo a sus yernos, pero a ellos les parecio que Lot estaba bromeando.",
+            "verse": "Genesis 19:14"
+        },
+        {
+            "question": "A que ciudad pequena pidio Lot huir en vez de ir a la montana?",
+            "options": [
+                "Hebron",
+                "Betel",
+                "Zoar",
+                "Siquem"
+            ],
+            "correctIndex": 2,
+            "explanation": "Lot pidio huir a una ciudad pequena cercana para salvar su vida, y la llamo Zoar, que significa 'pequena'.",
+            "verse": "Genesis 19:20-22"
+        },
+        {
+            "question": "Que le sucedio a la mujer de Lot cuando miro hacia atras?",
+            "options": [
+                "Cayo muerta al instante",
+                "Se convirtio en columna de sal",
+                "Fue consumida por el fuego",
+                "Quedo ciega"
+            ],
+            "correctIndex": 1,
+            "explanation": "La mujer de Lot miro hacia atras y se convirtio en columna de sal.",
+            "verse": "Genesis 19:26"
+        },
+        {
+            "question": "Quienes fueron los hijos que tuvieron las dos hijas de Lot?",
+            "options": [
+                "Esau y Jacob",
+                "Moab y Ben-ammi",
+                "Ismael e Isaac",
+                "Ruben y Simeon"
+            ],
+            "correctIndex": 1,
+            "explanation": "La mayor dio a luz un hijo y lo llamo Moab, padre de los moabitas. La menor tambien dio a luz un hijo y lo llamo Ben-ammi, padre de los amonitas.",
+            "verse": "Genesis 19:37-38"
+        }
+    ]
+}

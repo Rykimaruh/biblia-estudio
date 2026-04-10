@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 10",
+    "book": "Exodo",
+    "chapter": 10,
+    "questions": [
+        {
+            "question": "Por que dijo Dios que habia endurecido el corazon de Faraon y de sus siervos?",
+            "options": [
+                "Para castigar a los egipcios",
+                "Para que Moises pudiera mostrar Sus senales y para que Israel contara a sus hijos las maravillas de Dios",
+                "Para destruir completamente a Egipto",
+                "Para que los israelitas aprendieran a luchar"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios dijo que habia endurecido su corazon para mostrar Sus senales entre ellos, y para que contaran a sus hijos y nietos las cosas que hizo en Egipto.",
+            "verse": "Exodo 10:1-2"
+        },
+        {
+            "question": "Que le dijeron los siervos de Faraon antes de la plaga de langostas?",
+            "options": [
+                "Que lucharan contra Moises",
+                "Que no hicieran caso a Moises",
+                "Que dejara ir a los hombres para que sirvieran al Senor, porque Egipto estaba destruido",
+                "Que consultaran a sus dioses"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los siervos de Faraon le dijeron: 'Deja ir a estos hombres para que sirvan al Senor su Dios. No te das cuenta de que Egipto esta destruido?'",
+            "verse": "Exodo 10:7"
+        },
+        {
+            "question": "Que oferta parcial le hizo Faraon a Moises antes de la plaga de langostas?",
+            "options": [
+                "Que fueran solo los ancianos",
+                "Que fueran solo los hombres, pero no los ninos ni las mujeres",
+                "Que fueran pero dejaran su ganado",
+                "Que sacrificaran en Egipto"
+            ],
+            "correctIndex": 1,
+            "explanation": "Faraon dijo que fueran solo los hombres a servir al Senor, pero no las mujeres ni los ninos. Luego los echo de su presencia.",
+            "verse": "Exodo 10:10-11"
+        },
+        {
+            "question": "Que viento trajo las langostas sobre Egipto?",
+            "options": [
+                "Viento del norte",
+                "Viento del sur",
+                "Viento del oriente (del este)",
+                "Viento del occidente (del oeste)"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor trajo un viento del oriente sobre la tierra todo aquel dia y toda la noche, y por la manana el viento del oriente trajo las langostas.",
+            "verse": "Exodo 10:13"
+        },
+        {
+            "question": "Que viento uso Dios para quitar las langostas y adonde las llevo?",
+            "options": [
+                "Un viento del este las llevo al desierto",
+                "Un viento del norte las llevo al rio Nilo",
+                "Un viento del occidente muy fuerte las llevo y las arrojo al Mar Rojo",
+                "Un viento del sur las llevo a las montanas"
+            ],
+            "correctIndex": 2,
+            "explanation": "El Senor cambio el viento a un viento del occidente muy fuerte que se llevo las langostas y las arrojo al Mar Rojo. No quedo ni una langosta.",
+            "verse": "Exodo 10:19"
+        },
+        {
+            "question": "Cuanto tiempo duro la plaga de tinieblas sobre Egipto?",
+            "options": [
+                "Un dia",
+                "Tres dias",
+                "Siete dias",
+                "Diez dias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Hubo densas tinieblas en toda la tierra de Egipto por tres dias. Nadie podia ver a otro ni levantarse de su lugar durante tres dias.",
+            "verse": "Exodo 10:22-23"
+        },
+        {
+            "question": "Que condicion le puso Faraon a Moises durante la plaga de tinieblas para dejarlos ir?",
+            "options": [
+                "Que dejaran a sus hijos como garantia",
+                "Que pagaran un tributo en oro",
+                "Que su ganado y rebanos se quedaran en Egipto, pero podian ir hombres, mujeres y ninos",
+                "Que prometieran regresar en un mes"
+            ],
+            "correctIndex": 2,
+            "explanation": "Faraon dijo: 'Id, servid al Senor; solo queden vuestros rebanos y vuestro ganado. Aun vuestros ninos pueden ir con vosotros.' Pero Moises rechazo la oferta.",
+            "verse": "Exodo 10:24"
+        }
+    ]
+}

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 2",
+    "book": "Genesis",
+    "chapter": 2,
+    "questions": [
+        {
+            "question": "Que hizo Dios el septimo dia segun Genesis 2:2-3?",
+            "options": [
+                "Creo al hombre",
+                "Planto un huerto",
+                "Reposo de toda su obra y santifico ese dia",
+                "Formo a los animales"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios termino Su obra el septimo dia, reposo de toda Su obra, y bendijo y santifico ese dia porque en el reposo de toda la obra que habia creado.",
+            "verse": "Genesis 2:2-3"
+        },
+        {
+            "question": "De que formo Dios al hombre segun Genesis 2:7?",
+            "options": [
+                "De las aguas del mar",
+                "Del polvo de la tierra",
+                "De la roca del monte",
+                "De la luz del cielo"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios formo al hombre del polvo de la tierra, y soplo en su nariz el aliento de vida, y el hombre llego a ser un ser viviente.",
+            "verse": "Genesis 2:7"
+        },
+        {
+            "question": "Donde planto Dios un huerto para poner al hombre?",
+            "options": [
+                "En Canaan, al occidente",
+                "En Eden, al oriente",
+                "En Sinai, al sur",
+                "En Babel, al norte"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios planto un huerto en Eden, al oriente, y puso alli al hombre que habia formado.",
+            "verse": "Genesis 2:8"
+        },
+        {
+            "question": "Cuales son los dos arboles especiales mencionados en medio del huerto?",
+            "options": [
+                "El arbol de la sabiduria y el arbol de la vida eterna",
+                "El arbol de la vida y el arbol del conocimiento del bien y del mal",
+                "El arbol del poder y el arbol de la gracia",
+                "El arbol de la fe y el arbol de la justicia"
+            ],
+            "correctIndex": 1,
+            "explanation": "En medio del huerto estaban el arbol de la vida y el arbol del conocimiento del bien y del mal.",
+            "verse": "Genesis 2:9"
+        },
+        {
+            "question": "Que le ordeno Dios al hombre respecto al arbol del conocimiento del bien y del mal?",
+            "options": [
+                "Que lo cuidara y protegiera",
+                "Que comiera de el una vez al ano",
+                "Que no comiera de el, porque el dia que comiera, ciertamente moriria",
+                "Que compartiera su fruto con los animales"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le mando diciendo: 'De todo arbol del huerto podras comer, pero del arbol del conocimiento del bien y del mal no comeras, porque el dia que de el comas, ciertamente moriras.'",
+            "verse": "Genesis 2:16-17"
+        },
+        {
+            "question": "Por que dijo Dios que no era bueno que el hombre estuviera solo?",
+            "options": [
+                "Porque necesitaba quien cultivara la tierra",
+                "Porque los animales eran peligrosos",
+                "Porque le haria una ayuda idonea",
+                "Porque el huerto era muy grande"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios dijo: 'No es bueno que el hombre este solo; le hare una ayuda idonea.' Ninguno de los animales resulto ser ayuda idonea para el hombre.",
+            "verse": "Genesis 2:18"
+        },
+        {
+            "question": "Como formo Dios a la mujer?",
+            "options": [
+                "Del polvo de la tierra, igual que al hombre",
+                "De una costilla del hombre, mientras este dormia",
+                "De las aguas del rio del Eden",
+                "De la semilla del arbol de la vida"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios hizo caer un sueno profundo sobre el hombre, tomo una de sus costillas y formo una mujer de la costilla que habia tomado del hombre.",
+            "verse": "Genesis 2:21-22"
+        }
+    ]
+}

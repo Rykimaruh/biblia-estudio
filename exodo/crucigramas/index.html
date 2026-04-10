@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="book" content="exodo">
+    <title>Crucigramas — Exodo — Biblia Estudio</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/crossword.css">
+</head>
+<body>
+    <input type="text" id="mobile-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+
+    <header id="site-header"></header>
+
+    <main>
+        <div class="breadcrumb" id="breadcrumb"></div>
+
+        <!-- Section nav -->
+        <div id="section-nav"></div>
+
+        <!-- Section containers -->
+        <div id="sections-container"></div>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script src="../../js/admin.js"></script>
+    <script src="../../js/layout.js"></script>
+    <script src="../../js/crossword-engine.js"></script>
+    <script src="../../js/crossword-game.js"></script>
+    <script>
+    // Load crossword data and build the page
+    const allGames = {};
+    let currentSection = null;
+
+    fetch('../../data/exodo/crosswords.json')
+        .then(r => r.json())
+        .then(data => {
+            buildPage(data);
+            // Check hash for initial section
+            const hash = window.location.hash.slice(1);
+            if (hash) {
+                const section = data.sections.find(s => s.id === hash);
+                if (section) { showSection(section.id); return; }
+            }
+            // Default to overview
+            showSection('overview');
+        })
+        .catch(err => {
+            console.error('Error loading crosswords:', err);
+            document.getElementById('sections-container').innerHTML = '<p>Error cargando los crucigramas.</p>';
+        });
+
+    function buildPage(data) {
+        const navEl = document.getElementById('section-nav');
+        const container = document.getElementById('sections-container');
+
+        // Build nav
+        let navHtml = '<h2>Crucigramas del Libro de Exodo</h2>';
+        navHtml += '<div class="tabs" id="section-tabs">';
+        navHtml += `<button class="tab-btn active" onclick="showSection('overview')">Inicio</button>`;
+        for (const section of data.sections) {
+            const label = section.id.replace('cap', 'Cap. ').replace('-', '-');
+            navHtml += `<button class="tab-btn" onclick="showSection('${section.id}')">${label}</button>`;
+        }
+        navHtml += '</div>';
+        navEl.innerHTML = navHtml;
+
+        // Build overview section
+        let html = '<div id="sec-overview" class="section active">';
+        html += '<div class="instructions"><h3>Como jugar</h3><p>';
+        html += '<b>1.</b> Haz clic en una casilla blanca para seleccionarla. La casilla se pondra <b>amarilla</b>.<br><br>';
+        html += '<b>2.</b> Escribe una letra con el teclado. El cursor avanza automaticamente.<br><br>';
+        html += '<b>3.</b> Haz clic en la misma casilla para cambiar entre <b>horizontal</b> y <b>vertical</b>.<br><br>';
+        html += '<b>4.</b> Haz clic en cualquier pista de la lista para ir a esa palabra.<br><br>';
+        html += '<b>5.</b> Usa los botones: <b>Verificar Respuestas</b>, <b>Dame una Pista</b> (5 por crucigrama), <b>Borrar Todo</b>.';
+        html += '</p></div>';
+        html += '<h2 style="margin-top:2rem;">Elige una seccion</h2>';
+        html += '<div class="card-grid">';
+        for (const section of data.sections) {
+            html += `<div class="card" onclick="showSection('${section.id}')">`;
+            html += `<h3>${section.title}</h3>`;
+            html += `<p>${section.description}</p>`;
+            html += `<span class="badge badge-active">${section.puzzles.length} crucigramas</span>`;
+            html += '</div>';
+        }
+        html += '</div></div>';
+
+        // Build each section
+        for (const section of data.sections) {
+            html += `<div id="sec-${section.id}" class="section">`;
+            html += `<h2>${section.title}</h2>`;
+            html += `<div class="tabs" id="tabs-${section.id}">`;
+            section.puzzles.forEach((p, i) => {
+                const active = i === 0 ? ' active' : '';
+                html += `<button class="tab-btn${active}" onclick="switchPuzzle('${section.id}', ${i})">Crucigrama ${i + 1}</button>`;
+            });
+            html += '</div>';
+            section.puzzles.forEach((p, i) => {
+                const display = i === 0 ? '' : 'style="display:none"';
+                html += `<div id="${section.id}-p${i}" class="puzzle-box" ${display}></div>`;
+            });
+            html += '</div>';
+        }
+
+        container.innerHTML = html;
+
+        // Store section data for lazy init
+        window._crosswordData = data;
+    }
+
+    function showSection(id) {
+        currentSection = id;
+
+        // Update section visibility
+        document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+        const secEl = document.getElementById('sec-' + id);
+        if (secEl) secEl.classList.add('active');
+
+        // Update tab highlights
+        const tabs = document.querySelectorAll('#section-tabs .tab-btn');
+        tabs.forEach(t => t.classList.remove('active'));
+        if (id === 'overview') {
+            tabs[0].classList.add('active');
+        } else {
+            const data = window._crosswordData;
+            const idx = data.sections.findIndex(s => s.id === id);
+            if (idx >= 0 && tabs[idx + 1]) tabs[idx + 1].classList.add('active');
+        }
+
+        // Initialize games if needed
+        if (id !== 'overview' && !allGames[id]) {
+            const data = window._crosswordData;
+            const section = data.sections.find(s => s.id === id);
+            if (section) {
+                const showReveal = window.isAdmin && window.isAdmin();
+                allGames[id] = section.puzzles.map((p, i) =>
+                    new CrosswordGame(`${id}-p${i}`, p.words, p.title, { showReveal })
+                );
+            }
+        }
+
+        // Activate first puzzle
+        if (allGames[id]) switchPuzzle(id, 0);
+
+        // Update hash
+        if (id !== 'overview') window.location.hash = id;
+        else window.history.replaceState(null, '', window.location.pathname);
+
+        window.scrollTo(0, 0);
+    }
+
+    function switchPuzzle(sectionId, idx) {
+        const section = window._crosswordData.sections.find(s => s.id === sectionId);
+        if (!section) return;
+
+        for (let i = 0; i < section.puzzles.length; i++) {
+            const el = document.getElementById(`${sectionId}-p${i}`);
+            if (el) el.style.display = i === idx ? '' : 'none';
+        }
+
+        const tabs = document.querySelectorAll(`#tabs-${sectionId} .tab-btn`);
+        tabs.forEach((t, i) => t.classList.toggle('active', i === idx));
+
+        if (allGames[sectionId] && allGames[sectionId][idx]) {
+            allGames[sectionId][idx].activate();
+        }
+    }
+
+    // Breadcrumb
+    document.addEventListener('DOMContentLoaded', () => {
+        renderBreadcrumb([
+            { label: 'Inicio', href: '../../' },
+            { label: 'Exodo', href: '../' },
+            { label: 'Crucigramas' }
+        ]);
+    });
+    </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 22",
+    "book": "Exodo",
+    "chapter": 22,
+    "questions": [
+        {
+            "question": "Segun Exodo 22:1, si un hombre robaba un buey y lo mataba o vendia, cuantos bueyes debia restituir?",
+            "options": [
+                "Dos bueyes",
+                "Tres bueyes",
+                "Cuatro bueyes",
+                "Cinco bueyes"
+            ],
+            "correctIndex": 3,
+            "explanation": "Si un hombre robaba un buey o una oveja y lo mataba o vendia, debia restituir cinco bueyes por el buey y cuatro ovejas por la oveja.",
+            "verse": "Exodo 22:1"
+        },
+        {
+            "question": "Segun Exodo 22:1, cuantas ovejas debia restituir el que robaba y mataba o vendia una oveja?",
+            "options": [
+                "Dos ovejas",
+                "Tres ovejas",
+                "Cuatro ovejas",
+                "Cinco ovejas"
+            ],
+            "correctIndex": 2,
+            "explanation": "El ladron debia restituir cuatro ovejas por una oveja robada y matada o vendida.",
+            "verse": "Exodo 22:1"
+        },
+        {
+            "question": "Segun Exodo 22:18, que se debia hacer con la hechicera?",
+            "options": [
+                "Desterrarla del pueblo",
+                "No la dejaras con vida",
+                "Encerrarla en prision",
+                "Hacerla pagar una multa"
+            ],
+            "correctIndex": 1,
+            "explanation": "La ley establecia claramente: 'No dejaras con vida a la hechicera', mostrando la gravedad de la practica de la hechiceria.",
+            "verse": "Exodo 22:18"
+        },
+        {
+            "question": "Segun Exodo 22:21, a quienes no debian maltratar ni oprimir los israelitas?",
+            "options": [
+                "A los sacerdotes y levitas",
+                "A los reyes y gobernantes",
+                "Al extranjero",
+                "A los profetas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios ordeno: 'No maltratareis al extranjero ni lo oprimireis, porque extranjeros fuisteis vosotros en la tierra de Egipto.'",
+            "verse": "Exodo 22:21"
+        },
+        {
+            "question": "Segun Exodo 22:22-24, que pasaria si afligian a la viuda o al huerfano y estos clamaban a Dios?",
+            "options": [
+                "Dios los perdonaria",
+                "Dios se encenderia en ira y los mataria a espada, y sus mujeres serian viudas y sus hijos huerfanos",
+                "Dios los desterraria de la tierra",
+                "Dios les quitaria sus posesiones"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios prometio que si afligian a viudas y huerfanos, El oiria su clamor, se encenderia Su ira, y los mataria a espada, dejando a sus propias esposas viudas y a sus hijos huerfanos.",
+            "verse": "Exodo 22:22-24"
+        },
+        {
+            "question": "Segun Exodo 22:25, que estaba prohibido al prestar dinero a un pobre del pueblo?",
+            "options": [
+                "Prestarle mas de lo que podia pagar",
+                "Cobrarle intereses",
+                "Pedirle garantia",
+                "Prestarle sin testigos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Si prestabas dinero a alguno de los pobres del pueblo, no debias portarte con el como acreedor ni cobrarle intereses.",
+            "verse": "Exodo 22:25"
+        },
+        {
+            "question": "Segun Exodo 22:29, que debian ofrecer los israelitas a Dios sin demora?",
+            "options": [
+                "Sus mejores vestiduras",
+                "La cosecha completa y el primogenito de sus hijos",
+                "El diezmo de su ganado unicamente",
+                "Oro y plata"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dios ordeno no demorar la ofrenda de la cosecha abundante ni del fruto de los lagares, y dar a Dios el primogenito de los hijos.",
+            "verse": "Exodo 22:29"
+        }
+    ]
+}

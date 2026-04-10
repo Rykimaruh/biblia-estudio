@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 42",
+    "book": "Genesis",
+    "chapter": 42,
+    "questions": [
+        {
+            "question": "Por que envio Jacob a sus hijos a Egipto?",
+            "options": [
+                "Para visitar a Jose",
+                "Para comprar grano porque habia hambre en la tierra de Canaan",
+                "Para hacer alianza con el Faraon",
+                "Para buscar nuevas tierras donde vivir"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob supo que habia grano en Egipto y envio a sus hijos para que compraran de alli, para que pudieran vivir y no murieran de hambre.",
+            "verse": "Genesis 42:1-2"
+        },
+        {
+            "question": "Cual de los hijos de Jacob no fue enviado a Egipto con sus hermanos?",
+            "options": [
+                "Ruben",
+                "Juda",
+                "Simeon",
+                "Benjamin"
+            ],
+            "correctIndex": 3,
+            "explanation": "Jacob no envio a Benjamin, hermano de Jose, con sus hermanos, porque temia que le sucediera algun desastre.",
+            "verse": "Genesis 42:4"
+        },
+        {
+            "question": "De que acuso Jose a sus hermanos cuando llegaron a Egipto?",
+            "options": [
+                "De ser ladrones",
+                "De ser espias que venian a ver las partes desprotegidas del pais",
+                "De ser enemigos del Faraon",
+                "De traficar con esclavos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jose los acuso de ser espias, diciendoles: 'Sois espias; habeis venido para ver las partes desprotegidas de nuestra tierra.'",
+            "verse": "Genesis 42:9-12"
+        },
+        {
+            "question": "A cual de los hermanos retuvo Jose como prisionero en Egipto?",
+            "options": [
+                "Ruben",
+                "Juda",
+                "Levi",
+                "Simeon"
+            ],
+            "correctIndex": 3,
+            "explanation": "Jose tomo a Simeon de entre ellos y lo ato delante de sus ojos, reteniendolo como garantia mientras los demas regresaban por Benjamin.",
+            "verse": "Genesis 42:24"
+        },
+        {
+            "question": "Que encontraron los hermanos de Jose en sus costales al detenerse en el camino?",
+            "options": [
+                "Joyas de oro",
+                "Su dinero que habian pagado por el grano",
+                "Un mensaje escrito del gobernador",
+                "Mas grano del que habian comprado"
+            ],
+            "correctIndex": 1,
+            "explanation": "Al abrir uno de ellos su costal para dar de comer a su asno en la posada, vio su dinero en la boca del costal, lo cual les causo gran temor.",
+            "verse": "Genesis 42:27-28"
+        },
+        {
+            "question": "Que ofrecio Ruben a su padre Jacob para convencerlo de enviar a Benjamin?",
+            "options": [
+                "Todo su ganado y posesiones",
+                "La vida de sus dos hijos si no traia de vuelta a Benjamin",
+                "Ir el solo como garantia en lugar de Benjamin",
+                "Pagar el doble del precio del grano"
+            ],
+            "correctIndex": 1,
+            "explanation": "Ruben dijo a su padre: 'Puedes dar muerte a mis dos hijos si no te lo traigo de vuelta. Ponlo en mis manos y yo te lo devolvere.'",
+            "verse": "Genesis 42:37"
+        },
+        {
+            "question": "Como reacciono Jacob ante la peticion de enviar a Benjamin a Egipto?",
+            "options": [
+                "Acepto inmediatamente",
+                "Se nego, diciendo que su hijo no descenderia con ellos pues podria sucederle algun desastre",
+                "Pidio tiempo para orar",
+                "Decidio ir el mismo en lugar de Benjamin"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob se nego a enviar a Benjamin, diciendo que Jose ya no existia, Simeon tampoco estaba, y si algo le sucedia a Benjamin en el camino, harian descender sus canas con dolor al Seol.",
+            "verse": "Genesis 42:38"
+        }
+    ]
+}

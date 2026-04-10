@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 14",
+    "book": "Genesis",
+    "chapter": 14,
+    "questions": [
+        {
+            "question": "Cuantos reyes formaron la alianza que hizo guerra contra los reyes de Sodoma y Gomorra?",
+            "options": [
+                "Tres reyes",
+                "Cuatro reyes",
+                "Cinco reyes",
+                "Seis reyes"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cuatro reyes (Amrafel de Sinar, Arioc de Elasar, Quedorlaomer de Elam y Tidal de Goim) hicieron guerra contra los cinco reyes de la llanura.",
+            "verse": "Genesis 14:1-2"
+        },
+        {
+            "question": "Que le sucedio a Lot durante la batalla en el valle de Sidim?",
+            "options": [
+                "Fue herido gravemente",
+                "Huyo a las montanas",
+                "Fue tomado cautivo junto con sus posesiones",
+                "Se escondio en una cueva"
+            ],
+            "correctIndex": 2,
+            "explanation": "Los vencedores tomaron todos los bienes de Sodoma y Gomorra y todos sus viveres, y se fueron. Tambien tomaron a Lot, el sobrino de Abram, y sus posesiones.",
+            "verse": "Genesis 14:11-12"
+        },
+        {
+            "question": "Cuantos hombres adiestrados llevo Abram para rescatar a Lot?",
+            "options": [
+                "Doscientos hombres",
+                "Trescientos dieciocho hombres",
+                "Cuatrocientos hombres",
+                "Quinientos hombres"
+            ],
+            "correctIndex": 1,
+            "explanation": "Al oir Abram que su pariente habia sido tomado cautivo, llevo a sus criados adiestrados, nacidos en su casa, trescientos dieciocho, y los persiguio.",
+            "verse": "Genesis 14:14"
+        },
+        {
+            "question": "Quien era Melquisedec?",
+            "options": [
+                "Rey de Sodoma y sacerdote de Baal",
+                "Rey de Salem y sacerdote del Dios Altisimo",
+                "Rey de Gomorra y profeta",
+                "Un angel enviado por Dios"
+            ],
+            "correctIndex": 1,
+            "explanation": "Melquisedec, rey de Salem, saco pan y vino; el era sacerdote del Dios Altisimo.",
+            "verse": "Genesis 14:18"
+        },
+        {
+            "question": "Que le trajo Melquisedec a Abram?",
+            "options": [
+                "Oro y plata",
+                "Armas y escudos",
+                "Pan y vino",
+                "Ganado y ovejas"
+            ],
+            "correctIndex": 2,
+            "explanation": "Melquisedec, rey de Salem, saco pan y vino para Abram despues de su victoria.",
+            "verse": "Genesis 14:18"
+        },
+        {
+            "question": "Que le dio Abram a Melquisedec?",
+            "options": [
+                "Todo el botin de guerra",
+                "El diezmo de todo",
+                "Oro y piedras preciosas",
+                "Nada, solo le agradecio"
+            ],
+            "correctIndex": 1,
+            "explanation": "Abram le dio el diezmo de todo a Melquisedec despues de que este lo bendijo.",
+            "verse": "Genesis 14:20"
+        },
+        {
+            "question": "Que le respondio Abram al rey de Sodoma cuando este le ofrecio quedarse con los bienes?",
+            "options": [
+                "Acepto todo con gratitud",
+                "Acepto solo la mitad",
+                "Juro que no tomaria nada, ni un hilo ni una correa de sandalia",
+                "Pidio solo el ganado"
+            ],
+            "correctIndex": 2,
+            "explanation": "Abram dijo: 'He jurado al Senor, Dios Altisimo... que no tomare ni un hilo ni una correa de sandalia, ni nada que sea tuyo, para que no digas: Yo hice rico a Abram.'",
+            "verse": "Genesis 14:22-23"
+        }
+    ]
+}

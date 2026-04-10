@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 39",
+    "book": "Exodo",
+    "chapter": 39,
+    "questions": [
+        {
+            "question": "De que colores se hicieron las vestiduras sagradas para ministrar en el lugar santo?",
+            "options": [
+                "Blanco y rojo",
+                "Azul, purpura y carmesi",
+                "Negro y dorado",
+                "Verde y plateado"
+            ],
+            "correctIndex": 1,
+            "explanation": "De azul, purpura y carmesi hicieron las vestiduras finamente tejidas para ministrar en el lugar santo.",
+            "verse": "Exodo 39:1"
+        },
+        {
+            "question": "Cuantas piedras se engastaron en el pectoral del juicio, representando a las tribus de Israel?",
+            "options": [
+                "Seis piedras",
+                "Diez piedras",
+                "Doce piedras",
+                "Catorce piedras"
+            ],
+            "correctIndex": 2,
+            "explanation": "Las piedras eran doce, correspondientes a los nombres de los hijos de Israel, cada una grabada como un sello con el nombre de una de las doce tribus.",
+            "verse": "Exodo 39:14"
+        },
+        {
+            "question": "Que se puso en las hombreras del efod?",
+            "options": [
+                "Dos piedras de diamante",
+                "Dos piedras de onice engastadas en oro, grabadas con los nombres de los hijos de Israel",
+                "Dos broches de plata",
+                "Dos campanillas de oro"
+            ],
+            "correctIndex": 1,
+            "explanation": "Se labraron las piedras de onice, engastadas en engastes de oro, grabadas con grabaduras de sello con los nombres de los hijos de Israel.",
+            "verse": "Exodo 39:6-7"
+        },
+        {
+            "question": "Que se coloco en la parte delantera de la mitra del sumo sacerdote?",
+            "options": [
+                "Una corona de plata",
+                "Una placa de oro puro con la inscripcion 'Santidad al Senor'",
+                "Una piedra preciosa de color azul",
+                "Un velo de lino fino"
+            ],
+            "correctIndex": 1,
+            "explanation": "Se hizo la lamina de la corona santa de oro puro, y se grabo en ella como grabadura de sello: 'Santidad al Senor.'",
+            "verse": "Exodo 39:30"
+        },
+        {
+            "question": "Que se puso en el borde inferior de la tunica del efod?",
+            "options": [
+                "Flecos de oro",
+                "Granadas de azul, purpura y carmesi con campanillas de oro entre ellas",
+                "Piedras preciosas en fila",
+                "Bordados de querubines"
+            ],
+            "correctIndex": 1,
+            "explanation": "Se hicieron granadas de azul, purpura y carmesi en el borde inferior de la tunica, y se pusieron campanillas de oro puro entre las granadas alrededor.",
+            "verse": "Exodo 39:24-26"
+        },
+        {
+            "question": "Que frase se repite al final de cada seccion de este capitulo sobre la obra realizada?",
+            "options": [
+                "Y fue bueno a los ojos de Moises",
+                "Como el Senor habia mandado a Moises",
+                "Y el pueblo se regocijo",
+                "Para gloria del Senor"
+            ],
+            "correctIndex": 1,
+            "explanation": "La frase 'como el Senor habia mandado a Moises' se repite multiples veces, enfatizando la obediencia fiel del pueblo en la construccion.",
+            "verse": "Exodo 39:1, 5, 7, 21, 26, 29, 31"
+        },
+        {
+            "question": "Que hizo Moises cuando vio toda la obra terminada del tabernaculo?",
+            "options": [
+                "Lloro de alegria",
+                "Pidio que la rehiciesen",
+                "Los bendijo, porque la habian hecho como el Senor habia mandado",
+                "Ofrecio un sacrificio inmediatamente"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises examino toda la obra, y vio que la habian hecho tal como el Senor habia mandado; y Moises los bendijo.",
+            "verse": "Exodo 39:43"
+        }
+    ]
+}

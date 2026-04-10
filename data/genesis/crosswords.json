@@ -1,0 +1,280 @@
+{
+    "book": "Genesis",
+    "bookSlug": "genesis",
+    "sections": [
+        {
+            "id": "cap1-10",
+            "title": "Capitulos 1-10: La Creacion y los Patriarcas Primordiales",
+            "description": "La creacion del mundo, Adan y Eva en el Eden, Cain y Abel, el diluvio de Noe y la torre de Babel.",
+            "puzzles": [
+                {
+                    "title": "La creacion del mundo (Cap. 1-2)",
+                    "words": [
+                        { "word": "GENESIS", "clue": "Primer libro de la Biblia que narra el origen de todas las cosas" },
+                        { "word": "FIRMAMENTO", "clue": "Expansion que Dios hizo para separar las aguas de arriba y las de abajo" },
+                        { "word": "IMAGEN", "clue": "Dios creo al hombre a su propia _____ y semejanza" },
+                        { "word": "REPOSO", "clue": "Lo que Dios hizo el septimo dia despues de completar la creacion" },
+                        { "word": "EDEN", "clue": "Jardin que Dios planto hacia el oriente donde puso al hombre" },
+                        { "word": "COSTILLA", "clue": "Parte del cuerpo de Adan de la cual Dios formo a la mujer" },
+                        { "word": "POLVO", "clue": "Material de la tierra con el que Dios formo al hombre" }
+                    ]
+                },
+                {
+                    "title": "La caida y Cain y Abel (Cap. 3-4)",
+                    "words": [
+                        { "word": "SERPIENTE", "clue": "Animal astuto que engano a la mujer para que comiera del fruto" },
+                        { "word": "ABEL", "clue": "Hijo de Adan que fue pastor de ovejas y cuya ofrenda agrado a Dios" },
+                        { "word": "CAIN", "clue": "Primer hijo de Adan que mato a su hermano por envidia" },
+                        { "word": "FRUTO", "clue": "Lo que la mujer tomo del arbol prohibido y comio" },
+                        { "word": "MARCA", "clue": "Senal que Dios puso sobre Cain para que nadie lo matara" },
+                        { "word": "MALDICION", "clue": "Lo que Dios pronuncio sobre la serpiente y sobre la tierra por causa de Adan" },
+                        { "word": "DESNUDEZ", "clue": "Adan y Eva supieron que estaban asi y se hicieron delantales de hojas" }
+                    ]
+                },
+                {
+                    "title": "Noe y el diluvio (Cap. 6-8)",
+                    "words": [
+                        { "word": "DILUVIO", "clue": "Gran inundacion que Dios envio para destruir toda carne sobre la tierra" },
+                        { "word": "PALOMA", "clue": "Ave que Noe envio y que regreso con una hoja de olivo" },
+                        { "word": "OLIVO", "clue": "Arbol cuya hoja trajo la paloma como senal de que las aguas habian bajado" },
+                        { "word": "CUARENTA", "clue": "Numero de dias y noches que lluvio sobre la tierra" },
+                        { "word": "ARARAT", "clue": "Monte donde reposo el arca cuando las aguas descendieron" },
+                        { "word": "CUERVO", "clue": "Primera ave que Noe solto del arca y que iba y volvia" },
+                        { "word": "GOPHER", "clue": "Tipo de madera con la que Dios ordeno construir el arca" }
+                    ]
+                },
+                {
+                    "title": "El pacto con Noe y la torre de Babel (Cap. 9-11)",
+                    "words": [
+                        { "word": "ARCOIRIS", "clue": "Senal del pacto de Dios con Noe de no volver a destruir la tierra con agua" },
+                        { "word": "BABEL", "clue": "Ciudad donde Dios confundio las lenguas de toda la tierra" },
+                        { "word": "TORRE", "clue": "Construccion que los hombres quisieron edificar hasta llegar al cielo" },
+                        { "word": "LENGUAS", "clue": "Lo que Dios confundio para que los hombres no se entendieran entre si" },
+                        { "word": "JAFET", "clue": "Hijo de Noe del que descendieron los pueblos de las costas" },
+                        { "word": "NIMROD", "clue": "Poderoso cazador delante del Senor, bisnieto de Noe" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cap11-20",
+            "title": "Capitulos 11-20: Abraham, el Padre de la Fe",
+            "description": "El llamado de Abraham, su peregrinaje, Lot y la destruccion de Sodoma, Agar e Ismael, y el nacimiento de Isaac.",
+            "puzzles": [
+                {
+                    "title": "El llamado de Abraham y su viaje (Cap. 11-13)",
+                    "words": [
+                        { "word": "ABRAM", "clue": "Nombre original de Abraham antes de que Dios se lo cambiara" },
+                        { "word": "CANAAN", "clue": "Tierra que Dios prometio dar a la descendencia de Abram" },
+                        { "word": "SARAI", "clue": "Nombre original de la esposa de Abram, mujer muy hermosa" },
+                        { "word": "HARAN", "clue": "Ciudad de Mesopotamia donde murio Tare, padre de Abram" },
+                        { "word": "ALTAR", "clue": "Lo que Abram edifico al Senor cuando llego a Siquem" },
+                        { "word": "HAMBRE", "clue": "Calamidad que obligo a Abram a descender a Egipto" },
+                        { "word": "NEGUEV", "clue": "Region sur de Canaan por donde Abram viajo con sus rebanos" }
+                    ]
+                },
+                {
+                    "title": "Abraham, Lot y Melquisedec (Cap. 14-16)",
+                    "words": [
+                        { "word": "DIEZMO", "clue": "Lo que Abram dio a Melquisedec de todo el botin de la batalla" },
+                        { "word": "AGAR", "clue": "Sierva egipcia de Sarai que concibio un hijo de Abram" },
+                        { "word": "ISMAEL", "clue": "Hijo de Abram y Agar cuyo nombre significa Dios oye" },
+                        { "word": "ESTRELLAS", "clue": "Dios le dijo a Abram: cuenta las _____, asi sera tu descendencia" },
+                        { "word": "ESCUDO", "clue": "Dios le dijo a Abram: Yo soy tu _____ y tu recompensa sera muy grande" },
+                        { "word": "SALEM", "clue": "Ciudad de la cual Melquisedec era rey y sacerdote" },
+                        { "word": "VISION", "clue": "Forma en la cual la palabra del Senor vino a Abram tras la batalla" }
+                    ]
+                },
+                {
+                    "title": "El pacto de la circuncision y Sodoma (Cap. 17-19)",
+                    "words": [
+                        { "word": "ABRAHAM", "clue": "Nuevo nombre que Dios le dio a Abram, padre de muchedumbre de naciones" },
+                        { "word": "SODOMA", "clue": "Ciudad destruida con fuego y azufre por su gran maldad" },
+                        { "word": "GOMORRA", "clue": "Ciudad destruida junto con Sodoma por la ira de Dios" },
+                        { "word": "CIRCUNCIDAR", "clue": "Acto que Dios ordeno a Abraham como senal del pacto en la carne" },
+                        { "word": "AZUFRE", "clue": "Junto con fuego, llovio esto del cielo sobre Sodoma" },
+                        { "word": "JUSTOS", "clue": "Abraham intercedio preguntando si Dios destruiria la ciudad si hubiera diez de estos" },
+                        { "word": "ANGELES", "clue": "Dos mensajeros celestiales que llegaron a Sodoma al anochecer" }
+                    ]
+                },
+                {
+                    "title": "Abraham, Sara e Isaac (Cap. 20-21)",
+                    "words": [
+                        { "word": "ABIMELEC", "clue": "Rey de Gerar que tomo a Sara pensando que era hermana de Abraham" },
+                        { "word": "ISAAC", "clue": "Hijo de la promesa cuyo nombre significa risa" },
+                        { "word": "BEERSEBA", "clue": "Lugar del pozo donde Abraham hizo pacto con Abimelec" },
+                        { "word": "RISA", "clue": "Reaccion de Sara cuando escucho que tendria un hijo en su vejez" },
+                        { "word": "POZO", "clue": "Fuente de agua que fue motivo de conflicto entre Abraham y Abimelec" },
+                        { "word": "DESTETE", "clue": "Abraham hizo un gran banquete el dia que Isaac fue destetado" },
+                        { "word": "TAMARISCO", "clue": "Arbol que Abraham planto en Beerseba e invoco alli al Senor" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cap21-30",
+            "title": "Capitulos 21-30: Isaac y Jacob",
+            "description": "El sacrificio de Isaac, la boda de Isaac y Rebeca, Jacob y Esau, la escalera al cielo y los anos con Laban.",
+            "puzzles": [
+                {
+                    "title": "La prueba de Abraham y la muerte de Sara (Cap. 22-23)",
+                    "words": [
+                        { "word": "MORIAH", "clue": "Monte donde Dios ordeno a Abraham ofrecer a su hijo Isaac" },
+                        { "word": "CARNERO", "clue": "Animal trabado en un zarzal que fue sacrificado en lugar de Isaac" },
+                        { "word": "EFRON", "clue": "Heteo que vendio a Abraham la cueva de Macpela para sepultura" },
+                        { "word": "MACPELA", "clue": "Cueva que Abraham compro para sepultar a Sara" },
+                        { "word": "LENA", "clue": "Lo que Abraham puso sobre Isaac su hijo para el holocausto" },
+                        { "word": "JURAMENTO", "clue": "Lo que Dios hizo por si mismo al confirmar su promesa a Abraham" },
+                        { "word": "HEBRON", "clue": "Ciudad de Canaan donde Sara murio a los ciento veintisiete anos" }
+                    ]
+                },
+                {
+                    "title": "Isaac y Rebeca (Cap. 24-25)",
+                    "words": [
+                        { "word": "REBECA", "clue": "Mujer escogida como esposa para Isaac, hermana de Laban" },
+                        { "word": "CAMELLO", "clue": "Animal de carga que el siervo de Abraham llevo en su viaje a Mesopotamia" },
+                        { "word": "CANTARO", "clue": "Vasija que Rebeca bajo al hombro para sacar agua del pozo" },
+                        { "word": "MELLIZOS", "clue": "Dos hijos que luchaban dentro del vientre de Rebeca" },
+                        { "word": "ESAU", "clue": "Hijo mayor de Isaac que vendio su primogenitura por un guiso" },
+                        { "word": "GUISO", "clue": "Potaje rojo de lentejas por el cual Esau vendio su derecho de nacimiento" },
+                        { "word": "NAHOR", "clue": "Ciudad de Mesopotamia adonde fue enviado el siervo a buscar esposa para Isaac" }
+                    ]
+                },
+                {
+                    "title": "Jacob obtiene la bendicion (Cap. 26-28)",
+                    "words": [
+                        { "word": "BENDICION", "clue": "Lo que Jacob obtuvo de su padre Isaac haciendose pasar por Esau" },
+                        { "word": "ESCALERA", "clue": "Estructura que Jacob vio en un sueno apoyada en tierra y que llegaba al cielo" },
+                        { "word": "BETEL", "clue": "Lugar que Jacob llamo Casa de Dios tras su sueno con la escalera" },
+                        { "word": "CABRITO", "clue": "Animal cuya piel Rebeca puso sobre las manos de Jacob para enganar a Isaac" },
+                        { "word": "PIELES", "clue": "Rebeca las puso sobre Jacob para que Isaac creyera que era Esau" },
+                        { "word": "PIEDRA", "clue": "Lo que Jacob uso como almohada y luego levanto como columna en Betel" },
+                        { "word": "ACEITE", "clue": "Liquido que Jacob derramo sobre la piedra que levanto como memorial" }
+                    ]
+                },
+                {
+                    "title": "Jacob con Laban (Cap. 29-30)",
+                    "words": [
+                        { "word": "RAQUEL", "clue": "Hija menor de Laban, a quien Jacob amo y por quien trabajo catorce anos" },
+                        { "word": "LABAN", "clue": "Tio y suegro de Jacob que lo engano dandole a Lea primero" },
+                        { "word": "CATORCE", "clue": "Numero total de anos que Jacob trabajo por sus dos esposas" },
+                        { "word": "RUBEN", "clue": "Primogenito de Jacob y Lea cuyo nombre significa ved un hijo" },
+                        { "word": "JOSE", "clue": "Hijo de Jacob y Raquel nacido al final de los anos con Laban" },
+                        { "word": "MANDRAGO", "clue": "Planta que Ruben encontro en el campo y que Raquel deseo de Lea" },
+                        { "word": "DINA", "clue": "Unica hija mencionada de Jacob, nacida de Lea" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cap31-40",
+            "title": "Capitulos 31-40: Jacob y Jose",
+            "description": "El regreso de Jacob a Canaan, la reconciliacion con Esau, los suenos de Jose, su venta como esclavo y su tiempo en la carcel.",
+            "puzzles": [
+                {
+                    "title": "Jacob regresa a Canaan (Cap. 31-33)",
+                    "words": [
+                        { "word": "PENIEL", "clue": "Lugar donde Jacob lucho con el angel y vio a Dios cara a cara" },
+                        { "word": "IDOLOS", "clue": "Raquel los hurto de la casa de su padre Laban antes de huir" },
+                        { "word": "ISRAEL", "clue": "Nuevo nombre dado a Jacob que significa el que lucha con Dios" },
+                        { "word": "MUSLO", "clue": "Parte del cuerpo de Jacob que fue dislocada al luchar con el angel" },
+                        { "word": "MAJANAIM", "clue": "Lugar donde los angeles de Dios salieron al encuentro de Jacob" },
+                        { "word": "PRESENTE", "clue": "Cabras, ovejas y camellos que Jacob envio delante de si para apaciguar a Esau" },
+                        { "word": "JABOC", "clue": "Arroyo que Jacob cruzo de noche antes de encontrarse con Esau" }
+                    ]
+                },
+                {
+                    "title": "Sucesos en Canaan (Cap. 34-36)",
+                    "words": [
+                        { "word": "SIQUEM", "clue": "Principe que deshonro a Dina y luego pidio casarse con ella" },
+                        { "word": "SIMEON", "clue": "Hijo de Jacob que junto con Levi vengo la deshonra de su hermana" },
+                        { "word": "LEVI", "clue": "Hijo de Jacob que tomo la espada contra los de Siquem por su hermana" },
+                        { "word": "DEBORA", "clue": "Nodriza de Rebeca que murio y fue sepultada bajo una encina" },
+                        { "word": "BENJAMIN", "clue": "Ultimo hijo de Jacob, nacido cuando Raquel murio al darlo a luz" },
+                        { "word": "BELEN", "clue": "Lugar cercano donde Raquel fue sepultada al morir en el camino" },
+                        { "word": "ENCINA", "clue": "Arbol bajo el cual Jacob enterro los idolos y los aretes de su familia" }
+                    ]
+                },
+                {
+                    "title": "Los suenos de Jose (Cap. 37-38)",
+                    "words": [
+                        { "word": "TUNICA", "clue": "Vestidura de muchos colores que Jacob hizo para su hijo predilecto" },
+                        { "word": "GAVILLAS", "clue": "En el sueno de Jose, las de sus hermanos se inclinaban ante la suya" },
+                        { "word": "DOTAIN", "clue": "Lugar donde los hermanos de Jose lo arrojaron al pozo" },
+                        { "word": "CISTERNA", "clue": "Pozo vacio donde los hermanos de Jose lo arrojaron" },
+                        { "word": "PLATA", "clue": "Veinte piezas de este metal fue el precio por el que vendieron a Jose" },
+                        { "word": "TAMAR", "clue": "Nuera de Juda que se disfrazo para obtener descendencia de el" },
+                        { "word": "MACHO", "clue": "Cabrio que Juda prometio enviar como pago a la mujer del camino" }
+                    ]
+                },
+                {
+                    "title": "Jose en casa de Potifar y en la carcel (Cap. 39-40)",
+                    "words": [
+                        { "word": "POTIFAR", "clue": "Oficial de Faraon y capitan de la guardia que compro a Jose" },
+                        { "word": "COPERO", "clue": "Funcionario del Faraon preso cuyo sueno Jose interpreto favorablemente" },
+                        { "word": "PANADERO", "clue": "Funcionario del Faraon preso cuyo sueno significaba su muerte" },
+                        { "word": "CARCEL", "clue": "Lugar donde Jose fue puesto tras la falsa acusacion de la esposa de Potifar" },
+                        { "word": "VESTIDO", "clue": "Prenda que Jose dejo en manos de la esposa de Potifar al huir" },
+                        { "word": "RACIMOS", "clue": "Tres de estos aparecieron en el sueno de la vid del copero" },
+                        { "word": "CANASTAS", "clue": "Tres de estas sobre la cabeza aparecieron en el sueno del panadero" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "cap41-50",
+            "title": "Capitulos 41-50: Jose en Egipto",
+            "description": "Los suenos del Faraon, Jose como gobernador de Egipto, el reencuentro con sus hermanos, la familia en Egipto y la muerte de Jacob.",
+            "puzzles": [
+                {
+                    "title": "Jose interpreta los suenos del Faraon (Cap. 41-42)",
+                    "words": [
+                        { "word": "VACAS", "clue": "Siete gordas y siete flacas que el Faraon vio salir del rio en su sueno" },
+                        { "word": "ESPIGAS", "clue": "Siete llenas y siete marchitas que aparecieron en el segundo sueno del Faraon" },
+                        { "word": "ANILLO", "clue": "Joya que el Faraon se quito de la mano y puso en la de Jose" },
+                        { "word": "ASENAT", "clue": "Hija de Potifera, sacerdote de On, dada como esposa a Jose" },
+                        { "word": "MANASES", "clue": "Primogenito de Jose cuyo nombre significa Dios me hizo olvidar" },
+                        { "word": "EFRAIN", "clue": "Segundo hijo de Jose cuyo nombre significa Dios me hizo fructificar" },
+                        { "word": "ESPIAS", "clue": "Lo que Jose acuso a sus hermanos de ser cuando llegaron a Egipto" }
+                    ]
+                },
+                {
+                    "title": "Los hermanos de Jose en Egipto (Cap. 43-44)",
+                    "words": [
+                        { "word": "COPA", "clue": "Objeto de plata que Jose ordeno esconder en el costal de Benjamin" },
+                        { "word": "COSTAL", "clue": "Saco de grano donde fue escondida la copa de plata de Jose" },
+                        { "word": "JUDA", "clue": "Hermano que ofrecio quedarse como esclavo en lugar de Benjamin" },
+                        { "word": "TRIGO", "clue": "Grano que los hermanos de Jose vinieron a comprar a Egipto" },
+                        { "word": "BANQUETE", "clue": "Festin que Jose preparo para sus hermanos en su propia casa" },
+                        { "word": "FIANZA", "clue": "Juda se hizo garante de Benjamin ante su padre Jacob" },
+                        { "word": "ASNOS", "clue": "Animales de carga que los hermanos usaron para llevar el grano" }
+                    ]
+                },
+                {
+                    "title": "Jose se da a conocer y la familia se reune (Cap. 45-47)",
+                    "words": [
+                        { "word": "CARRETAS", "clue": "Vehiculos que el Faraon envio para transportar a la familia de Jacob a Egipto" },
+                        { "word": "SETENTA", "clue": "Numero de personas de la familia de Jacob que entraron en Egipto" },
+                        { "word": "PASTORES", "clue": "Oficio de los hijos de Jacob que era abominacion para los egipcios" },
+                        { "word": "LLANTO", "clue": "Reaccion de Jose al revelarse a sus hermanos en privado" },
+                        { "word": "GOSEN", "clue": "Mejor tierra de Egipto donde se establecio la familia de Jacob" },
+                        { "word": "MUDAS", "clue": "De ropa: Jose dio cinco de estas a Benjamin mas que a los otros" },
+                        { "word": "GANADO", "clue": "Los egipcios entregaron esto a Jose a cambio de pan durante el hambre" }
+                    ]
+                },
+                {
+                    "title": "Las bendiciones de Jacob y su muerte (Cap. 48-50)",
+                    "words": [
+                        { "word": "CACHORRO", "clue": "De leon: asi llamo Jacob a Juda en su bendicion profetica" },
+                        { "word": "CETRO", "clue": "No sera quitado de Juda hasta que venga aquel a quien le pertenece" },
+                        { "word": "EMBALSAMAR", "clue": "Accion que Jose ordeno hacer con el cuerpo de Jacob al morir" },
+                        { "word": "PERDON", "clue": "Lo que los hermanos pidieron a Jose tras la muerte de su padre" },
+                        { "word": "PROFETA", "clue": "Jacob hablo como uno de estos al bendecir a cada tribu antes de morir" },
+                        { "word": "HUESOS", "clue": "Jose hizo jurar a sus hermanos que llevarian los suyos fuera de Egipto" },
+                        { "word": "ATAUD", "clue": "Jose fue puesto en uno de estos al morir en Egipto a los ciento diez anos" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

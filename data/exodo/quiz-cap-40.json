@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 40",
+    "book": "Exodo",
+    "chapter": 40,
+    "questions": [
+        {
+            "question": "En que fecha le ordeno Dios a Moises que levantara el tabernaculo?",
+            "options": [
+                "El dia quince del primer mes",
+                "El primer dia del primer mes, en el segundo ano",
+                "El dia diez del septimo mes",
+                "El ultimo dia del tercer mes"
+            ],
+            "correctIndex": 1,
+            "explanation": "El Senor le dijo a Moises: 'En el primer dia del primer mes levantaras el tabernaculo de la tienda de reunion.'",
+            "verse": "Exodo 40:2, 17"
+        },
+        {
+            "question": "Que fue lo primero que Moises debio colocar dentro del tabernaculo?",
+            "options": [
+                "El candelero de oro",
+                "La mesa del pan de la presencia",
+                "El arca del testimonio y cubrir el arca con el velo",
+                "El altar del incienso"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dios le ordeno a Moises: 'Pondras en el el arca del testimonio y cubriras el arca con el velo.'",
+            "verse": "Exodo 40:3"
+        },
+        {
+            "question": "Que hizo Moises con el tabernaculo y todos sus utensilios para consagrarlos?",
+            "options": [
+                "Los roció con agua del rio",
+                "Los expuso al sol durante siete dias",
+                "Tomo el aceite de la uncion y ungio el tabernaculo y todo lo que habia en el",
+                "Los cubrio con sal"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises tomo el aceite de la uncion y ungio el tabernaculo y todo lo que habia en el, y los consagro.",
+            "verse": "Exodo 40:9"
+        },
+        {
+            "question": "Donde se coloco la fuente de bronce?",
+            "options": [
+                "Dentro del lugar santo",
+                "En la entrada del campamento",
+                "Entre la tienda de reunion y el altar",
+                "Detras del tabernaculo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Moises puso la fuente entre la tienda de reunion y el altar, y puso en ella agua para lavarse.",
+            "verse": "Exodo 40:30"
+        },
+        {
+            "question": "Que sucedio cuando Moises termino toda la obra del tabernaculo?",
+            "options": [
+                "Sono una trompeta del cielo",
+                "La nube cubrio la tienda de reunion y la gloria del Senor lleno el tabernaculo",
+                "Un terremoto sacudio el campamento",
+                "El pueblo canto alabanzas durante tres dias"
+            ],
+            "correctIndex": 1,
+            "explanation": "Entonces la nube cubrio la tienda de reunion y la gloria del Senor lleno el tabernaculo.",
+            "verse": "Exodo 40:34"
+        },
+        {
+            "question": "Por que no podia Moises entrar en la tienda de reunion despues de que fue erigida?",
+            "options": [
+                "Porque no era sacerdote",
+                "Porque la nube estaba sobre ella y la gloria del Senor llenaba el tabernaculo",
+                "Porque Aaron debia entrar primero",
+                "Porque faltaban los sacrificios de dedicacion"
+            ],
+            "correctIndex": 1,
+            "explanation": "Moises no podia entrar en la tienda de reunion porque la nube estaba sobre ella y la gloria del Senor llenaba el tabernaculo.",
+            "verse": "Exodo 40:35"
+        },
+        {
+            "question": "Que guiaba a los hijos de Israel en todas sus jornadas segun el final del libro de Exodo?",
+            "options": [
+                "Una estrella brillante",
+                "El sonido de trompetas",
+                "La nube del Senor de dia y fuego de noche sobre el tabernaculo",
+                "Un angel visible delante del pueblo"
+            ],
+            "correctIndex": 2,
+            "explanation": "La nube del Senor estaba de dia sobre el tabernaculo, y de noche habia fuego en ella, a la vista de toda la casa de Israel en todas sus jornadas.",
+            "verse": "Exodo 40:38"
+        }
+    ]
+}

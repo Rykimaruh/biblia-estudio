@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 33",
+    "book": "Genesis",
+    "chapter": 33,
+    "questions": [
+        {
+            "question": "Como organizo Jacob a su familia cuando vio que Esau se acercaba?",
+            "options": [
+                "Los escondio detras de una colina",
+                "Puso a las siervas y sus hijos primero, luego a Lea y sus hijos, y a Raquel y Jose de ultimos",
+                "Los envio de regreso a Padan-aram",
+                "Los coloco a todos juntos detras de el"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob puso a las siervas y sus hijos primero, luego a Lea y sus hijos, y finalmente a Raquel y Jose de ultimos, poniendo a los mas queridos en la posicion mas segura.",
+            "verse": "Genesis 33:1-2"
+        },
+        {
+            "question": "Cuantas veces se inclino Jacob a tierra antes de acercarse a Esau?",
+            "options": [
+                "Tres veces",
+                "Cinco veces",
+                "Siete veces",
+                "Una vez"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob se adelanto y se inclino a tierra siete veces hasta que se acerco a su hermano Esau.",
+            "verse": "Genesis 33:3"
+        },
+        {
+            "question": "Como reacciono Esau al ver a Jacob?",
+            "options": [
+                "Lo ataco con sus cuatrocientos hombres",
+                "Le hablo con enojo y le reclamo",
+                "Corrio a su encuentro, lo abrazo, se echo sobre su cuello y lo beso, y lloraron",
+                "Le dio la espalda y se fue"
+            ],
+            "correctIndex": 2,
+            "explanation": "Esau corrio a su encuentro y lo abrazo, se echo sobre su cuello y lo beso, y lloraron ambos.",
+            "verse": "Genesis 33:4"
+        },
+        {
+            "question": "Que dijo Esau inicialmente sobre el presente que Jacob le envio?",
+            "options": [
+                "Que era demasiado pequeño",
+                "Que ya tenia suficiente y que Jacob lo guardara",
+                "Que lo aceptaba con mucho gusto",
+                "Que se lo devolveria mas tarde"
+            ],
+            "correctIndex": 1,
+            "explanation": "Esau dijo: 'Suficiente tengo yo, hermano mio; sea para ti lo que es tuyo.' Pero Jacob insistio hasta que lo acepto.",
+            "verse": "Genesis 33:9"
+        },
+        {
+            "question": "Adonde fue Esau despues de su encuentro con Jacob?",
+            "options": [
+                "A Betel",
+                "A Padan-aram",
+                "A Seir",
+                "A Siquem"
+            ],
+            "correctIndex": 2,
+            "explanation": "Esau regreso aquel dia por su camino a Seir, su tierra.",
+            "verse": "Genesis 33:16"
+        },
+        {
+            "question": "En que lugar se establecio Jacob despues de llegar a la tierra de Canaan?",
+            "options": [
+                "Beerseba",
+                "Hebron",
+                "Siquem",
+                "Betel"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob llego sano y salvo a la ciudad de Siquem, que esta en la tierra de Canaan, y acampo frente a la ciudad.",
+            "verse": "Genesis 33:18"
+        },
+        {
+            "question": "Que nombre le puso Jacob al altar que erigio en Siquem?",
+            "options": [
+                "Betel",
+                "Ebenezer",
+                "El-Elohe-Israel",
+                "Jehova-Jireh"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob erigio alli un altar y lo llamo El-Elohe-Israel, que significa 'Dios, el Dios de Israel.'",
+            "verse": "Genesis 33:20"
+        }
+    ]
+}

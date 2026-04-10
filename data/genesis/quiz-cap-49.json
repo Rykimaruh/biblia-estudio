@@ -1,0 +1,91 @@
+{
+    "title": "Capitulo 49",
+    "book": "Genesis",
+    "chapter": 49,
+    "questions": [
+        {
+            "question": "Por que perdio Ruben su preeminencia como primogenito segun la bendicion de Jacob?",
+            "options": [
+                "Porque vendio a Jose como esclavo",
+                "Porque subio al lecho de su padre y lo profano",
+                "Porque mintio a su padre sobre Jose",
+                "Porque se caso con una mujer cananea"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob dijo que Ruben era inestable como el agua y no tendria la preeminencia, porque subio al lecho de su padre y lo profano.",
+            "verse": "Genesis 49:3-4"
+        },
+        {
+            "question": "Que dijo Jacob sobre Simeon y Levi?",
+            "options": [
+                "Que serian los sacerdotes de Israel",
+                "Que sus armas eran instrumentos de violencia y serian esparcidos en Israel",
+                "Que liderarian los ejercitos de Israel",
+                "Que heredarian la mejor tierra de Canaan"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob maldijo la ira de Simeon y Levi por su violencia, diciendo que los dividiria en Jacob y los esparceria en Israel.",
+            "verse": "Genesis 49:5-7"
+        },
+        {
+            "question": "A cual de sus hijos comparo Jacob con un cachorro de leon y profetizo que el cetro no se apartaria de el?",
+            "options": [
+                "Jose",
+                "Benjamin",
+                "Juda",
+                "Dan"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob dijo de Juda: 'Cachorro de leon es Juda.' Y agrego: 'No se apartara el cetro de Juda, ni el baston de gobernante de entre sus pies, hasta que venga Siloh.'",
+            "verse": "Genesis 49:9-10"
+        },
+        {
+            "question": "Segun la bendicion de Jacob, que tribu habitaria a la orilla del mar y seria puerto de naves?",
+            "options": [
+                "Aser",
+                "Neftali",
+                "Dan",
+                "Zabulon"
+            ],
+            "correctIndex": 3,
+            "explanation": "Jacob dijo: 'Zabulon habitara a la orilla del mar; y sera puerto de naves, y su limite llegara hasta Sidon.'",
+            "verse": "Genesis 49:13"
+        },
+        {
+            "question": "A que animal comparo Jacob a Benjamin en su bendicion?",
+            "options": [
+                "A un leon",
+                "A un asno fuerte",
+                "A un lobo rapaz",
+                "A una serpiente"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob dijo: 'Benjamin es un lobo rapaz; por la manana devorara la presa, y por la tarde repartira el botin.'",
+            "verse": "Genesis 49:27"
+        },
+        {
+            "question": "Como describio Jacob la bendicion de Jose?",
+            "options": [
+                "Como un arbol silvestre que daria pocos frutos",
+                "Como una rama fructifera junto a una fuente, cuyas ramas se extienden sobre el muro",
+                "Como un guerrero invencible sin la ayuda de Dios",
+                "Como un rey que gobernaria sobre sus hermanos"
+            ],
+            "correctIndex": 1,
+            "explanation": "Jacob bendijo a Jose diciendo que era rama fructifera junto a una fuente, cuyas ramas se extienden sobre el muro, y que seria bendecido con bendiciones del cielo y del abismo.",
+            "verse": "Genesis 49:22, 25-26"
+        },
+        {
+            "question": "Donde pidio Jacob ser sepultado?",
+            "options": [
+                "En Beerseba, junto a Isaac",
+                "En Siquem, en la tierra de Jose",
+                "En la cueva de Macpela, en el campo de Efron el heteo",
+                "En Egipto, junto al Nilo"
+            ],
+            "correctIndex": 2,
+            "explanation": "Jacob instruyo que lo sepultaran en la cueva del campo de Macpela, frente a Mamre, en Canaan, donde fueron sepultados Abraham, Sara, Isaac, Rebeca y Lea.",
+            "verse": "Genesis 49:29-31"
+        }
+    ]
+}
