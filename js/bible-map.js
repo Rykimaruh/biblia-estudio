@@ -31,9 +31,9 @@ class BibleMap {
                 maxZoom: 20,
                 minZoom: 4
             }),
-            ancient: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-                attribution: '&copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
-                maxZoom: 17,
+            ancient: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
+                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> — National Geographic',
+                maxZoom: 16,
                 minZoom: 4
             })
         };
