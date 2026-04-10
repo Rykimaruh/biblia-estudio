@@ -26,9 +26,9 @@ class BibleMap {
                 maxZoom: 18,
                 minZoom: 4
             }),
-            satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> — World Imagery',
-                maxZoom: 18,
+            satellite: L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+                attribution: '&copy; Google Maps',
+                maxZoom: 20,
                 minZoom: 4
             }),
             ancient: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
