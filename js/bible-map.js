@@ -31,9 +31,9 @@ class BibleMap {
                 maxZoom: 20,
                 minZoom: 4
             }),
-            ancient: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
-                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> — World Physical Map',
-                maxZoom: 10,
+            ancient: L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)',
+                maxZoom: 17,
                 minZoom: 4
             })
         };
@@ -218,9 +218,11 @@ class BibleMap {
         newTile.addTo(this.map);
         this.currentTile = type;
 
-        // If switching to ancient and zoom is too high, limit it
-        if (type === 'ancient' && this.map.getZoom() > 10) {
-            this.map.setZoom(10);
+        // Respect the new tile layer's maxZoom
+        const maxZoom = newTile.options.maxZoom || 18;
+        this.map.setMaxZoom(maxZoom);
+        if (this.map.getZoom() > maxZoom) {
+            this.map.setZoom(maxZoom);
         }
 
         // Update button states
