@@ -15,10 +15,10 @@
     <main>
         <div class="breadcrumb" id="breadcrumb"></div>
 
-        <h2>Mapa Interactivo — Exodo</h2>
+        <h2>Mapa Interactivo</h2>
         <p class="intro-text">
-            Sigue la ruta del pueblo de Israel desde Egipto hasta el Monte Sinai.
-            Explora los lugares de las plagas, el cruce del Mar Rojo y la entrega de la Ley.
+            Explora los lugares donde ocurrieron los eventos principales de la Biblia.
+            Activa o desactiva libros para comparar rutas y ubicaciones.
         </p>
 
         <div class="map-wrapper">
@@ -31,41 +31,13 @@
                         <button id="tile-ancient" class="tile-toggle-btn">Antiguo</button>
                     </div>
                 </div>
-                <div class="map-controls-group">
-                    <span style="font-weight:600; color: var(--color-brown);">Rutas:</span>
-                    <button class="route-btn active" data-route="exodus-route">Ruta del Exodo</button>
-                    <button class="route-btn active" data-route="moses-midian">Moises a Madian</button>
-                </div>
+                <div class="map-controls-group" id="book-filters"></div>
+                <div class="map-controls-group" id="route-filters"></div>
             </div>
 
             <div id="bible-map"></div>
 
-            <div class="map-legend">
-                <div class="legend-item">
-                    <span class="legend-dot" style="background:#8B6914;"></span> Ciudad
-                </div>
-                <div class="legend-item">
-                    <span class="legend-dot" style="background:#6B8E23;"></span> Monte
-                </div>
-                <div class="legend-item">
-                    <span class="legend-dot" style="background:#4682B4;"></span> Agua
-                </div>
-                <div class="legend-item">
-                    <span class="legend-dot" style="background:#9B59B6;"></span> Milagro
-                </div>
-                <div class="legend-item">
-                    <span class="legend-dot" style="background:#B22222;"></span> Batalla
-                </div>
-                <div class="legend-item">
-                    <span class="legend-dot" style="background:#FF6347;"></span> Zarza
-                </div>
-                <div class="legend-item">
-                    <span class="legend-line" style="background:#c8a44e;"></span> Ruta del Exodo
-                </div>
-                <div class="legend-item">
-                    <span class="legend-line" style="background:#4a90d9;"></span> Moises a Madian
-                </div>
-            </div>
+            <div class="map-legend" id="map-legend"></div>
         </div>
 
         <div class="map-events-list">
@@ -83,6 +55,12 @@
     <script>
         let bibleMap;
 
+        /* All book location files — add new books here */
+        const bookFiles = [
+            '../../data/genesis/locations.json',
+            '../../data/exodo/locations.json'
+        ];
+
         document.addEventListener('DOMContentLoaded', () => {
             renderBreadcrumb([
                 { label: 'Inicio', href: '../../' },
@@ -90,11 +68,13 @@
                 { label: 'Mapa' }
             ]);
 
-            fetch('../../data/exodo/locations.json')
-                .then(r => r.json())
-                .then(data => {
-                    bibleMap = new BibleMap('bible-map', data);
-                    renderEventsList(data);
+            Promise.all(bookFiles.map(f => fetch(f).then(r => r.json())))
+                .then(allBooks => {
+                    bibleMap = new BibleMap('bible-map', allBooks, {
+                        activeBooks: ['exodo'],
+                        onBookToggle: () => renderEventsList(allBooks)
+                    });
+                    renderEventsList(allBooks);
                 })
                 .catch(err => {
                     console.error('Error loading map data:', err);
@@ -103,8 +83,10 @@
                 });
         });
 
-        function renderEventsList(data) {
+        function renderEventsList(allBooks) {
             const container = document.getElementById('events-list');
+            const activeBooks = bibleMap ? bibleMap.getActiveBooks() : new Set(['exodo']);
+
             const markerColors = {
                 city: '#8B6914', mountain: '#6B8E23', water: '#4682B4',
                 battle: '#B22222', miracle: '#9B59B6', altar: '#D4A017',
@@ -121,21 +103,27 @@
             };
 
             let html = '';
-            for (const loc of data.locations) {
-                const color = markerColors[loc.icon] || '#8B6914';
-                const emoji = iconEmojis[loc.icon] || '\u{1F4CD}';
-                const desc = loc.events.map(e => e.title).join('. ') + '.';
+            for (const bookData of allBooks) {
+                if (!activeBooks.has(bookData.bookSlug)) continue;
 
-                html += `
-                <div class="map-event-card" onclick="bibleMap.flyTo('${loc.id}')">
-                    <div class="event-marker-icon" style="background:${color};">${emoji}</div>
-                    <div class="event-info">
-                        <h4>${loc.name}</h4>
-                        <p>${desc}</p>
-                    </div>
-                </div>`;
+                for (const loc of bookData.locations) {
+                    const color = markerColors[loc.icon] || '#8B6914';
+                    const emoji = iconEmojis[loc.icon] || '\u{1F4CD}';
+                    const desc = loc.events.map(e => e.title).join('. ') + '.';
+                    const bookColor = bookData.bookColor || '#666';
+
+                    html += `
+                    <div class="map-event-card" onclick="bibleMap.flyTo('${loc.id}')">
+                        <div class="event-marker-icon" style="background:${color};">${emoji}</div>
+                        <div class="event-info">
+                            <span class="event-book-badge" style="background:${bookColor};">${bookData.book}</span>
+                            <h4>${loc.name}</h4>
+                            <p>${desc}</p>
+                        </div>
+                    </div>`;
+                }
             }
-            container.innerHTML = html;
+            container.innerHTML = html || '<p>No hay ubicaciones activas.</p>';
         }
     </script>
 </body>

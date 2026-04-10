@@ -1,6 +1,7 @@
 {
     "book": "Exodo",
     "bookSlug": "exodo",
+    "bookColor": "#B22222",
     "center": [29.5, 33.5],
     "zoom": 6,
     "locations": [

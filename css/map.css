@@ -65,6 +65,24 @@
     background: var(--color-cream-dark);
 }
 
+/* ---- Book Filter Buttons ---- */
+.book-btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 2px solid;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: transparent;
+}
+.book-btn.active {
+    color: #fff;
+}
+.book-btn:hover {
+    opacity: 0.85;
+}
+
 /* ---- Route Toggle Buttons ---- */
 .route-btn {
     padding: 0.4rem 0.8rem;
@@ -139,6 +157,16 @@
     font-family: var(--font-heading);
     font-size: 1.1rem;
     font-weight: bold;
+}
+.popup-book-label {
+    font-size: 0.75rem;
+    padding: 0.2rem 1rem;
+    color: var(--color-gold-dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    background: var(--color-cream);
+    border-bottom: 1px solid var(--color-border);
 }
 .popup-events {
     padding: 0.5rem 0;
@@ -250,6 +278,17 @@
     font-size: 0.9rem;
     color: var(--color-brown-light);
     line-height: 1.5;
+}
+.map-event-card .event-book-badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    color: #fff;
+    margin-bottom: 0.25rem;
 }
 
 /* ---- Responsive ---- */

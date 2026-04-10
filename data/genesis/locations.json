@@ -1,6 +1,7 @@
 {
     "book": "Genesis",
     "bookSlug": "genesis",
+    "bookColor": "#8B6914",
     "center": [32.5, 39.0],
     "zoom": 5,
     "locations": [
