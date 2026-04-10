@@ -83,10 +83,11 @@
         for (const section of data.sections) {
             html += `<div id="sec-${section.id}" class="section">`;
             html += `<h2>${section.title}</h2>`;
-            html += `<div class="tabs" id="tabs-${section.id}">`;
+            html += `<div class="puzzle-selector" id="tabs-${section.id}">`;
+            html += '<span class="puzzle-selector-label">Crucigrama:</span>';
             section.puzzles.forEach((p, i) => {
                 const active = i === 0 ? ' active' : '';
-                html += `<button class="tab-btn${active}" onclick="switchPuzzle('${section.id}', ${i})">Crucigrama ${i + 1}</button>`;
+                html += `<button class="puzzle-pill${active}" onclick="switchPuzzle('${section.id}', ${i})">${i + 1}</button>`;
             });
             html += '</div>';
             section.puzzles.forEach((p, i) => {
@@ -140,8 +141,8 @@
             const el = document.getElementById(`${sectionId}-p${i}`);
             if (el) el.style.display = i === idx ? '' : 'none';
         }
-        const tabs = document.querySelectorAll(`#tabs-${sectionId} .tab-btn`);
-        tabs.forEach((t, i) => t.classList.toggle('active', i === idx));
+        const pills = document.querySelectorAll(`#tabs-${sectionId} .puzzle-pill`);
+        pills.forEach((t, i) => t.classList.toggle('active', i === idx));
         if (allGames[sectionId] && allGames[sectionId][idx]) {
             allGames[sectionId][idx].activate();
         }

@@ -4,6 +4,42 @@
 
 :root { --cell-size: 44px; }
 
+/* ---- Puzzle Selector (sub-nav pills) ---- */
+.puzzle-selector {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.2rem;
+    flex-wrap: wrap;
+}
+.puzzle-selector-label {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--color-brown-light, #6b5a42);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.puzzle-pill {
+    padding: 0.35rem 0.85rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    border-radius: 20px;
+    border: 2px solid var(--color-border, #d4c8b4);
+    background: transparent;
+    color: var(--color-brown, #4a3a28);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.puzzle-pill:hover {
+    background: #f0e8d8;
+    border-color: #b8a88e;
+}
+.puzzle-pill.active {
+    background: var(--color-gold, #c8a44e);
+    color: #fff;
+    border-color: var(--color-gold, #c8a44e);
+}
+
 .puzzle-title {
     font-family: var(--font-heading, Georgia, serif);
     font-size: 1.5rem;
