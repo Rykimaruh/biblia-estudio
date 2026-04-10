@@ -23,7 +23,12 @@ class BibleMap {
         this.tiles = {
             modern: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-                maxZoom: 14,
+                maxZoom: 18,
+                minZoom: 4
+            }),
+            satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> — World Imagery',
+                maxZoom: 18,
                 minZoom: 4
             }),
             ancient: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -173,14 +178,13 @@ class BibleMap {
        ------------------------------------------------ */
 
     _setupControls() {
-        // Tile toggle
-        const modernBtn = document.getElementById('tile-modern');
-        const ancientBtn = document.getElementById('tile-ancient');
-
-        if (modernBtn && ancientBtn) {
-            modernBtn.addEventListener('click', () => this.switchTile('modern'));
-            ancientBtn.addEventListener('click', () => this.switchTile('ancient'));
-        }
+        // Tile toggle — bind all tile buttons
+        document.querySelectorAll('.tile-toggle-btn').forEach(btn => {
+            const type = btn.id.replace('tile-', '');
+            if (this.tiles[type]) {
+                btn.addEventListener('click', () => this.switchTile(type));
+            }
+        });
 
         // Route toggles
         const routeBtns = document.querySelectorAll('.route-btn');
