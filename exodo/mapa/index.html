@@ -18,25 +18,11 @@
         <h2>Mapa Interactivo</h2>
         <p class="intro-text">
             Explora los lugares donde ocurrieron los eventos principales de la Biblia.
-            Activa o desactiva libros para comparar rutas y ubicaciones.
+            Usa el boton <strong>Capas</strong> para filtrar libros, rutas y tipo de mapa.
         </p>
 
         <div class="map-wrapper">
-            <div class="map-controls">
-                <div class="map-controls-group">
-                    <span style="font-weight:600; color: var(--color-brown);">Vista:</span>
-                    <div class="tile-toggle">
-                        <button id="tile-modern" class="tile-toggle-btn active">Moderno</button>
-                        <button id="tile-satellite" class="tile-toggle-btn">Satelite</button>
-                        <button id="tile-ancient" class="tile-toggle-btn">Antiguo</button>
-                    </div>
-                </div>
-                <div class="map-controls-group" id="book-filters"></div>
-                <div class="map-controls-group" id="route-filters"></div>
-            </div>
-
             <div id="bible-map"></div>
-
             <div class="map-legend" id="map-legend"></div>
         </div>
 
@@ -55,7 +41,7 @@
     <script>
         let bibleMap;
 
-        /* All book location files — add new books here */
+        /* Book location files — add new books here */
         const bookFiles = [
             '../../data/genesis/locations.json',
             '../../data/exodo/locations.json'
@@ -86,15 +72,14 @@
         function renderEventsList(allBooks) {
             const container = document.getElementById('events-list');
             const activeBooks = bibleMap ? bibleMap.getActiveBooks() : new Set(['exodo']);
-
-            const markerColors = {
+            const colors = {
                 city: '#8B6914', mountain: '#6B8E23', water: '#4682B4',
                 battle: '#B22222', miracle: '#9B59B6', altar: '#D4A017',
                 home: '#8B4513', garden: '#228B22', camp: '#CD853F',
                 well: '#5B9BD5', destruction: '#DC143C', star: '#FFD700',
                 fire: '#FF6347', oasis: '#3CB371', palace: '#8B4789'
             };
-            const iconEmojis = {
+            const emojis = {
                 city: '\u{1F3D8}', mountain: '\u26F0', water: '\u{1F30A}',
                 battle: '\u2694', miracle: '\u2728', altar: '\u{1F54A}',
                 home: '\u{1F3E0}', garden: '\u{1F331}', camp: '\u26FA',
@@ -103,20 +88,17 @@
             };
 
             let html = '';
-            for (const bookData of allBooks) {
-                if (!activeBooks.has(bookData.bookSlug)) continue;
-
-                for (const loc of bookData.locations) {
-                    const color = markerColors[loc.icon] || '#8B6914';
-                    const emoji = iconEmojis[loc.icon] || '\u{1F4CD}';
-                    const desc = loc.events.map(e => e.title).join('. ') + '.';
-                    const bookColor = bookData.bookColor || '#666';
-
+            for (const book of allBooks) {
+                if (!activeBooks.has(book.bookSlug)) continue;
+                for (const loc of book.locations) {
+                    const c = colors[loc.icon] || '#8B6914';
+                    const e = emojis[loc.icon] || '\u{1F4CD}';
+                    const desc = loc.events.map(ev => ev.title).join('. ') + '.';
                     html += `
                     <div class="map-event-card" onclick="bibleMap.flyTo('${loc.id}')">
-                        <div class="event-marker-icon" style="background:${color};">${emoji}</div>
+                        <div class="event-marker-icon" style="background:${c};">${e}</div>
                         <div class="event-info">
-                            <span class="event-book-badge" style="background:${bookColor};">${bookData.book}</span>
+                            <span class="event-book-badge" style="background:${book.bookColor || '#666'};">${book.book}</span>
                             <h4>${loc.name}</h4>
                             <p>${desc}</p>
                         </div>

@@ -1,7 +1,7 @@
 /* ============================================
    Bible Map — Motor del Mapa Interactivo
-   Multi-libro: carga datos de varios libros
-   con filtros por libro y ruta.
+   Multi-libro con panel de capas flotante.
+   Escala a cualquier cantidad de libros.
    ============================================ */
 
 class BibleMap {
@@ -12,28 +12,23 @@ class BibleMap {
             return;
         }
 
-        // Accept single book object or array of books
         this.booksData = Array.isArray(booksData) ? booksData : [booksData];
         this.options = options;
 
-        // Which books are visible — default to options.activeBooks or ALL
         const defaultActive = options.activeBooks || this.booksData.map(b => b.bookSlug);
         this.activeBooks = new Set(defaultActive);
 
-        // Auto-assign colors from palette if book doesn't declare one
         this._colorPalette = [
             '#8B6914', '#B22222', '#2E6B8A', '#6B8E23', '#8B4789',
             '#CD853F', '#4682B4', '#D4A017', '#DC143C', '#3CB371'
         ];
 
-        // Data storage
-        this.bookMarkers = {};   // bookSlug -> [markers]
-        this.bookRoutes = {};    // bookSlug -> { routeId: { layer, route } }
-        this.allMarkers = [];    // flat list for flyTo / fitAll
+        this.bookMarkers = {};
+        this.bookRoutes = {};
+        this.allMarkers = [];
         this.activeRoutes = new Set();
         this.currentTile = 'modern';
 
-        // Shared icon config
         this.iconEmojis = {
             city: '\u{1F3D8}', mountain: '\u26F0', water: '\u{1F30A}',
             battle: '\u2694', miracle: '\u2728', altar: '\u{1F54A}',
@@ -56,135 +51,95 @@ class BibleMap {
             fire: 'Zarza', oasis: 'Oasis', palace: 'Palacio'
         };
 
-        // Tile layers
         this.tiles = {
             modern: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-                maxZoom: 18,
-                minZoom: 4
+                maxZoom: 18, minZoom: 4
             }),
             satellite: L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
                 attribution: '&copy; Google Maps',
-                maxZoom: 20,
-                minZoom: 4
+                maxZoom: 20, minZoom: 4
             }),
             ancient: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
                 attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; National Geographic',
-                maxZoom: 16,
-                minZoom: 4
+                maxZoom: 16, minZoom: 4
             })
         };
+        this.tileLabels = { modern: 'Moderno', satellite: 'Satelite', ancient: 'Antiguo' };
 
         this._initMap();
         this._loadAllBooks();
-        this._setupTileControls();
-        this._renderBookControls();
-        this._renderRouteControls();
+        this._createLayersPanel();
         this._renderLegend();
     }
 
-    /* ------------------------------------------------
-       Helpers
-       ------------------------------------------------ */
+    /* ---- Helpers ---- */
 
     _getBookColor(bookData, index) {
         return bookData.bookColor || this._colorPalette[index % this._colorPalette.length];
     }
 
-    /* ------------------------------------------------
-       Map Initialization
-       ------------------------------------------------ */
+    /* ---- Map Init ---- */
 
     _initMap() {
-        const primaryBook = this.booksData.find(b => this.activeBooks.has(b.bookSlug)) || this.booksData[0];
-        const center = primaryBook.center || [31.0, 35.0];
-        const zoom = primaryBook.zoom || 6;
-
+        const primary = this.booksData.find(b => this.activeBooks.has(b.bookSlug)) || this.booksData[0];
         this.map = L.map(this.container, {
-            center: center,
-            zoom: zoom,
+            center: primary.center || [31.0, 35.0],
+            zoom: primary.zoom || 6,
             scrollWheelZoom: true,
             zoomControl: true
         });
-
         this.tiles.modern.addTo(this.map);
     }
 
-    /* ------------------------------------------------
-       Load All Books (Markers + Routes)
-       ------------------------------------------------ */
+    /* ---- Load Books ---- */
 
     _loadAllBooks() {
-        this.booksData.forEach((bookData, bookIndex) => {
+        this.booksData.forEach((bookData) => {
             const slug = bookData.bookSlug;
             const isActive = this.activeBooks.has(slug);
             this.bookMarkers[slug] = [];
             this.bookRoutes[slug] = {};
 
-            // --- Markers ---
             for (const loc of bookData.locations) {
                 const emoji = this.iconEmojis[loc.icon] || '\u{1F4CD}';
-                const markerClass = `marker-${loc.icon || 'city'}`;
-
                 const icon = L.divIcon({
-                    html: `<div class="bible-marker ${markerClass}">${emoji}</div>`,
+                    html: `<div class="bible-marker marker-${loc.icon || 'city'}">${emoji}</div>`,
                     className: 'bible-marker-wrapper',
-                    iconSize: [32, 32],
-                    iconAnchor: [16, 16],
-                    popupAnchor: [0, -18]
+                    iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -18]
                 });
-
                 const marker = L.marker([loc.lat, loc.lng], { icon });
-
                 marker.bindPopup(this._buildPopup(loc, bookData), {
-                    className: 'bible-popup',
-                    maxWidth: 320,
-                    minWidth: 250
+                    className: 'bible-popup', maxWidth: 320, minWidth: 250
                 });
-
                 marker._locationData = loc;
                 marker._bookSlug = slug;
                 this.bookMarkers[slug].push(marker);
                 this.allMarkers.push(marker);
-
                 if (isActive) marker.addTo(this.map);
             }
 
-            // --- Routes ---
             if (bookData.routes) {
                 for (const route of bookData.routes) {
                     const polyline = L.polyline(route.points, {
-                        color: route.color || '#c8a44e',
-                        weight: 4,
-                        opacity: 0.8,
-                        dashArray: route.dashArray || null,
-                        smoothFactor: 1.5
+                        color: route.color || '#c8a44e', weight: 4,
+                        opacity: 0.8, dashArray: route.dashArray || null, smoothFactor: 1.5
                     });
-
-                    const routeMarkers = [];
+                    const circles = [];
                     if (route.labels) {
                         route.points.forEach((pt, i) => {
                             if (route.labels[i]) {
-                                const circle = L.circleMarker(pt, {
-                                    radius: 5,
-                                    color: route.color || '#c8a44e',
-                                    fillColor: '#fff',
-                                    fillOpacity: 1,
-                                    weight: 2
+                                const c = L.circleMarker(pt, {
+                                    radius: 5, color: route.color || '#c8a44e',
+                                    fillColor: '#fff', fillOpacity: 1, weight: 2
                                 });
-                                circle.bindTooltip(route.labels[i], {
-                                    permanent: false,
-                                    direction: 'top',
-                                    offset: [0, -8]
-                                });
-                                routeMarkers.push(circle);
+                                c.bindTooltip(route.labels[i], { permanent: false, direction: 'top', offset: [0, -8] });
+                                circles.push(c);
                             }
                         });
                     }
-
-                    const group = L.layerGroup([polyline, ...routeMarkers]);
-                    this.bookRoutes[slug][route.id] = { layer: group, route: route };
-
+                    const group = L.layerGroup([polyline, ...circles]);
+                    this.bookRoutes[slug][route.id] = { layer: group, route };
                     if (isActive) {
                         group.addTo(this.map);
                         this.activeRoutes.add(route.id);
@@ -194,256 +149,273 @@ class BibleMap {
         });
     }
 
-    /* ------------------------------------------------
-       Popup Builder
-       ------------------------------------------------ */
-
     _buildPopup(loc, bookData) {
         const slug = bookData.bookSlug;
         let html = `<div class="popup-header">${loc.name}</div>`;
         html += `<div class="popup-book-label">${bookData.book}</div>`;
         html += '<div class="popup-events">';
-
         for (const evt of loc.events) {
-            const chapterLinks = evt.chapters.map(ch =>
+            const links = evt.chapters.map(ch =>
                 `<a href="../../${slug}/cuestionarios/${ch}/" class="popup-event-link">Cap. ${ch}</a>`
             ).join(' ');
-
-            html += `
-                <div class="popup-event">
-                    <div class="popup-event-title">${evt.title}</div>
-                    <div class="popup-event-verse">${evt.verse}</div>
-                    <div>${chapterLinks}</div>
-                </div>`;
+            html += `<div class="popup-event">
+                <div class="popup-event-title">${evt.title}</div>
+                <div class="popup-event-verse">${evt.verse}</div>
+                <div>${links}</div>
+            </div>`;
         }
-
         html += '</div>';
         return html;
     }
 
-    /* ------------------------------------------------
-       Tile Controls
-       ------------------------------------------------ */
+    /* ================================================
+       LAYERS PANEL — floating control on the map
+       ================================================ */
 
-    _setupTileControls() {
-        document.querySelectorAll('.tile-toggle-btn').forEach(btn => {
-            const type = btn.id.replace('tile-', '');
-            if (this.tiles[type]) {
-                btn.addEventListener('click', () => this.switchTile(type));
-            }
+    _createLayersPanel() {
+        const wrapper = this.container.closest('.map-wrapper');
+        if (!wrapper) return;
+
+        // --- Toggle button ---
+        this.layersBtn = document.createElement('button');
+        this.layersBtn.className = 'map-layers-btn';
+        this.layersBtn.innerHTML = '\u{1F5FA}\uFE0F Capas';
+        wrapper.appendChild(this.layersBtn);
+
+        // --- Panel ---
+        this.layersPanel = document.createElement('div');
+        this.layersPanel.className = 'map-layers-panel';
+        wrapper.appendChild(this.layersPanel);
+
+        // Prevent clicks from reaching the map
+        [this.layersBtn, this.layersPanel].forEach(el => {
+            L.DomEvent.disableClickPropagation(el);
+            L.DomEvent.disableScrollPropagation(el);
+        });
+
+        this.layersBtn.addEventListener('click', () => this._openPanel());
+        this._renderPanel();
+    }
+
+    _openPanel() {
+        this.layersPanel.classList.add('open');
+        this.layersBtn.style.display = 'none';
+    }
+
+    _closePanel() {
+        this.layersPanel.classList.remove('open');
+        this.layersBtn.style.display = '';
+    }
+
+    _renderPanel() {
+        this.layersPanel.innerHTML = `
+            <div class="layers-header">
+                <span>\u{1F5FA}\uFE0F Capas del Mapa</span>
+                <button class="layers-close">&times;</button>
+            </div>
+            <div class="layers-section">
+                <div class="layers-section-title">TIPO DE MAPA</div>
+                <div class="tile-options" id="panel-tiles"></div>
+            </div>
+            <div class="layers-section">
+                <div class="layers-section-title">LIBROS</div>
+                <div id="panel-books"></div>
+            </div>
+            <div class="layers-section" id="panel-routes-section">
+                <div class="layers-section-title">RUTAS</div>
+                <div id="panel-routes"></div>
+            </div>
+        `;
+
+        this.layersPanel.querySelector('.layers-close')
+            .addEventListener('click', () => this._closePanel());
+
+        this._renderTileOptions();
+        this._renderBookOptions();
+        this._renderRouteOptions();
+    }
+
+    /* ---- Tile Options ---- */
+
+    _renderTileOptions() {
+        const container = this.layersPanel.querySelector('#panel-tiles');
+        let html = '';
+        for (const [key, label] of Object.entries(this.tileLabels)) {
+            html += `<button class="tile-option ${key === this.currentTile ? 'active' : ''}" data-tile="${key}">${label}</button>`;
+        }
+        container.innerHTML = html;
+
+        container.querySelectorAll('.tile-option').forEach(btn => {
+            btn.addEventListener('click', () => this._switchTile(btn.dataset.tile));
         });
     }
 
-    switchTile(type) {
+    _switchTile(type) {
         if (this.currentTile === type) return;
-
         this.map.removeLayer(this.tiles[this.currentTile]);
         this.tiles[type].addTo(this.map);
         this.currentTile = type;
 
         const maxZoom = this.tiles[type].options.maxZoom || 18;
         this.map.setMaxZoom(maxZoom);
-        if (this.map.getZoom() > maxZoom) {
-            this.map.setZoom(maxZoom);
-        }
+        if (this.map.getZoom() > maxZoom) this.map.setZoom(maxZoom);
 
-        document.querySelectorAll('.tile-toggle-btn').forEach(btn => {
-            btn.classList.toggle('active', btn.id === `tile-${type}`);
+        this.layersPanel.querySelectorAll('.tile-option').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.tile === type);
         });
     }
 
-    /* ------------------------------------------------
-       Book Filter Controls (dynamic)
-       ------------------------------------------------ */
+    /* ---- Book Options ---- */
 
-    _renderBookControls() {
-        const container = document.getElementById('book-filters');
-        if (!container || this.booksData.length < 2) return;
-
-        let html = '<span style="font-weight:600; color: var(--color-brown);">Libros:</span>';
-
+    _renderBookOptions() {
+        const container = this.layersPanel.querySelector('#panel-books');
+        let html = '';
         this.booksData.forEach((bookData, i) => {
             const slug = bookData.bookSlug;
             const color = this._getBookColor(bookData, i);
-            const isActive = this.activeBooks.has(slug);
-
-            html += `<button class="book-btn ${isActive ? 'active' : ''}"
-                data-book="${slug}"
-                style="border-color:${color}; ${isActive ? `background:${color}; color:#fff;` : `color:${color};`}">
-                ${bookData.book}
-            </button>`;
+            const on = this.activeBooks.has(slug);
+            html += `
+                <div class="layer-item" data-book="${slug}">
+                    <span class="layer-checkbox ${on ? 'checked' : ''}"
+                          style="border-color:${color}; ${on ? `background:${color};` : ''}">
+                        ${on ? '\u2713' : ''}
+                    </span>
+                    <span class="layer-item-label">${bookData.book}</span>
+                </div>`;
         });
-
         container.innerHTML = html;
 
-        container.querySelectorAll('.book-btn').forEach(btn => {
-            btn.addEventListener('click', () => this.toggleBook(btn.dataset.book));
+        container.querySelectorAll('.layer-item').forEach(item => {
+            item.addEventListener('click', () => this._toggleBook(item.dataset.book));
         });
     }
 
-    toggleBook(bookSlug) {
+    _toggleBook(bookSlug) {
         if (this.activeBooks.has(bookSlug)) {
-            if (this.activeBooks.size <= 1) return; // keep at least one
-
+            if (this.activeBooks.size <= 1) return;
             this.activeBooks.delete(bookSlug);
-            for (const marker of this.bookMarkers[bookSlug]) {
-                this.map.removeLayer(marker);
-            }
-            for (const routeId in this.bookRoutes[bookSlug]) {
-                this.map.removeLayer(this.bookRoutes[bookSlug][routeId].layer);
-                this.activeRoutes.delete(routeId);
+            for (const m of this.bookMarkers[bookSlug]) this.map.removeLayer(m);
+            for (const id in this.bookRoutes[bookSlug]) {
+                this.map.removeLayer(this.bookRoutes[bookSlug][id].layer);
+                this.activeRoutes.delete(id);
             }
         } else {
             this.activeBooks.add(bookSlug);
-            for (const marker of this.bookMarkers[bookSlug]) {
-                marker.addTo(this.map);
-            }
-            for (const routeId in this.bookRoutes[bookSlug]) {
-                this.bookRoutes[bookSlug][routeId].layer.addTo(this.map);
-                this.activeRoutes.add(routeId);
+            for (const m of this.bookMarkers[bookSlug]) m.addTo(this.map);
+            for (const id in this.bookRoutes[bookSlug]) {
+                this.bookRoutes[bookSlug][id].layer.addTo(this.map);
+                this.activeRoutes.add(id);
             }
         }
 
-        this._updateBookButtons();
-        this._renderRouteControls();
+        this._renderBookOptions();
+        this._renderRouteOptions();
         this._renderLegend();
-
-        // Notify the page so it can update the events list
-        if (this.options.onBookToggle) {
-            this.options.onBookToggle(this.activeBooks);
-        }
+        if (this.options.onBookToggle) this.options.onBookToggle(this.activeBooks);
     }
 
-    _updateBookButtons() {
-        this.booksData.forEach((bookData, i) => {
-            const slug = bookData.bookSlug;
-            const color = this._getBookColor(bookData, i);
-            const btn = document.querySelector(`.book-btn[data-book="${slug}"]`);
-            if (!btn) return;
+    /* ---- Route Options ---- */
 
-            const isActive = this.activeBooks.has(slug);
-            btn.classList.toggle('active', isActive);
-            btn.style.backgroundColor = isActive ? color : 'transparent';
-            btn.style.color = isActive ? '#fff' : color;
-        });
-    }
-
-    /* ------------------------------------------------
-       Route Controls (dynamic, only for active books)
-       ------------------------------------------------ */
-
-    _renderRouteControls() {
-        const container = document.getElementById('route-filters');
-        if (!container) return;
-
-        let html = '<span style="font-weight:600; color: var(--color-brown);">Rutas:</span>';
+    _renderRouteOptions() {
+        const container = this.layersPanel.querySelector('#panel-routes');
+        const section = this.layersPanel.querySelector('#panel-routes-section');
+        let html = '';
         let hasRoutes = false;
 
         for (const bookData of this.booksData) {
             const slug = bookData.bookSlug;
-            if (!this.activeBooks.has(slug) || !bookData.routes) continue;
+            if (!this.activeBooks.has(slug) || !bookData.routes || !bookData.routes.length) continue;
+            hasRoutes = true;
+
+            const bookIdx = this.booksData.indexOf(bookData);
+            const bookColor = this._getBookColor(bookData, bookIdx);
+
+            html += `<div class="route-book-group">
+                <div class="route-book-title" style="color:${bookColor}">${bookData.book}</div>`;
 
             for (const route of bookData.routes) {
-                hasRoutes = true;
-                const isActive = this.activeRoutes.has(route.id);
-                html += `<button class="route-btn ${isActive ? 'active' : ''}"
-                    data-route="${route.id}" data-book="${slug}"
-                    style="border-color:${route.color}; ${isActive ? `background:${route.color}; color:#fff;` : `color:${route.color};`}">
-                    ${route.name}
-                </button>`;
+                const on = this.activeRoutes.has(route.id);
+                html += `
+                    <div class="route-item" data-route="${route.id}" data-book="${slug}">
+                        <span class="layer-checkbox small ${on ? 'checked' : ''}"
+                              style="border-color:${route.color}; ${on ? `background:${route.color};` : ''}">
+                            ${on ? '\u2713' : ''}
+                        </span>
+                        <span class="route-line-sample" style="background:${route.color};${route.dashArray ? ' background:repeating-linear-gradient(90deg,' + route.color + ' 0,' + route.color + ' 4px,transparent 4px,transparent 7px);' : ''}"></span>
+                        <span class="route-item-label">${route.name}</span>
+                    </div>`;
             }
+            html += '</div>';
         }
 
-        container.innerHTML = hasRoutes ? html : '';
+        section.style.display = hasRoutes ? '' : 'none';
+        container.innerHTML = html;
 
-        container.querySelectorAll('.route-btn').forEach(btn => {
-            btn.addEventListener('click', () => {
-                this._toggleRoute(btn.dataset.route, btn.dataset.book, btn);
+        container.querySelectorAll('.route-item').forEach(item => {
+            item.addEventListener('click', () => {
+                this._toggleRoute(item.dataset.route, item.dataset.book);
             });
         });
     }
 
-    _toggleRoute(routeId, bookSlug, btn) {
-        const routeData = this.bookRoutes[bookSlug]?.[routeId];
-        if (!routeData) return;
+    _toggleRoute(routeId, bookSlug) {
+        const rd = this.bookRoutes[bookSlug]?.[routeId];
+        if (!rd) return;
 
         if (this.activeRoutes.has(routeId)) {
-            this.map.removeLayer(routeData.layer);
+            this.map.removeLayer(rd.layer);
             this.activeRoutes.delete(routeId);
-            btn.classList.remove('active');
-            btn.style.backgroundColor = 'transparent';
-            btn.style.color = routeData.route.color;
         } else {
-            routeData.layer.addTo(this.map);
+            rd.layer.addTo(this.map);
             this.activeRoutes.add(routeId);
-            btn.classList.add('active');
-            btn.style.backgroundColor = routeData.route.color;
-            btn.style.color = '#fff';
         }
+        this._renderRouteOptions();
     }
 
-    /* ------------------------------------------------
-       Legend (dynamic, based on active books)
-       ------------------------------------------------ */
+    /* ---- Legend ---- */
 
     _renderLegend() {
         const container = document.getElementById('map-legend');
         if (!container) return;
 
-        // Collect unique icon types from active books
         const usedTypes = new Set();
-        for (const bookData of this.booksData) {
-            if (!this.activeBooks.has(bookData.bookSlug)) continue;
-            for (const loc of bookData.locations) {
-                usedTypes.add(loc.icon || 'city');
-            }
+        for (const bd of this.booksData) {
+            if (!this.activeBooks.has(bd.bookSlug)) continue;
+            for (const loc of bd.locations) usedTypes.add(loc.icon || 'city');
         }
 
         let html = '';
-
-        // Marker type dots
         for (const type of usedTypes) {
-            const color = this.markerColors[type] || '#8B6914';
-            const label = this.iconLabels[type] || type;
             html += `<div class="legend-item">
-                <span class="legend-dot" style="background:${color};"></span> ${label}
+                <span class="legend-dot" style="background:${this.markerColors[type] || '#8B6914'};"></span> ${this.iconLabels[type] || type}
             </div>`;
         }
-
-        // Route lines for active books
-        for (const bookData of this.booksData) {
-            if (!this.activeBooks.has(bookData.bookSlug) || !bookData.routes) continue;
-            for (const route of bookData.routes) {
+        for (const bd of this.booksData) {
+            if (!this.activeBooks.has(bd.bookSlug) || !bd.routes) continue;
+            for (const r of bd.routes) {
                 html += `<div class="legend-item">
-                    <span class="legend-line" style="background:${route.color};"></span> ${route.name}
+                    <span class="legend-line" style="background:${r.color};"></span> ${r.name}
                 </div>`;
             }
         }
-
         container.innerHTML = html;
     }
 
-    /* ------------------------------------------------
-       Public Methods
-       ------------------------------------------------ */
+    /* ---- Public ---- */
 
     flyTo(locationId) {
         const marker = this.allMarkers.find(m => m._locationData.id === locationId);
         if (marker) {
-            // Ensure the book is visible first
-            if (!this.activeBooks.has(marker._bookSlug)) {
-                this.toggleBook(marker._bookSlug);
-            }
+            if (!this.activeBooks.has(marker._bookSlug)) this._toggleBook(marker._bookSlug);
             this.map.flyTo(marker.getLatLng(), 8, { duration: 1.5 });
             setTimeout(() => marker.openPopup(), 1600);
         }
     }
 
     fitAll() {
-        const activeMarkers = this.allMarkers.filter(m => this.activeBooks.has(m._bookSlug));
-        if (activeMarkers.length) {
-            const bounds = L.latLngBounds(activeMarkers.map(m => m.getLatLng()));
-            this.map.fitBounds(bounds, { padding: [40, 40] });
+        const active = this.allMarkers.filter(m => this.activeBooks.has(m._bookSlug));
+        if (active.length) {
+            this.map.fitBounds(L.latLngBounds(active.map(m => m.getLatLng())), { padding: [40, 40] });
         }
     }
 
