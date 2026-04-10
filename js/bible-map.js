@@ -1,31 +1,20 @@
 /* ============================================
    Bible Map — Motor del Mapa Interactivo
-   Multi-libro con panel de capas flotante.
-   Escala a cualquier cantidad de libros.
+   Un mapa por libro con panel de capas flotante.
    ============================================ */
 
 class BibleMap {
-    constructor(containerId, booksData, options = {}) {
+    constructor(containerId, data, options = {}) {
         this.container = document.getElementById(containerId);
         if (!this.container) {
             console.error('BibleMap: container not found:', containerId);
             return;
         }
 
-        this.booksData = Array.isArray(booksData) ? booksData : [booksData];
+        this.data = data;
         this.options = options;
-
-        const defaultActive = options.activeBooks || this.booksData.map(b => b.bookSlug);
-        this.activeBooks = new Set(defaultActive);
-
-        this._colorPalette = [
-            '#8B6914', '#B22222', '#2E6B8A', '#6B8E23', '#8B4789',
-            '#CD853F', '#4682B4', '#D4A017', '#DC143C', '#3CB371'
-        ];
-
-        this.bookMarkers = {};
-        this.bookRoutes = {};
-        this.allMarkers = [];
+        this.markers = [];
+        this.routeLayers = {};
         this.activeRoutes = new Set();
         this.currentTile = 'modern';
 
@@ -68,91 +57,47 @@ class BibleMap {
         this.tileLabels = { modern: 'Moderno', satellite: 'Satelite', ancient: 'Antiguo' };
 
         this._initMap();
-        this._loadAllBooks();
+        this._addMarkers();
+        this._addRoutes();
         this._createLayersPanel();
         this._renderLegend();
-    }
-
-    /* ---- Helpers ---- */
-
-    _getBookColor(bookData, index) {
-        return bookData.bookColor || this._colorPalette[index % this._colorPalette.length];
     }
 
     /* ---- Map Init ---- */
 
     _initMap() {
-        const primary = this.booksData.find(b => this.activeBooks.has(b.bookSlug)) || this.booksData[0];
         this.map = L.map(this.container, {
-            center: primary.center || [31.0, 35.0],
-            zoom: primary.zoom || 6,
+            center: this.data.center || [31.0, 35.0],
+            zoom: this.data.zoom || 6,
             scrollWheelZoom: true,
             zoomControl: true
         });
         this.tiles.modern.addTo(this.map);
     }
 
-    /* ---- Load Books ---- */
+    /* ---- Markers ---- */
 
-    _loadAllBooks() {
-        this.booksData.forEach((bookData) => {
-            const slug = bookData.bookSlug;
-            const isActive = this.activeBooks.has(slug);
-            this.bookMarkers[slug] = [];
-            this.bookRoutes[slug] = {};
+    _addMarkers() {
+        for (const loc of this.data.locations) {
+            const emoji = this.iconEmojis[loc.icon] || '\u{1F4CD}';
+            const icon = L.divIcon({
+                html: `<div class="bible-marker marker-${loc.icon || 'city'}">${emoji}</div>`,
+                className: 'bible-marker-wrapper',
+                iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -18]
+            });
 
-            for (const loc of bookData.locations) {
-                const emoji = this.iconEmojis[loc.icon] || '\u{1F4CD}';
-                const icon = L.divIcon({
-                    html: `<div class="bible-marker marker-${loc.icon || 'city'}">${emoji}</div>`,
-                    className: 'bible-marker-wrapper',
-                    iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -18]
-                });
-                const marker = L.marker([loc.lat, loc.lng], { icon });
-                marker.bindPopup(this._buildPopup(loc, bookData), {
-                    className: 'bible-popup', maxWidth: 320, minWidth: 250
-                });
-                marker._locationData = loc;
-                marker._bookSlug = slug;
-                this.bookMarkers[slug].push(marker);
-                this.allMarkers.push(marker);
-                if (isActive) marker.addTo(this.map);
-            }
-
-            if (bookData.routes) {
-                for (const route of bookData.routes) {
-                    const polyline = L.polyline(route.points, {
-                        color: route.color || '#c8a44e', weight: 4,
-                        opacity: 0.8, dashArray: route.dashArray || null, smoothFactor: 1.5
-                    });
-                    const circles = [];
-                    if (route.labels) {
-                        route.points.forEach((pt, i) => {
-                            if (route.labels[i]) {
-                                const c = L.circleMarker(pt, {
-                                    radius: 5, color: route.color || '#c8a44e',
-                                    fillColor: '#fff', fillOpacity: 1, weight: 2
-                                });
-                                c.bindTooltip(route.labels[i], { permanent: false, direction: 'top', offset: [0, -8] });
-                                circles.push(c);
-                            }
-                        });
-                    }
-                    const group = L.layerGroup([polyline, ...circles]);
-                    this.bookRoutes[slug][route.id] = { layer: group, route };
-                    if (isActive) {
-                        group.addTo(this.map);
-                        this.activeRoutes.add(route.id);
-                    }
-                }
-            }
-        });
+            const marker = L.marker([loc.lat, loc.lng], { icon }).addTo(this.map);
+            marker.bindPopup(this._buildPopup(loc), {
+                className: 'bible-popup', maxWidth: 320, minWidth: 250
+            });
+            marker._locationData = loc;
+            this.markers.push(marker);
+        }
     }
 
-    _buildPopup(loc, bookData) {
-        const slug = bookData.bookSlug;
+    _buildPopup(loc) {
+        const slug = this.data.bookSlug;
         let html = `<div class="popup-header">${loc.name}</div>`;
-        html += `<div class="popup-book-label">${bookData.book}</div>`;
         html += '<div class="popup-events">';
         for (const evt of loc.events) {
             const links = evt.chapters.map(ch =>
@@ -168,26 +113,59 @@ class BibleMap {
         return html;
     }
 
+    /* ---- Routes ---- */
+
+    _addRoutes() {
+        if (!this.data.routes) return;
+
+        for (const route of this.data.routes) {
+            const polyline = L.polyline(route.points, {
+                color: route.color || '#c8a44e', weight: 4,
+                opacity: 0.8, dashArray: route.dashArray || null, smoothFactor: 1.5
+            });
+
+            const circles = [];
+            if (route.labels) {
+                route.points.forEach((pt, i) => {
+                    if (route.labels[i]) {
+                        const c = L.circleMarker(pt, {
+                            radius: 5, color: route.color || '#c8a44e',
+                            fillColor: '#fff', fillOpacity: 1, weight: 2
+                        });
+                        c.bindTooltip(route.labels[i], {
+                            permanent: false, direction: 'top', offset: [0, -8]
+                        });
+                        circles.push(c);
+                    }
+                });
+            }
+
+            const group = L.layerGroup([polyline, ...circles]);
+            this.routeLayers[route.id] = { layer: group, route };
+            group.addTo(this.map);
+            this.activeRoutes.add(route.id);
+        }
+    }
+
     /* ================================================
-       LAYERS PANEL — floating control on the map
+       LAYERS PANEL
        ================================================ */
 
     _createLayersPanel() {
         const wrapper = this.container.closest('.map-wrapper');
         if (!wrapper) return;
 
-        // --- Toggle button ---
+        // Toggle button
         this.layersBtn = document.createElement('button');
         this.layersBtn.className = 'map-layers-btn';
         this.layersBtn.innerHTML = '\u{1F5FA}\uFE0F Capas';
         wrapper.appendChild(this.layersBtn);
 
-        // --- Panel ---
+        // Panel
         this.layersPanel = document.createElement('div');
         this.layersPanel.className = 'map-layers-panel';
         wrapper.appendChild(this.layersPanel);
 
-        // Prevent clicks from reaching the map
         [this.layersBtn, this.layersPanel].forEach(el => {
             L.DomEvent.disableClickPropagation(el);
             L.DomEvent.disableScrollPropagation(el);
@@ -208,7 +186,9 @@ class BibleMap {
     }
 
     _renderPanel() {
-        this.layersPanel.innerHTML = `
+        const hasRoutes = this.data.routes && this.data.routes.length > 0;
+
+        let html = `
             <div class="layers-header">
                 <span>\u{1F5FA}\uFE0F Capas del Mapa</span>
                 <button class="layers-close">&times;</button>
@@ -216,23 +196,23 @@ class BibleMap {
             <div class="layers-section">
                 <div class="layers-section-title">TIPO DE MAPA</div>
                 <div class="tile-options" id="panel-tiles"></div>
-            </div>
+            </div>`;
+
+        if (hasRoutes) {
+            html += `
             <div class="layers-section">
-                <div class="layers-section-title">LIBROS</div>
-                <div id="panel-books"></div>
-            </div>
-            <div class="layers-section" id="panel-routes-section">
                 <div class="layers-section-title">RUTAS</div>
                 <div id="panel-routes"></div>
-            </div>
-        `;
+            </div>`;
+        }
+
+        this.layersPanel.innerHTML = html;
 
         this.layersPanel.querySelector('.layers-close')
             .addEventListener('click', () => this._closePanel());
 
         this._renderTileOptions();
-        this._renderBookOptions();
-        this._renderRouteOptions();
+        if (hasRoutes) this._renderRouteOptions();
     }
 
     /* ---- Tile Options ---- */
@@ -265,101 +245,34 @@ class BibleMap {
         });
     }
 
-    /* ---- Book Options ---- */
-
-    _renderBookOptions() {
-        const container = this.layersPanel.querySelector('#panel-books');
-        let html = '';
-        this.booksData.forEach((bookData, i) => {
-            const slug = bookData.bookSlug;
-            const color = this._getBookColor(bookData, i);
-            const on = this.activeBooks.has(slug);
-            html += `
-                <div class="layer-item" data-book="${slug}">
-                    <span class="layer-checkbox ${on ? 'checked' : ''}"
-                          style="border-color:${color}; ${on ? `background:${color};` : ''}">
-                        ${on ? '\u2713' : ''}
-                    </span>
-                    <span class="layer-item-label">${bookData.book}</span>
-                </div>`;
-        });
-        container.innerHTML = html;
-
-        container.querySelectorAll('.layer-item').forEach(item => {
-            item.addEventListener('click', () => this._toggleBook(item.dataset.book));
-        });
-    }
-
-    _toggleBook(bookSlug) {
-        if (this.activeBooks.has(bookSlug)) {
-            if (this.activeBooks.size <= 1) return;
-            this.activeBooks.delete(bookSlug);
-            for (const m of this.bookMarkers[bookSlug]) this.map.removeLayer(m);
-            for (const id in this.bookRoutes[bookSlug]) {
-                this.map.removeLayer(this.bookRoutes[bookSlug][id].layer);
-                this.activeRoutes.delete(id);
-            }
-        } else {
-            this.activeBooks.add(bookSlug);
-            for (const m of this.bookMarkers[bookSlug]) m.addTo(this.map);
-            for (const id in this.bookRoutes[bookSlug]) {
-                this.bookRoutes[bookSlug][id].layer.addTo(this.map);
-                this.activeRoutes.add(id);
-            }
-        }
-
-        this._renderBookOptions();
-        this._renderRouteOptions();
-        this._renderLegend();
-        if (this.options.onBookToggle) this.options.onBookToggle(this.activeBooks);
-    }
-
     /* ---- Route Options ---- */
 
     _renderRouteOptions() {
         const container = this.layersPanel.querySelector('#panel-routes');
-        const section = this.layersPanel.querySelector('#panel-routes-section');
         let html = '';
-        let hasRoutes = false;
 
-        for (const bookData of this.booksData) {
-            const slug = bookData.bookSlug;
-            if (!this.activeBooks.has(slug) || !bookData.routes || !bookData.routes.length) continue;
-            hasRoutes = true;
-
-            const bookIdx = this.booksData.indexOf(bookData);
-            const bookColor = this._getBookColor(bookData, bookIdx);
-
-            html += `<div class="route-book-group">
-                <div class="route-book-title" style="color:${bookColor}">${bookData.book}</div>`;
-
-            for (const route of bookData.routes) {
-                const on = this.activeRoutes.has(route.id);
-                html += `
-                    <div class="route-item" data-route="${route.id}" data-book="${slug}">
-                        <span class="layer-checkbox small ${on ? 'checked' : ''}"
-                              style="border-color:${route.color}; ${on ? `background:${route.color};` : ''}">
-                            ${on ? '\u2713' : ''}
-                        </span>
-                        <span class="route-line-sample" style="background:${route.color};${route.dashArray ? ' background:repeating-linear-gradient(90deg,' + route.color + ' 0,' + route.color + ' 4px,transparent 4px,transparent 7px);' : ''}"></span>
-                        <span class="route-item-label">${route.name}</span>
-                    </div>`;
-            }
-            html += '</div>';
+        for (const route of this.data.routes) {
+            const on = this.activeRoutes.has(route.id);
+            html += `
+                <div class="route-item" data-route="${route.id}">
+                    <span class="layer-checkbox small ${on ? 'checked' : ''}"
+                          style="border-color:${route.color}; ${on ? `background:${route.color};` : ''}">
+                        ${on ? '\u2713' : ''}
+                    </span>
+                    <span class="route-line-sample" style="background:${route.color};"></span>
+                    <span class="route-item-label">${route.name}</span>
+                </div>`;
         }
 
-        section.style.display = hasRoutes ? '' : 'none';
         container.innerHTML = html;
 
         container.querySelectorAll('.route-item').forEach(item => {
-            item.addEventListener('click', () => {
-                this._toggleRoute(item.dataset.route, item.dataset.book);
-            });
+            item.addEventListener('click', () => this._toggleRoute(item.dataset.route));
         });
     }
 
-    _toggleRoute(routeId, bookSlug) {
-        const rd = this.bookRoutes[bookSlug]?.[routeId];
+    _toggleRoute(routeId) {
+        const rd = this.routeLayers[routeId];
         if (!rd) return;
 
         if (this.activeRoutes.has(routeId)) {
@@ -379,10 +292,7 @@ class BibleMap {
         if (!container) return;
 
         const usedTypes = new Set();
-        for (const bd of this.booksData) {
-            if (!this.activeBooks.has(bd.bookSlug)) continue;
-            for (const loc of bd.locations) usedTypes.add(loc.icon || 'city');
-        }
+        for (const loc of this.data.locations) usedTypes.add(loc.icon || 'city');
 
         let html = '';
         for (const type of usedTypes) {
@@ -390,9 +300,8 @@ class BibleMap {
                 <span class="legend-dot" style="background:${this.markerColors[type] || '#8B6914'};"></span> ${this.iconLabels[type] || type}
             </div>`;
         }
-        for (const bd of this.booksData) {
-            if (!this.activeBooks.has(bd.bookSlug) || !bd.routes) continue;
-            for (const r of bd.routes) {
+        if (this.data.routes) {
+            for (const r of this.data.routes) {
                 html += `<div class="legend-item">
                     <span class="legend-line" style="background:${r.color};"></span> ${r.name}
                 </div>`;
@@ -404,22 +313,17 @@ class BibleMap {
     /* ---- Public ---- */
 
     flyTo(locationId) {
-        const marker = this.allMarkers.find(m => m._locationData.id === locationId);
+        const marker = this.markers.find(m => m._locationData.id === locationId);
         if (marker) {
-            if (!this.activeBooks.has(marker._bookSlug)) this._toggleBook(marker._bookSlug);
             this.map.flyTo(marker.getLatLng(), 8, { duration: 1.5 });
             setTimeout(() => marker.openPopup(), 1600);
         }
     }
 
     fitAll() {
-        const active = this.allMarkers.filter(m => this.activeBooks.has(m._bookSlug));
-        if (active.length) {
-            this.map.fitBounds(L.latLngBounds(active.map(m => m.getLatLng())), { padding: [40, 40] });
+        if (this.markers.length) {
+            const bounds = L.latLngBounds(this.markers.map(m => m.getLatLng()));
+            this.map.fitBounds(bounds, { padding: [40, 40] });
         }
-    }
-
-    getActiveBooks() {
-        return new Set(this.activeBooks);
     }
 }

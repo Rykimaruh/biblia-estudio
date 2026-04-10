@@ -15,10 +15,10 @@
     <main>
         <div class="breadcrumb" id="breadcrumb"></div>
 
-        <h2>Mapa Interactivo</h2>
+        <h2>Mapa Interactivo — Genesis</h2>
         <p class="intro-text">
-            Explora los lugares donde ocurrieron los eventos principales de la Biblia.
-            Usa el boton <strong>Capas</strong> para filtrar libros, rutas y tipo de mapa.
+            Explora los lugares donde ocurrieron los eventos principales del libro de Genesis.
+            Desde Ur de los Caldeos hasta Egipto, sigue las rutas de Abraham, Jacob y Jose.
         </p>
 
         <div class="map-wrapper">
@@ -41,12 +41,6 @@
     <script>
         let bibleMap;
 
-        /* Book location files — add new books here */
-        const bookFiles = [
-            '../../data/genesis/locations.json',
-            '../../data/exodo/locations.json'
-        ];
-
         document.addEventListener('DOMContentLoaded', () => {
             renderBreadcrumb([
                 { label: 'Inicio', href: '../../' },
@@ -54,13 +48,11 @@
                 { label: 'Mapa' }
             ]);
 
-            Promise.all(bookFiles.map(f => fetch(f).then(r => r.json())))
-                .then(allBooks => {
-                    bibleMap = new BibleMap('bible-map', allBooks, {
-                        activeBooks: ['genesis'],
-                        onBookToggle: () => renderEventsList(allBooks)
-                    });
-                    renderEventsList(allBooks);
+            fetch('../../data/genesis/locations.json')
+                .then(r => r.json())
+                .then(data => {
+                    bibleMap = new BibleMap('bible-map', data);
+                    renderEventsList(data);
                 })
                 .catch(err => {
                     console.error('Error loading map data:', err);
@@ -69,9 +61,8 @@
                 });
         });
 
-        function renderEventsList(allBooks) {
+        function renderEventsList(data) {
             const container = document.getElementById('events-list');
-            const activeBooks = bibleMap ? bibleMap.getActiveBooks() : new Set(['genesis']);
             const colors = {
                 city: '#8B6914', mountain: '#6B8E23', water: '#4682B4',
                 battle: '#B22222', miracle: '#9B59B6', altar: '#D4A017',
@@ -88,24 +79,20 @@
             };
 
             let html = '';
-            for (const book of allBooks) {
-                if (!activeBooks.has(book.bookSlug)) continue;
-                for (const loc of book.locations) {
-                    const c = colors[loc.icon] || '#8B6914';
-                    const e = emojis[loc.icon] || '\u{1F4CD}';
-                    const desc = loc.events.map(ev => ev.title).join('. ') + '.';
-                    html += `
-                    <div class="map-event-card" onclick="bibleMap.flyTo('${loc.id}')">
-                        <div class="event-marker-icon" style="background:${c};">${e}</div>
-                        <div class="event-info">
-                            <span class="event-book-badge" style="background:${book.bookColor || '#666'};">${book.book}</span>
-                            <h4>${loc.name}</h4>
-                            <p>${desc}</p>
-                        </div>
-                    </div>`;
-                }
+            for (const loc of data.locations) {
+                const c = colors[loc.icon] || '#8B6914';
+                const e = emojis[loc.icon] || '\u{1F4CD}';
+                const desc = loc.events.map(ev => ev.title).join('. ') + '.';
+                html += `
+                <div class="map-event-card" onclick="bibleMap.flyTo('${loc.id}')">
+                    <div class="event-marker-icon" style="background:${c};">${e}</div>
+                    <div class="event-info">
+                        <h4>${loc.name}</h4>
+                        <p>${desc}</p>
+                    </div>
+                </div>`;
             }
-            container.innerHTML = html || '<p>No hay ubicaciones activas.</p>';
+            container.innerHTML = html;
         }
     </script>
 </body>
