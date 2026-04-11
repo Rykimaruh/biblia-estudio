@@ -1,7 +1,98 @@
 /* ============================================
-   Bible Map — Motor del Mapa Interactivo
+   Bible Map — Motor del Mapa Interactivo (Google Maps)
    Un mapa por libro con panel de capas flotante.
    ============================================ */
+
+/* ---- Custom Overlay: Emoji Marker ---- */
+
+class EmojiMarkerOverlay extends google.maps.OverlayView {
+    constructor(position, locationData, bibleMap) {
+        super();
+        this.position = position;
+        this._locationData = locationData;
+        this.bibleMap = bibleMap;
+        this.div = null;
+    }
+
+    onAdd() {
+        const emoji = this.bibleMap.iconEmojis[this._locationData.icon] || '\u{1F4CD}';
+        this.div = document.createElement('div');
+        this.div.style.position = 'absolute';
+        this.div.style.cursor = 'pointer';
+        this.div.innerHTML = `<div class="bible-marker marker-${this._locationData.icon || 'city'}">${emoji}</div>`;
+
+        this.div.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.bibleMap._openInfoWindow(this);
+        });
+
+        this.getPanes().overlayMouseTarget.appendChild(this.div);
+    }
+
+    draw() {
+        const projection = this.getProjection();
+        if (!projection || !this.div) return;
+        const pos = projection.fromLatLngToDivPixel(this.position);
+        if (pos) {
+            this.div.style.left = (pos.x - 16) + 'px';
+            this.div.style.top = (pos.y - 16) + 'px';
+        }
+    }
+
+    onRemove() {
+        if (this.div && this.div.parentNode) {
+            this.div.parentNode.removeChild(this.div);
+        }
+        this.div = null;
+    }
+
+    getPosition() {
+        return this.position;
+    }
+}
+
+/* ---- Custom Overlay: Water Label ---- */
+
+class WaterLabelOverlay extends google.maps.OverlayView {
+    constructor(position, config) {
+        super();
+        this.position = position;
+        this.config = config;
+        this.div = null;
+    }
+
+    onAdd() {
+        const wb = this.config;
+        const fs = wb.fontSize || '12px';
+        const rot = wb.rotation || 0;
+        const ls = wb.letterSpacing || '0px';
+
+        this.div = document.createElement('div');
+        this.div.style.position = 'absolute';
+        this.div.innerHTML = `<div class="water-label" style="font-size:${fs};transform:translate(-50%,-50%) rotate(${rot}deg);letter-spacing:${ls};">${wb.name}</div>`;
+
+        this.getPanes().overlayLayer.appendChild(this.div);
+    }
+
+    draw() {
+        const projection = this.getProjection();
+        if (!projection || !this.div) return;
+        const pos = projection.fromLatLngToDivPixel(this.position);
+        if (pos) {
+            this.div.style.left = pos.x + 'px';
+            this.div.style.top = pos.y + 'px';
+        }
+    }
+
+    onRemove() {
+        if (this.div && this.div.parentNode) {
+            this.div.parentNode.removeChild(this.div);
+        }
+        this.div = null;
+    }
+}
+
+/* ---- BibleMap Class ---- */
 
 class BibleMap {
     constructor(containerId, data, options = {}) {
@@ -16,7 +107,8 @@ class BibleMap {
         this.markers = [];
         this.routeLayers = {};
         this.activeRoutes = new Set();
-        this.currentTile = 'modern';
+        this.currentTile = 'roadmap';
+        this.infoWindow = null;
 
         this.iconEmojis = {
             city: '\u{1F3D8}', mountain: '\u26F0', water: '\u{1F30A}',
@@ -40,27 +132,42 @@ class BibleMap {
             fire: 'Zarza', oasis: 'Oasis', palace: 'Palacio'
         };
 
-        this.tiles = {
-            modern: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
-                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; Sources: Esri, HERE, Garmin, USGS',
-                maxZoom: 18, minZoom: 4
-            }),
-            satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; Sources: Esri, Maxar, Earthstar',
-                maxZoom: 19, minZoom: 4
-            }),
-            terrain: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
-                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; Sources: Esri, HERE, Garmin, USGS',
-                maxZoom: 18, minZoom: 4
-            }),
-            ancient: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
-                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; National Geographic',
-                maxZoom: 16, minZoom: 4
-            })
+        this.tileLabels = {
+            roadmap: 'Moderno',
+            satellite: 'Satelite',
+            terrain: 'Terreno',
+            styled: 'Antiguo'
         };
-        this.tileLabels = { modern: 'Moderno', satellite: 'Satelite', terrain: 'Terreno', ancient: 'Antiguo' };
 
-        this.waterLabelLayer = null;
+        /* Vintage / antique map style */
+        this.ancientStyle = [
+            { elementType: 'geometry', stylers: [{ color: '#f5f1e6' }] },
+            { elementType: 'labels.text.fill', stylers: [{ color: '#523735' }] },
+            { elementType: 'labels.text.stroke', stylers: [{ color: '#f5f1e6' }] },
+            { featureType: 'administrative', elementType: 'geometry.stroke', stylers: [{ color: '#c9b2a6' }] },
+            { featureType: 'administrative.land_parcel', elementType: 'geometry.stroke', stylers: [{ color: '#dcd2be' }] },
+            { featureType: 'administrative.land_parcel', elementType: 'labels.text.fill', stylers: [{ color: '#ae9e90' }] },
+            { featureType: 'landscape.natural', elementType: 'geometry', stylers: [{ color: '#dfd2ae' }] },
+            { featureType: 'poi', elementType: 'geometry', stylers: [{ color: '#dfd2ae' }] },
+            { featureType: 'poi', elementType: 'labels.text.fill', stylers: [{ color: '#93817c' }] },
+            { featureType: 'poi.park', elementType: 'geometry.fill', stylers: [{ color: '#a5b076' }] },
+            { featureType: 'poi.park', elementType: 'labels.text.fill', stylers: [{ color: '#447530' }] },
+            { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#f5f1e6' }] },
+            { featureType: 'road.arterial', elementType: 'geometry', stylers: [{ color: '#fdfcf8' }] },
+            { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#f8c967' }] },
+            { featureType: 'road.highway', elementType: 'geometry.stroke', stylers: [{ color: '#e9bc62' }] },
+            { featureType: 'road.highway.controlled_access', elementType: 'geometry', stylers: [{ color: '#e98d58' }] },
+            { featureType: 'road.highway.controlled_access', elementType: 'geometry.stroke', stylers: [{ color: '#db8555' }] },
+            { featureType: 'road.local', elementType: 'labels.text.fill', stylers: [{ color: '#806b63' }] },
+            { featureType: 'transit.line', elementType: 'geometry', stylers: [{ color: '#dfd2ae' }] },
+            { featureType: 'transit.line', elementType: 'labels.text.fill', stylers: [{ color: '#8f7d77' }] },
+            { featureType: 'transit.line', elementType: 'labels.text.stroke', stylers: [{ color: '#ebe3cd' }] },
+            { featureType: 'transit.station', elementType: 'geometry', stylers: [{ color: '#dfd2ae' }] },
+            { featureType: 'water', elementType: 'geometry.fill', stylers: [{ color: '#b9d3c2' }] },
+            { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#92998d' }] }
+        ];
+
+        this.waterLabelOverlays = [];
         this.waterLabelsVisible = true;
 
         this._initMap();
@@ -74,38 +181,47 @@ class BibleMap {
     /* ---- Map Init ---- */
 
     _initMap() {
-        this.map = L.map(this.container, {
-            center: this.data.center || [31.0, 35.0],
+        this.map = new google.maps.Map(this.container, {
+            center: { lat: this.data.center[0], lng: this.data.center[1] },
             zoom: this.data.zoom || 6,
-            scrollWheelZoom: true,
-            zoomControl: true
+            mapTypeId: 'roadmap',
+            mapTypeControl: false,
+            streetViewControl: false,
+            fullscreenControl: false,
+            zoomControl: true,
+            gestureHandling: 'greedy',
+            minZoom: 4,
+            maxZoom: 18
         });
-        this.tiles.modern.addTo(this.map);
+
+        this.infoWindow = new google.maps.InfoWindow({ maxWidth: 340 });
     }
 
     /* ---- Markers ---- */
 
     _addMarkers() {
         for (const loc of this.data.locations) {
-            const emoji = this.iconEmojis[loc.icon] || '\u{1F4CD}';
-            const icon = L.divIcon({
-                html: `<div class="bible-marker marker-${loc.icon || 'city'}">${emoji}</div>`,
-                className: 'bible-marker-wrapper',
-                iconSize: [32, 32], iconAnchor: [16, 16], popupAnchor: [0, -18]
-            });
-
-            const marker = L.marker([loc.lat, loc.lng], { icon }).addTo(this.map);
-            marker.bindPopup(this._buildPopup(loc), {
-                className: 'bible-popup', maxWidth: 320, minWidth: 250
-            });
-            marker._locationData = loc;
-            this.markers.push(marker);
+            const overlay = new EmojiMarkerOverlay(
+                new google.maps.LatLng(loc.lat, loc.lng),
+                loc, this
+            );
+            overlay.setMap(this.map);
+            this.markers.push(overlay);
         }
+    }
+
+    _openInfoWindow(markerOverlay) {
+        const loc = markerOverlay._locationData;
+        this.infoWindow.setContent(this._buildPopup(loc));
+        this.infoWindow.setPosition(markerOverlay.getPosition());
+        this.infoWindow.setOptions({ pixelOffset: new google.maps.Size(0, -20) });
+        this.infoWindow.open(this.map);
     }
 
     _buildPopup(loc) {
         const slug = this.data.bookSlug;
-        let html = `<div class="popup-header">${loc.name}</div>`;
+        let html = `<div class="bible-popup-content">`;
+        html += `<div class="popup-header">${loc.name}</div>`;
         html += '<div class="popup-events">';
         for (const evt of loc.events) {
             const links = evt.chapters.map(ch =>
@@ -117,7 +233,7 @@ class BibleMap {
                 <div>${links}</div>
             </div>`;
         }
-        html += '</div>';
+        html += '</div></div>';
         return html;
     }
 
@@ -127,30 +243,64 @@ class BibleMap {
         if (!this.data.routes) return;
 
         for (const route of this.data.routes) {
-            const polyline = L.polyline(route.points, {
-                color: route.color || '#c8a44e', weight: 4,
-                opacity: 0.8, dashArray: route.dashArray || null, smoothFactor: 1.5
-            });
+            const path = route.points.map(pt => ({ lat: pt[0], lng: pt[1] }));
 
-            const circles = [];
+            let polyline;
+            if (route.dashArray) {
+                const dashVals = route.dashArray.split(',').map(v => parseInt(v.trim()));
+                const repeatPx = (dashVals[0] + (dashVals[1] || dashVals[0])) + 'px';
+
+                polyline = new google.maps.Polyline({
+                    path: path,
+                    strokeOpacity: 0,
+                    strokeWeight: 4,
+                    icons: [{
+                        icon: {
+                            path: 'M 0,-1 0,1',
+                            strokeOpacity: 0.8,
+                            strokeColor: route.color || '#c8a44e',
+                            scale: 3
+                        },
+                        offset: '0',
+                        repeat: repeatPx
+                    }],
+                    map: this.map
+                });
+            } else {
+                polyline = new google.maps.Polyline({
+                    path: path,
+                    strokeColor: route.color || '#c8a44e',
+                    strokeWeight: 4,
+                    strokeOpacity: 0.8,
+                    map: this.map
+                });
+            }
+
+            const waypointMarkers = [];
             if (route.labels) {
                 route.points.forEach((pt, i) => {
                     if (route.labels[i]) {
-                        const c = L.circleMarker(pt, {
-                            radius: 5, color: route.color || '#c8a44e',
-                            fillColor: '#fff', fillOpacity: 1, weight: 2
+                        const marker = new google.maps.Marker({
+                            position: { lat: pt[0], lng: pt[1] },
+                            map: this.map,
+                            icon: {
+                                path: google.maps.SymbolPath.CIRCLE,
+                                scale: 5,
+                                fillColor: '#fff',
+                                fillOpacity: 1,
+                                strokeColor: route.color || '#c8a44e',
+                                strokeWeight: 2
+                            },
+                            title: route.labels[i],
+                            clickable: false,
+                            zIndex: 1
                         });
-                        c.bindTooltip(route.labels[i], {
-                            permanent: false, direction: 'top', offset: [0, -8]
-                        });
-                        circles.push(c);
+                        waypointMarkers.push(marker);
                     }
                 });
             }
 
-            const group = L.layerGroup([polyline, ...circles]);
-            this.routeLayers[route.id] = { layer: group, route };
-            group.addTo(this.map);
+            this.routeLayers[route.id] = { polyline, waypointMarkers, route };
             this.activeRoutes.add(route.id);
         }
     }
@@ -160,35 +310,21 @@ class BibleMap {
     _addWaterLabels() {
         if (!this.data.waterBodies || !this.data.waterBodies.length) return;
 
-        this.waterLabelLayer = L.layerGroup();
-
         for (const wb of this.data.waterBodies) {
-            const fs = wb.fontSize || '12px';
-            const rot = wb.rotation || 0;
-            const ls = wb.letterSpacing || '0px';
-
-            const icon = L.divIcon({
-                html: `<div class="water-label" style="font-size:${fs};transform:translate(-50%,-50%) rotate(${rot}deg);letter-spacing:${ls};">${wb.name}</div>`,
-                className: 'water-label-wrapper',
-                iconSize: [0, 0],
-                iconAnchor: [0, 0]
-            });
-
-            L.marker([wb.lat, wb.lng], { icon, interactive: false, keyboard: false })
-                .addTo(this.waterLabelLayer);
+            const overlay = new WaterLabelOverlay(
+                new google.maps.LatLng(wb.lat, wb.lng),
+                wb
+            );
+            overlay.setMap(this.map);
+            this.waterLabelOverlays.push(overlay);
         }
-
-        this.waterLabelLayer.addTo(this.map);
     }
 
     _toggleWaterLabels() {
-        if (!this.waterLabelLayer) return;
-        if (this.waterLabelsVisible) {
-            this.map.removeLayer(this.waterLabelLayer);
-        } else {
-            this.waterLabelLayer.addTo(this.map);
-        }
         this.waterLabelsVisible = !this.waterLabelsVisible;
+        for (const overlay of this.waterLabelOverlays) {
+            overlay.setMap(this.waterLabelsVisible ? this.map : null);
+        }
         this._renderWaterToggle();
     }
 
@@ -200,20 +336,21 @@ class BibleMap {
         const wrapper = this.container.closest('.map-wrapper');
         if (!wrapper) return;
 
-        // Toggle button
         this.layersBtn = document.createElement('button');
         this.layersBtn.className = 'map-layers-btn';
         this.layersBtn.innerHTML = '\u{1F5FA}\uFE0F Capas';
         wrapper.appendChild(this.layersBtn);
 
-        // Panel
         this.layersPanel = document.createElement('div');
         this.layersPanel.className = 'map-layers-panel';
         wrapper.appendChild(this.layersPanel);
 
+        /* Prevent map interaction when clicking on panel elements */
         [this.layersBtn, this.layersPanel].forEach(el => {
-            L.DomEvent.disableClickPropagation(el);
-            L.DomEvent.disableScrollPropagation(el);
+            ['mousedown', 'mouseup', 'click', 'dblclick', 'wheel',
+             'touchstart', 'touchmove', 'pointerdown'].forEach(evt => {
+                el.addEventListener(evt, e => e.stopPropagation());
+            });
         });
 
         this.layersBtn.addEventListener('click', () => this._openPanel());
@@ -287,13 +424,16 @@ class BibleMap {
 
     _switchTile(type) {
         if (this.currentTile === type) return;
-        this.map.removeLayer(this.tiles[this.currentTile]);
-        this.tiles[type].addTo(this.map);
-        this.currentTile = type;
 
-        const maxZoom = this.tiles[type].options.maxZoom || 18;
-        this.map.setMaxZoom(maxZoom);
-        if (this.map.getZoom() > maxZoom) this.map.setZoom(maxZoom);
+        if (type === 'styled') {
+            this.map.setMapTypeId('roadmap');
+            this.map.setOptions({ styles: this.ancientStyle });
+        } else {
+            this.map.setMapTypeId(type);
+            this.map.setOptions({ styles: null });
+        }
+
+        this.currentTile = type;
 
         this.layersPanel.querySelectorAll('.tile-option').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.tile === type);
@@ -353,10 +493,12 @@ class BibleMap {
         if (!rd) return;
 
         if (this.activeRoutes.has(routeId)) {
-            this.map.removeLayer(rd.layer);
+            rd.polyline.setMap(null);
+            rd.waypointMarkers.forEach(m => m.setMap(null));
             this.activeRoutes.delete(routeId);
         } else {
-            rd.layer.addTo(this.map);
+            rd.polyline.setMap(this.map);
+            rd.waypointMarkers.forEach(m => m.setMap(this.map));
             this.activeRoutes.add(routeId);
         }
         this._renderRouteOptions();
@@ -392,15 +534,17 @@ class BibleMap {
     flyTo(locationId) {
         const marker = this.markers.find(m => m._locationData.id === locationId);
         if (marker) {
-            this.map.flyTo(marker.getLatLng(), 8, { duration: 1.5 });
-            setTimeout(() => marker.openPopup(), 1600);
+            this.map.panTo(marker.getPosition());
+            this.map.setZoom(8);
+            setTimeout(() => this._openInfoWindow(marker), 600);
         }
     }
 
     fitAll() {
         if (this.markers.length) {
-            const bounds = L.latLngBounds(this.markers.map(m => m.getLatLng()));
-            this.map.fitBounds(bounds, { padding: [40, 40] });
+            const bounds = new google.maps.LatLngBounds();
+            this.markers.forEach(m => bounds.extend(m.getPosition()));
+            this.map.fitBounds(bounds, { top: 40, right: 40, bottom: 40, left: 40 });
         }
     }
 }
