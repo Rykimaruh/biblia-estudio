@@ -566,3 +566,19 @@
         padding: 0.6rem 1rem;
     }
 }
+
+/* ---- Dark Mode ---- */
+[data-theme="dark"] .quiz-explanation {
+    background: #1b3d1c;
+    border-left-color: var(--color-success);
+}
+[data-theme="dark"] .quiz-explanation.incorrect-explanation {
+    background: #3d1b1b;
+    border-left-color: var(--color-danger);
+}
+[data-theme="dark"] .quiz-option.incorrect {
+    background: #3d1b1b;
+}
+[data-theme="dark"] .quiz-option.correct {
+    background: #1b3d1c;
+}

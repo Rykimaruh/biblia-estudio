@@ -458,3 +458,60 @@
     .map-layers-panel { width: 220px; max-height: calc(100% - 30px); }
     .map-layers-btn { top: 8px; right: 8px; padding: 0.4rem 0.6rem; font-size: 0.8rem; }
 }
+
+/* ---- Dark Mode ---- */
+[data-theme="dark"] .map-layers-btn {
+    background: #2a2018;
+    color: #ddd0c0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+[data-theme="dark"] .map-layers-btn:hover {
+    background: #352a1e;
+}
+[data-theme="dark"] .map-layers-panel {
+    background: #241c14;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+}
+[data-theme="dark"] .layers-header {
+    background: #241c14;
+    color: #ddd0c0;
+    border-bottom-color: #3d3025;
+}
+[data-theme="dark"] .layers-close { color: #908878; }
+[data-theme="dark"] .layers-close:hover { color: #ddd0c0; }
+[data-theme="dark"] .layers-section { border-bottom-color: #3d3025; }
+[data-theme="dark"] .layers-section-title { color: #908878; }
+[data-theme="dark"] .tile-option {
+    background: #2a2018;
+    border-color: #3d3025;
+    color: #c0b098;
+}
+[data-theme="dark"] .tile-option:hover:not(.active) {
+    background: #352a1e;
+    border-color: #4d4035;
+}
+[data-theme="dark"] .layer-item { color: #c0b098; }
+[data-theme="dark"] .layer-item:hover { color: #f0e6d3; }
+[data-theme="dark"] .route-item { color: #c0b098; }
+[data-theme="dark"] .route-item:hover { color: #f0e6d3; }
+[data-theme="dark"] .map-legend {
+    background: var(--color-card-bg);
+    border-top-color: var(--color-border);
+}
+[data-theme="dark"] .legend-item { color: #c0b098; }
+[data-theme="dark"] .bible-popup .leaflet-popup-content-wrapper {
+    background: #241c14;
+    color: #ddd0c0;
+}
+[data-theme="dark"] .bible-popup .leaflet-popup-tip {
+    background: #241c14;
+}
+[data-theme="dark"] .popup-book-label {
+    background: #2a2018;
+    border-bottom-color: #3d3025;
+}
+[data-theme="dark"] .popup-event {
+    border-bottom-color: #3d3025;
+}
+[data-theme="dark"] .popup-event-title { color: #ddd0c0; }
+[data-theme="dark"] .popup-event-verse { color: #908878; }

@@ -2,6 +2,39 @@
 // Layout — Shared header, nav, footer, mega-dropdown
 // ============================================
 
+// ---- Theme (Dark Mode) ----
+
+function initTheme() {
+    const saved = localStorage.getItem('biblia-theme');
+    if (saved === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
+}
+// Apply theme immediately to prevent flash of wrong theme
+initTheme();
+
+function toggleTheme() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    if (isDark) {
+        document.documentElement.removeAttribute('data-theme');
+        localStorage.setItem('biblia-theme', 'light');
+    } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('biblia-theme', 'dark');
+    }
+    updateThemeIcons();
+}
+
+function updateThemeIcons() {
+    const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+    document.querySelectorAll('.theme-toggle-icon').forEach(el => {
+        el.textContent = isDark ? '\u2600\uFE0F' : '\uD83C\uDF19';
+    });
+    document.querySelectorAll('.drawer-theme-label').forEach(el => {
+        el.textContent = isDark ? 'Modo Claro' : 'Modo Oscuro';
+    });
+}
+
 function getBasePath() {
     const path = window.location.pathname;
     const depth = (path.match(/\//g) || []).length - 1;
@@ -33,6 +66,9 @@ function renderHeader(currentBook) {
                 </button>
                 <a href="${base}historia-cultura/" class="nav-link">Historia</a>
                 ${adminLink}
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" title="Modo Oscuro">
+                    <span class="theme-toggle-icon">\uD83C\uDF19</span>
+                </button>
             </nav>
             <button class="nav-hamburger" id="hamburger" aria-label="Menu">
                 <span></span><span></span><span></span>
@@ -69,6 +105,10 @@ function renderHeader(currentBook) {
             overlay.classList.toggle('open');
         }
     });
+
+    // Theme toggle
+    document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+    updateThemeIcons();
 
     // Close mega-dropdown on outside click
     document.addEventListener('click', (e) => {
@@ -156,6 +196,10 @@ function buildMobileDrawer(books, base, currentBook) {
         <a href="${base}" class="drawer-link ${!currentBook ? 'active' : ''}">Inicio</a>
         <a href="${base}historia-cultura/" class="drawer-link">Historia y Cultura</a>
         ${adminLink}
+        <button class="drawer-theme-toggle" id="drawer-theme-toggle">
+            <span class="drawer-theme-label">Modo Oscuro</span>
+            <span class="drawer-theme-icon theme-toggle-icon">\uD83C\uDF19</span>
+        </button>
         <div class="drawer-divider"></div>
         <div class="drawer-testament">
             <button class="drawer-testament-toggle open" data-target="drawer-at">
@@ -185,6 +229,9 @@ function buildMobileDrawer(books, base, currentBook) {
     // Close drawer
     document.getElementById('drawer-close').addEventListener('click', closeDrawer);
     overlay.addEventListener('click', closeDrawer);
+
+    // Drawer theme toggle
+    document.getElementById('drawer-theme-toggle').addEventListener('click', toggleTheme);
 
     // Testament accordion toggles
     drawer.querySelectorAll('.drawer-testament-toggle').forEach(btn => {
