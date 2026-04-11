@@ -58,6 +58,14 @@ function renderHeader(currentBook) {
         const isOpen = dd.classList.toggle('open');
         btn.setAttribute('aria-expanded', isOpen);
         btn.classList.toggle('open', isOpen);
+
+        // Close any open map layers panel so it doesn't overlap
+        if (isOpen) {
+            const layersPanel = document.querySelector('.map-layers-panel.open');
+            const layersBtn = document.querySelector('.map-layers-btn');
+            if (layersPanel) layersPanel.classList.remove('open');
+            if (layersBtn) layersBtn.style.display = '';
+        }
     });
 
     // Hamburger toggle
