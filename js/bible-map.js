@@ -41,20 +41,24 @@ class BibleMap {
         };
 
         this.tiles = {
-            modern: L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
+            modern: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; Sources: Esri, HERE, Garmin, USGS',
                 maxZoom: 18, minZoom: 4
             }),
-            satellite: L.tileLayer('https://mt1.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
-                attribution: '&copy; Google Maps',
-                maxZoom: 20, minZoom: 4
+            satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; Sources: Esri, Maxar, Earthstar',
+                maxZoom: 19, minZoom: 4
+            }),
+            terrain: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}', {
+                attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; Sources: Esri, HERE, Garmin, USGS',
+                maxZoom: 18, minZoom: 4
             }),
             ancient: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
                 attribution: '&copy; <a href="https://www.esri.com/">Esri</a> &mdash; National Geographic',
                 maxZoom: 16, minZoom: 4
             })
         };
-        this.tileLabels = { modern: 'Moderno', satellite: 'Satelite', ancient: 'Antiguo' };
+        this.tileLabels = { modern: 'Moderno', satellite: 'Satelite', terrain: 'Terreno', ancient: 'Antiguo' };
 
         this.waterLabelLayer = null;
         this.waterLabelsVisible = true;
