@@ -1,6 +1,67 @@
 # Changelog — Biblia Estudio Interactivo
 
+## 2026-04-11
+
+### Google Maps Migration
+- **Problem:** Leaflet.js with OpenStreetMap/Esri tiles showed labels in multiple languages (Kazakh, Russian, Arabic, etc.) depending on the region, making the maps inconsistent and hard to read.
+- **Fix:** Replaced Leaflet.js entirely with **Google Maps JavaScript API**. Maps now display labels in the user's browser language natively.
+- **Custom overlays:** Created `EmojiMarkerOverlay` (extends `google.maps.OverlayView`) for emoji markers and `WaterLabelOverlay` for water body labels, preserving the same visual style as the Leaflet version.
+- **Tile types:** Mapped to Google Maps built-in types:
+  - Moderno = `roadmap`
+  - Satelite = `satellite`
+  - Terreno = `terrain`
+  - Antiguo = custom `StyledMapType` with vintage/retro color palette (sepia tones, muted water colors)
+- **Routes:** `google.maps.Polyline` with SVG dash patterns for dashed routes (Jacob's journey, Joseph sold to Egypt).
+- **Popups:** `google.maps.InfoWindow` with custom styled content, replacing Leaflet popups.
+- **API key:** `AIzaSyD1HFfJq1ziOEbd3U5O-tDbe-vsGsg7za4` (restricted by HTTP referrer in Google Cloud Console).
+- **Files changed:** `js/bible-map.js` (complete rewrite), `css/map.css`, `genesis/mapa/index.html`, `exodo/mapa/index.html`
+
+### Z-Index & Layers Panel Fix
+- **Problem:** The map's "Capas" button and layers panel (z-index: 1000/1001) appeared on top of the header's mega-dropdown (z-index: 200) because `.map-wrapper` didn't create its own stacking context.
+- **Fix 1:** Added `z-index: 1` to `.map-wrapper`, creating a stacking context that contains its children's z-indices. Header at z-index: 1100 now properly stacks above map controls.
+- **Fix 2:** Auto-close the map layers panel when the mega-dropdown opens, preventing visual overlap entirely.
+- **Files changed:** `css/main.css`, `css/map.css`, `js/layout.js`
+
 ## 2026-04-10
+
+### History & Culture Encyclopedia
+- Added a comprehensive **Historia y Cultura** section — an encyclopedia of biblical history and culture.
+- **20 articles** covering 5 categories:
+  - **Pueblos** (5): Caldeos, Egipto Antiguo, Cananeos, Filisteos, Hititas
+  - **Geografia** (4): Mesopotamia, Ur de los Caldeos, Tierra de Canaan, Desierto del Sinai
+  - **Vida Cotidiana** (5): Vida Patriarcal, Pastoreo y Nomadismo, Esclavitud en Egipto, Comercio Antiguo, Clases Sociales
+  - **Religion** (3): Religion Mesopotamica, Religion Egipcia, El Tabernaculo
+  - **Gobierno** (3): Pactos Antiguos, Ley Mosaica, Los Faraones
+- **Landing page:** Article grid grouped by category with search filter and category tab buttons.
+- **Article detail view:** Full article with content sections, key verses, related book chapters, and related articles. URL parameter routing (`?articulo=caldeos`).
+- **Navigation:** Added "Historia" link to header nav and "Historia y Cultura" link to mobile drawer. Added section link card on homepage.
+- **Files added:** `historia-cultura/index.html`, `css/historia.css`, `data/historia-cultura/articles.json`, `data/historia-cultura/categories.json`
+- **Files changed:** `index.html`, `js/layout.js`
+
+### Interactive Map — Water Body Labels
+- Added labeled names for all major bodies of water on both Genesis and Exodus maps.
+- **Genesis map (13 labels):** Mar Mediterraneo, Mar Rojo, Mar Muerto, Mar de Galilea, Rio Jordan, Rio Nilo, Rio Eufrates, Rio Tigris, Golfo Persico, Estrecho de Ormuz, Golfo de Suez, Golfo de Aqaba, Mar Caspio.
+- **Exodus map (8 labels):** Subset focused on Egypt-Sinai region.
+- Labels use italic serif font with text-shadow for readability. Each label has configurable fontSize, letterSpacing, and rotation.
+- Togglable via "Cuerpos de agua" checkbox in the Capas panel under "REFERENCIAS" section.
+- **Water label positioning fix:** Initial labels overlapped land because `L.divIcon` anchored from top-left. Fixed with `transform: translate(-50%, -50%)` to center-anchor each label on its coordinate. Adjusted font sizes for small water bodies (Dead Sea, Sea of Galilee, gulfs) to 8px.
+- **Files changed:** `js/bible-map.js`, `css/map.css`, `data/genesis/locations.json`, `data/exodo/locations.json`
+
+### Map Tile Switch to Esri
+- **Problem:** CartoDB Voyager / OpenStreetMap tiles displayed location labels in the region's native language (Kazakh for Caspian Sea, Arabic for Persian Gulf, etc.).
+- **Fix:** Switched all four tile layers to Esri services with consistent English labels:
+  - Modern: Esri World Street Map
+  - Satellite: Esri World Imagery
+  - Terrain: Esri World Topo Map
+  - Ancient: Esri NatGeo World Map
+- No API key required for Esri tiles.
+- **Note:** Later replaced by Google Maps migration (see 2026-04-11).
+- **Files changed:** `js/bible-map.js`
+
+### Map Frame Resize
+- **Problem:** Map container at 75vh was too tall, showing excessive areas (all of Africa, India) that were irrelevant to biblical geography.
+- **Fix:** Reduced map container to `50vh` with `min-height: 350px; max-height: 500px`. Responsive breakpoints: 45vh/300px/450px at 900px, 40vh/250px/400px at 500px.
+- **Files changed:** `css/map.css`
 
 ### Navigation & Layout Redesign
 - **Problem:** Header nav listed each book individually (Genesis, Exodo...), which would not scale to 66 books.
@@ -30,24 +91,7 @@
 ### Interactive Map — One Map Per Book
 - Each book now has its own dedicated map instance showing only that book's locations and routes.
 - Removed the multi-book filter system from individual book map pages.
-- The layers panel retains tile switching (Moderno/Satelite/Antiguo) and route toggle controls.
-
-### Ancient Map Tile Fix
-- **Problem:** The "Antiguo" map view used Esri World Physical Map tiles which only supported zoom level 10, showing "Map data not yet available" at higher zoom levels.
-- **Fix (attempt 1):** Switched to OpenTopoMap — worked but had a heat-map appearance.
-- **Fix (final):** Switched to **Esri NatGeo World Map** tiles (zoom 16), providing a classic National Geographic atlas style.
-- Added dynamic `maxZoom` handling in `switchTile()` so changing tile layers auto-adjusts the map's zoom limit.
-
-### Satellite View — Google Maps Imagery
-- Switched the satellite tile layer from the default provider to Google Maps imagery (`mt1.google.com/vt/lyrs=s`) for better detail when zooming in. No API key required.
-
-### Map Height Expansion
-- Increased map container from default to `75vh` (min 500px) for a better viewing experience.
-
-### Deployment
-- Renamed Cloudflare Pages project from `crucigrama-exodo` to **`biblia-estudio-interactivo`**.
-- Live URL: `https://biblia-estudio-interactivo.pages.dev`
-- Deploy command: `npx wrangler pages deploy . --project-name=biblia-estudio-interactivo --branch=master`
+- The layers panel retains tile switching (Moderno/Satelite/Terreno/Antiguo) and route toggle controls.
 
 ---
 
@@ -63,7 +107,7 @@
 - **Chapter summaries** — `data/{book}/chapters.json` with title, summary, and key verses per chapter.
 - **Quizzes** — 7 multiple-choice questions per chapter (630 total across 90 JSON files). Engine: `js/quiz-engine.js`.
 - **Crosswords** — Grouped by chapter range, algorithmically generated grids. Engine: `js/crossword-engine.js` + `js/crossword-game.js`.
-- **Interactive maps** — Leaflet.js-based with emoji markers, route polylines, and event popups. Engine: `js/bible-map.js`.
+- **Interactive maps** — Google Maps API-based with emoji markers, route polylines, water body labels, and event popups. Engine: `js/bible-map.js`.
 
 ### Book Landing Pages
 - Each book (`genesis/index.html`, `exodo/index.html`) has: overview, section link cards (Chapters, Map, Crosswords, Quizzes), chapter list with search filter.
@@ -78,46 +122,55 @@
 biblia-estudio/
   index.html              — Home page (navigation hub)
   build.js                — Node.js script to generate quiz HTML shells
+  CHANGELOG.md            — This file
   css/
-    main.css              — Global styles, layout, tabs, cards
+    main.css              — Global styles, layout, tabs, cards, mega-dropdown, mobile drawer
     crossword.css         — Crossword puzzle styles
-    map.css               — Map container, layers panel, markers, popups
+    map.css               — Map container, layers panel, markers, popups, water labels
     quiz.css              — Quiz page styles
+    historia.css          — History & Culture encyclopedia styles
   js/
     admin.js              — Admin mode (PIN: 1074, SHA-256 hashed)
-    layout.js             — Shared header/footer/breadcrumb injection
-    bible-map.js          — BibleMap class (Leaflet.js)
+    layout.js             — Shared header/footer/breadcrumb injection, mega-dropdown, mobile drawer
+    bible-map.js          — BibleMap class (Google Maps API), EmojiMarkerOverlay, WaterLabelOverlay
     crossword-engine.js   — CrosswordGenerator (grid algorithm)
     crossword-game.js     — CrosswordGame (interactive play)
     quiz-engine.js        — QuizEngine / MultipleChoiceQuiz
   data/
     books.json            — All 66 books metadata
+    historia-cultura/
+      categories.json     — 5 encyclopedia categories (pueblos, geografia, vida-cotidiana, religion, gobierno)
+      articles.json       — 20 historical/cultural articles
     genesis/
-      chapters.json       — 50 chapter summaries
-      locations.json      — 15 map locations + 3 routes
+      chapters.json       — 50 chapter summaries + study analysis
+      locations.json      — 15 map locations + 3 routes + 13 water body labels
       crosswords.json     — 5 sections, 20 puzzles
       quiz-cap-01.json    — Quiz per chapter (50 files)
       ...
     exodo/
-      chapters.json       — 40 chapter summaries
-      locations.json      — 14 map locations + 2 routes
+      chapters.json       — 40 chapter summaries + study analysis
+      locations.json      — 14 map locations + 2 routes + 8 water body labels
       crosswords.json     — 4 sections, 16 puzzles
       quiz-cap-01.json    — Quiz per chapter (40 files)
       ...
   genesis/
     index.html            — Book landing page
-    mapa/index.html       — Interactive map
+    mapa/index.html       — Interactive map (Google Maps)
     crucigramas/index.html — Crossword puzzles
     cuestionarios/        — 50 quiz chapter pages (generated by build.js)
   exodo/
     index.html            — Book landing page
-    mapa/index.html       — Interactive map
+    mapa/index.html       — Interactive map (Google Maps)
     crucigramas/index.html — Crossword puzzles
     cuestionarios/        — 40 quiz chapter pages (generated by build.js)
+  historia-cultura/
+    index.html            — History & Culture encyclopedia (landing + article detail views)
 ```
 
 ### Technical Stack
 - Pure HTML/CSS/JS — no framework, no build step for the site itself.
-- Leaflet.js (CDN) for interactive maps.
-- Tile layers: CartoDB Voyager (modern), Google Satellite, Esri NatGeo (ancient).
+- Google Maps JavaScript API (v=weekly) for interactive maps with custom overlays.
+- Map styles: Roadmap (modern), Satellite, Terrain, custom vintage StyledMapType (ancient).
 - Hosted on Cloudflare Pages, source on GitHub (`Rykimaruh/biblia-estudio`).
+- Deploy: `npx wrangler pages deploy . --project-name=biblia-estudio-interactivo --branch=main`
+- Live URL: `https://biblia-estudio-interactivo.pages.dev`
