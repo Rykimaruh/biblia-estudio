@@ -164,7 +164,7 @@ class BibleMap {
             const ls = wb.letterSpacing || '0px';
 
             const icon = L.divIcon({
-                html: `<div class="water-label" style="font-size:${fs};transform:rotate(${rot}deg);letter-spacing:${ls};">${wb.name}</div>`,
+                html: `<div class="water-label" style="font-size:${fs};transform:translate(-50%,-50%) rotate(${rot}deg);letter-spacing:${ls};">${wb.name}</div>`,
                 className: 'water-label-wrapper',
                 iconSize: [0, 0],
                 iconAnchor: [0, 0]

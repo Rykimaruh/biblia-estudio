@@ -304,73 +304,73 @@
     "waterBodies": [
         {
             "name": "Mar Mediterraneo",
-            "lat": 34.2,
-            "lng": 28.5,
-            "fontSize": "16px",
-            "letterSpacing": "6px",
+            "lat": 35.5,
+            "lng": 22.0,
+            "fontSize": "15px",
+            "letterSpacing": "8px",
             "rotation": 0
         },
         {
             "name": "Mar Rojo",
-            "lat": 23.5,
-            "lng": 37.0,
-            "fontSize": "14px",
-            "letterSpacing": "4px",
-            "rotation": -30
+            "lat": 21.0,
+            "lng": 38.5,
+            "fontSize": "13px",
+            "letterSpacing": "3px",
+            "rotation": -40
         },
         {
             "name": "Mar Muerto",
-            "lat": 31.52,
-            "lng": 35.47,
-            "fontSize": "10px",
-            "letterSpacing": "2px",
+            "lat": 31.15,
+            "lng": 35.48,
+            "fontSize": "8px",
+            "letterSpacing": "1px",
             "rotation": 0
         },
         {
             "name": "Mar de Galilea",
-            "lat": 32.82,
-            "lng": 35.55,
-            "fontSize": "9px",
-            "letterSpacing": "1px",
+            "lat": 33.1,
+            "lng": 35.52,
+            "fontSize": "8px",
+            "letterSpacing": "0px",
             "rotation": 0
         },
         {
             "name": "Rio Jordan",
-            "lat": 32.1,
-            "lng": 35.62,
-            "fontSize": "9px",
-            "letterSpacing": "1px",
+            "lat": 32.35,
+            "lng": 35.72,
+            "fontSize": "8px",
+            "letterSpacing": "0px",
             "rotation": -80
         },
         {
             "name": "Rio Nilo",
-            "lat": 27.5,
-            "lng": 31.2,
-            "fontSize": "13px",
-            "letterSpacing": "3px",
-            "rotation": -12
+            "lat": 26.0,
+            "lng": 32.0,
+            "fontSize": "12px",
+            "letterSpacing": "2px",
+            "rotation": -5
         },
         {
             "name": "Rio Eufrates",
-            "lat": 35.5,
-            "lng": 40.2,
-            "fontSize": "12px",
-            "letterSpacing": "3px",
-            "rotation": 30
+            "lat": 33.5,
+            "lng": 41.5,
+            "fontSize": "11px",
+            "letterSpacing": "2px",
+            "rotation": 40
         },
         {
             "name": "Rio Tigris",
-            "lat": 35.2,
-            "lng": 43.0,
-            "fontSize": "12px",
-            "letterSpacing": "3px",
-            "rotation": -20
+            "lat": 33.5,
+            "lng": 44.0,
+            "fontSize": "11px",
+            "letterSpacing": "2px",
+            "rotation": -25
         },
         {
             "name": "Golfo Persico",
-            "lat": 27.5,
-            "lng": 50.5,
-            "fontSize": "14px",
+            "lat": 26.5,
+            "lng": 52.0,
+            "fontSize": "13px",
             "letterSpacing": "5px",
             "rotation": -50
         },
@@ -378,25 +378,33 @@
             "name": "Estrecho de Ormuz",
             "lat": 26.6,
             "lng": 56.3,
-            "fontSize": "10px",
-            "letterSpacing": "2px",
+            "fontSize": "9px",
+            "letterSpacing": "1px",
             "rotation": 30
         },
         {
             "name": "Golfo de Suez",
-            "lat": 29.3,
-            "lng": 32.5,
-            "fontSize": "9px",
-            "letterSpacing": "1px",
-            "rotation": -22
+            "lat": 28.0,
+            "lng": 32.85,
+            "fontSize": "8px",
+            "letterSpacing": "0px",
+            "rotation": -30
         },
         {
             "name": "Golfo de Aqaba",
-            "lat": 28.5,
-            "lng": 34.75,
-            "fontSize": "9px",
-            "letterSpacing": "1px",
-            "rotation": -12
+            "lat": 27.5,
+            "lng": 34.62,
+            "fontSize": "8px",
+            "letterSpacing": "0px",
+            "rotation": -18
+        },
+        {
+            "name": "Mar Caspio",
+            "lat": 41.0,
+            "lng": 51.0,
+            "fontSize": "13px",
+            "letterSpacing": "4px",
+            "rotation": 0
         }
     ],
     "routes": [
