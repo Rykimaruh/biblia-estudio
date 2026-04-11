@@ -13,8 +13,9 @@
 }
 #bible-map {
     width: 100%;
-    height: 75vh;
-    min-height: 500px;
+    height: 50vh;
+    min-height: 350px;
+    max-height: 500px;
     z-index: 1;
     background: var(--color-cream);
 }
@@ -442,11 +443,11 @@
 
 /* ---- Responsive ---- */
 @media (max-width: 900px) {
-    #bible-map { height: 65vh; min-height: 400px; }
+    #bible-map { height: 45vh; min-height: 300px; max-height: 450px; }
     .map-layers-panel { width: 240px; }
 }
 @media (max-width: 500px) {
-    #bible-map { height: 55vh; min-height: 300px; }
+    #bible-map { height: 40vh; min-height: 250px; max-height: 400px; }
     .bible-popup .leaflet-popup-content { min-width: 200px; max-width: 260px; }
     .popup-header { font-size: 1rem; }
     .map-legend { flex-direction: column; gap: 0.5rem; }

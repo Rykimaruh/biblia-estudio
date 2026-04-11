@@ -31,6 +31,7 @@ function renderHeader(currentBook) {
                 <button class="nav-link" id="books-toggle" aria-expanded="false" aria-controls="mega-dropdown">
                     Libros <span class="books-arrow">&#9662;</span>
                 </button>
+                <a href="${base}historia-cultura/" class="nav-link">Historia</a>
                 ${adminLink}
             </nav>
             <button class="nav-hamburger" id="hamburger" aria-label="Menu">
@@ -153,6 +154,7 @@ function buildMobileDrawer(books, base, currentBook) {
             <button class="drawer-close" id="drawer-close">&times;</button>
         </div>
         <a href="${base}" class="drawer-link ${!currentBook ? 'active' : ''}">Inicio</a>
+        <a href="${base}historia-cultura/" class="drawer-link">Historia y Cultura</a>
         ${adminLink}
         <div class="drawer-divider"></div>
         <div class="drawer-testament">

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="book" content="">
+    <title>Historia y Cultura — Biblia Estudio Interactivo</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/historia.css">
+</head>
+<body>
+    <header id="site-header"></header>
+
+    <main>
+        <div class="breadcrumb" id="breadcrumb"></div>
+
+        <!-- Landing view: all articles -->
+        <div id="landing-view">
+            <h2>Historia y Cultura del Mundo Biblico</h2>
+            <p class="intro-text">
+                Explora el contexto historico y cultural de la Biblia. Conoce los pueblos,
+                las costumbres, la geografia y las civilizaciones que formaron el escenario
+                de los eventos biblicos.
+            </p>
+
+            <div class="hc-filter">
+                <label for="hc-search">Buscar:</label>
+                <input type="text" id="hc-search" placeholder="Buscar tema...">
+            </div>
+
+            <div class="hc-categories" id="category-tabs"></div>
+            <div id="articles-container"></div>
+        </div>
+
+        <!-- Article detail view -->
+        <div id="article-view" style="display:none;">
+            <a href="./" class="back-link" id="back-link">&larr; Volver a Historia y Cultura</a>
+            <div id="article-content"></div>
+        </div>
+    </main>
+
+    <footer id="site-footer"></footer>
+
+    <script src="../js/admin.js"></script>
+    <script src="../js/layout.js"></script>
+    <script>
+    let allArticles = [];
+    let categories = [];
+    let activeCategory = 'all';
+
+    // Check if viewing a specific article
+    const params = new URLSearchParams(window.location.search);
+    const articleId = params.get('articulo');
+
+    Promise.all([
+        fetch('../data/historia-cultura/articles.json').then(r => r.json()),
+        fetch('../data/historia-cultura/categories.json').then(r => r.json())
+    ]).then(([articles, cats]) => {
+        allArticles = articles;
+        categories = cats;
+
+        if (articleId) {
+            showArticle(articleId);
+        } else {
+            showLanding();
+        }
+    }).catch(err => {
+        console.error('Error loading data:', err);
+    });
+
+    function showLanding() {
+        document.getElementById('landing-view').style.display = '';
+        document.getElementById('article-view').style.display = 'none';
+        document.title = 'Historia y Cultura — Biblia Estudio Interactivo';
+
+        renderBreadcrumb([
+            { label: 'Inicio', href: '../' },
+            { label: 'Historia y Cultura' }
+        ]);
+
+        renderCategoryTabs();
+        renderArticles(allArticles);
+        setupSearch();
+    }
+
+    function renderCategoryTabs() {
+        const container = document.getElementById('category-tabs');
+        let html = `<button class="hc-cat-btn active" data-cat="all">Todos</button>`;
+        for (const cat of categories) {
+            html += `<button class="hc-cat-btn" data-cat="${cat.id}">${cat.icon} ${cat.name}</button>`;
+        }
+        container.innerHTML = html;
+
+        container.querySelectorAll('.hc-cat-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                activeCategory = btn.dataset.cat;
+                container.querySelectorAll('.hc-cat-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                filterArticles();
+            });
+        });
+    }
+
+    function renderArticles(articles) {
+        const container = document.getElementById('articles-container');
+        if (!articles.length) {
+            container.innerHTML = '<p class="no-results">No se encontraron articulos.</p>';
+            return;
+        }
+
+        // Group by category
+        const grouped = {};
+        for (const cat of categories) {
+            const catArticles = articles.filter(a => a.category === cat.id);
+            if (catArticles.length > 0) {
+                grouped[cat.id] = { category: cat, articles: catArticles };
+            }
+        }
+
+        let html = '';
+        for (const [catId, group] of Object.entries(grouped)) {
+            if (activeCategory !== 'all' && activeCategory !== catId) continue;
+
+            html += `<div class="hc-section">`;
+            html += `<h3 class="hc-section-title">${group.category.icon} ${group.category.name}</h3>`;
+            html += '<div class="hc-grid">';
+            for (const article of group.articles) {
+                const catObj = categories.find(c => c.id === article.category);
+                html += `
+                    <a href="?articulo=${article.id}" class="hc-card" data-search="${buildSearchText(article)}">
+                        <div class="hc-card-period">${article.period}</div>
+                        <h4 class="hc-card-title">${article.title}</h4>
+                        <p class="hc-card-summary">${article.summary}</p>
+                        <span class="hc-card-category">${catObj ? catObj.icon : ''} ${catObj ? catObj.name : ''}</span>
+                    </a>
+                `;
+            }
+            html += '</div></div>';
+        }
+
+        container.innerHTML = html;
+    }
+
+    function buildSearchText(article) {
+        let text = article.title + ' ' + article.summary + ' ' + article.period;
+        if (article.content) {
+            for (const section of article.content) {
+                text += ' ' + section.heading + ' ' + section.text;
+            }
+        }
+        return text.toLowerCase();
+    }
+
+    function setupSearch() {
+        const input = document.getElementById('hc-search');
+        input.addEventListener('input', () => filterArticles());
+    }
+
+    function filterArticles() {
+        const query = document.getElementById('hc-search').value.toLowerCase().trim();
+        let filtered = allArticles;
+
+        if (activeCategory !== 'all') {
+            filtered = filtered.filter(a => a.category === activeCategory);
+        }
+
+        if (query) {
+            filtered = filtered.filter(a => buildSearchText(a).includes(query));
+        }
+
+        renderArticles(filtered);
+    }
+
+    // ---- Article Detail View ----
+
+    function showArticle(id) {
+        const article = allArticles.find(a => a.id === id);
+        if (!article) {
+            document.getElementById('article-content').innerHTML = '<p>Articulo no encontrado.</p>';
+            document.getElementById('landing-view').style.display = 'none';
+            document.getElementById('article-view').style.display = '';
+            return;
+        }
+
+        document.getElementById('landing-view').style.display = 'none';
+        document.getElementById('article-view').style.display = '';
+        document.title = article.title + ' — Historia y Cultura';
+
+        renderBreadcrumb([
+            { label: 'Inicio', href: '../' },
+            { label: 'Historia y Cultura', href: './' },
+            { label: article.title }
+        ]);
+
+        const catObj = categories.find(c => c.id === article.category);
+
+        let html = `
+            <article class="hc-article">
+                <div class="hc-article-header">
+                    <span class="hc-article-category">${catObj ? catObj.icon + ' ' + catObj.name : ''}</span>
+                    <span class="hc-article-period">${article.period}</span>
+                </div>
+                <h2 class="hc-article-title">${article.title}</h2>
+                <p class="hc-article-summary">${article.summary}</p>
+        `;
+
+        // Content sections
+        for (const section of article.content) {
+            html += `
+                <div class="hc-article-section">
+                    <h3>${section.heading}</h3>
+                    <p>${section.text}</p>
+                </div>
+            `;
+        }
+
+        // Key verses
+        if (article.keyVerses && article.keyVerses.length) {
+            html += `<div class="hc-article-verses">
+                <h3>Versiculos Clave</h3>
+                <div class="hc-verse-tags">`;
+            for (const v of article.keyVerses) {
+                html += `<span class="hc-verse-tag">${v}</span>`;
+            }
+            html += '</div></div>';
+        }
+
+        // Related book chapters
+        if (article.bookChapters) {
+            html += `<div class="hc-article-chapters">
+                <h3>Capitulos Relacionados</h3>
+                <div class="hc-chapter-links">`;
+            for (const [book, chapters] of Object.entries(article.bookChapters)) {
+                const bookName = book.charAt(0).toUpperCase() + book.slice(1);
+                for (const ch of chapters) {
+                    html += `<a href="../${book}/" class="hc-chapter-link">${bookName} ${ch}</a>`;
+                }
+            }
+            html += '</div></div>';
+        }
+
+        // Related articles
+        if (article.relatedArticles && article.relatedArticles.length) {
+            html += `<div class="hc-article-related">
+                <h3>Articulos Relacionados</h3>
+                <div class="hc-related-grid">`;
+            for (const relId of article.relatedArticles) {
+                const rel = allArticles.find(a => a.id === relId);
+                if (rel) {
+                    const relCat = categories.find(c => c.id === rel.category);
+                    html += `
+                        <a href="?articulo=${rel.id}" class="hc-related-card">
+                            <span class="hc-related-icon">${relCat ? relCat.icon : ''}</span>
+                            <span class="hc-related-title">${rel.title}</span>
+                        </a>
+                    `;
+                }
+            }
+            html += '</div></div>';
+        }
+
+        html += '</article>';
+        document.getElementById('article-content').innerHTML = html;
+
+        // Scroll to top
+        window.scrollTo(0, 0);
+    }
+    </script>
+</body>
+</html>

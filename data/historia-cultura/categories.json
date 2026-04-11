@@ -1,0 +1,32 @@
+[
+    {
+        "id": "pueblos",
+        "name": "Pueblos y Civilizaciones",
+        "icon": "🏛",
+        "description": "Las grandes civilizaciones y pueblos mencionados en la Biblia"
+    },
+    {
+        "id": "geografia",
+        "name": "Geografia y Regiones",
+        "icon": "🌍",
+        "description": "Lugares, regiones y rutas del mundo biblico"
+    },
+    {
+        "id": "vida-cotidiana",
+        "name": "Vida Cotidiana",
+        "icon": "🏺",
+        "description": "Economia, agricultura, comercio, familia y clases sociales"
+    },
+    {
+        "id": "religion",
+        "name": "Religion y Culto",
+        "icon": "⛩",
+        "description": "Practicas religiosas, templos y sistemas de adoracion"
+    },
+    {
+        "id": "gobierno",
+        "name": "Gobierno y Leyes",
+        "icon": "📜",
+        "description": "Sistemas politicos, pactos, leyes y estructuras de poder"
+    }
+]
