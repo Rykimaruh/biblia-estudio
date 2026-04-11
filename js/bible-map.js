@@ -56,9 +56,13 @@ class BibleMap {
         };
         this.tileLabels = { modern: 'Moderno', satellite: 'Satelite', ancient: 'Antiguo' };
 
+        this.waterLabelLayer = null;
+        this.waterLabelsVisible = true;
+
         this._initMap();
         this._addMarkers();
         this._addRoutes();
+        this._addWaterLabels();
         this._createLayersPanel();
         this._renderLegend();
     }
@@ -147,6 +151,43 @@ class BibleMap {
         }
     }
 
+    /* ---- Water Body Labels ---- */
+
+    _addWaterLabels() {
+        if (!this.data.waterBodies || !this.data.waterBodies.length) return;
+
+        this.waterLabelLayer = L.layerGroup();
+
+        for (const wb of this.data.waterBodies) {
+            const fs = wb.fontSize || '12px';
+            const rot = wb.rotation || 0;
+            const ls = wb.letterSpacing || '0px';
+
+            const icon = L.divIcon({
+                html: `<div class="water-label" style="font-size:${fs};transform:rotate(${rot}deg);letter-spacing:${ls};">${wb.name}</div>`,
+                className: 'water-label-wrapper',
+                iconSize: [0, 0],
+                iconAnchor: [0, 0]
+            });
+
+            L.marker([wb.lat, wb.lng], { icon, interactive: false, keyboard: false })
+                .addTo(this.waterLabelLayer);
+        }
+
+        this.waterLabelLayer.addTo(this.map);
+    }
+
+    _toggleWaterLabels() {
+        if (!this.waterLabelLayer) return;
+        if (this.waterLabelsVisible) {
+            this.map.removeLayer(this.waterLabelLayer);
+        } else {
+            this.waterLabelLayer.addTo(this.map);
+        }
+        this.waterLabelsVisible = !this.waterLabelsVisible;
+        this._renderWaterToggle();
+    }
+
     /* ================================================
        LAYERS PANEL
        ================================================ */
@@ -187,6 +228,7 @@ class BibleMap {
 
     _renderPanel() {
         const hasRoutes = this.data.routes && this.data.routes.length > 0;
+        const hasWater = this.data.waterBodies && this.data.waterBodies.length > 0;
 
         let html = `
             <div class="layers-header">
@@ -197,6 +239,14 @@ class BibleMap {
                 <div class="layers-section-title">TIPO DE MAPA</div>
                 <div class="tile-options" id="panel-tiles"></div>
             </div>`;
+
+        if (hasWater) {
+            html += `
+            <div class="layers-section">
+                <div class="layers-section-title">REFERENCIAS</div>
+                <div id="panel-water"></div>
+            </div>`;
+        }
 
         if (hasRoutes) {
             html += `
@@ -212,6 +262,7 @@ class BibleMap {
             .addEventListener('click', () => this._closePanel());
 
         this._renderTileOptions();
+        if (hasWater) this._renderWaterToggle();
         if (hasRoutes) this._renderRouteOptions();
     }
 
@@ -243,6 +294,28 @@ class BibleMap {
         this.layersPanel.querySelectorAll('.tile-option').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.tile === type);
         });
+    }
+
+    /* ---- Water Labels Toggle ---- */
+
+    _renderWaterToggle() {
+        const container = this.layersPanel.querySelector('#panel-water');
+        if (!container) return;
+
+        const on = this.waterLabelsVisible;
+        container.innerHTML = `
+            <div class="route-item" id="water-toggle">
+                <span class="layer-checkbox small ${on ? 'checked' : ''}"
+                      style="border-color:#4682B4; ${on ? 'background:#4682B4;' : ''}">
+                    ${on ? '\u2713' : ''}
+                </span>
+                <span style="color:#4682B4; font-size:0.9rem;">\u{1F30A}</span>
+                <span class="route-item-label">Cuerpos de agua</span>
+            </div>
+        `;
+
+        container.querySelector('#water-toggle')
+            .addEventListener('click', () => this._toggleWaterLabels());
     }
 
     /* ---- Route Options ---- */

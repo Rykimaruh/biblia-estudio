@@ -301,6 +301,104 @@
             ]
         }
     ],
+    "waterBodies": [
+        {
+            "name": "Mar Mediterraneo",
+            "lat": 34.2,
+            "lng": 28.5,
+            "fontSize": "16px",
+            "letterSpacing": "6px",
+            "rotation": 0
+        },
+        {
+            "name": "Mar Rojo",
+            "lat": 23.5,
+            "lng": 37.0,
+            "fontSize": "14px",
+            "letterSpacing": "4px",
+            "rotation": -30
+        },
+        {
+            "name": "Mar Muerto",
+            "lat": 31.52,
+            "lng": 35.47,
+            "fontSize": "10px",
+            "letterSpacing": "2px",
+            "rotation": 0
+        },
+        {
+            "name": "Mar de Galilea",
+            "lat": 32.82,
+            "lng": 35.55,
+            "fontSize": "9px",
+            "letterSpacing": "1px",
+            "rotation": 0
+        },
+        {
+            "name": "Rio Jordan",
+            "lat": 32.1,
+            "lng": 35.62,
+            "fontSize": "9px",
+            "letterSpacing": "1px",
+            "rotation": -80
+        },
+        {
+            "name": "Rio Nilo",
+            "lat": 27.5,
+            "lng": 31.2,
+            "fontSize": "13px",
+            "letterSpacing": "3px",
+            "rotation": -12
+        },
+        {
+            "name": "Rio Eufrates",
+            "lat": 35.5,
+            "lng": 40.2,
+            "fontSize": "12px",
+            "letterSpacing": "3px",
+            "rotation": 30
+        },
+        {
+            "name": "Rio Tigris",
+            "lat": 35.2,
+            "lng": 43.0,
+            "fontSize": "12px",
+            "letterSpacing": "3px",
+            "rotation": -20
+        },
+        {
+            "name": "Golfo Persico",
+            "lat": 27.5,
+            "lng": 50.5,
+            "fontSize": "14px",
+            "letterSpacing": "5px",
+            "rotation": -50
+        },
+        {
+            "name": "Estrecho de Ormuz",
+            "lat": 26.6,
+            "lng": 56.3,
+            "fontSize": "10px",
+            "letterSpacing": "2px",
+            "rotation": 30
+        },
+        {
+            "name": "Golfo de Suez",
+            "lat": 29.3,
+            "lng": 32.5,
+            "fontSize": "9px",
+            "letterSpacing": "1px",
+            "rotation": -22
+        },
+        {
+            "name": "Golfo de Aqaba",
+            "lat": 28.5,
+            "lng": 34.75,
+            "fontSize": "9px",
+            "letterSpacing": "1px",
+            "rotation": -12
+        }
+    ],
     "routes": [
         {
             "id": "abraham-journey",
