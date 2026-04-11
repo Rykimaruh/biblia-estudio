@@ -7,241 +7,2450 @@
             "chapter": 1,
             "title": "Opresion en Egipto",
             "summary": "Los descendientes de Israel se multiplican grandemente en Egipto, y un nuevo faraon que no conocia a Jose los somete a dura esclavitud. Faraon ordena a las parteras hebreas matar a los ninos varones, pero ellas temen a Dios y los dejan vivir, por lo cual Dios las bendice.",
-            "keyVerses": ["Exodo 1:7", "Exodo 1:12", "Exodo 1:17"]
+            "keyVerses": [
+                "Exodo 1:7",
+                "Exodo 1:12",
+                "Exodo 1:17"
+            ],
+            "analysis": {
+                "themes": [
+                    "La opresión como instrumento fallido contra el plan de Dios",
+                    "La multiplicación del pueblo bajo aflicción",
+                    "La valentía de las parteras temerosas de Dios"
+                ],
+                "context": "Tras la muerte de José y el paso de varias generaciones, un nuevo faraón que no conocía a José ascendió al trono de Egipto, probablemente durante la dinastía XVIII o XIX. Los israelitas, que habían llegado como una familia de setenta personas, se habían multiplicado enormemente, lo cual generó temor político en los egipcios. La esclavitud impuesta incluía trabajos forzados en la construcción de las ciudades de almacenaje de Pitón y Ramsés, reflejo de las prácticas de corvea del antiguo Egipto.",
+                "keyPeople": [
+                    {
+                        "name": "Faraón",
+                        "description": "Rey de Egipto que no conocía a José y decretó la opresión de Israel"
+                    },
+                    {
+                        "name": "Sifra",
+                        "description": "Partera hebrea que desobedeció al faraón por temor a Dios"
+                    },
+                    {
+                        "name": "Fúa",
+                        "description": "Partera hebrea que junto a Sifra preservó la vida de los niños varones"
+                    }
+                ],
+                "insights": [
+                    "Cuanto más oprimía Egipto a Israel, más se multiplicaba el pueblo, demostrando que los planes humanos no pueden frustrar los propósitos divinos.",
+                    "Las parteras representan el primer acto de desobediencia civil registrado en la Biblia, motivado por el temor reverente a Dios por encima del temor al poder humano.",
+                    "Dios bendijo a las parteras con familias propias, mostrando que la fidelidad a Él trae recompensa incluso en medio de circunstancias adversas.",
+                    "El decreto de arrojar a los niños al Nilo es una ironía providencial: del mismo río que debía ser tumba de los hebreos, Dios rescatará al libertador de Su pueblo."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Génesis 46:3",
+                        "text": "Dios había prometido a Jacob que haría de él una gran nación en Egipto."
+                    },
+                    {
+                        "ref": "Génesis 15:13-14",
+                        "text": "La profecía a Abraham sobre la esclavitud de su descendencia durante cuatrocientos años y su posterior liberación."
+                    },
+                    {
+                        "ref": "Hechos 7:17-19",
+                        "text": "Esteban recuenta cómo el pueblo creció en Egipto y un rey astuto oprimió a los israelitas."
+                    },
+                    {
+                        "ref": "Proverbios 1:7",
+                        "text": "El temor del Señor es el principio de la sabiduría, principio que guió a las parteras en su decisión."
+                    }
+                ],
+                "reflection": [
+                    "¿En qué situaciones de mi vida he visto que la oposición o dificultad, lejos de detener el plan de Dios, lo ha impulsado?",
+                    "¿Estoy dispuesto a obedecer a Dios incluso cuando las autoridades humanas demandan lo contrario, como hicieron Sifra y Fúa?",
+                    "¿Cómo puedo confiar en las promesas de Dios cuando las circunstancias parecen ir en dirección opuesta?"
+                ]
+            }
         },
         {
             "chapter": 2,
             "title": "Nacimiento de Moises",
             "summary": "Moises nace de padres levitas y es puesto en una cesta en el rio Nilo, donde la hija de Faraon lo encuentra y lo adopta. Ya adulto, Moises mata a un egipcio que golpeaba a un hebreo y huye a Madian, donde se casa con Sefora y tiene un hijo.",
-            "keyVerses": ["Exodo 2:10", "Exodo 2:24"]
+            "keyVerses": [
+                "Exodo 2:10",
+                "Exodo 2:24"
+            ],
+            "analysis": {
+                "themes": [
+                    "La providencia de Dios en la preservación de Moisés",
+                    "La formación del libertador a través de experiencias diversas",
+                    "El clamor del oprimido llega a los oídos de Dios"
+                ],
+                "context": "Moisés nació durante el decreto de muerte contra los varones hebreos. Su madre lo escondió tres meses y luego lo colocó en una canasta de juncos en el Nilo, donde la hija de faraón lo encontró. Moisés fue criado en la corte egipcia con acceso a la mejor educación del mundo antiguo, pero también conocía su identidad hebrea. Su huida a Madián tras matar a un egipcio lo llevó al desierto, donde pasó cuarenta años como pastor, un período de preparación silenciosa antes de su llamamiento.",
+                "keyPeople": [
+                    {
+                        "name": "Jocabed",
+                        "description": "Madre de Moisés, de la tribu de Leví, que lo escondió y preparó la canasta para salvarlo"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Niño hebreo rescatado de las aguas, criado como príncipe egipcio, futuro libertador de Israel"
+                    },
+                    {
+                        "name": "La hija de Faraón",
+                        "description": "Princesa egipcia que rescató a Moisés del Nilo y lo adoptó como hijo"
+                    },
+                    {
+                        "name": "María (Miriam)",
+                        "description": "Hermana de Moisés que vigiló la canasta y sugirió a una nodriza hebrea"
+                    },
+                    {
+                        "name": "Séfora",
+                        "description": "Hija de Reuel (Jetro), sacerdote de Madián, que se convirtió en esposa de Moisés"
+                    }
+                ],
+                "insights": [
+                    "Dios usó irónicamente el mismo río decretado para matar a los hebreos como instrumento de salvación para Moisés, y la propia casa de faraón para criar al libertador.",
+                    "La madre de Moisés fue pagada por amamantar y criar a su propio hijo, mostrando la ingeniosa providencia de Dios que convierte las tragedias en bendiciones.",
+                    "Los cuarenta años de Moisés en el palacio le dieron conocimiento y autoridad; los cuarenta años en el desierto le dieron humildad y conocimiento del terreno donde guiaría a Israel.",
+                    "El capítulo termina con una declaración fundamental: Dios oyó el gemido de Israel, se acordó de Su pacto y miró con compasión. La liberación comienza cuando Dios actúa."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hechos 7:20-29",
+                        "text": "Esteban relata la historia de Moisés, destacando que fue poderoso en palabras y obras antes de huir a Madián."
+                    },
+                    {
+                        "ref": "Hebreos 11:23",
+                        "text": "Por la fe, los padres de Moisés lo escondieron tres meses porque vieron que era un niño hermoso."
+                    },
+                    {
+                        "ref": "Hebreos 11:24-26",
+                        "text": "Por la fe, Moisés rehusó ser llamado hijo de la hija de faraón, prefiriendo el oprobio de Cristo."
+                    },
+                    {
+                        "ref": "Génesis 15:13-14",
+                        "text": "El pacto con Abraham que Dios recordó al escuchar el clamor de Israel."
+                    }
+                ],
+                "reflection": [
+                    "¿Puedo reconocer los períodos de preparación silenciosa en mi vida como parte del plan de Dios, tal como los cuarenta años de Moisés en el desierto?",
+                    "¿Confío en que Dios escucha mi clamor y actúa según Su pacto, incluso cuando Su respuesta parece tardar?"
+                ]
+            }
         },
         {
             "chapter": 3,
             "title": "La Zarza Ardiente",
             "summary": "Dios se revela a Moises en una zarza que arde sin consumirse en el monte Horeb y lo llama para liberar a su pueblo de Egipto. Dios revela su nombre 'YO SOY EL QUE SOY' y promete sacar a Israel a una tierra que fluye leche y miel.",
-            "keyVerses": ["Exodo 3:6", "Exodo 3:14"]
+            "keyVerses": [
+                "Exodo 3:6",
+                "Exodo 3:14"
+            ],
+            "analysis": {
+                "themes": [
+                    "La revelación de Dios en la zarza ardiente",
+                    "La santidad de Dios y la reverencia debida",
+                    "El llamamiento divino y la revelación del nombre de Dios"
+                ],
+                "context": "Moisés se encontraba pastoreando el rebaño de su suegro Jetro en el monte Horeb (también llamado Sinaí), la montaña que más tarde sería el lugar donde Dios entregaría la Ley. La zarza que ardía sin consumirse era un fenómeno sobrenatural que simbolizaba la presencia de Dios. En la cultura del antiguo Cercano Oriente, quitarse las sandalias era señal de reverencia ante lo sagrado. La revelación del nombre divino YO SOY EL QUE SOY (YHWH) es uno de los momentos teológicos más significativos de toda la Escritura.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Pastor de ovejas en Madián, llamado por Dios desde la zarza ardiente para liberar a Israel"
+                    },
+                    {
+                        "name": "Dios (YHWH)",
+                        "description": "Se revela como el Dios de Abraham, Isaac y Jacob, y declara Su nombre eterno: YO SOY EL QUE SOY"
+                    },
+                    {
+                        "name": "Jetro (Reuel)",
+                        "description": "Suegro de Moisés, sacerdote de Madián, cuyo rebaño Moisés pastoreaba"
+                    }
+                ],
+                "insights": [
+                    "La zarza que ardía sin consumirse simboliza la presencia de Dios que purifica sin destruir, y también a Israel, un pueblo afligido pero no destruido por el fuego de la opresión.",
+                    "El nombre YO SOY EL QUE SOY (Éxodo 3:14) revela a Dios como el Ser autoexistente, eterno e inmutable, cuya esencia no depende de nada fuera de Sí mismo.",
+                    "Dios se identifica como el Dios de Abraham, Isaac y Jacob, conectando Su acción presente con las promesas del pacto hechas a los patriarcas siglos atrás.",
+                    "Moisés fue llamado precisamente cuando se sentía más inadecuado: anciano, fugitivo, pastor. Dios no busca capacidad humana sino disponibilidad y obediencia.",
+                    "La instrucción de quitarse las sandalias enseña que acercarse a Dios requiere reverencia, humildad y reconocimiento de Su absoluta santidad."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Juan 8:58",
+                        "text": "Jesús declara: 'Antes que Abraham naciera, yo soy', identificándose con el nombre divino revelado en la zarza."
+                    },
+                    {
+                        "ref": "Hechos 7:30-34",
+                        "text": "Esteban relata la aparición del ángel en la zarza ardiente y el llamado de Moisés."
+                    },
+                    {
+                        "ref": "Génesis 28:13",
+                        "text": "Dios se reveló a Jacob como el Dios de Abraham y de Isaac, la misma autoidentificación usada con Moisés."
+                    },
+                    {
+                        "ref": "Josué 5:15",
+                        "text": "El comandante del ejército del Señor ordena a Josué quitarse las sandalias, paralelo directo con la zarza ardiente."
+                    }
+                ],
+                "reflection": [
+                    "¿Reconozco los momentos en que Dios me llama, incluso cuando me siento inadecuado o poco preparado para la tarea?",
+                    "¿Cómo influye en mi vida de oración y adoración el conocer a Dios como el 'YO SOY', el Ser eterno y autoexistente?",
+                    "¿Me acerco a Dios con la reverencia y santidad que Su presencia demanda?"
+                ]
+            }
         },
         {
             "chapter": 4,
             "title": "Senales de Moises",
             "summary": "Dios da a Moises tres senales milagrosas para convencer al pueblo: la vara convertida en serpiente, la mano leprosa y el agua convertida en sangre. Moises objeta su falta de elocuencia, y Dios designa a Aaron como su portavoz; luego Moises regresa a Egipto.",
-            "keyVerses": ["Exodo 4:2", "Exodo 4:12", "Exodo 4:31"]
+            "keyVerses": [
+                "Exodo 4:2",
+                "Exodo 4:12",
+                "Exodo 4:31"
+            ],
+            "analysis": {
+                "themes": [
+                    "Las señales divinas como confirmación del llamamiento",
+                    "Las excusas humanas frente al llamado de Dios",
+                    "La obediencia y el regreso a Egipto"
+                ],
+                "context": "Moisés presentó múltiples objeciones al llamado de Dios: falta de credibilidad, incapacidad para hablar y finalmente una petición directa de que enviara a otro. Dios respondió con tres señales milagrosas: la vara convertida en serpiente, la mano leprosa y el agua del Nilo convertida en sangre. Estas señales estaban diseñadas para convencer tanto a Israel como a faraón. El misterioso episodio de la circuncisión del hijo de Moisés revela la seriedad con que Dios toma Sus pactos, incluso con Sus siervos escogidos.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Llamado por Dios pero resistente por inseguridad, finalmente obedece y regresa a Egipto"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Hermano de Moisés, designado por Dios como su portavoz ante faraón y el pueblo"
+                    },
+                    {
+                        "name": "Séfora",
+                        "description": "Esposa de Moisés que circuncidó a su hijo, salvando a Moisés del juicio divino"
+                    }
+                ],
+                "insights": [
+                    "Las tres señales dadas a Moisés tenían significado en el contexto egipcio: la serpiente representaba poder real, la lepra y su sanidad mostraban dominio sobre la enfermedad, y la sangre del Nilo desafiaba la fuente de vida de Egipto.",
+                    "La ira de Dios se encendió ante la última excusa de Moisés (v. 14), enseñando que hay un límite entre la humildad genuina y la desobediencia disfrazada de modestia.",
+                    "El incidente de la circuncisión (vv. 24-26) muestra que quien va a representar a Dios ante las naciones debe primero estar en obediencia completa al pacto divino.",
+                    "Dios acomodó la debilidad de Moisés dándole a Aarón como portavoz, mostrando Su gracia al trabajar con nuestras limitaciones sin excusar nuestra desobediencia."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Jeremías 1:6-9",
+                        "text": "Jeremías también argumentó incapacidad para hablar, y Dios respondió de manera similar: 'Yo estaré con tu boca'."
+                    },
+                    {
+                        "ref": "Génesis 17:10-14",
+                        "text": "El pacto de la circuncisión con Abraham, cuyo incumplimiento casi cuesta la vida a Moisés."
+                    },
+                    {
+                        "ref": "Marcos 16:17-18",
+                        "text": "Las señales acompañarían a los creyentes, confirmando la palabra, así como las señales confirmaron la misión de Moisés."
+                    },
+                    {
+                        "ref": "2 Corintios 12:9-10",
+                        "text": "El poder de Dios se perfecciona en la debilidad, principio visible en el llamamiento de Moisés."
+                    }
+                ],
+                "reflection": [
+                    "¿Qué excusas presento ante Dios para evitar obedecer Su llamado, y cuáles de ellas son simplemente temor disfrazado?",
+                    "¿Hay áreas de desobediencia en mi vida que debo resolver antes de poder servir efectivamente a Dios?",
+                    "¿Confío en que Dios suplirá lo que me falta cuando obedezco Su llamado?"
+                ]
+            }
         },
         {
             "chapter": 5,
             "title": "Faraon Rechaza a Dios",
             "summary": "Moises y Aaron se presentan ante Faraon pidiendo que deje salir al pueblo para celebrar una fiesta en el desierto, pero Faraon se niega y aumenta la carga de trabajo. Los israelitas deben fabricar ladrillos sin que se les provea paja, y culpan a Moises por empeorar su situacion.",
-            "keyVerses": ["Exodo 5:1", "Exodo 5:2"]
+            "keyVerses": [
+                "Exodo 5:1",
+                "Exodo 5:2"
+            ],
+            "analysis": {
+                "themes": [
+                    "El primer enfrentamiento con faraón y su rechazo",
+                    "El aumento de la opresión como respuesta al mensaje de Dios",
+                    "La prueba de fe cuando la obediencia empeora las circunstancias"
+                ],
+                "context": "Moisés y Aarón se presentaron ante faraón con el mensaje: 'Así dice el Señor, Dios de Israel: Deja ir a mi pueblo para que me celebre fiesta en el desierto.' La respuesta de faraón fue desafiante: '¿Quién es el Señor para que yo escuche su voz?' En el antiguo Egipto, el faraón era considerado un dios viviente, por lo que la demanda de un dios desconocido de esclavos resultaba insultante. Como represalia, faraón aumentó las cargas de trabajo, exigiendo la misma cuota de ladrillos sin proporcionar paja.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Mensajero de Dios ante faraón, cuestionado por el pueblo cuando la opresión aumenta"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Portavoz que acompaña a Moisés en la confrontación con faraón"
+                    },
+                    {
+                        "name": "Faraón",
+                        "description": "Rechaza al Dios de Israel y endurece la opresión como castigo por la petición"
+                    },
+                    {
+                        "name": "Capataces israelitas",
+                        "description": "Líderes intermedios del pueblo que fueron golpeados y luego reclamaron a Moisés"
+                    }
+                ],
+                "insights": [
+                    "La pregunta de faraón '¿Quién es el Señor?' se convierte en el tema central del Éxodo: las plagas responderán progresivamente a esta pregunta hasta que todo Egipto conozca al Señor.",
+                    "El empeoramiento de las condiciones tras el primer acto de obediencia es una prueba de fe recurrente: a veces la fidelidad a Dios trae oposición antes de traer liberación.",
+                    "La queja de Moisés a Dios (v. 22-23) es honesta y cruda, mostrando que la oración sincera incluye expresar frustración y confusión a Dios.",
+                    "Los capataces israelitas culparon a Moisés en lugar de a faraón, un patrón humano de dirigir la frustración contra quienes intentan ayudar en vez de contra el verdadero opresor."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Romanos 9:17",
+                        "text": "Pablo cita el propósito de Dios con faraón: mostrar Su poder y que Su nombre sea proclamado en toda la tierra."
+                    },
+                    {
+                        "ref": "Santiago 1:2-4",
+                        "text": "Las pruebas producen paciencia y madurez, principio visible en la prueba de Israel antes de la liberación."
+                    },
+                    {
+                        "ref": "Salmo 10:1",
+                        "text": "El salmista pregunta: '¿Por qué, Señor, te quedas lejos?', eco del sentir de Moisés ante el aparente silencio de Dios."
+                    },
+                    {
+                        "ref": "1 Pedro 4:12-13",
+                        "text": "No se sorprendan del fuego de la prueba; la dificultad tras la obediencia no significa ausencia de Dios."
+                    }
+                ],
+                "reflection": [
+                    "¿Cómo reacciono cuando la obediencia a Dios parece empeorar mi situación en lugar de mejorarla?",
+                    "¿Soy capaz de orar con honestidad radical ante Dios cuando no entiendo Sus caminos, como hizo Moisés?",
+                    "¿A quién culpo cuando las circunstancias se dificultan: al verdadero opresor o a quienes Dios ha puesto para ayudarme?"
+                ]
+            }
         },
         {
             "chapter": 6,
             "title": "Promesa Divina de Liberacion",
             "summary": "Dios reafirma su pacto con Israel y promete liberarlos con brazo extendido y grandes juicios, recordando su pacto con Abraham, Isaac y Jacob. Se presenta la genealogia de Moises y Aaron, confirmando su linaje levita, y Dios los envia nuevamente ante Faraon.",
-            "keyVerses": ["Exodo 6:6", "Exodo 6:7"]
+            "keyVerses": [
+                "Exodo 6:6",
+                "Exodo 6:7"
+            ],
+            "analysis": {
+                "themes": [
+                    "La renovación de las promesas del pacto",
+                    "La revelación progresiva del nombre y carácter de Dios",
+                    "La genealogía como conexión con la historia redentora"
+                ],
+                "context": "Ante la queja de Moisés, Dios renovó Sus promesas usando cuatro verbos clave: sacaré, libraré, redimiré y tomaré. Dios reveló que los patriarcas lo conocieron como El-Shaddai (Dios Todopoderoso) pero no por Su nombre YHWH en su pleno significado redentor. La genealogía de los versículos 14-25 no es una lista completa sino selectiva, enfocada en establecer la línea de Moisés y Aarón dentro de la tribu de Leví. Este capítulo sirve como un segundo comienzo narrativo tras el aparente fracaso del capítulo 5.",
+                "keyPeople": [
+                    {
+                        "name": "Dios (YHWH)",
+                        "description": "Renueva Sus promesas del pacto con cuatro declaraciones de redención"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Desanimado por el fracaso inicial, recibe nueva confirmación de su misión"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Hermano mayor de Moisés, su linaje levítico se establece en la genealogía"
+                    },
+                    {
+                        "name": "Amram y Jocabed",
+                        "description": "Padres de Moisés y Aarón, de la tribu de Leví"
+                    }
+                ],
+                "insights": [
+                    "Los cuatro verbos de redención (sacar, librar, redimir, tomar) prefiguran la obra completa de salvación: liberación del pecado, protección, rescate mediante precio y adopción como pueblo de Dios.",
+                    "La frase 'Yo soy el Señor' aparece repetidamente en este capítulo, enfatizando que la garantía de las promesas descansa en el carácter inmutable de Dios, no en las capacidades de Moisés.",
+                    "La genealogía interrumpe la narrativa para anclar la historia en la realidad: estos no son personajes míticos, sino personas reales dentro de un linaje verificable.",
+                    "Israel no escuchó a Moisés por la angustia de espíritu y la dura servidumbre (v. 9), mostrando cómo el sufrimiento prolongado puede dificultar la recepción del mensaje de esperanza."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Génesis 17:1",
+                        "text": "Dios se apareció a Abraham como El-Shaddai (Dios Todopoderoso), el nombre por el cual los patriarcas lo conocieron."
+                    },
+                    {
+                        "ref": "Levítico 26:12",
+                        "text": "'Andaré entre vosotros y seré vuestro Dios, y vosotros seréis mi pueblo', eco de la promesa 'os tomaré por mi pueblo'."
+                    },
+                    {
+                        "ref": "Romanos 8:15",
+                        "text": "El espíritu de adopción por el cual clamamos '¡Abba, Padre!' cumple la promesa de ser tomados como pueblo de Dios."
+                    },
+                    {
+                        "ref": "Tito 2:14",
+                        "text": "Cristo se dio por nosotros para redimirnos y purificar para sí un pueblo propio, eco de las cuatro promesas del Éxodo."
+                    }
+                ],
+                "reflection": [
+                    "¿Conozco a Dios solo por lo que he oído de Él, o estoy experimentando progresivamente Su carácter redentor en mi propia vida?",
+                    "¿Hay promesas de Dios que me resulta difícil creer debido al peso de mis circunstancias actuales?",
+                    "¿Cómo me anima saber que la garantía de las promesas de Dios no depende de mi capacidad sino de Su carácter?"
+                ]
+            }
         },
         {
             "chapter": 7,
             "title": "Primera Plaga: Sangre",
             "summary": "Dios endurece el corazon de Faraon y envia a Moises y Aaron a confrontarlo. Aaron arroja su vara que se convierte en serpiente y devora las varas de los magos de Egipto. La primera plaga convierte las aguas del Nilo en sangre, matando los peces y contaminando toda el agua.",
-            "keyVerses": ["Exodo 7:3", "Exodo 7:17", "Exodo 7:20"]
+            "keyVerses": [
+                "Exodo 7:3",
+                "Exodo 7:17",
+                "Exodo 7:20"
+            ],
+            "analysis": {
+                "themes": [
+                    "El endurecimiento del corazón de faraón",
+                    "El juicio de Dios sobre los dioses de Egipto",
+                    "La primera plaga: el agua convertida en sangre"
+                ],
+                "context": "Dios declaró que pondría a Moisés como dios para faraón y a Aarón como su profeta, invirtiendo la jerarquía de poder egipcia. Los magos de Egipto (la tradición los identifica como Janes y Jambres) pudieron replicar algunas señales mediante artes ocultas, pero esto solo empeoró la situación al duplicar las plagas. La primera plaga convirtió el Nilo en sangre, atacando directamente a Hapi, el dios del Nilo, y a Osiris, cuyo torrente sanguíneo se creía que era el Nilo. Egipto dependía completamente del Nilo para agricultura, agua potable y transporte.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Constituido como 'dios para faraón', ejecutor de los juicios divinos sobre Egipto"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Profeta de Moisés, quien extendió la vara sobre el Nilo para convertirlo en sangre"
+                    },
+                    {
+                        "name": "Faraón",
+                        "description": "Endureció su corazón tras la primera plaga, tal como Dios había anunciado"
+                    },
+                    {
+                        "name": "Magos de Egipto",
+                        "description": "Hechiceros que replicaron la señal de la serpiente y la plaga de sangre mediante sus artes secretas"
+                    }
+                ],
+                "insights": [
+                    "El endurecimiento del corazón de faraón presenta una tensión teológica profunda: en algunos textos faraón endurece su propio corazón, en otros Dios lo endurece. Ambas realidades coexisten: la soberanía divina y la responsabilidad humana.",
+                    "Cada plaga fue un juicio directo contra una deidad específica de Egipto, demostrando la supremacía absoluta de YHWH sobre todo el panteón egipcio.",
+                    "La capacidad de los magos de replicar la plaga de sangre solo empeoró el sufrimiento de Egipto: la imitación satánica siempre multiplica el daño, nunca lo soluciona.",
+                    "El Nilo era la fuente de vida de Egipto; convertirlo en sangre fue un golpe al corazón mismo de la civilización egipcia y una demostración de que YHWH controla lo que Egipto adoraba."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "2 Timoteo 3:8",
+                        "text": "Pablo menciona a Janes y Jambres como los magos que resistieron a Moisés, así como los falsos maestros resisten la verdad."
+                    },
+                    {
+                        "ref": "Apocalipsis 16:3-4",
+                        "text": "En los juicios finales, las aguas se convierten en sangre, eco directo de la primera plaga de Egipto."
+                    },
+                    {
+                        "ref": "Romanos 9:17-18",
+                        "text": "Pablo explica el propósito del endurecimiento de faraón: mostrar el poder de Dios y proclamar Su nombre."
+                    },
+                    {
+                        "ref": "Salmo 78:44",
+                        "text": "El salmista recuerda cómo Dios convirtió los ríos de Egipto en sangre para que no pudieran beber."
+                    }
+                ],
+                "reflection": [
+                    "¿Hay áreas en mi vida donde estoy endureciendo mi corazón ante la voz de Dios, ignorando Sus advertencias repetidas?",
+                    "¿En qué cosas pongo mi confianza que Dios podría estar señalando como ídolos modernos?",
+                    "¿Cómo me desafía saber que Dios es soberano incluso sobre los poderes que se le oponen?"
+                ]
+            }
         },
         {
             "chapter": 8,
             "title": "Plagas de Ranas y Piojos",
             "summary": "Dios envia la plaga de ranas que invaden todo Egipto; Faraon pide alivio y promete dejar ir al pueblo, pero endurece su corazon al cesar la plaga. Siguen las plagas de piojos y de moscas; los magos reconocen el dedo de Dios, pero Faraon continua negandose a liberar a Israel.",
-            "keyVerses": ["Exodo 8:10", "Exodo 8:19", "Exodo 8:22"]
+            "keyVerses": [
+                "Exodo 8:10",
+                "Exodo 8:19",
+                "Exodo 8:22"
+            ],
+            "analysis": {
+                "themes": [
+                    "La escalada de los juicios divinos sobre Egipto",
+                    "Las promesas vacías de faraón",
+                    "La distinción entre el pueblo de Dios y los opresores"
+                ],
+                "context": "Este capítulo narra tres plagas consecutivas: las ranas, los piojos (o mosquitos) y las moscas (o tábanos). Las ranas estaban asociadas con Heqet, la diosa egipcia de la fertilidad representada con cabeza de rana. Los piojos fueron la primera plaga que los magos no pudieron replicar, declarando: 'Este es el dedo de Dios.' La plaga de moscas introdujo un principio nuevo y crucial: la distinción entre Egipto y Gosén, donde habitaba Israel, demostrando que Dios protegía selectivamente a Su pueblo.",
+                "keyPeople": [
+                    {
+                        "name": "Faraón",
+                        "description": "Pidió alivio durante las plagas pero endureció su corazón cada vez que cesaban"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Intercedió ante Dios para quitar las ranas, demostrando que YHWH controla el tiempo de los juicios"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Extendió la vara para traer las plagas de ranas y piojos"
+                    },
+                    {
+                        "name": "Magos de Egipto",
+                        "description": "Admitieron que los piojos eran 'el dedo de Dios', incapaces de replicar esta plaga"
+                    }
+                ],
+                "insights": [
+                    "Cuando faraón pidió a Moisés que orara para quitar las ranas, Moisés le dio la opción de elegir el momento, demostrando que YHWH controla con precisión los tiempos y las circunstancias.",
+                    "La confesión de los magos, 'Este es el dedo de Dios' (v. 19), marca el punto donde el poder oculto reconoce su límite ante el poder del Dios verdadero.",
+                    "La distinción entre Gosén y el resto de Egipto durante la plaga de moscas es una demostración teológica: Dios conoce y protege a los Suyos en medio del juicio general.",
+                    "El patrón de faraón se establece claramente: ruega alivio durante la plaga, promete liberar al pueblo, pero endurece su corazón cuando la presión cesa. Este ciclo revela la naturaleza del arrepentimiento falso."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Lucas 11:20",
+                        "text": "Jesús dice: 'Si por el dedo de Dios echo fuera los demonios', usando la misma expresión que los magos de Egipto."
+                    },
+                    {
+                        "ref": "Apocalipsis 16:13",
+                        "text": "Espíritus inmundos semejantes a ranas salen de la boca del dragón, eco simbólico de la plaga de ranas."
+                    },
+                    {
+                        "ref": "Salmo 78:45",
+                        "text": "Envió enjambres de moscas que los devoraban, y ranas que los destruían."
+                    },
+                    {
+                        "ref": "Malaquías 3:18",
+                        "text": "Dios hace distinción entre el justo y el impío, entre el que sirve a Dios y el que no le sirve."
+                    },
+                    {
+                        "ref": "2 Pedro 2:9",
+                        "text": "El Señor sabe librar de la prueba a los piadosos y reservar a los injustos para el día del juicio."
+                    }
+                ],
+                "reflection": [
+                    "¿Mi arrepentimiento es genuino y permanente, o sigo el patrón de faraón de clamar a Dios en la crisis y olvidarlo cuando pasa?",
+                    "¿Confío en que Dios puede hacer distinción y protegerme incluso en medio de situaciones difíciles que afectan a mi entorno?",
+                    "¿Reconozco los límites del poder humano y de las soluciones terrenales frente a la soberanía de Dios?"
+                ]
+            }
         },
         {
             "chapter": 9,
             "title": "Peste, Ulceras y Granizo",
             "summary": "Dios envia la plaga de peste sobre el ganado egipcio, luego ulceras dolorosas sobre hombres y bestias, y finalmente una terrible tormenta de granizo que destruye cosechas y mata al ganado en el campo. Dios hace distincion entre Egipto y la tierra de Gosen donde habita Israel, pero Faraon sigue endureciendo su corazon.",
-            "keyVerses": ["Exodo 9:14", "Exodo 9:16", "Exodo 9:26"]
+            "keyVerses": [
+                "Exodo 9:14",
+                "Exodo 9:16",
+                "Exodo 9:26"
+            ],
+            "analysis": {
+                "themes": [
+                    "La intensificación del juicio divino sobre Egipto",
+                    "La soberanía de Dios sobre la naturaleza y la salud",
+                    "El propósito redentor detrás del juicio"
+                ],
+                "context": "Las plagas de este capítulo atacan con severidad creciente: la pestilencia del ganado destruyó la economía ganadera de Egipto (asociada con Hathor, la diosa vaca, y Apis, el toro sagrado); las úlceras afectaron la salud humana y animal (desafiando a Sekhmet, diosa de la sanidad); y el granizo, sin precedente en la historia de Egipto, destruyó cosechas y mató a quienes no buscaron refugio. Notablemente, antes del granizo, Dios advirtió que pusieran a resguardo personas y animales, mostrando misericordia incluso dentro del juicio.",
+                "keyPeople": [
+                    {
+                        "name": "Faraón",
+                        "description": "Admitió por primera vez: 'He pecado; el Señor es justo' (v. 27), pero volvió a endurecer su corazón"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Advirtió a faraón del granizo y oró para que cesara, demostrando el control de Dios sobre la tormenta"
+                    },
+                    {
+                        "name": "Siervos de faraón que temieron la palabra del Señor",
+                        "description": "Algunos egipcios obedecieron la advertencia divina y refugiaron a sus siervos y ganado"
+                    }
+                ],
+                "insights": [
+                    "Los magos no pudieron siquiera estar de pie ante Moisés por las úlceras (v. 11), evidenciando la derrota total del sistema religioso egipcio ante YHWH.",
+                    "Dios declaró explícitamente Su propósito: 'Para que sepas que no hay nadie como yo en toda la tierra' (v. 14). Los juicios no eran caprichosos sino pedagógicos y reveladores.",
+                    "La advertencia antes del granizo muestra que incluso en medio del juicio, Dios ofrece misericordia a quienes escuchan Su palabra, incluyendo a los egipcios que temieron al Señor.",
+                    "La confesión de faraón 'He pecado' (v. 27) es el primer reconocimiento verbal de culpa, pero su rápido endurecimiento posterior revela que las palabras sin cambio genuino de corazón son vacías.",
+                    "La distinción entre los siervos de faraón que temieron la palabra del Señor y los que la ignoraron muestra que la fe puede surgir incluso entre los opresores cuando Dios actúa."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Apocalipsis 16:21",
+                        "text": "Granizo enorme cae del cielo sobre los hombres en el juicio final, eco de la plaga de granizo en Egipto."
+                    },
+                    {
+                        "ref": "Romanos 9:17",
+                        "text": "Dios levantó a faraón para mostrar Su poder y para que Su nombre fuera proclamado en toda la tierra."
+                    },
+                    {
+                        "ref": "Salmo 105:32-33",
+                        "text": "Les dio granizo en lugar de lluvia, y fuego llameante en su tierra; hirió sus viñas y sus higueras."
+                    },
+                    {
+                        "ref": "Ezequiel 38:22",
+                        "text": "Dios usa granizo, fuego y azufre como instrumentos de juicio, continuando el patrón establecido en Éxodo."
+                    }
+                ],
+                "reflection": [
+                    "¿Reconozco que las advertencias de Dios son expresiones de misericordia que me dan oportunidad de buscar refugio?",
+                    "¿Mi confesión de pecado es genuina y produce un cambio real, o repito el patrón de faraón de arrepentimiento superficial?",
+                    "¿Comprendo que el juicio de Dios tiene un propósito redentor: que toda la tierra conozca que Él es el Señor?"
+                ]
+            }
         },
         {
             "chapter": 10,
             "title": "Langostas y Tinieblas",
             "summary": "La plaga de langostas devora todo lo verde que queda en Egipto despues del granizo, y luego tres dias de densas tinieblas cubren toda la tierra. Faraon ofrece concesiones parciales, pero Moises insiste en que todo el pueblo con sus ganados debe salir, y Faraon lo despide amenazandolo de muerte.",
-            "keyVerses": ["Exodo 10:2", "Exodo 10:21", "Exodo 10:26"]
+            "keyVerses": [
+                "Exodo 10:2",
+                "Exodo 10:21",
+                "Exodo 10:26"
+            ],
+            "analysis": {
+                "themes": [
+                    "Las últimas advertencias antes del juicio final",
+                    "La oscuridad como anticipo de la muerte",
+                    "La negociación fallida de faraón con Dios"
+                ],
+                "context": "La plaga de langostas devastó lo que el granizo había dejado, destruyendo completamente la vegetación de Egipto. Las langostas eran una calamidad temida en todo el antiguo Cercano Oriente. La plaga de tinieblas duró tres días y fue un ataque directo contra Ra, el dios sol, la deidad suprema del panteón egipcio. Que faraón, considerado hijo de Ra, no pudiera hacer nada ante la oscuridad total fue una humillación sin precedentes. Los propios siervos de faraón comenzaron a presionarlo para que dejara ir a Israel.",
+                "keyPeople": [
+                    {
+                        "name": "Faraón",
+                        "description": "Intentó negociar condiciones parciales de liberación, pero Moisés exigió la salida completa del pueblo con todo su ganado"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Se mantuvo firme en la demanda de liberación total, rechazando toda negociación parcial"
+                    },
+                    {
+                        "name": "Siervos de faraón",
+                        "description": "Rogaron a faraón que dejara ir a Israel, reconociendo que Egipto estaba destruido"
+                    }
+                ],
+                "insights": [
+                    "Los siervos de faraón dijeron: '¿No sabes aún que Egipto está destruido?' (v. 7). A veces los que rodean al líder terco ven la realidad con más claridad que él mismo.",
+                    "Faraón intentó negociar compromisos parciales: que fueran solo los hombres, o que dejaran el ganado. Dios no acepta obediencia parcial ni devoción a medias.",
+                    "Las tinieblas que se podían palpar (v. 21) simbolizan la oscuridad espiritual total: Egipto no podía ver, moverse ni funcionar. Es una anticipación simbólica de la muerte del primogénito.",
+                    "La declaración de Moisés 'ni una pezuña quedará atrás' (v. 26) expresa el principio de consagración total: todo lo que pertenece al pueblo de Dios debe ser liberado para servirle.",
+                    "Los israelitas tenían luz en sus moradas mientras Egipto estaba en tinieblas (v. 23), prefigurando la distinción entre los hijos de luz y los hijos de tinieblas."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Joel 2:1-2",
+                        "text": "El profeta describe el día del Señor con langostas y oscuridad, usando el lenguaje de las plagas de Egipto."
+                    },
+                    {
+                        "ref": "Mateo 27:45",
+                        "text": "Tinieblas cubrieron la tierra durante la crucifixión, eco de la novena plaga y símbolo del juicio sobre el pecado."
+                    },
+                    {
+                        "ref": "Juan 1:5",
+                        "text": "La luz resplandece en las tinieblas, y las tinieblas no la dominaron, principio visible en la luz de Gosén durante la oscuridad de Egipto."
+                    },
+                    {
+                        "ref": "Apocalipsis 9:1-3",
+                        "text": "Langostas apocalípticas como instrumento de juicio, paralelo con la octava plaga de Egipto."
+                    },
+                    {
+                        "ref": "1 Juan 1:5-6",
+                        "text": "Dios es luz y no hay tinieblas en Él; la comunión con Él nos saca de la oscuridad espiritual."
+                    }
+                ],
+                "reflection": [
+                    "¿Estoy intentando negociar con Dios una obediencia parcial, reteniendo áreas de mi vida que no quiero entregarle?",
+                    "¿Reconozco la diferencia entre vivir en la luz de Dios y permanecer en la oscuridad espiritual que impide ver y avanzar?",
+                    "¿Escucho las voces sabias a mi alrededor que me advierten cuando mi terquedad me está llevando a la destrucción?"
+                ]
+            }
         },
         {
             "chapter": 11,
             "title": "Anuncio de la Ultima Plaga",
             "summary": "Dios anuncia la decima y ultima plaga: la muerte de todos los primogenitos de Egipto, desde el primogenito de Faraon hasta el del esclavo. Moises advierte a Faraon que despues de esta plaga los egipcios rogaran a los israelitas que salgan, y el pueblo halla favor ante los egipcios.",
-            "keyVerses": ["Exodo 11:1", "Exodo 11:5", "Exodo 11:7"]
+            "keyVerses": [
+                "Exodo 11:1",
+                "Exodo 11:5",
+                "Exodo 11:7"
+            ],
+            "analysis": {
+                "themes": [
+                    "El juicio definitivo de Dios sobre Egipto",
+                    "La distinción entre Israel y Egipto",
+                    "La soberanía divina sobre la vida y la muerte"
+                ],
+                "context": "Este capítulo marca la culminación de las plagas sobre Egipto. Dios anuncia la última y más devastadora plaga: la muerte de todos los primogénitos egipcios. En el antiguo Cercano Oriente, el primogénito representaba la esperanza, la herencia y la continuidad del linaje familiar, lo cual hacía de esta plaga un golpe directo al corazón de la sociedad egipcia. Faraón mismo era considerado un dios viviente, y su incapacidad para proteger a su propio hijo demostraba la impotencia de los dioses de Egipto frente al Dios de Israel.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Profeta y mediador de Dios que anuncia con santa indignación la última plaga a Faraón"
+                    },
+                    {
+                        "name": "Faraón",
+                        "description": "Gobernante de Egipto cuya obstinación alcanza su punto máximo al rechazar la última advertencia"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Hermano de Moisés que lo acompaña ante Faraón como vocero"
+                    }
+                ],
+                "insights": [
+                    "Dios hace una clara distinción entre su pueblo y Egipto (11:7), mostrando que su juicio nunca es indiscriminado sino perfectamente justo y dirigido.",
+                    "La ira santa de Moisés al salir de la presencia de Faraón (11:8) refleja el celo legítimo por la justicia divina, diferente de la ira pecaminosa.",
+                    "El endurecimiento del corazón de Faraón cumple un propósito redentor mayor: que las maravillas de Dios se multipliquen y su nombre sea proclamado en toda la tierra (11:9).",
+                    "El favor que Dios concedió a Israel ante los egipcios (11:3) demuestra que Él puede cambiar la disposición de los corazones humanos según su voluntad soberana."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Éxodo 4:22-23",
+                        "text": "Dios declara a Israel como su primogénito, estableciendo el fundamento teológico para la muerte de los primogénitos de Egipto"
+                    },
+                    {
+                        "ref": "Romanos 9:17-18",
+                        "text": "Pablo cita el endurecimiento de Faraón para explicar la soberanía de Dios en mostrar misericordia o endurecer según su propósito"
+                    },
+                    {
+                        "ref": "Proverbios 21:1",
+                        "text": "El corazón del rey es como corrientes de agua en la mano del SEÑOR; Él lo dirige donde le place"
+                    },
+                    {
+                        "ref": "Apocalipsis 15:3-4",
+                        "text": "Los redimidos cantan el cántico de Moisés reconociendo que los juicios de Dios son justos y verdaderos"
+                    }
+                ],
+                "reflection": [
+                    "¿Cómo equilibras en tu comprensión la severidad del juicio de Dios con su amor y misericordia, sabiendo que ambos atributos son igualmente parte de su carácter?",
+                    "¿En qué áreas de tu vida podrías estar endureciendo tu corazón ante la voz de Dios, como Faraón lo hizo repetidamente?",
+                    "¿Qué significa para ti que Dios haga distinción entre los suyos y el mundo, y cómo debería esto afectar tu forma de vivir?"
+                ]
+            }
         },
         {
             "chapter": 12,
             "title": "La Pascua del Senor",
             "summary": "Dios instituye la Pascua: cada familia debe sacrificar un cordero sin defecto y poner su sangre en los postes de las puertas para que el angel destructor pase de largo. A medianoche mueren todos los primogenitos de Egipto, y Faraon finalmente deja salir a Israel; el pueblo sale con riquezas de los egipcios despues de 430 anos en Egipto.",
-            "keyVerses": ["Exodo 12:13", "Exodo 12:23", "Exodo 12:40"]
+            "keyVerses": [
+                "Exodo 12:13",
+                "Exodo 12:23",
+                "Exodo 12:40"
+            ],
+            "analysis": {
+                "themes": [
+                    "La Pascua como fundamento de la redención",
+                    "La sangre del cordero como medio de salvación",
+                    "El éxodo como acto liberador de Dios",
+                    "La memoria y la transmisión de la fe"
+                ],
+                "context": "El capítulo 12 es uno de los más trascendentales de toda la Escritura. La institución de la Pascua marca el nacimiento de Israel como nación redimida. En la cultura del antiguo Cercano Oriente, los sacrificios de animales eran comunes, pero la Pascua es única: el cordero debía ser sin defecto, su sangre aplicada en los postes de la puerta, y la cena comida con panes sin levadura y hierbas amargas, simbolizando la pureza, la protección divina y el sufrimiento de la esclavitud. Este evento redefine el calendario de Israel, estableciendo un nuevo comienzo para el pueblo de Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Transmite las instrucciones divinas para la celebración de la primera Pascua"
+                    },
+                    {
+                        "name": "Faraón",
+                        "description": "Finalmente cede y permite la salida de Israel tras la muerte de su propio primogénito"
+                    },
+                    {
+                        "name": "Los israelitas",
+                        "description": "Obedecen las instrucciones de la Pascua por fe y son protegidos del juicio"
+                    }
+                ],
+                "insights": [
+                    "El cordero pascual debía ser sin defecto (12:5), prefigurando a Cristo, el Cordero de Dios sin mancha ni contaminación (1 Pedro 1:19).",
+                    "La sangre no solo debía ser derramada, sino aplicada en los postes de la puerta (12:7); la redención requiere apropiación personal de la obra de Dios, no solo conocimiento intelectual.",
+                    "La instrucción de comer con los lomos ceñidos, las sandalias puestas y el cayado en la mano (12:11) enseña que la redención de Dios nos prepara para un nuevo caminar, no para la comodidad estática.",
+                    "Los 430 años de permanencia en Egipto (12:40-41) muestran que Dios cumple sus promesas con precisión, aunque los tiempos humanos parezcan excesivamente largos.",
+                    "La inclusión de una gran multitud mixta (12:38) muestra que desde el principio la gracia de Dios se extendía más allá de las fronteras étnicas de Israel."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "1 Corintios 5:7",
+                        "text": "Pablo declara que Cristo, nuestro Cordero pascual, ya ha sido sacrificado, conectando directamente la Pascua con la cruz"
+                    },
+                    {
+                        "ref": "Juan 1:29",
+                        "text": "Juan el Bautista presenta a Jesús como el Cordero de Dios que quita el pecado del mundo"
+                    },
+                    {
+                        "ref": "1 Pedro 1:18-19",
+                        "text": "Pedro enseña que fuimos redimidos con la sangre preciosa de Cristo, como de un cordero sin mancha"
+                    },
+                    {
+                        "ref": "Lucas 22:19-20",
+                        "text": "Jesús instituye la Santa Cena durante la celebración de la Pascua, dándole cumplimiento pleno"
+                    },
+                    {
+                        "ref": "Hebreos 11:28",
+                        "text": "Por la fe Moisés celebró la Pascua y el rociamiento de la sangre para que el destructor no tocara a los primogénitos"
+                    }
+                ],
+                "reflection": [
+                    "¿Has aplicado personalmente la sangre del Cordero de Dios a tu vida, o solo conoces la doctrina de la salvación de manera teórica?",
+                    "¿Qué prácticas concretas utilizas para transmitir la fe a la siguiente generación, así como Dios mandó a Israel enseñar la Pascua a sus hijos (12:26-27)?",
+                    "¿Vives con la actitud de peregrino preparado para caminar con Dios, o te has acomodado en tu propia 'Egipto' espiritual?"
+                ]
+            }
         },
         {
             "chapter": 13,
             "title": "Consagracion de los Primogenitos",
             "summary": "Dios ordena consagrar todo primogenito y celebrar la fiesta de los panes sin levadura como memorial perpetuo de la liberacion. Dios no guia al pueblo por el camino de los filisteos sino por el desierto hacia el Mar Rojo, y va delante de ellos en columna de nube de dia y columna de fuego de noche.",
-            "keyVerses": ["Exodo 13:2", "Exodo 13:21", "Exodo 13:22"]
+            "keyVerses": [
+                "Exodo 13:2",
+                "Exodo 13:21",
+                "Exodo 13:22"
+            ],
+            "analysis": {
+                "themes": [
+                    "La consagración de los primogénitos a Dios",
+                    "La guía divina mediante la columna de nube y fuego",
+                    "La importancia de la memoria y la enseñanza"
+                ],
+                "context": "Tras la salida de Egipto, Dios establece que todo primogénito le pertenece, como recordatorio perpetuo de que Él liberó a Israel de la esclavitud. En el mundo antiguo, el primogénito tenía derechos especiales de herencia y liderazgo; consagrarlo a Dios significaba reconocer que toda bendición proviene de Él. La columna de nube y fuego era una manifestación visible de la presencia de Dios (teofanía), algo sin paralelo en las religiones del antiguo Cercano Oriente, donde los dioses eran distantes e impredecibles. Dios deliberadamente no lleva a Israel por el camino más corto, la ruta costera hacia Filistea, sino por el desierto, mostrando que sus caminos no son los caminos humanos.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Lleva los huesos de José y guía al pueblo según la dirección divina"
+                    },
+                    {
+                        "name": "José",
+                        "description": "Patriarca cuya fe se manifiesta póstumamente al cumplirse su petición de que sus huesos fueran llevados a la tierra prometida"
+                    }
+                ],
+                "insights": [
+                    "La consagración de los primogénitos (13:2) establece el principio de que lo primero y lo mejor pertenece a Dios, un principio que se extiende a todas las áreas de la vida del creyente.",
+                    "Dios no llevó a Israel por el camino más corto (13:17) porque conocía su debilidad; la sabiduría divina a veces nos guía por rutas aparentemente ilógicas para protegernos y formarnos.",
+                    "Moisés llevó los huesos de José (13:19), honrando una promesa hecha cuatro siglos antes, lo cual enseña que la fidelidad a los pactos trasciende las generaciones.",
+                    "La columna de nube de día y de fuego de noche (13:21-22) muestra que la guía de Dios es continua e ininterrumpida, adaptándose a cada circunstancia de su pueblo."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Génesis 50:25",
+                        "text": "José hizo jurar a los hijos de Israel que llevarían sus huesos cuando Dios los visitara"
+                    },
+                    {
+                        "ref": "Lucas 2:22-23",
+                        "text": "Jesús fue presentado en el templo como primogénito consagrado al Señor, cumpliendo esta ley"
+                    },
+                    {
+                        "ref": "Salmo 78:14",
+                        "text": "De día los guió con la nube y toda la noche con resplandor de fuego"
+                    },
+                    {
+                        "ref": "Juan 8:12",
+                        "text": "Jesús se proclama la luz del mundo, cumpliendo el simbolismo de la columna de fuego que guiaba a Israel en la oscuridad"
+                    }
+                ],
+                "reflection": [
+                    "¿Qué significa para ti en la práctica consagrar 'lo primero' de tu vida a Dios: tu tiempo, tus recursos, tus prioridades?",
+                    "¿Puedes identificar momentos en que Dios te ha guiado por un camino más largo pero necesario para tu crecimiento espiritual?",
+                    "¿Cómo mantienes viva la memoria de lo que Dios ha hecho en tu vida para transmitirla a otros?"
+                ]
+            }
         },
         {
             "chapter": 14,
             "title": "Cruce del Mar Rojo",
             "summary": "Faraon persigue a Israel con su ejercito hasta el Mar Rojo, y el pueblo se llena de temor. Moises extiende su vara, Dios divide las aguas con un fuerte viento oriental, e Israel cruza en seco; cuando los egipcios los siguen, las aguas se cierran sobre ellos y todo el ejercito perece.",
-            "keyVerses": ["Exodo 14:13", "Exodo 14:21", "Exodo 14:31"]
+            "keyVerses": [
+                "Exodo 14:13",
+                "Exodo 14:21",
+                "Exodo 14:31"
+            ],
+            "analysis": {
+                "themes": [
+                    "La liberación sobrenatural de Dios",
+                    "La fe en medio de circunstancias imposibles",
+                    "La derrota total de los enemigos de Dios"
+                ],
+                "context": "El cruce del Mar Rojo (o Mar de los Juncos, en hebreo Yam Suf) es el evento redentor más significativo del Antiguo Testamento. La ubicación exacta sigue siendo debatida por los eruditos, pero el evento mismo es central para la identidad de Israel. Arqueológicamente, los carros egipcios eran la tecnología militar más avanzada de la época, lo que hace aún más impactante su destrucción total. Este evento se convertiría en el paradigma de salvación al que los profetas posteriores recurrirían constantemente para recordar a Israel el poder y la fidelidad de su Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Extiende su vara sobre el mar por mandato divino, actuando como instrumento de la liberación de Dios"
+                    },
+                    {
+                        "name": "Faraón",
+                        "description": "Persigue a Israel con su ejército, demostrando que su arrepentimiento fue superficial y motivado solo por el dolor"
+                    },
+                    {
+                        "name": "El ángel de Dios",
+                        "description": "Se interpone entre el campamento de Egipto y el de Israel, proporcionando protección sobrenatural"
+                    }
+                ],
+                "insights": [
+                    "La instrucción divina 'Estad firmes y ved la salvación del SEÑOR' (14:13) enseña que hay batallas que solo Dios puede pelear; nuestra tarea es confiar y obedecer.",
+                    "Pero inmediatamente Dios dice '¿Por qué clamas a mí? Di a los hijos de Israel que marchen' (14:15), mostrando que la fe genuina combina la confianza en Dios con la acción obediente.",
+                    "La misma columna que era luz para Israel era oscuridad para Egipto (14:20), ilustrando que la presencia de Dios es salvación para los suyos y juicio para los que se le oponen.",
+                    "El pueblo vio a los egipcios muertos en la orilla del mar (14:30); Dios no solo libera parcialmente, sino que elimina completamente la amenaza que esclavizaba a su pueblo.",
+                    "Israel creyó en el SEÑOR y en Moisés (14:31) después de ver la liberación; a veces Dios obra primero para que luego la fe sea fortalecida."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Isaías 43:16-19",
+                        "text": "Dios recuerda haber abierto camino en el mar, pero anuncia que hará algo nuevo aún mayor"
+                    },
+                    {
+                        "ref": "1 Corintios 10:1-2",
+                        "text": "Pablo interpreta el cruce del mar como un bautismo en Moisés, prefigurando el bautismo cristiano"
+                    },
+                    {
+                        "ref": "Hebreos 11:29",
+                        "text": "Por la fe cruzaron el Mar Rojo como por tierra seca, y los egipcios al intentarlo fueron ahogados"
+                    },
+                    {
+                        "ref": "Salmo 77:19-20",
+                        "text": "En el mar estaba tu camino, y tus sendas en las muchas aguas, y tus huellas no fueron halladas"
+                    },
+                    {
+                        "ref": "Romanos 6:6-7",
+                        "text": "Así como Egipto fue destruido en el mar, nuestro viejo hombre fue crucificado con Cristo para que el cuerpo de pecado sea destruido"
+                    }
+                ],
+                "reflection": [
+                    "¿Enfrentas algún 'Mar Rojo' en tu vida donde las circunstancias parecen imposibles? ¿Qué te dice este pasaje sobre el carácter de Dios en esas situaciones?",
+                    "¿Tiendes más a quedarte paralizado esperando que Dios actúe, o a actuar sin esperar su dirección? ¿Cómo equilibras la espera y la acción?",
+                    "¿Qué 'ejércitos egipcios' (hábitos, temores, ataduras) necesitas que Dios destruya definitivamente en tu vida?"
+                ]
+            }
         },
         {
             "chapter": 15,
             "title": "Cantico de Moises",
             "summary": "Moises e Israel cantan un himno de victoria celebrando la destruccion del ejercito egipcio en el mar y la grandeza del Senor. Maria la profetisa guia a las mujeres con panderos y danzas. Luego en Mara las aguas amargas son endulzadas, y Dios promete salud si Israel obedece sus mandamientos.",
-            "keyVerses": ["Exodo 15:1", "Exodo 15:2", "Exodo 15:26"]
+            "keyVerses": [
+                "Exodo 15:1",
+                "Exodo 15:2",
+                "Exodo 15:26"
+            ],
+            "analysis": {
+                "themes": [
+                    "La adoración como respuesta a la salvación",
+                    "Dios como guerrero y redentor",
+                    "La prueba y la provisión en el desierto"
+                ],
+                "context": "El cántico de Moisés (15:1-18) es considerado una de las composiciones poéticas más antiguas de la Biblia. La poesía hebrea utiliza paralelismo, metáforas y repetición para expresar verdades teológicas profundas. Miriam lidera la respuesta musical de las mujeres con panderos y danzas, lo cual era una práctica común en el antiguo Cercano Oriente para celebrar victorias militares. Sin embargo, apenas tres días después de esta gloriosa adoración, el pueblo murmura en Mara por las aguas amargas, revelando la fragilidad de la fe humana y la necesidad constante de la gracia divina.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Compone y lidera el primer gran himno de adoración de Israel, proclamando las obras de Dios"
+                    },
+                    {
+                        "name": "Miriam",
+                        "description": "Profetisa y hermana de Moisés que dirige la alabanza de las mujeres con pandero y danza"
+                    }
+                ],
+                "insights": [
+                    "El cántico comienza con 'Cantaré al SEÑOR porque ha triunfado gloriosamente' (15:1); la verdadera adoración surge espontáneamente como respuesta a la experiencia de la salvación de Dios.",
+                    "La declaración 'El SEÑOR es un guerrero' (15:3) presenta un aspecto del carácter divino que incomoda a muchos, pero que es esencial: Dios lucha activamente contra el mal y la opresión.",
+                    "La transición abrupta de la adoración extática a la murmuración en Mara (15:22-24) revela que las experiencias espirituales cumbre no garantizan la madurez; la fe debe probarse en lo cotidiano.",
+                    "En Mara, Dios muestra un madero que endulza las aguas amargas (15:25), una imagen que los Padres de la Iglesia vieron como prefiguración de la cruz que transforma la amargura de la vida."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Apocalipsis 15:3",
+                        "text": "Los vencedores cantan el cántico de Moisés y del Cordero junto al mar de cristal, uniendo la redención del Éxodo con la redención final"
+                    },
+                    {
+                        "ref": "Salmo 118:14",
+                        "text": "El SEÑOR es mi fortaleza y mi cántico, y ha sido salvación para mí, eco directo de Éxodo 15:2"
+                    },
+                    {
+                        "ref": "Santiago 1:2-4",
+                        "text": "La prueba de la fe produce paciencia, conectando con las pruebas del desierto que forman el carácter"
+                    },
+                    {
+                        "ref": "2 Corintios 1:3-4",
+                        "text": "Dios consuela en toda tribulación, así como proveyó agua dulce en medio de la amargura de Mara"
+                    }
+                ],
+                "reflection": [
+                    "¿Tu adoración es solo emocional en los momentos de victoria, o es también una decisión de fe en los momentos de prueba?",
+                    "¿Cómo manejas la transición entre las cumbres espirituales y los valles de la vida cotidiana?",
+                    "¿Qué 'aguas amargas' en tu vida necesitas que Dios transforme, y estás dispuesto a confiar en sus métodos?"
+                ]
+            }
         },
         {
             "chapter": 16,
             "title": "El Mana del Cielo",
             "summary": "El pueblo murmura contra Moises por hambre, y Dios provee codornices por la tarde y mana cada manana como pan del cielo. Dios instruye recoger una porcion diaria y doble el sexto dia para guardar el sabado; un gomer de mana se guarda en una vasija como testimonio para las generaciones futuras.",
-            "keyVerses": ["Exodo 16:4", "Exodo 16:15", "Exodo 16:35"]
+            "keyVerses": [
+                "Exodo 16:4",
+                "Exodo 16:15",
+                "Exodo 16:35"
+            ],
+            "analysis": {
+                "themes": [
+                    "La provisión diaria de Dios",
+                    "La obediencia y la confianza en medio de la escasez",
+                    "El sabbat como regalo divino"
+                ],
+                "context": "El maná es un fenómeno sin explicación natural completa. Aunque algunos han intentado identificarlo con secreciones de insectos en los tamariscos del Sinaí, la escala, regularidad y las características sobrenaturales descritas (desaparecía con el calor, no caía en sábado, se duplicaba el viernes) lo distinguen como provisión milagrosa. Las codornices que migran sobre el Sinaí son un fenómeno natural documentado, pero su llegada en el momento preciso señala la intervención divina. Este capítulo establece por primera vez la observancia del sábado antes de la entrega formal de la Ley en el Sinaí.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Mediador que intercede ante Dios por el pueblo y transmite las instrucciones sobre la recolección del maná"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Comunica al pueblo las palabras de Dios y es instruido para guardar una vasija de maná como testimonio para las generaciones futuras"
+                    }
+                ],
+                "insights": [
+                    "El maná debía recogerse cada mañana sin acumular para el día siguiente (16:19-20); Dios enseña a su pueblo a depender de Él diariamente, no a buscar seguridad en la acumulación.",
+                    "Los que recogieron mucho no tuvieron de más, y los que recogieron poco no tuvieron de menos (16:18); Dios provee con equidad y suficiencia, no con exceso ni escasez.",
+                    "La murmuración del pueblo no era solo contra Moisés sino contra Dios mismo (16:8); nuestras quejas sobre las circunstancias a menudo revelan una falta de confianza en la soberanía de Dios.",
+                    "La institución del reposo sabático antes de la Ley del Sinaí (16:23-30) muestra que el sábado no es meramente legalista sino un principio creacional de confianza y descanso en Dios.",
+                    "El mandato de guardar una vasija de maná (16:33) enseña la importancia de preservar testimonios tangibles de la fidelidad de Dios para las generaciones futuras."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Juan 6:31-35",
+                        "text": "Jesús se declara el verdadero pan del cielo, superior al maná que Moisés dio, porque da vida eterna"
+                    },
+                    {
+                        "ref": "Mateo 6:11",
+                        "text": "El Padrenuestro pide 'el pan de cada día', eco directo de la provisión diaria del maná"
+                    },
+                    {
+                        "ref": "2 Corintios 8:15",
+                        "text": "Pablo cita Éxodo 16:18 para enseñar sobre la generosidad y la igualdad en la provisión entre creyentes"
+                    },
+                    {
+                        "ref": "Apocalipsis 2:17",
+                        "text": "Cristo promete al vencedor el maná escondido, conectando la provisión del desierto con la recompensa escatológica"
+                    },
+                    {
+                        "ref": "Deuteronomio 8:3",
+                        "text": "El hombre no vive solo de pan sino de toda palabra que sale de la boca de Dios, lección aprendida mediante el maná"
+                    }
+                ],
+                "reflection": [
+                    "¿Confías en la provisión diaria de Dios o intentas acumular seguridad material por tu propia cuenta, sin depender de Él?",
+                    "¿Practicas el principio del descanso sabático, confiando en que Dios puede sostener tu vida aunque dejes de trabajar?",
+                    "¿Qué 'vasijas de maná' (testimonios de fidelidad divina) conservas para recordar y transmitir lo que Dios ha hecho?"
+                ]
+            }
         },
         {
             "chapter": 17,
             "title": "Agua de la Roca",
             "summary": "En Refidim el pueblo pelea con Moises por falta de agua, y Dios le ordena golpear la roca en Horeb, de la cual brota agua. Los amalecitas atacan a Israel, y mientras Moises mantiene sus manos levantadas con la vara de Dios, Josue prevalece en la batalla.",
-            "keyVerses": ["Exodo 17:6", "Exodo 17:11", "Exodo 17:15"]
+            "keyVerses": [
+                "Exodo 17:6",
+                "Exodo 17:11",
+                "Exodo 17:15"
+            ],
+            "analysis": {
+                "themes": [
+                    "La provisión de Dios en la crisis",
+                    "La guerra espiritual y la intercesión",
+                    "La tentación de dudar de la presencia de Dios"
+                ],
+                "context": "Refidim, donde ocurren ambos eventos de este capítulo, se encontraba en una zona árida del Sinaí donde la escasez de agua era una amenaza real de muerte. El nombre Masah (prueba) y Meriba (contienda) se convirtieron en sinónimos de incredulidad en la tradición bíblica posterior. La batalla contra Amalec es el primer conflicto militar de Israel como nación. Los amalecitas eran descendientes de Esaú y nómadas del desierto del Néguev, conocidos por atacar a los viajeros vulnerables. La imagen de Moisés con los brazos alzados mientras Josué pelea abajo es una de las escenas más memorables de la Escritura, ilustrando la relación entre la oración intercesora y la acción en el campo de batalla.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Golpea la roca por mandato divino para dar agua, y sostiene sus brazos en alto durante la batalla como acto de intercesión"
+                    },
+                    {
+                        "name": "Josué",
+                        "description": "Aparece por primera vez en la narrativa bíblica como líder militar que dirige a Israel en combate contra Amalec"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Sostiene el brazo derecho de Moisés durante la batalla, apoyando la intercesión"
+                    },
+                    {
+                        "name": "Hur",
+                        "description": "Sostiene el brazo izquierdo de Moisés, representando la comunidad de fe que apoya al líder en la intercesión"
+                    }
+                ],
+                "insights": [
+                    "La pregunta del pueblo '¿Está el SEÑOR entre nosotros o no?' (17:7) revela la raíz de toda incredulidad: cuestionar la presencia de Dios cuando las circunstancias son adversas.",
+                    "Dios instruye a Moisés a golpear la roca con la misma vara que golpeó el Nilo (17:5-6), mostrando que el instrumento de juicio se convierte en instrumento de provisión.",
+                    "La victoria sobre Amalec dependía de los brazos alzados de Moisés (17:11); las batallas espirituales se ganan tanto en la oración como en la acción directa.",
+                    "Moisés necesitó que Aarón y Hur sostuvieran sus brazos (17:12); incluso los líderes más fieles necesitan el apoyo de una comunidad. El liderazgo solitario no es el diseño de Dios.",
+                    "El altar llamado 'El SEÑOR es mi bandera' (YHWH-Nisi, 17:15) declara que la victoria pertenece a Dios, no al mérito humano."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "1 Corintios 10:4",
+                        "text": "Pablo revela que la roca espiritual que seguía a Israel era Cristo, dando significado cristológico profundo a este evento"
+                    },
+                    {
+                        "ref": "Juan 7:37-38",
+                        "text": "Jesús invita a los sedientos a venir a Él y beber, cumpliendo el simbolismo de la roca que da agua"
+                    },
+                    {
+                        "ref": "1 Timoteo 2:8",
+                        "text": "Pablo exhorta a los hombres a orar levantando manos santas, eco de la intercesión de Moisés con los brazos alzados"
+                    },
+                    {
+                        "ref": "Deuteronomio 25:17-19",
+                        "text": "Dios manda recordar lo que Amalec hizo a Israel, atacándolos por la retaguardia cuando estaban débiles y cansados"
+                    }
+                ],
+                "reflection": [
+                    "Cuando enfrentas escasez o crisis, ¿tu primera reacción es cuestionar la presencia de Dios o acudir a Él en oración?",
+                    "¿Tienes personas como Aarón y Hur que sostienen tus brazos en los momentos de cansancio espiritual, y eres tú ese apoyo para otros?",
+                    "¿Reconoces que tus victorias espirituales son resultado de la gracia de Dios (YHWH-Nisi) y no de tu propio esfuerzo?"
+                ]
+            }
         },
         {
             "chapter": 18,
             "title": "Visita de Jetro",
             "summary": "Jetro, suegro de Moises, llega con Sefora y los hijos de Moises y se regocija al escuchar como Dios libro a Israel de Egipto. Al ver que Moises juzga al pueblo solo desde la manana hasta la noche, Jetro le aconseja nombrar jueces capaces para los casos menores, reservando solo los asuntos dificiles para Moises.",
-            "keyVerses": ["Exodo 18:11", "Exodo 18:21", "Exodo 18:24"]
+            "keyVerses": [
+                "Exodo 18:11",
+                "Exodo 18:21",
+                "Exodo 18:24"
+            ],
+            "analysis": {
+                "themes": [
+                    "La sabiduría práctica en el liderazgo",
+                    "El consejo piadoso de fuentes inesperadas",
+                    "La delegación como principio divino de gobierno"
+                ],
+                "context": "Jetro (también llamado Reuel) era sacerdote de Madián, un pueblo descendiente de Abraham por Cetura. Su visita a Moisés es significativa porque un líder religioso no israelita reconoce la grandeza del Dios de Israel. En el antiguo Cercano Oriente, los sistemas judiciales eran generalmente centralizados en el rey o gobernante; la propuesta de Jetro de descentralizar la justicia era innovadora y reflejaba principios de gobierno sabio. Este capítulo forma un puente narrativo entre la liberación de Egipto y la entrega de la Ley en el Sinaí, mostrando que la organización práctica del pueblo era tan importante como la revelación teológica.",
+                "keyPeople": [
+                    {
+                        "name": "Jetro",
+                        "description": "Suegro madianita de Moisés, sacerdote que ofrece consejo sabio sobre la delegación del liderazgo y reconoce la grandeza de Dios"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Líder que humildemente acepta el consejo de su suegro y reorganiza el sistema de gobierno del pueblo"
+                    },
+                    {
+                        "name": "Séfora",
+                        "description": "Esposa madianita de Moisés que regresa con sus hijos tras haber sido enviada previamente a la casa de Jetro"
+                    },
+                    {
+                        "name": "Gersón y Eliezer",
+                        "description": "Hijos de Moisés cuyos nombres reflejan su experiencia como extranjero y la ayuda divina recibida"
+                    }
+                ],
+                "insights": [
+                    "Jetro declara 'Ahora sé que el SEÑOR es más grande que todos los dioses' (18:11), mostrando que el testimonio de las obras de Dios puede alcanzar y transformar incluso a quienes están fuera de la comunidad de fe.",
+                    "La disposición de Moisés a escuchar el consejo de su suegro pagano demuestra que la verdadera humildad reconoce la sabiduría dondequiera que se encuentre, sin orgullo espiritual.",
+                    "Los requisitos para los jueces incluían capacidad, temor de Dios, veracidad y no ser avaros (18:21); el liderazgo bíblico siempre combina competencia profesional con integridad moral.",
+                    "La estructura de líderes de mil, cien, cincuenta y diez (18:21) establece un modelo de gobierno compartido que previene el agotamiento del líder y acerca la justicia al pueblo."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hechos 6:1-7",
+                        "text": "Los apóstoles aplican el mismo principio de delegación al nombrar diáconos para no descuidar la oración y el ministerio de la Palabra"
+                    },
+                    {
+                        "ref": "Proverbios 11:14",
+                        "text": "En la abundancia de consejeros está la victoria, principio encarnado en la disposición de Moisés a escuchar"
+                    },
+                    {
+                        "ref": "1 Pedro 5:1-3",
+                        "text": "Pedro instruye a los ancianos a pastorear no por obligación ni por ganancia deshonesta, reflejando los criterios de Jetro para los jueces"
+                    },
+                    {
+                        "ref": "Números 11:16-17",
+                        "text": "Dios confirma y expande el principio de delegación al poner su Espíritu sobre los setenta ancianos de Israel"
+                    }
+                ],
+                "reflection": [
+                    "¿Estás dispuesto a recibir consejo sabio de personas que quizás no compartan tu misma tradición o trasfondo, como Moisés recibió de Jetro?",
+                    "¿Tu liderazgo o servicio tiende hacia la centralización agotadora o hacia la delegación sabia? ¿Qué te impide delegar?",
+                    "¿Los criterios que valoras al elegir líderes en tu comunidad de fe reflejan los estándares bíblicos de capacidad, integridad y temor de Dios?"
+                ]
+            }
         },
         {
             "chapter": 19,
             "title": "Israel en el Sinai",
             "summary": "Israel llega al monte Sinai y Dios les declara que si obedecen su voz seran un reino de sacerdotes y una nacion santa. El pueblo se consagra durante tres dias, y al tercer dia Dios desciende sobre el monte con truenos, relampagos, humo y sonido de trompeta, prohibiendo que nadie toque el monte.",
-            "keyVerses": ["Exodo 19:5", "Exodo 19:6", "Exodo 19:18"]
+            "keyVerses": [
+                "Exodo 19:5",
+                "Exodo 19:6",
+                "Exodo 19:18"
+            ],
+            "analysis": {
+                "themes": [
+                    "La santidad y trascendencia de Dios",
+                    "El pacto entre Dios e Israel",
+                    "La preparación necesaria para encontrarse con Dios"
+                ],
+                "context": "La llegada al monte Sinaí marca un punto culminante en la narrativa del Éxodo. En el antiguo Cercano Oriente existían tratados de vasallaje entre reyes poderosos y pueblos sometidos; el pacto del Sinaí sigue una estructura similar (prólogo histórico, estipulaciones, bendiciones y maldiciones) pero con una diferencia radical: el Rey que propone el pacto ya ha actuado en gracia liberando a su pueblo antes de exigir obediencia. Los fenómenos del Sinaí (truenos, relámpagos, nube densa, sonido de trompeta, fuego, temblor del monte) constituyen la teofanía más impresionante del Antiguo Testamento y comunican la absoluta santidad y majestad del Dios que se revela.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Mediador del pacto que asciende y desciende repetidamente entre Dios y el pueblo, único que puede acercarse a la presencia divina"
+                    },
+                    {
+                        "name": "El pueblo de Israel",
+                        "description": "Se comprometen a obedecer todo lo que el SEÑOR ha dicho, aceptando las condiciones del pacto"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Es llamado a subir con Moisés al monte, distinguido entre los sacerdotes para acercarse a Dios"
+                    }
+                ],
+                "insights": [
+                    "La frase 'Os llevé sobre alas de águilas y os traje a mí' (19:4) revela que el propósito de la liberación no era solo salir de Egipto sino llegar a la presencia de Dios; la salvación es relacional, no solo circunstancial.",
+                    "La designación de Israel como 'reino de sacerdotes y nación santa' (19:6) establece una vocación colectiva: todo el pueblo está llamado a mediar entre Dios y las naciones.",
+                    "Los límites estrictos alrededor del monte (19:12-13) enseñan que la cercanía con Dios es un privilegio que requiere preparación y reverencia, no un derecho que se toma casualmente.",
+                    "El pueblo debía lavarse, consagrarse y abstenerse durante tres días (19:10-15); encontrarse con el Dios santo requiere preparación intencional del cuerpo, el alma y el espíritu.",
+                    "La respuesta del pueblo 'Todo lo que el SEÑOR ha dicho, haremos' (19:8) es sincera pero ingenua; no conocen aún la profundidad de su propia debilidad ni la extensión de las demandas de Dios."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "1 Pedro 2:9",
+                        "text": "Pedro aplica a la iglesia los títulos de Éxodo 19:6: linaje escogido, real sacerdocio, nación santa, pueblo adquirido por Dios"
+                    },
+                    {
+                        "ref": "Hebreos 12:18-24",
+                        "text": "El autor contrasta la terrible teofanía del Sinaí con la gracia accesible del monte Sion y la sangre de Cristo"
+                    },
+                    {
+                        "ref": "Deuteronomio 7:6-8",
+                        "text": "Dios explica que eligió a Israel no por ser el pueblo más grande, sino por su amor y por guardar el juramento hecho a los patriarcas"
+                    },
+                    {
+                        "ref": "Apocalipsis 1:6",
+                        "text": "Cristo nos ha hecho reyes y sacerdotes para Dios, cumpliendo la promesa de Éxodo 19:6 en la iglesia"
+                    }
+                ],
+                "reflection": [
+                    "¿Te acercas a Dios con la reverencia y preparación que su santidad demanda, o has perdido el asombro ante su majestad?",
+                    "¿Vives consciente de tu vocación como sacerdote real, mediando entre Dios y el mundo que te rodea?",
+                    "¿Alguna vez has hecho promesas a Dios con sinceridad pero sin medir la profundidad de tu compromiso, como Israel en 19:8?"
+                ]
+            }
         },
         {
             "chapter": 20,
             "title": "Los Diez Mandamientos",
             "summary": "Dios proclama los Diez Mandamientos desde el monte Sinai, estableciendo los deberes del hombre hacia Dios y hacia el projimo. El pueblo tiembla de temor ante la presencia divina y pide que Moises sea el intermediario. Dios instruye no hacer dioses de plata ni oro y da instrucciones sobre el altar.",
-            "keyVerses": ["Exodo 20:2", "Exodo 20:3", "Exodo 20:20"]
+            "keyVerses": [
+                "Exodo 20:2",
+                "Exodo 20:3",
+                "Exodo 20:20"
+            ],
+            "analysis": {
+                "themes": [
+                    "La Ley como expresión del carácter de Dios",
+                    "El orden del amor: Dios primero, el prójimo después",
+                    "La gracia como fundamento de la obediencia",
+                    "La santidad práctica en la vida cotidiana"
+                ],
+                "context": "Los Diez Mandamientos (Decálogo, literalmente 'diez palabras') constituyen el corazón de la Ley mosaica y uno de los textos más influyentes en la historia de la civilización. A diferencia de otros códigos legales del antiguo Cercano Oriente, como el Código de Hammurabi, los mandamientos comienzan con una declaración de gracia ('Yo soy el SEÑOR tu Dios, que te saqué de Egipto') antes de las exigencias, estableciendo que la obediencia es respuesta al amor redentor, no medio para obtenerlo. Los primeros cuatro mandamientos regulan la relación con Dios (tabla vertical) y los últimos seis la relación con el prójimo (tabla horizontal), creando un marco ético integral que abarca toda la existencia humana.",
+                "keyPeople": [
+                    {
+                        "name": "Dios (YHWH)",
+                        "description": "Se revela directamente como el legislador supremo, hablando los mandamientos con su propia voz desde el monte"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Mediador que se acerca a la densa oscuridad donde estaba Dios y recibe instrucciones adicionales sobre la adoración"
+                    },
+                    {
+                        "name": "El pueblo de Israel",
+                        "description": "Receptores del pacto que tiemblan ante la presencia divina y piden que Moisés sea intermediario"
+                    }
+                ],
+                "insights": [
+                    "El preámbulo 'Yo soy el SEÑOR tu Dios, que te saqué de la tierra de Egipto' (20:2) establece que la Ley no es el camino hacia la salvación, sino la respuesta de un pueblo ya salvado por gracia; la obediencia siempre sigue a la redención, nunca la precede.",
+                    "La prohibición de imágenes (20:4-6) no se refiere solo a ídolos paganos, sino a cualquier intento humano de controlar o reducir a Dios a dimensiones manejables y comprensibles.",
+                    "El mandamiento del sábado (20:8-11) es el más extenso del Decálogo, conectando el descanso humano con el descanso creacional de Dios y dignificando a todos, incluso a los esclavos y extranjeros.",
+                    "Los mandamientos progresan de lo externo a lo interno: desde 'no matarás' hasta 'no codiciarás' (20:13-17), mostrando que Dios se interesa no solo por las acciones sino por los deseos del corazón.",
+                    "El temor del pueblo (20:18-20) y su petición de un mediador prefiguran la necesidad humana universal de un intercesor entre Dios santo y la humanidad pecadora, rol que Cristo cumple plenamente."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Mateo 22:37-40",
+                        "text": "Jesús resume toda la Ley en amar a Dios con todo el ser y al prójimo como a uno mismo, revelando el espíritu detrás del Decálogo"
+                    },
+                    {
+                        "ref": "Romanos 3:20",
+                        "text": "Pablo enseña que por las obras de la Ley ningún ser humano será justificado, pues la Ley revela el pecado pero no puede salvar"
+                    },
+                    {
+                        "ref": "Mateo 5:21-28",
+                        "text": "Jesús profundiza los mandamientos mostrando que el enojo es raíz del homicidio y la mirada lujuriosa es adulterio del corazón"
+                    },
+                    {
+                        "ref": "Gálatas 3:24",
+                        "text": "La Ley fue nuestro ayo para llevarnos a Cristo, para que fuéramos justificados por la fe"
+                    },
+                    {
+                        "ref": "Jeremías 31:33",
+                        "text": "Dios promete un nuevo pacto donde la Ley será escrita en el corazón, no en tablas de piedra"
+                    }
+                ],
+                "reflection": [
+                    "¿Entiendes los mandamientos de Dios como una carga legalista o como la expresión amorosa de un Padre que ya te ha redimido y desea lo mejor para ti?",
+                    "¿En cuál de los diez mandamientos sientes mayor desafío personal, y qué revela eso sobre el área de tu corazón que más necesita la gracia transformadora de Dios?",
+                    "¿Cómo vives el equilibrio entre la dimensión vertical (amor a Dios) y horizontal (amor al prójimo) de los mandamientos en tu vida diaria?"
+                ]
+            }
         },
         {
             "chapter": 21,
             "title": "Leyes sobre Esclavos y Violencia",
             "summary": "Dios establece leyes sobre el trato a los siervos hebreos, incluyendo su liberacion al septimo ano. Se dan ordenanzas sobre la justicia en casos de homicidio, agresion fisica y dano corporal, estableciendo el principio de vida por vida, ojo por ojo y diente por diente.",
-            "keyVerses": ["Exodo 21:2", "Exodo 21:23", "Exodo 21:24"]
+            "keyVerses": [
+                "Exodo 21:2",
+                "Exodo 21:23",
+                "Exodo 21:24"
+            ],
+            "analysis": {
+                "themes": [
+                    "Dignidad humana en la legislacion sobre esclavos",
+                    "Justicia proporcional y responsabilidad personal",
+                    "Proteccion de los vulnerables en la sociedad"
+                ],
+                "context": "Tras la entrega del Decalogo en el capitulo 20, Dios comienza a dar leyes civiles detalladas conocidas como el Libro del Pacto (capitulos 21-23). Estas leyes regulaban la vida cotidiana de Israel en areas como la esclavitud, la violencia y la negligencia. En el antiguo Cercano Oriente, codigos como el de Hammurabi contenian legislacion similar, pero las leyes de Israel se distinguen por su enfasis en la dignidad humana y la proteccion del debil. La esclavitud hebrea era temporal (seis anos) y estaba sujeta a regulaciones humanitarias sin precedente en su epoca.",
+                "keyPeople": [
+                    {
+                        "name": "Moises",
+                        "description": "Mediador que recibe y transmite las leyes de Dios al pueblo"
+                    }
+                ],
+                "insights": [
+                    "La ley del esclavo hebreo (vv. 2-6) limitaba la servidumbre a seis anos, un concepto revolucionario que reconocia la dignidad inherente de cada persona como imagen de Dios, contrastando con la esclavitud perpetua comun en otras culturas antiguas.",
+                    "El principio de 'ojo por ojo' (lex talionis, vv. 23-25) no promovia la venganza, sino que limitaba el castigo para que fuera proporcional al dano, evitando la escalada de violencia y estableciendo la base de la justicia equitativa.",
+                    "La ley sobre el buey que cornea (vv. 28-36) introduce el concepto de responsabilidad civil por negligencia: si el dueno sabia del peligro y no actuo, era culpable. Este principio sigue vigente en los sistemas juridicos modernos.",
+                    "La proteccion especial otorgada a la esclava (vv. 7-11) garantizaba derechos que otras culturas no reconocian, incluyendo el derecho a ser liberada si no se cumplian sus derechos basicos de alimento, vestido y trato conyugal."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Deuteronomio 15:12-18",
+                        "text": "Ampliacion de las leyes sobre la liberacion del esclavo hebreo, anadiendo que debia ser enviado con provision generosa."
+                    },
+                    {
+                        "ref": "Mateo 5:38-42",
+                        "text": "Jesus reinterpreta la lex talionis, ensenando a sus seguidores a ir mas alla de la justicia proporcional hacia la gracia y el amor al projimo."
+                    },
+                    {
+                        "ref": "Galatas 3:28",
+                        "text": "En Cristo no hay esclavo ni libre; el evangelio cumple el impulso liberador que ya se insinuaba en estas leyes del Antiguo Testamento."
+                    },
+                    {
+                        "ref": "Levitico 25:39-43",
+                        "text": "Prohibicion de tratar con dureza al hermano hebreo que se vendiera como esclavo, porque todos son siervos de Dios redimidos de Egipto."
+                    }
+                ],
+                "reflection": [
+                    "Si Dios regulo la esclavitud en lugar de abolirla inmediatamente, ?que nos ensena esto sobre como Dios obra progresivamente en la historia para transformar las estructuras sociales?",
+                    "?Como debemos aplicar el principio de responsabilidad por negligencia (el buey que cornea) en nuestra vida cotidiana y en nuestras relaciones con los demas?",
+                    "?De que manera la lex talionis representa un avance moral en su contexto historico, y como la ensenanza de Jesus la lleva a su plenitud?"
+                ]
+            }
         },
         {
             "chapter": 22,
             "title": "Leyes sobre Propiedad y Justicia",
             "summary": "Se establecen leyes sobre robo, restitucion, danos a la propiedad y responsabilidad por bienes prestados o en custodia. Tambien se dan mandamientos sobre la proteccion de los vulnerables: extranjeros, viudas y huerfanos, y se prohibe la usura contra el pobre.",
-            "keyVerses": ["Exodo 22:21", "Exodo 22:22", "Exodo 22:27"]
+            "keyVerses": [
+                "Exodo 22:21",
+                "Exodo 22:22",
+                "Exodo 22:27"
+            ],
+            "analysis": {
+                "themes": [
+                    "Proteccion de la propiedad y restitucion justa",
+                    "Responsabilidad social hacia los vulnerables",
+                    "Santidad y separacion moral del pueblo de Dios"
+                ],
+                "context": "Este capitulo continua el Libro del Pacto con leyes que regulan la vida economica y social de Israel. En una sociedad agraria donde la riqueza se media en ganado y cosechas, el robo y la destruccion de propiedad eran delitos graves que amenazaban la supervivencia de las familias. Las leyes sobre prestamos, extranjeros, viudas y huerfanos revelan la preocupacion de Dios por los sectores mas desprotegidos de la sociedad. A diferencia de otros codigos del antiguo Cercano Oriente, estas leyes no hacian distincion de clase social en la aplicacion de la justicia.",
+                "keyPeople": [
+                    {
+                        "name": "Moises",
+                        "description": "Legislador que comunica los estatutos divinos al pueblo de Israel"
+                    }
+                ],
+                "insights": [
+                    "La restitucion por robo (vv. 1-4) exigia devolver mas de lo robado (cuatro o cinco veces en el caso de animales), lo cual no solo compensaba a la victima sino que servia como disuasivo contra el delito, un principio de justicia restaurativa.",
+                    "La proteccion del extranjero, la viuda y el huerfano (vv. 21-24) se fundamenta en la experiencia de Israel como extranjeros en Egipto. Dios vincula la memoria historica de la opresion con la obligacion etica de proteger al vulnerable.",
+                    "La prohibicion de cobrar intereses al pobre (v. 25) y de retener la prenda del manto (vv. 26-27) muestran que la economia de Israel debia estar subordinada a la compasion; el lucro nunca debia prevalecer sobre la dignidad humana.",
+                    "Las leyes sobre hechiceria, bestialismo e idolatria (vv. 18-20) establecen limites absolutos de santidad, senalando que la identidad de Israel como pueblo de Dios requeria una separacion radical de las practicas paganas cananeas."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Lucas 19:8",
+                        "text": "Zaqueo promete restituir cuatro veces lo defraudado, aplicando voluntariamente el principio de restitucion de Exodo 22."
+                    },
+                    {
+                        "ref": "Santiago 1:27",
+                        "text": "La religion pura incluye visitar huerfanos y viudas, eco directo del mandato divino de proteger a los vulnerables."
+                    },
+                    {
+                        "ref": "Deuteronomio 24:10-13",
+                        "text": "Ampliacion de las leyes sobre prendas, exigiendo devolver la capa al pobre antes del anochecer para que pueda dormir."
+                    },
+                    {
+                        "ref": "Proverbios 22:22-23",
+                        "text": "Advertencia contra robar al pobre o aplastar al afligido, porque el Senor defendera su causa, reflejando el mismo espiritu de estas leyes."
+                    }
+                ],
+                "reflection": [
+                    "?Como deberiamos aplicar el principio de restitucion (devolver mas de lo tomado) cuando hemos danado a otros, ya sea material o emocionalmente?",
+                    "?De que formas practicas podemos proteger a los 'extranjeros, viudas y huerfanos' de nuestra sociedad actual, siguiendo el corazon de estas leyes?"
+                ]
+            }
         },
         {
             "chapter": 23,
             "title": "Justicia y Fiestas Anuales",
             "summary": "Dios ordena justicia imparcial, prohibe el falso testimonio y el soborno, y manda guardar el ano sabatico y el dia de reposo. Se establecen las tres fiestas anuales: los panes sin levadura, la siega y la cosecha. Dios promete enviar su angel delante de Israel para guiarlos a la tierra prometida.",
-            "keyVerses": ["Exodo 23:2", "Exodo 23:20", "Exodo 23:25"]
+            "keyVerses": [
+                "Exodo 23:2",
+                "Exodo 23:20",
+                "Exodo 23:25"
+            ],
+            "analysis": {
+                "themes": [
+                    "Justicia imparcial y verdad en los tribunales",
+                    "Ritmo sagrado: descanso y fiestas del Senor",
+                    "Promesa divina de conquista y provision en la tierra"
+                ],
+                "context": "Este capitulo concluye el Libro del Pacto con tres secciones: leyes sobre la justicia y la verdad (vv. 1-9), leyes sobre el descanso sabatico y las tres fiestas anuales (vv. 10-19), y la promesa de guia divina hacia la tierra prometida (vv. 20-33). Las tres fiestas — Panes sin Levadura, Siega (Pentecostes) y Cosecha (Tabernaculos) — estructuraban el calendario religioso de Israel y recordaban la dependencia del pueblo hacia Dios. La prohibicion de hacer pacto con los habitantes de Canaan anticipaba los peligros de la asimilacion religiosa.",
+                "keyPeople": [
+                    {
+                        "name": "El Angel del Senor",
+                        "description": "Enviado divino prometido para guiar y proteger a Israel en su camino a la tierra prometida (v. 20)"
+                    }
+                ],
+                "insights": [
+                    "La prohibicion de seguir a la mayoria para hacer el mal (v. 2) establece que la verdad y la justicia no se determinan por consenso popular. El creyente esta llamado a defender lo correcto aunque sea impopular.",
+                    "El ano sabatico para la tierra (vv. 10-11) y el dia de reposo semanal (v. 12) revelan que el descanso no es solo un beneficio humano sino un principio creacional que se extiende a la tierra, los animales y los sirvientes.",
+                    "Las tres fiestas anuales (vv. 14-17) marcaban el ritmo espiritual de Israel: la Pascua recordaba la redencion, Pentecostes celebraba la provision, y Tabernaculos agradecia la cosecha completa. Juntas narraban la historia de la salvacion.",
+                    "La promesa de enviar un angel delante de Israel (vv. 20-23) va acompanada de la condicion de obediencia. La conquista de la tierra no seria solo militar sino espiritual, dependiendo de la fidelidad del pueblo al pacto."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hechos 2:1-4",
+                        "text": "La venida del Espiritu Santo ocurre en Pentecostes, cumpliendo tipologicamente la fiesta de la siega con una cosecha espiritual de almas."
+                    },
+                    {
+                        "ref": "Juan 7:37-38",
+                        "text": "Jesus proclama ser el agua viva durante la fiesta de los Tabernaculos, cumpliendo el simbolismo de la provision divina."
+                    },
+                    {
+                        "ref": "Levitico 25:1-7",
+                        "text": "Desarrollo completo de la ley del ano sabatico para la tierra, con promesa de provision sobrenatural en el sexto ano."
+                    },
+                    {
+                        "ref": "Deuteronomio 16:16-17",
+                        "text": "Repeticion del mandato de las tres fiestas anuales, anadiendo que nadie debia presentarse con las manos vacias ante el Senor."
+                    },
+                    {
+                        "ref": "Isaias 1:17",
+                        "text": "El llamado profetico a buscar la justicia y defender al oprimido refleja el espiritu de las leyes judiciales de este capitulo."
+                    }
+                ],
+                "reflection": [
+                    "?En que situaciones nos vemos tentados a 'seguir a la mayoria' en contra de lo que sabemos que es correcto, y como podemos resistir esa presion?",
+                    "?Que papel juega el descanso intencional (sabatico) en nuestra vida espiritual, y como podemos recuperar ritmos sagrados de descanso y celebracion?",
+                    "?Como se relaciona la obediencia al pacto con las promesas de Dios en nuestra propia experiencia de fe?"
+                ]
+            }
         },
         {
             "chapter": 24,
             "title": "Confirmacion del Pacto",
             "summary": "Moises lee el libro del pacto al pueblo, y todo Israel responde: 'Todo lo que el Senor ha dicho, haremos y obedeceremos.' Moises rocía la sangre del pacto sobre el pueblo. Luego Moises, Aaron, Nadab, Abihu y setenta ancianos suben al monte y ven al Dios de Israel; Moises sube a la cima y permanece cuarenta dias y cuarenta noches.",
-            "keyVerses": ["Exodo 24:7", "Exodo 24:10", "Exodo 24:18"]
+            "keyVerses": [
+                "Exodo 24:7",
+                "Exodo 24:10",
+                "Exodo 24:18"
+            ],
+            "analysis": {
+                "themes": [
+                    "Ratificacion solemne del pacto con sangre",
+                    "Comunion entre Dios y su pueblo",
+                    "Moises como mediador entre Dios e Israel"
+                ],
+                "context": "Este capitulo narra uno de los momentos mas solemnes de la historia biblica: la ratificacion formal del pacto sinatico. Tras recibir las leyes del Libro del Pacto (capitulos 21-23), el pueblo se compromete a obedecerlas, y Moises sella el pacto con sangre rociada sobre el altar y el pueblo. Luego, Moises, Aaron, Nadab, Abihu y setenta ancianos suben al monte y tienen una vision de Dios — un evento sin paralelo en el Antiguo Testamento. Finalmente, Moises asciende solo para recibir las tablas de piedra, permaneciendo cuarenta dias en la presencia de Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Moises",
+                        "description": "Mediador del pacto que rocio la sangre, subio al monte y recibio las tablas de la ley"
+                    },
+                    {
+                        "name": "Aaron",
+                        "description": "Hermano de Moises, acompano a los ancianos en la vision de Dios en el monte"
+                    },
+                    {
+                        "name": "Nadab y Abihu",
+                        "description": "Hijos de Aaron que subieron al monte con los ancianos y contemplaron la gloria de Dios"
+                    },
+                    {
+                        "name": "Josue",
+                        "description": "Servidor de Moises que lo acompano parte del camino al ascender al monte Sinai"
+                    }
+                ],
+                "insights": [
+                    "La respuesta unanime del pueblo — 'Todas las palabras que el Senor ha dicho, haremos' (v. 3) — muestra tanto la solemnidad del compromiso como la fragilidad humana, pues pronto quebrarian esta promesa con el becerro de oro.",
+                    "La sangre del pacto rociada sobre el pueblo (vv. 6-8) prefigura la sangre de Cristo que sella el nuevo pacto. Asi como la sangre de animales ratifico el pacto antiguo, la sangre de Jesus ratifico el pacto eterno.",
+                    "La vision de Dios por los ancianos (vv. 9-11) es extraordinaria: vieron al Dios de Israel, comieron y bebieron en su presencia, y no murieron. Esto anticipa la comunion intima que Dios desea tener con su pueblo.",
+                    "Los cuarenta dias de Moises en el monte (v. 18) establecen un patron biblico de periodos de cuarenta dias asociados con preparacion y revelacion divina, que se repite en Elias y en la tentacion de Jesus."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hebreos 9:18-22",
+                        "text": "El autor de Hebreos interpreta la sangre del pacto de Exodo 24 como tipo de la sangre de Cristo que purifica la conciencia."
+                    },
+                    {
+                        "ref": "Mateo 26:28",
+                        "text": "Jesus en la ultima cena dice 'esta es mi sangre del nuevo pacto', haciendo referencia directa a la ceremonia de ratificacion de Exodo 24:8."
+                    },
+                    {
+                        "ref": "1 Reyes 19:8",
+                        "text": "Elias camina cuarenta dias hasta Horeb (Sinai), replicando la experiencia de Moises en el monte de Dios."
+                    },
+                    {
+                        "ref": "Apocalipsis 4:1-3",
+                        "text": "La vision del trono de Dios con apariencia de piedras preciosas evoca la vision de los ancianos de Israel al contemplar al Dios de Israel sobre un pavimento de zafiro."
+                    }
+                ],
+                "reflection": [
+                    "?Que significa para nosotros que el pacto con Dios fue sellado con sangre, y como la sangre de Cristo transforma nuestra relacion con El?",
+                    "?Como podemos cultivar momentos de comunion profunda con Dios, semejantes a la experiencia de los ancianos que comieron y bebieron en su presencia?",
+                    "?Que nos ensena la disposicion de Moises de pasar cuarenta dias en el monte sobre el valor de la espera paciente ante Dios?"
+                ]
+            }
         },
         {
             "chapter": 25,
             "title": "Ofrenda y Arca del Pacto",
             "summary": "Dios pide una ofrenda voluntaria del pueblo para construir el santuario donde morara en medio de Israel. Se dan instrucciones detalladas para la construccion del arca del pacto revestida de oro, con el propiciatorio y los querubines, asi como la mesa de los panes de la presencia y el candelabro de oro puro.",
-            "keyVerses": ["Exodo 25:8", "Exodo 25:9", "Exodo 25:22"]
+            "keyVerses": [
+                "Exodo 25:8",
+                "Exodo 25:9",
+                "Exodo 25:22"
+            ],
+            "analysis": {
+                "themes": [
+                    "La ofrenda voluntaria como expresion de devocion",
+                    "Dios habita en medio de su pueblo",
+                    "Simbolismo cristologico en el mobiliario del tabernaculo"
+                ],
+                "context": "Comienza aqui la seccion mas extensa de Exodo (capitulos 25-31 y 35-40), dedicada al tabernaculo. Dios da a Moises instrucciones detalladas para construir un santuario portatil donde morara su presencia. El tabernaculo era una tienda elaborada que servia como centro de adoracion durante la peregrinacion en el desierto. Cada pieza tenia un proposito teologico profundo. En este capitulo se describen tres elementos del Lugar Santo y del Lugar Santisimo: el arca del pacto, la mesa de los panes de la proposicion y el candelabro de oro. Los materiales debian provenir de ofrendas voluntarias del pueblo.",
+                "keyPeople": [
+                    {
+                        "name": "Moises",
+                        "description": "Recibe las instrucciones divinas detalladas para la construccion del tabernaculo en el monte Sinai"
+                    }
+                ],
+                "insights": [
+                    "La ofrenda para el tabernaculo debia ser de corazon generoso (v. 2): Dios no impuso un impuesto sino que pidio contribuciones voluntarias. Esto establece el principio de que la adoracion genuina nace de un corazon dispuesto, no de la coercion.",
+                    "El arca del pacto (vv. 10-22) era el mueble mas sagrado, conteniendo las tablas de la ley, y coronado por el propiciatorio con los querubines. Representaba el trono de Dios en la tierra y el lugar donde la justicia divina se encontraba con la misericordia.",
+                    "La mesa de los panes de la proposicion (vv. 23-30) con sus doce panes representaba la provision constante de Dios para las doce tribus y la comunion perpetua entre Dios y su pueblo a traves del alimento compartido.",
+                    "El candelabro de oro puro (vv. 31-40), labrado de una sola pieza con sus siete lamparas, era la unica fuente de luz en el Lugar Santo. Simboliza la luz divina que ilumina el camino del pueblo de Dios en medio de la oscuridad.",
+                    "La instruccion de hacer todo 'conforme al modelo' mostrado en el monte (v. 40) indica que el tabernaculo terrenal era una copia de una realidad celestial, un concepto desarrollado en Hebreos 8:5."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hebreos 8:5",
+                        "text": "Los sacerdotes sirven en un santuario que es copia y sombra de las cosas celestiales, conforme al modelo que Moises vio en el monte."
+                    },
+                    {
+                        "ref": "Juan 6:35",
+                        "text": "Jesus se declara el pan de vida, cumpliendo el simbolismo de la mesa de los panes de la proposicion."
+                    },
+                    {
+                        "ref": "Juan 8:12",
+                        "text": "Jesus se proclama la luz del mundo, cumpliendo el simbolismo del candelabro de oro del tabernaculo."
+                    },
+                    {
+                        "ref": "Romanos 3:25",
+                        "text": "Dios presento a Cristo como propiciacion por la fe en su sangre, cumpliendo el significado del propiciatorio sobre el arca."
+                    },
+                    {
+                        "ref": "2 Corintios 9:7",
+                        "text": "Dios ama al dador alegre, eco del principio de la ofrenda voluntaria para el tabernaculo."
+                    }
+                ],
+                "reflection": [
+                    "?Como podemos cultivar un corazon generoso que ofrende voluntariamente para la obra de Dios, sin que sea por obligacion o presion externa?",
+                    "?De que manera el arca del pacto — donde la ley y la misericordia se encuentran — nos ayuda a entender la obra de Cristo en la cruz?"
+                ]
+            }
         },
         {
             "chapter": 26,
             "title": "Cortinas del Tabernaculo",
             "summary": "Dios da instrucciones para las cortinas del tabernaculo: diez cortinas de lino fino con querubines bordados, cubiertas de pelo de cabra, pieles de carnero y pieles de marsopa. Se describen las tablas de madera de acacia revestidas de oro y el velo que separara el lugar santo del lugar santisimo.",
-            "keyVerses": ["Exodo 26:1", "Exodo 26:33", "Exodo 26:34"]
+            "keyVerses": [
+                "Exodo 26:1",
+                "Exodo 26:33",
+                "Exodo 26:34"
+            ],
+            "analysis": {
+                "themes": [
+                    "La santidad de Dios reflejada en la belleza del tabernaculo",
+                    "Separacion entre lo santo y lo santisimo",
+                    "Dios como arquitecto: orden y proposito en cada detalle"
+                ],
+                "context": "Este capitulo detalla la construccion de la estructura del tabernaculo con sus cortinas, cubiertas y armazon. La tienda tenia tres capas de cobertura: cortinas interiores de lino fino con querubines bordados, cubiertas de pelo de cabra, y pieles de carnero y de tejones. La estructura se mantenia en pie mediante tablones de madera de acacia recubiertos de oro, encajados en basas de plata. Un velo separaba el Lugar Santo del Lugar Santisimo. Cada material y medida tenia significado teologico, y el nivel de detalle revela que Dios se preocupa por la excelencia en la adoracion.",
+                "keyPeople": [
+                    {
+                        "name": "Moises",
+                        "description": "Receptor de las instrucciones arquitectonicas precisas para la estructura del tabernaculo"
+                    }
+                ],
+                "insights": [
+                    "Las cortinas interiores de lino fino con azul, purpura y escarlata (vv. 1-6) representaban la belleza celestial. Los querubines bordados recordaban la presencia angelical que custodia el acceso a Dios, como en el Eden.",
+                    "El velo que separaba el Lugar Santo del Lugar Santisimo (vv. 31-33) simbolizaba la barrera entre Dios santo y la humanidad pecadora. Solo el sumo sacerdote podia cruzarlo una vez al ano, anticipando que el acceso pleno a Dios requeriria una mediacion definitiva.",
+                    "Los tablones de acacia revestidos de oro (vv. 15-30) combinaban la humildad de la madera del desierto con la gloria del oro, sugiriendo que Dios toma lo comun y lo transforma en algo glorioso para su servicio.",
+                    "La precision milimetrica de las medidas muestra que la adoracion a Dios no es casual ni improvisada. Dios es un Dios de orden, y su pueblo esta llamado a adorarle con excelencia y reverencia."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Mateo 27:51",
+                        "text": "Al morir Jesus, el velo del templo se rasgo en dos de arriba abajo, senalando que el acceso a la presencia de Dios quedo abierto para todos los creyentes."
+                    },
+                    {
+                        "ref": "Hebreos 10:19-22",
+                        "text": "Tenemos libertad para entrar en el Lugar Santisimo por la sangre de Jesus, por el camino nuevo y vivo que El inauguro a traves del velo."
+                    },
+                    {
+                        "ref": "1 Corintios 6:19",
+                        "text": "El cuerpo del creyente es templo del Espiritu Santo, cumpliendo la intencion de Dios de habitar en medio de su pueblo."
+                    },
+                    {
+                        "ref": "Apocalipsis 21:3",
+                        "text": "El tabernaculo de Dios estara con los hombres y El morara con ellos: la promesa final de presencia divina permanente."
+                    }
+                ],
+                "reflection": [
+                    "Si el velo del templo se rasgo al morir Cristo, ?vivimos realmente con la confianza de que tenemos libre acceso a la presencia de Dios?",
+                    "?Que nos ensena la meticulosidad del diseno del tabernaculo sobre como debemos abordar nuestra adoracion y servicio a Dios?",
+                    "?Como refleja la estructura del tabernaculo — lo comun revestido de gloria — la obra transformadora de Dios en nuestras vidas?"
+                ]
+            }
         },
         {
             "chapter": 27,
             "title": "Altar y Atrio",
             "summary": "Se dan instrucciones para construir el altar de bronce para los holocaustos, con su enrejado y utensilios. Se describe el atrio del tabernaculo con sus columnas, cortinas y dimensiones. Dios ordena que los hijos de Israel traigan aceite puro de olivas para mantener encendida perpetuamente la lampara en el tabernaculo.",
-            "keyVerses": ["Exodo 27:1", "Exodo 27:9", "Exodo 27:20"]
+            "keyVerses": [
+                "Exodo 27:1",
+                "Exodo 27:9",
+                "Exodo 27:20"
+            ],
+            "analysis": {
+                "themes": [
+                    "El sacrificio como unico medio de acercamiento a Dios",
+                    "El atrio como espacio de encuentro entre Dios y su pueblo",
+                    "Luz perpetua: la fidelidad continua en la adoracion"
+                ],
+                "context": "Este capitulo describe dos elementos exteriores del tabernaculo: el altar del holocausto y el atrio que rodeaba el recinto sagrado, asi como la provision de aceite para la lampara perpetua. El altar de bronce era lo primero que encontraba quien entraba al atrio, senalando que el acercamiento a Dios requeria un sacrificio. El atrio, delimitado por cortinas de lino blanco sostenidas por columnas, creaba un espacio sagrado separado del campamento. Las dimensiones del atrio (100 x 50 codos) definan un area accesible para los israelitas, aunque solo los sacerdotes podian entrar en la tienda misma.",
+                "keyPeople": [
+                    {
+                        "name": "Aaron y sus hijos",
+                        "description": "Responsables de mantener la lampara encendida continuamente ante el Senor (v. 21)"
+                    }
+                ],
+                "insights": [
+                    "El altar del holocausto de bronce (vv. 1-8) era el mueble mas grande del tabernaculo y el primero en el camino hacia la presencia de Dios. Esto ensena que sin sacrificio no hay acceso a Dios — un principio cumplido definitivamente en el sacrificio de Cristo.",
+                    "El atrio rodeado de cortinas de lino blanco (vv. 9-19) simbolizaba la santidad que separaba el espacio sagrado del mundo profano. El lino blanco representaba la justicia y la pureza requeridas para acercarse a Dios.",
+                    "La unica puerta del atrio (v. 16), ubicada al oriente, prefigura la declaracion de Jesus: 'Yo soy la puerta; el que por mi entre sera salvo' (Juan 10:9). Habia un solo acceso a la presencia de Dios.",
+                    "El aceite puro de oliva para la lampara perpetua (vv. 20-21) exigia un compromiso continuo de adoracion. La llama nunca debia apagarse, simbolizando la presencia constante de Dios y la devocion ininterrumpida de su pueblo."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hebreos 13:10-12",
+                        "text": "Tenemos un altar del cual no tienen derecho a comer los que sirven al tabernaculo; Jesus padecio fuera de la puerta para santificar al pueblo con su sangre."
+                    },
+                    {
+                        "ref": "Juan 10:9",
+                        "text": "Jesus se declara la unica puerta de las ovejas, cumpliendo el simbolismo de la entrada unica del atrio del tabernaculo."
+                    },
+                    {
+                        "ref": "1 Pedro 2:5",
+                        "text": "Los creyentes son sacerdocio santo que ofrece sacrificios espirituales aceptables a Dios por medio de Jesucristo."
+                    },
+                    {
+                        "ref": "Romanos 12:1",
+                        "text": "Presentar nuestros cuerpos como sacrificio vivo y santo es nuestro culto racional, cumpliendo espiritualmente lo que el altar de bronce representaba."
+                    }
+                ],
+                "reflection": [
+                    "?Comprendemos que el acceso a Dios siempre requiere un sacrificio, y que Cristo ya ofrecio el sacrificio definitivo por nosotros?",
+                    "?Como podemos mantener encendida la 'lampara perpetua' de nuestra devocion a Dios en medio de las distracciones y presiones de la vida diaria?"
+                ]
+            }
         },
         {
             "chapter": 28,
             "title": "Vestiduras Sacerdotales",
             "summary": "Dios ordena hacer vestiduras sagradas para Aaron y sus hijos para el servicio sacerdotal, incluyendo el efod, el pectoral del juicio con doce piedras preciosas representando las tribus de Israel. Se describen el manto del efod, la mitra con la placa de oro que dice 'Santidad al Senor', y las demas prendas sacerdotales.",
-            "keyVerses": ["Exodo 28:2", "Exodo 28:12", "Exodo 28:36"]
+            "keyVerses": [
+                "Exodo 28:2",
+                "Exodo 28:12",
+                "Exodo 28:36"
+            ],
+            "analysis": {
+                "themes": [
+                    "La santidad y la gloria en el servicio sacerdotal",
+                    "El sumo sacerdote como representante del pueblo ante Dios",
+                    "Simbolismo cristologico en las vestiduras sacerdotales"
+                ],
+                "context": "Dios instruye la confeccion de las vestiduras sagradas para Aaron y sus hijos. Las vestiduras del sumo sacerdote incluian el efod, el pectoral del juicio con doce piedras preciosas, el manto azul con granadas y campanillas, la tunica bordada, el turbante con la placa de oro que decia 'Santidad al Senor', y el cinturon. Cada prenda tenia un significado teologico y representaba la funcion mediadora del sumo sacerdote. Los nombres de las doce tribus estaban grabados en las piedras del pectoral y en las piedras de las hombreras, simbolizando que el sumo sacerdote llevaba a todo el pueblo ante la presencia de Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Aaron",
+                        "description": "Primer sumo sacerdote de Israel, para quien fueron disenadas las vestiduras sagradas"
+                    },
+                    {
+                        "name": "Nadab, Abihu, Eleazar e Itamar",
+                        "description": "Hijos de Aaron, apartados junto con el para el sacerdocio"
+                    }
+                ],
+                "insights": [
+                    "Las vestiduras eran 'para gloria y para hermosura' (v. 2). La adoracion biblica nunca ha sido descuidada o casual; Dios valora la belleza como expresion de su propia gloria reflejada en su servicio.",
+                    "Las doce piedras del pectoral sobre el corazon de Aaron (vv. 15-21) y los nombres en las hombreras (vv. 9-12) muestran que el sumo sacerdote cargaba a todo el pueblo — en su corazon y sobre sus hombros — cuando entraba ante Dios. Cristo, nuestro sumo sacerdote, nos lleva asi ante el Padre.",
+                    "La placa de oro con la inscripcion 'Santidad al Senor' (vv. 36-38) sobre la frente de Aaron indicaba que el llevaba sobre si la iniquidad de las ofrendas del pueblo. El sumo sacerdote era el medio por el cual las ofrendas imperfectas del pueblo eran aceptadas por un Dios santo.",
+                    "Las campanillas en el borde del manto (vv. 33-35) sonaban mientras el sumo sacerdote ministraba, permitiendo que el pueblo supiera que su mediador estaba vivo y activo en la presencia de Dios."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hebreos 4:14-16",
+                        "text": "Tenemos un gran sumo sacerdote que traspaso los cielos, Jesus el Hijo de Dios, que puede compadecerse de nuestras debilidades."
+                    },
+                    {
+                        "ref": "Apocalipsis 1:13",
+                        "text": "Cristo glorificado aparece vestido con tunica que llega hasta los pies, evocando las vestiduras del sumo sacerdote."
+                    },
+                    {
+                        "ref": "Isaias 61:10",
+                        "text": "Dios viste a su pueblo con vestiduras de salvacion y manto de justicia, reflejando la gloria de las vestiduras sacerdotales."
+                    },
+                    {
+                        "ref": "1 Pedro 2:9",
+                        "text": "Los creyentes son real sacerdocio y nacion santa, cumpliendo corporativamente la funcion que Aaron representaba individualmente."
+                    }
+                ],
+                "reflection": [
+                    "Si Cristo como sumo sacerdote nos lleva en su corazon y sobre sus hombros ante el Padre, ?como cambia esto nuestra confianza en la oracion?",
+                    "?Que significa para nosotros que la inscripcion 'Santidad al Senor' estuviera sobre la frente del sumo sacerdote, y como se aplica a nuestra identidad como sacerdocio real?",
+                    "?De que manera debemos equilibrar la belleza y la reverencia en nuestra adoracion, sin caer en el formalismo vacio ni en la informalidad descuidada?"
+                ]
+            }
         },
         {
             "chapter": 29,
             "title": "Consagracion de Sacerdotes",
             "summary": "Dios da instrucciones detalladas para la ceremonia de consagracion de Aaron y sus hijos como sacerdotes, incluyendo lavamiento, vestiduras y uncion con aceite. Se ofrecen un becerro como ofrenda por el pecado, un carnero como holocausto y otro carnero de consagracion. Dios promete habitar en medio de Israel y ser su Dios.",
-            "keyVerses": ["Exodo 29:7", "Exodo 29:45", "Exodo 29:46"]
+            "keyVerses": [
+                "Exodo 29:7",
+                "Exodo 29:45",
+                "Exodo 29:46"
+            ],
+            "analysis": {
+                "themes": [
+                    "Consagracion y santificacion para el servicio a Dios",
+                    "La sangre como medio de purificacion y dedicacion",
+                    "La presencia permanente de Dios como meta del tabernaculo"
+                ],
+                "context": "Este capitulo detalla el ritual de consagracion de Aaron y sus hijos como sacerdotes. El proceso duraba siete dias e incluia lavamiento con agua, vestidura con las ropas sagradas, uncion con aceite, y sacrificios de un becerro como ofrenda por el pecado, un carnero como holocausto, y un segundo carnero como ofrenda de consagracion. La sangre del carnero de consagracion se aplicaba en la oreja derecha, el pulgar derecho de la mano y el dedo gordo del pie derecho de cada sacerdote. Este ritual establecio el sacerdocio aaronico que serviria a Israel durante siglos, hasta la venida del sacerdocio definitivo de Cristo.",
+                "keyPeople": [
+                    {
+                        "name": "Aaron",
+                        "description": "Consagrado como sumo sacerdote de Israel mediante un elaborado ritual de purificacion y dedicacion"
+                    },
+                    {
+                        "name": "Hijos de Aaron",
+                        "description": "Consagrados junto con su padre para servir como sacerdotes en el tabernaculo"
+                    }
+                ],
+                "insights": [
+                    "El lavamiento, la vestidura y la uncion (vv. 4-7) siguen un orden teologico: primero la limpieza del pecado, luego el revestimiento de justicia, y finalmente la capacitacion del Espiritu. Este patron se repite en la experiencia cristiana: justificacion, santificacion y llenura del Espiritu.",
+                    "La aplicacion de sangre en la oreja, la mano y el pie (v. 20) consagraba al sacerdote integralmente: su oido para escuchar la palabra de Dios, su mano para realizar la obra de Dios, y su pie para caminar en los senderos de Dios.",
+                    "La declaracion final de Dios — 'Habitare entre los hijos de Israel y sere su Dios' (v. 45) — revela el proposito ultimo del tabernaculo y del sacerdocio: no son fines en si mismos, sino medios para que Dios more con su pueblo.",
+                    "El holocausto continuo de manana y tarde (vv. 38-42) establecia un ritmo diario de adoracion que mantenia la relacion entre Dios y su pueblo. La adoracion no era un evento ocasional sino una disciplina constante.",
+                    "Los siete dias de consagracion (v. 35) sugieren completitud y totalidad. La preparacion para servir a Dios no es instantanea; requiere un proceso completo de formacion y dedicacion."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hebreos 7:26-28",
+                        "text": "A diferencia de los sacerdotes aaronicos que debian ser consagrados repetidamente, Cristo es un sumo sacerdote perfecto, santo e inmaculado, constituido para siempre."
+                    },
+                    {
+                        "ref": "Tito 3:5-6",
+                        "text": "La salvacion viene por el lavamiento de la regeneracion y la renovacion del Espiritu Santo, eco del lavamiento y uncion sacerdotal."
+                    },
+                    {
+                        "ref": "Romanos 12:1",
+                        "text": "Presentar nuestros cuerpos como sacrificio vivo es el paralelo neotestamentario de la consagracion total del sacerdote."
+                    },
+                    {
+                        "ref": "Apocalipsis 21:3",
+                        "text": "El tabernaculo de Dios con los hombres cumple la promesa de Exodo 29:45-46 de que Dios habitaria entre su pueblo."
+                    }
+                ],
+                "reflection": [
+                    "?Que areas de nuestra vida — oido, manos, pies — necesitan ser consagradas nuevamente para el servicio de Dios?",
+                    "Si el proposito final del tabernaculo era que Dios habitara con su pueblo, ?como cultivamos la conciencia de su presencia permanente en nuestra vida diaria?",
+                    "?Como debemos entender el proceso de preparacion espiritual en una cultura que busca resultados instantaneos?"
+                ]
+            }
         },
         {
             "chapter": 30,
             "title": "Altar del Incienso",
             "summary": "Dios ordena construir el altar del incienso de madera de acacia revestido de oro, donde Aaron quemara incienso aromatico cada manana y cada tarde. Se establece el rescate de medio siclo por cada israelita censado, se describe la fuente de bronce para el lavamiento, y se da la formula del aceite de la uncion y del incienso sagrado.",
-            "keyVerses": ["Exodo 30:6", "Exodo 30:12", "Exodo 30:36"]
+            "keyVerses": [
+                "Exodo 30:6",
+                "Exodo 30:12",
+                "Exodo 30:36"
+            ],
+            "analysis": {
+                "themes": [
+                    "La oracion como incienso ante la presencia de Dios",
+                    "El precio de la redencion: igualdad ante Dios",
+                    "La santificacion a traves del aceite de la uncion"
+                ],
+                "context": "Este capitulo describe tres elementos adicionales del servicio del tabernaculo: el altar del incienso de oro, el dinero de rescate del censo, y las recetas del aceite de la uncion y del incienso sagrado. El altar del incienso estaba ubicado en el Lugar Santo, justo frente al velo que separaba el Lugar Santisimo, y era el lugar mas cercano a la presencia de Dios donde el sacerdote ministraba diariamente. El medio siclo de rescate era un impuesto igualitario — el rico no daba mas ni el pobre daba menos — que reconocia que toda vida pertenece a Dios. La fuente de bronce, el aceite de la uncion y el incienso sagrado completaban los elementos necesarios para el servicio del tabernaculo.",
+                "keyPeople": [
+                    {
+                        "name": "Aaron",
+                        "description": "Responsable de quemar incienso cada manana y tarde sobre el altar de oro ante el Senor"
+                    }
+                ],
+                "insights": [
+                    "El altar del incienso (vv. 1-10) estaba posicionado estrategicamente ante el velo, lo mas cerca posible del Lugar Santisimo. El incienso quemado manana y tarde representa la oracion continua del pueblo de Dios que asciende como fragancia agradable ante su trono.",
+                    "El medio siclo de rescate (vv. 11-16) era igual para todos, rico y pobre. Ante Dios no hay distincion de clase: cada vida tiene el mismo valor y cada persona necesita la misma redencion. Este principio de igualdad espiritual es fundamental en la teologia biblica.",
+                    "La fuente de bronce para el lavamiento (vv. 17-21) recordaba que los sacerdotes debian purificarse antes de servir. La santidad practica — la limpieza de manos y pies — era requisito indispensable para acercarse a Dios y ministrar en su nombre.",
+                    "La receta exclusiva del aceite de la uncion (vv. 22-33) y del incienso sagrado (vv. 34-38) no podia replicarse para uso secular. Lo consagrado a Dios era unico e irrepetible, senalando que la adoracion verdadera no puede ser imitada ni comercializada.",
+                    "La advertencia de muerte para quien reprodujera el aceite sagrado o el incienso para uso profano (vv. 33, 38) subraya la seriedad con que Dios ve la distincion entre lo santo y lo comun."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Apocalipsis 5:8",
+                        "text": "Las copas de oro llenas de incienso son las oraciones de los santos, conectando directamente el incienso del altar con la oracion del pueblo de Dios."
+                    },
+                    {
+                        "ref": "Salmo 141:2",
+                        "text": "David pide que su oracion suba como incienso ante Dios y el alzar de sus manos como ofrenda de la tarde."
+                    },
+                    {
+                        "ref": "1 Pedro 1:18-19",
+                        "text": "No fuimos rescatados con cosas perecederas como oro o plata, sino con la sangre preciosa de Cristo, cumpliendo el dinero de rescate."
+                    },
+                    {
+                        "ref": "1 Juan 2:20",
+                        "text": "Los creyentes tienen la uncion del Santo y conocen todas las cosas, cumplimiento espiritual del aceite de la uncion sagrada."
+                    },
+                    {
+                        "ref": "Lucas 1:9-11",
+                        "text": "Zacarias quemaba incienso en el templo cuando el angel le anuncio el nacimiento de Juan, mostrando la continuidad del servicio del altar del incienso."
+                    }
+                ],
+                "reflection": [
+                    "Si el incienso representa nuestras oraciones, ?que calidad de 'fragancia' estamos ofreciendo a Dios en nuestra vida de oracion diaria?",
+                    "?Como nos desafia el principio del medio siclo — igual para todos — en una sociedad que valora a las personas segun su estatus economico o social?",
+                    "?Mantenemos la distincion entre lo santo y lo comun en nuestra vida, o hemos permitido que lo sagrado se mezcle con lo profano?"
+                ]
+            }
         },
         {
             "chapter": 31,
             "title": "Bezaleel y el Sabado",
             "summary": "Dios designa a Bezaleel hijo de Uri y a Aholiab hijo de Ahisamac, llenandolos de su Espiritu con sabiduria y habilidad para construir el tabernaculo y todos sus utensilios. Dios reafirma la importancia del sabado como senal perpetua del pacto entre El y los hijos de Israel, y entrega a Moises las dos tablas del testimonio escritas con el dedo de Dios.",
-            "keyVerses": ["Exodo 31:3", "Exodo 31:13", "Exodo 31:18"]
+            "keyVerses": [
+                "Exodo 31:3",
+                "Exodo 31:13",
+                "Exodo 31:18"
+            ],
+            "analysis": {
+                "themes": [
+                    "El Espíritu de Dios capacita para el servicio",
+                    "Los dones y habilidades como llamamiento divino",
+                    "El día de reposo como señal del pacto"
+                ],
+                "context": "Dios concluye sus instrucciones a Moisés en el Sinaí designando artesanos específicos para construir el tabernáculo. En el antiguo Cercano Oriente, la construcción de templos era considerada una tarea sagrada que requería aprobación y capacitación divina. La mención del día de reposo al final de las instrucciones subraya que ni siquiera la obra sagrada del tabernáculo justifica violar el descanso ordenado por Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Bezalel",
+                        "description": "Artesano principal, lleno del Espíritu de Dios, de la tribu de Judá, nieto de Hur"
+                    },
+                    {
+                        "name": "Aholiab",
+                        "description": "Asistente principal de Bezalel, de la tribu de Dan, hábil en diseño y bordado"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Mediador del pacto que recibe las tablas escritas por el dedo de Dios"
+                    }
+                ],
+                "insights": [
+                    "Bezalel es la primera persona en la Biblia descrita como llena del Espíritu de Dios, y lo fue para realizar trabajo artístico, mostrando que Dios valora la excelencia creativa en su servicio.",
+                    "El mandamiento del sábado se repite aquí como señal perpetua entre Dios e Israel, indicando que la identidad del pueblo se define más por la obediencia que por la actividad religiosa.",
+                    "Las tablas del testimonio fueron escritas por el dedo de Dios, un detalle que enfatiza el origen completamente divino de la ley moral.",
+                    "La combinación de sabiduría, inteligencia y conocimiento dada a Bezalel refleja una capacitación integral que abarca tanto lo técnico como lo espiritual."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Éxodo 20:8-11",
+                        "text": "El mandamiento original del sábado dado en el Decálogo"
+                    },
+                    {
+                        "ref": "Efesios 2:10",
+                        "text": "Los creyentes son hechura de Dios, creados para buenas obras preparadas de antemano"
+                    },
+                    {
+                        "ref": "1 Corintios 12:4-7",
+                        "text": "Diversidad de dones dados por el mismo Espíritu para el bien común"
+                    },
+                    {
+                        "ref": "Romanos 12:6-8",
+                        "text": "Cada creyente tiene dones conforme a la gracia recibida para servir"
+                    }
+                ],
+                "reflection": [
+                    "¿Reconozco que mis talentos y habilidades son dones de Dios destinados a servirle a Él y a su pueblo?",
+                    "¿Cómo practico el principio del descanso en mi vida, confiando en que Dios sostiene todo aun cuando yo me detengo?",
+                    "¿Busco la excelencia en lo que hago para la gloria de Dios, o me conformo con la mediocridad en mi servicio?"
+                ]
+            }
         },
         {
             "chapter": 32,
             "title": "El Becerro de Oro",
             "summary": "Mientras Moises esta en el monte, el pueblo se impacienta y pide a Aaron que les haga dioses; Aaron fabrica un becerro de oro y el pueblo lo adora con fiestas. Moises desciende, rompe las tablas de la ley al ver la idolatria, destruye el becerro y los levitas ejecutan a unos tres mil hombres. Moises intercede ante Dios por el pueblo para que no los destruya.",
-            "keyVerses": ["Exodo 32:4", "Exodo 32:14", "Exodo 32:32"]
+            "keyVerses": [
+                "Exodo 32:4",
+                "Exodo 32:14",
+                "Exodo 32:32"
+            ],
+            "analysis": {
+                "themes": [
+                    "La idolatría como traición al pacto",
+                    "La intercesión de Moisés como mediador",
+                    "Las consecuencias del pecado colectivo",
+                    "La fidelidad de Dios frente a la infidelidad humana"
+                ],
+                "context": "Mientras Moisés permanece cuarenta días en el monte Sinaí, el pueblo se impacienta y presiona a Aarón para fabricar un ídolo visible. La forma del becerro de oro refleja la influencia cultural de Egipto, donde el toro Apis era adorado como deidad. Este episodio ocurre apenas semanas después de que Israel prometiera obedecer todo lo que el Señor había dicho, revelando la fragilidad de las promesas humanas sin la gracia transformadora de Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Mediador que intercede por el pueblo ante la ira de Dios y rompe las tablas del pacto como símbolo de la ruptura de la alianza"
+                    },
+                    {
+                        "name": "Aarón",
+                        "description": "Sumo sacerdote designado que cede ante la presión del pueblo y fabrica el becerro de oro"
+                    },
+                    {
+                        "name": "Los levitas",
+                        "description": "Tribu que responde al llamado de Moisés y ejecuta el juicio divino contra los idólatras"
+                    }
+                ],
+                "insights": [
+                    "La petición del pueblo de 'dioses que vayan delante de nosotros' revela que la idolatría nace del deseo de controlar lo divino y hacerlo visible y manejable según la conveniencia humana.",
+                    "Aarón intenta disfrazar la idolatría con lenguaje religioso declarando 'mañana será fiesta para el SEÑOR', mostrando cómo el sincretismo mezcla lo pagano con lo sagrado.",
+                    "Moisés rompe las tablas de la ley al pie del monte, un acto profético que simboliza que Israel ya había quebrantado el pacto antes de recibirlo formalmente.",
+                    "La intercesión de Moisés apela a la reputación de Dios entre las naciones y a sus promesas a los patriarcas, no a los méritos del pueblo, estableciendo un modelo de oración intercesora.",
+                    "El hecho de que tres mil hombres murieran ese día contrasta con Pentecostés en Hechos 2, donde tres mil fueron salvados, mostrando la diferencia entre la letra que mata y el Espíritu que da vida."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Deuteronomio 9:15-21",
+                        "text": "Moisés relata la destrucción del becerro de oro y su intercesión por el pueblo"
+                    },
+                    {
+                        "ref": "Hechos 7:39-41",
+                        "text": "Esteban recuerda cómo Israel rechazó a Moisés y se volvió a los ídolos de Egipto"
+                    },
+                    {
+                        "ref": "Romanos 1:22-23",
+                        "text": "La humanidad cambió la gloria de Dios incorruptible por imágenes de criaturas"
+                    },
+                    {
+                        "ref": "1 Juan 5:21",
+                        "text": "Exhortación a los creyentes a guardarse de los ídolos"
+                    },
+                    {
+                        "ref": "Números 14:13-19",
+                        "text": "Moisés intercede nuevamente apelando a la gloria de Dios entre las naciones"
+                    }
+                ],
+                "reflection": [
+                    "¿Qué 'becerros de oro' he fabricado en mi vida cuando siento que Dios tarda en responder?",
+                    "¿Estoy dispuesto a interceder por otros con la misma pasión con que Moisés intercedió por Israel, aun cuando no lo merecían?",
+                    "¿Cómo reacciono ante la presión social para comprometer mis convicciones de fe?"
+                ]
+            }
         },
         {
             "chapter": 33,
             "title": "La Presencia de Dios",
             "summary": "Dios ordena al pueblo continuar hacia la tierra prometida pero dice que no ira en medio de ellos para no destruirlos por su obstinacion. Moises suplica que la presencia de Dios vaya con ellos, y Dios accede. Moises pide ver la gloria de Dios, y el Senor le muestra su bondad mientras pasa, cubriendolo en la hendidura de la roca.",
-            "keyVerses": ["Exodo 33:11", "Exodo 33:14", "Exodo 33:19"]
+            "keyVerses": [
+                "Exodo 33:11",
+                "Exodo 33:14",
+                "Exodo 33:19"
+            ],
+            "analysis": {
+                "themes": [
+                    "La intercesión persistente y la gracia restauradora",
+                    "La intimidad con Dios y el deseo de conocerle",
+                    "La presencia de Dios como lo que distingue al pueblo"
+                ],
+                "context": "Después del pecado del becerro de oro, Dios anuncia que no subirá en medio del pueblo para no destruirlos, sino que enviará un ángel. Esta crisis revela que la presencia de Dios es simultáneamente el mayor privilegio y el mayor peligro para un pueblo pecador. La tienda de reunión fuera del campamento se convierte en el lugar donde Moisés habla con Dios cara a cara, como un hombre habla con su amigo, un nivel de intimidad sin precedentes en la narrativa bíblica.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Mediador que busca la presencia de Dios con insistencia y pide ver su gloria"
+                    },
+                    {
+                        "name": "Josué",
+                        "description": "Joven servidor de Moisés que permanece en la tienda de reunión, mostrando su devoción"
+                    }
+                ],
+                "insights": [
+                    "Moisés comprende que sin la presencia de Dios, la tierra prometida carece de valor; la bendición sin el Bendecidor no tiene sentido verdadero.",
+                    "La expresión 'cara a cara' no contradice que nadie puede ver a Dios y vivir; describe la intimidad y claridad de la comunicación, no una visión física directa del ser de Dios.",
+                    "Cuando Moisés dice 'te ruego que me muestres tu gloria', revela que la experiencia previa con Dios no satisface al creyente sino que despierta un hambre mayor de conocerle.",
+                    "Dios responde mostrando su bondad y proclamando su nombre, revelando que la gloria divina se manifiesta supremamente en su carácter misericordioso."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Éxodo 34:6-7",
+                        "text": "Dios proclama su nombre y carácter al pasar delante de Moisés"
+                    },
+                    {
+                        "ref": "Juan 1:14",
+                        "text": "El Verbo se hizo carne y vimos su gloria, llena de gracia y verdad"
+                    },
+                    {
+                        "ref": "2 Corintios 3:18",
+                        "text": "Los creyentes contemplan la gloria del Señor y son transformados de gloria en gloria"
+                    },
+                    {
+                        "ref": "Filipenses 3:10",
+                        "text": "Pablo expresa su deseo de conocer a Cristo y el poder de su resurrección"
+                    },
+                    {
+                        "ref": "Santiago 4:8",
+                        "text": "Acercaos a Dios y Él se acercará a vosotros"
+                    }
+                ],
+                "reflection": [
+                    "¿Es la presencia de Dios lo que más valoro, o me conformo con sus bendiciones sin buscar intimidad con Él?",
+                    "¿Tengo un lugar y un tiempo apartado para encontrarme con Dios de manera personal y profunda?",
+                    "¿Qué estoy dispuesto a dejar para que la presencia de Dios sea lo que defina mi identidad?"
+                ]
+            }
         },
         {
             "chapter": 34,
             "title": "Renovacion del Pacto",
             "summary": "Dios manda a Moises labrar dos nuevas tablas de piedra y sube al monte Sinai, donde el Senor pasa delante de el proclamando su nombre: misericordioso, piadoso, tardo para la ira y grande en misericordia. Dios renueva el pacto con Israel y da mandamientos sobre la idolatria y las fiestas. El rostro de Moises resplandece al descender del monte, y debe cubrirse con un velo.",
-            "keyVerses": ["Exodo 34:6", "Exodo 34:7", "Exodo 34:29"]
+            "keyVerses": [
+                "Exodo 34:6",
+                "Exodo 34:7",
+                "Exodo 34:29"
+            ],
+            "analysis": {
+                "themes": [
+                    "La renovación del pacto y la gracia restauradora",
+                    "La autoproclamación del carácter de Dios",
+                    "La transformación que produce la presencia divina"
+                ],
+                "context": "Dios ordena a Moisés labrar dos nuevas tablas de piedra para reemplazar las que fueron rotas, simbolizando la disposición divina a restaurar el pacto roto por la idolatría. La proclamación del nombre del Señor en los versículos 6-7 constituye una de las revelaciones teológicas más importantes del Antiguo Testamento, citada y aludida más de una docena de veces en el resto de las Escrituras. El rostro resplandeciente de Moisés al descender del monte es evidencia visible de la transformación que produce estar en la presencia de Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Mediador que labra nuevas tablas, recibe la revelación del carácter de Dios, y su rostro resplandece tras estar en su presencia"
+                    },
+                    {
+                        "name": "Aarón y los israelitas",
+                        "description": "Temen acercarse a Moisés al ver su rostro resplandeciente"
+                    }
+                ],
+                "insights": [
+                    "La autodescripción de Dios como 'compasivo, clemente, lento para la ira, abundante en misericordia y verdad' es el credo central del Antiguo Testamento, repetido en Salmos, Jonás, Joel y Nehemías.",
+                    "Dios mismo labró las primeras tablas, pero ordena a Moisés labrar las segundas; la restauración del pacto requiere participación humana, aunque la gracia sea enteramente divina.",
+                    "El velo sobre el rostro de Moisés prefigura la revelación plena en Cristo, donde el velo es quitado para todo aquel que se vuelve al Señor.",
+                    "Las advertencias contra hacer pactos con los habitantes de Canaán muestran que la fidelidad al pacto con Dios es incompatible con alianzas que comprometan la adoración exclusiva."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Salmo 103:8",
+                        "text": "El Señor es compasivo y clemente, lento para la ira y abundante en misericordia"
+                    },
+                    {
+                        "ref": "Jonás 4:2",
+                        "text": "Jonás cita el carácter de Dios como razón de su renuencia a predicar a Nínive"
+                    },
+                    {
+                        "ref": "2 Corintios 3:7-18",
+                        "text": "Pablo contrasta el ministerio de Moisés con velo con la gloria superior del nuevo pacto en Cristo"
+                    },
+                    {
+                        "ref": "Nehemías 9:17",
+                        "text": "Los levitas recuerdan que Dios es perdonador, clemente y compasivo"
+                    }
+                ],
+                "reflection": [
+                    "¿Cómo me transforma en la práctica pasar tiempo en la presencia de Dios? ¿Notan otros algún cambio en mí?",
+                    "¿Comprendo que la justicia y la misericordia de Dios no se contradicen sino que se complementan perfectamente en su carácter?",
+                    "¿Hay áreas de mi vida donde estoy haciendo 'pactos' con valores incompatibles con mi fe?"
+                ]
+            }
         },
         {
             "chapter": 35,
             "title": "Ofrendas para el Tabernaculo",
             "summary": "Moises reune a la congregacion, reafirma el mandamiento del sabado y pide ofrendas voluntarias para la construccion del tabernaculo. El pueblo responde con generosidad trayendo oro, plata, bronce, telas, pieles, madera y piedras preciosas. Se confirma a Bezaleel y Aholiab como los artesanos principales llenos del Espiritu de Dios.",
-            "keyVerses": ["Exodo 35:5", "Exodo 35:21", "Exodo 35:31"]
+            "keyVerses": [
+                "Exodo 35:5",
+                "Exodo 35:21",
+                "Exodo 35:31"
+            ],
+            "analysis": {
+                "themes": [
+                    "La generosidad como respuesta al amor de Dios",
+                    "La ofrenda voluntaria y el corazón dispuesto",
+                    "El sábado como prioridad sobre toda obra"
+                ],
+                "context": "Moisés reúne a toda la congregación para comunicar las instrucciones del tabernáculo. La ofrenda es completamente voluntaria, motivada por un corazón movido y un espíritu generoso. En el contexto del antiguo Cercano Oriente, donde los reyes obligaban contribuciones forzadas para construir templos, el modelo bíblico de ofrenda voluntaria es revolucionario. La repetición del mandamiento del sábado antes de las instrucciones de construcción enfatiza que el descanso en Dios precede a toda obra para Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Líder que transmite al pueblo la invitación de Dios a ofrendar voluntariamente para el tabernáculo"
+                    },
+                    {
+                        "name": "Bezalel",
+                        "description": "Artesano principal capacitado por el Espíritu para dirigir la construcción"
+                    },
+                    {
+                        "name": "Aholiab",
+                        "description": "Artesano asistente, también dotado por Dios para la obra del tabernáculo"
+                    }
+                ],
+                "insights": [
+                    "La frase 'todo aquel cuyo corazón le movió' aparece repetidamente, subrayando que Dios no busca contribuciones reluctantes sino ofrendas nacidas de gratitud genuina.",
+                    "Las mujeres participan activamente hilando con sus manos, mostrando que el servicio a Dios incluye a todos los miembros de la comunidad sin distinción.",
+                    "El mandamiento de no encender fuego en día de reposo indica que el descanso sabático debía ser completo, no un mero formalismo parcial.",
+                    "La abundancia de materiales ofrendados anticipa el momento en que Moisés tendrá que pedir que dejen de traer, revelando que cuando Dios mueve el corazón, la respuesta supera la necesidad."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "2 Corintios 9:7",
+                        "text": "Dios ama al dador alegre; cada uno debe dar según propuso en su corazón"
+                    },
+                    {
+                        "ref": "1 Crónicas 29:9",
+                        "text": "El pueblo se regocijó al ofrendar voluntariamente para el templo de Salomón"
+                    },
+                    {
+                        "ref": "Marcos 12:41-44",
+                        "text": "Jesús elogia la ofrenda voluntaria y sacrificial de la viuda pobre"
+                    },
+                    {
+                        "ref": "Éxodo 31:1-6",
+                        "text": "El llamamiento original de Bezalel y Aholiab para la obra del tabernáculo"
+                    }
+                ],
+                "reflection": [
+                    "¿Mis ofrendas y servicio a Dios nacen de un corazón movido por gratitud o de un sentido de obligación?",
+                    "¿Practico el descanso en Dios como una disciplina espiritual que reconoce su soberanía sobre mi tiempo y trabajo?",
+                    "¿Estoy dispuesto a dar lo mejor de mis recursos y habilidades para la obra de Dios?"
+                ]
+            }
         },
         {
             "chapter": 36,
             "title": "Construccion del Tabernaculo",
             "summary": "Los artesanos comienzan la obra del tabernaculo, y las ofrendas del pueblo son tan abundantes que Moises debe ordenar que dejen de traer. Se construyen las cortinas de lino fino con querubines, las cubiertas de pelo de cabra, las tablas de madera de acacia revestidas de oro y el velo del lugar santisimo.",
-            "keyVerses": ["Exodo 36:5", "Exodo 36:6", "Exodo 36:7"]
+            "keyVerses": [
+                "Exodo 36:5",
+                "Exodo 36:6",
+                "Exodo 36:7"
+            ],
+            "analysis": {
+                "themes": [
+                    "La obediencia fiel a los planos divinos",
+                    "La sobreabundancia de la generosidad del pueblo",
+                    "El trabajo comunitario como acto de adoración"
+                ],
+                "context": "Los artesanos comienzan la construcción del tabernáculo siguiendo exactamente las instrucciones reveladas a Moisés en el monte. La generosidad del pueblo es tan desbordante que los artesanos piden a Moisés que detenga las ofrendas porque tienen más de lo necesario. Este es un caso único en las Escrituras donde se debe frenar la dadivosidad del pueblo. La construcción detallada de las cortinas, tablas y cubiertas muestra que cada elemento fue hecho con precisión según el modelo celestial.",
+                "keyPeople": [
+                    {
+                        "name": "Bezalel",
+                        "description": "Artesano jefe que dirige la construcción siguiendo fielmente el diseño divino"
+                    },
+                    {
+                        "name": "Aholiab",
+                        "description": "Colaborador principal de Bezalel en la supervisión de la obra"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Supervisor general que ordena detener las ofrendas cuando hay suficiente material"
+                    }
+                ],
+                "insights": [
+                    "El hecho de que Moisés tuviera que prohibir más ofrendas es un testimonio poderoso de lo que sucede cuando el Espíritu de Dios mueve genuinamente los corazones del pueblo.",
+                    "Cada cortina, tabla y viga fue hecha según medidas exactas, enseñando que la adoración verdadera sigue los términos de Dios, no la creatividad humana sin dirección.",
+                    "La colaboración de múltiples artesanos en una obra unificada prefigura la iglesia como cuerpo con muchos miembros que trabajan juntos hacia un propósito común.",
+                    "Las cortinas de lino fino con querubines bordados representan la santidad y la belleza que caracterizan la morada de Dios entre su pueblo."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Éxodo 25:9",
+                        "text": "Dios ordena hacer el tabernáculo conforme al modelo mostrado en el monte"
+                    },
+                    {
+                        "ref": "Hebreos 8:5",
+                        "text": "Los sacerdotes sirven en un santuario que es copia y sombra de las cosas celestiales"
+                    },
+                    {
+                        "ref": "1 Corintios 3:9-10",
+                        "text": "Somos colaboradores de Dios; cada uno debe edificar con cuidado sobre el fundamento"
+                    },
+                    {
+                        "ref": "1 Pedro 2:5",
+                        "text": "Los creyentes como piedras vivas son edificados como casa espiritual"
+                    }
+                ],
+                "reflection": [
+                    "¿Sigo los principios de Dios en mi servicio, o impongo mi propia agenda y preferencias?",
+                    "¿He experimentado alguna vez una generosidad tan desbordante en mi comunidad de fe que inspire asombro?",
+                    "¿Cómo puedo contribuir con mis dones específicos a la edificación de la comunidad de creyentes?"
+                ]
+            }
         },
         {
             "chapter": 37,
             "title": "Mobiliario Sagrado Construido",
             "summary": "Bezaleel construye el arca del pacto de madera de acacia revestida de oro con el propiciatorio y los dos querubines. Tambien fabrica la mesa de los panes de la presencia, el candelabro de oro puro con sus siete lamparas, y el altar del incienso, junto con el aceite de la uncion y el incienso aromatico.",
-            "keyVerses": ["Exodo 37:1", "Exodo 37:6", "Exodo 37:17"]
+            "keyVerses": [
+                "Exodo 37:1",
+                "Exodo 37:6",
+                "Exodo 37:17"
+            ],
+            "analysis": {
+                "themes": [
+                    "Los muebles sagrados como símbolos de la presencia y provisión de Dios",
+                    "La artesanía como expresión de adoración",
+                    "Cristo prefigurado en cada objeto del tabernáculo"
+                ],
+                "context": "Bezalel construye personalmente los objetos más sagrados del tabernáculo: el arca del pacto, la mesa de los panes de la proposición, el candelabro de oro puro y el altar del incienso. Cada uno de estos muebles tenía un simbolismo profundo que apuntaba a realidades espirituales superiores. En la cultura del antiguo Cercano Oriente, los muebles de un templo representaban la presencia y actividad de la deidad; en Israel, señalaban al Dios vivo que mora entre su pueblo y provee para él.",
+                "keyPeople": [
+                    {
+                        "name": "Bezalel",
+                        "description": "Constructor principal del arca, la mesa, el candelabro y el altar del incienso, demostrando maestría artesanal bajo la guía del Espíritu"
+                    }
+                ],
+                "insights": [
+                    "El arca del pacto, cubierta de oro por dentro y por fuera, con el propiciatorio y los querubines, representaba el trono de Dios en la tierra, el lugar donde la misericordia divina cubría la ley quebrantada.",
+                    "El candelabro de oro puro, labrado a martillo de una sola pieza, simboliza la luz de Dios que ilumina a su pueblo y prefigura a Cristo como la luz del mundo.",
+                    "La mesa de los panes de la proposición representaba la provisión constante de Dios y la comunión con Él; los doce panes simbolizaban a las doce tribus siempre ante su presencia.",
+                    "El altar del incienso, colocado ante el velo, representa las oraciones del pueblo que ascienden continuamente ante Dios, un tema retomado en Apocalipsis."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hebreos 9:3-5",
+                        "text": "Descripción del lugar santísimo con el arca del pacto cubierta de oro y los querubines de gloria"
+                    },
+                    {
+                        "ref": "Juan 8:12",
+                        "text": "Jesús declara: 'Yo soy la luz del mundo', cumpliendo el simbolismo del candelabro"
+                    },
+                    {
+                        "ref": "Juan 6:35",
+                        "text": "Jesús se presenta como el pan de vida, cumpliendo el simbolismo de la mesa"
+                    },
+                    {
+                        "ref": "Apocalipsis 8:3-4",
+                        "text": "El incienso mezclado con las oraciones de los santos sube ante Dios"
+                    },
+                    {
+                        "ref": "Romanos 3:25",
+                        "text": "Dios presentó a Cristo como propiciación, cumpliendo el simbolismo del propiciatorio"
+                    }
+                ],
+                "reflection": [
+                    "¿Reconozco a Cristo como mi propiciatorio, mi pan de vida, mi luz y mi intercesor, realidades que estos objetos prefiguraban?",
+                    "¿Valoro la oración como incienso que asciende ante Dios, y la practico con constancia y reverencia?",
+                    "¿Mi vida refleja la belleza y excelencia que Dios requiere en todo lo que se le consagra?"
+                ]
+            }
         },
         {
             "chapter": 38,
             "title": "Altar y Atrio Construidos",
             "summary": "Se construye el altar del holocausto de bronce y la fuente de bronce hecha con los espejos de las mujeres que servian a la entrada del tabernaculo. Se levanta el atrio con sus columnas y cortinas, y se hace un inventario de los materiales usados: casi una tonelada de oro, mas de tres toneladas de plata y mas de dos toneladas de bronce.",
-            "keyVerses": ["Exodo 38:1", "Exodo 38:8", "Exodo 38:24"]
+            "keyVerses": [
+                "Exodo 38:1",
+                "Exodo 38:8",
+                "Exodo 38:24"
+            ],
+            "analysis": {
+                "themes": [
+                    "El sacrificio como único camino de acceso a Dios",
+                    "La purificación necesaria para servir",
+                    "La rendición de cuentas en la administración de los recursos sagrados"
+                ],
+                "context": "Se construyen el altar del holocausto de bronce, la fuente de bronce y el atrio del tabernáculo. El capítulo concluye con un inventario detallado de los materiales utilizados: casi una tonelada de oro, más de tres toneladas de plata y dos toneladas y media de bronce. La fuente de bronce fue hecha con los espejos de las mujeres que servían a la entrada de la tienda de reunión, un acto de entrega que transformó objetos de vanidad en instrumentos de santificación.",
+                "keyPeople": [
+                    {
+                        "name": "Bezalel",
+                        "description": "Constructor del altar del holocausto y la fuente de bronce"
+                    },
+                    {
+                        "name": "Itamar",
+                        "description": "Hijo de Aarón, encargado de supervisar el inventario de materiales del tabernáculo"
+                    },
+                    {
+                        "name": "Las mujeres que servían",
+                        "description": "Mujeres devotas que donaron sus espejos de bronce para la fuente de purificación"
+                    }
+                ],
+                "insights": [
+                    "El altar de bronce era lo primero que se encontraba al entrar al tabernáculo, enseñando que el acceso a Dios comienza siempre con el sacrificio, un principio cumplido en la cruz de Cristo.",
+                    "La fuente de bronce hecha de espejos de mujeres es profundamente simbólico: la vanidad personal se transforma en instrumento de purificación para el servicio sacerdotal.",
+                    "El inventario detallado de materiales demuestra que la administración de los recursos de Dios requiere transparencia y rendición de cuentas, un principio válido para la iglesia de todos los tiempos.",
+                    "La plata del rescate, recogida en el censo, fue usada para las basas del tabernáculo, significando que la redención del pueblo es el fundamento mismo de la morada de Dios."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Hebreos 13:10",
+                        "text": "Tenemos un altar del cual no tienen derecho a comer los que sirven al tabernáculo terrenal"
+                    },
+                    {
+                        "ref": "Tito 3:5",
+                        "text": "Dios nos salvó por el lavamiento de la regeneración y la renovación por el Espíritu Santo"
+                    },
+                    {
+                        "ref": "1 Pedro 1:18-19",
+                        "text": "Fuimos rescatados no con plata ni oro, sino con la sangre preciosa de Cristo"
+                    },
+                    {
+                        "ref": "Éxodo 30:11-16",
+                        "text": "La plata del rescate ordenada en el censo como expiación por cada alma"
+                    },
+                    {
+                        "ref": "2 Corintios 8:20-21",
+                        "text": "Pablo procura lo honesto no solo ante el Señor sino también ante los hombres"
+                    }
+                ],
+                "reflection": [
+                    "¿Comprendo que el acceso a Dios es posible únicamente a través del sacrificio de Cristo, y no por mis propios méritos?",
+                    "¿Estoy dispuesto a entregar aquello que valoro para que Dios lo transforme en instrumento de su servicio?",
+                    "¿Practico la transparencia y la rendición de cuentas en la administración de los recursos que Dios me ha confiado?"
+                ]
+            }
         },
         {
             "chapter": 39,
             "title": "Vestiduras Sacerdotales Confeccionadas",
             "summary": "Se confeccionan las vestiduras sagradas para Aaron: el efod de oro, azul, purpura y escarlata, el pectoral con las doce piedras preciosas, el manto, la mitra y la placa de oro con la inscripcion 'Santidad al Senor'. Toda la obra del tabernaculo se termina conforme a todo lo que el Senor mando a Moises, y Moises bendice al pueblo.",
-            "keyVerses": ["Exodo 39:30", "Exodo 39:32", "Exodo 39:43"]
+            "keyVerses": [
+                "Exodo 39:30",
+                "Exodo 39:32",
+                "Exodo 39:43"
+            ],
+            "analysis": {
+                "themes": [
+                    "Las vestiduras sacerdotales como símbolo de mediación",
+                    "La obediencia exacta al mandato divino",
+                    "El sacerdocio como representación del pueblo ante Dios"
+                ],
+                "context": "Se confeccionan las vestiduras sacerdotales para Aarón y sus hijos conforme a las instrucciones dadas en los capítulos 28-29. El efod, el pectoral con las doce piedras, el manto azul, la túnica de lino y la placa de oro con la inscripción 'SANTIDAD AL SEÑOR' son completados. La frase 'como el SEÑOR había mandado a Moisés' se repite siete veces en este capítulo, un eco deliberado de los siete días de la creación que vincula la construcción del tabernáculo con la obra creadora de Dios.",
+                "keyPeople": [
+                    {
+                        "name": "Aarón",
+                        "description": "Sumo sacerdote para quien se confeccionan las vestiduras sagradas que simbolizan su papel mediador"
+                    },
+                    {
+                        "name": "Moisés",
+                        "description": "Inspecciona toda la obra terminada y la aprueba, bendiciendo al pueblo"
+                    },
+                    {
+                        "name": "Los artesanos",
+                        "description": "Obreros hábiles que completan las vestiduras sacerdotales con precisión"
+                    }
+                ],
+                "insights": [
+                    "Las doce piedras del pectoral con los nombres de las tribus grabados significan que el sumo sacerdote llevaba a todo el pueblo sobre su corazón al entrar ante Dios, un tipo de Cristo que intercede por los suyos.",
+                    "La repetición séptuple de 'como el SEÑOR había mandado a Moisés' enfatiza que la obediencia completa y exacta es la marca de una obra que agrada a Dios.",
+                    "La placa de oro con 'SANTIDAD AL SEÑOR' sobre la frente del sumo sacerdote declaraba que la consagración total a Dios es el requisito fundamental del servicio sacerdotal.",
+                    "La bendición de Moisés al ver la obra terminada recuerda la bendición de Dios al completar la creación, sugiriendo que el tabernáculo es una nueva creación donde Dios habita con su pueblo."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "Éxodo 28:15-30",
+                        "text": "Las instrucciones originales para el pectoral del juicio con las doce piedras"
+                    },
+                    {
+                        "ref": "Hebreos 7:25",
+                        "text": "Cristo vive siempre para interceder por los que se acercan a Dios por medio de Él"
+                    },
+                    {
+                        "ref": "1 Pedro 2:9",
+                        "text": "Los creyentes son real sacerdocio y nación santa, llamados a proclamar las virtudes de Dios"
+                    },
+                    {
+                        "ref": "Génesis 1:31-2:3",
+                        "text": "Dios vio todo lo que había hecho y era bueno en gran manera, y bendijo el séptimo día"
+                    },
+                    {
+                        "ref": "Apocalipsis 22:4",
+                        "text": "El nombre de Dios estará en la frente de sus siervos, cumplimiento final de la placa sacerdotal"
+                    }
+                ],
+                "reflection": [
+                    "¿Mi vida está marcada por la 'santidad al Señor' como principio rector de todo lo que hago?",
+                    "¿Llevo a otros en mi corazón ante la presencia de Dios en oración, como el sumo sacerdote llevaba los nombres de las tribus?",
+                    "¿Completo las tareas que Dios me encomienda con fidelidad hasta el final, o dejo las cosas a medias?"
+                ]
+            }
         },
         {
             "chapter": 40,
             "title": "Gloria de Dios en el Tabernaculo",
             "summary": "Dios ordena a Moises erigir el tabernaculo el primer dia del primer mes del segundo ano, y Moises coloca cada elemento en su lugar segun las instrucciones divinas. Al completarse la obra, la nube cubre el tabernaculo y la gloria del Senor lo llena de tal manera que ni Moises puede entrar. La nube del Senor guiara a Israel en todas sus jornadas.",
-            "keyVerses": ["Exodo 40:17", "Exodo 40:34", "Exodo 40:38"]
+            "keyVerses": [
+                "Exodo 40:17",
+                "Exodo 40:34",
+                "Exodo 40:38"
+            ],
+            "analysis": {
+                "themes": [
+                    "La gloria de Dios llena su morada",
+                    "El cumplimiento del propósito del éxodo",
+                    "La guía permanente de Dios mediante la nube y el fuego"
+                ],
+                "context": "El tabernáculo es levantado el primer día del primer mes del segundo año después de la salida de Egipto, exactamente un año después de la primera Pascua. Moisés ensambla y consagra cada pieza según las instrucciones divinas. Cuando todo está completo, la nube cubre la tienda de reunión y la gloria del Señor llena el tabernáculo con tal intensidad que ni siquiera Moisés puede entrar. Este momento es la culminación de todo el libro de Éxodo: Dios ha sacado a su pueblo de Egipto para habitar en medio de ellos.",
+                "keyPeople": [
+                    {
+                        "name": "Moisés",
+                        "description": "Levanta y consagra el tabernáculo con aceite de la unción, completando la misión encomendada por Dios"
+                    },
+                    {
+                        "name": "Aarón y sus hijos",
+                        "description": "Son lavados y vestidos para iniciar su servicio sacerdotal en el tabernáculo recién consagrado"
+                    }
+                ],
+                "insights": [
+                    "La gloria del Señor llenando el tabernáculo es el clímax teológico de Éxodo: el Dios que se reveló en la zarza ardiente ahora tiene una morada permanente entre su pueblo redimido.",
+                    "Que Moisés no pudiera entrar debido a la gloria muestra que la presencia plena de Dios trasciende incluso al mediador más íntimo del antiguo pacto, un límite que solo Cristo superará.",
+                    "La nube de día y el fuego de noche sobre el tabernáculo proporcionaban guía visible y constante, enseñando que Dios no solo habita con su pueblo sino que lo dirige activamente.",
+                    "La frase 'como el SEÑOR había mandado a Moisés' aparece ocho veces en este capítulo, marcando la obediencia absoluta como el sello final de toda la construcción.",
+                    "El libro que comenzó con Israel esclavizado en Egipto termina con Israel libre y acompañado por la presencia visible de Dios, completando el arco narrativo de la redención."
+                ],
+                "crossReferences": [
+                    {
+                        "ref": "1 Reyes 8:10-11",
+                        "text": "La gloria del Señor llena el templo de Salomón de modo que los sacerdotes no pueden ministrar"
+                    },
+                    {
+                        "ref": "Juan 1:14",
+                        "text": "El Verbo se hizo carne y 'tabernaculizó' entre nosotros, y vimos su gloria"
+                    },
+                    {
+                        "ref": "Apocalipsis 21:3",
+                        "text": "El tabernáculo de Dios está entre los hombres; Él habitará con ellos y serán su pueblo"
+                    },
+                    {
+                        "ref": "Efesios 2:19-22",
+                        "text": "Los creyentes son edificados juntamente para morada de Dios en el Espíritu"
+                    },
+                    {
+                        "ref": "2 Corintios 6:16",
+                        "text": "Somos templo del Dios vivo; Él dijo: habitaré y andaré entre ellos"
+                    }
+                ],
+                "reflection": [
+                    "¿Reconozco que mi cuerpo es templo del Espíritu Santo y que la gloria de Dios desea llenar cada área de mi vida?",
+                    "¿Sigo la guía de Dios con la misma disposición que Israel seguía la nube, moviéndome cuando Él se mueve y deteniéndome cuando Él se detiene?",
+                    "¿Comprendo que el propósito final de mi redención no es solo ser libre del pecado, sino vivir en comunión íntima con Dios?"
+                ]
+            }
         }
     ]
 }

@@ -83,7 +83,6 @@
             const container = document.getElementById('chapters-list');
             let html = '';
             for (const ch of chapters) {
-                const num = String(ch.chapter).padStart(2, '0');
                 html += `
                 <div class="chapter-card" data-chapter="${ch.chapter}">
                     <div class="chapter-card-header">
@@ -93,11 +92,71 @@
                     <p class="chapter-summary">${ch.summary}</p>
                     <div class="chapter-meta">
                         <span class="chapter-verses">${ch.keyVerses.join(' | ')}</span>
-                        <a href="cuestionarios/${ch.chapter}/" class="chapter-quiz-link">Cuestionario &rarr;</a>
+                        <div style="display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+                            ${ch.analysis ? `<button class="analysis-toggle" onclick="toggleAnalysis(this, ${ch.chapter})">Estudio <span class="toggle-arrow">&#9660;</span></button>` : ''}
+                            <a href="cuestionarios/${ch.chapter}/" class="chapter-quiz-link">Cuestionario &rarr;</a>
+                        </div>
                     </div>
+                    ${ch.analysis ? renderAnalysis(ch.analysis) : ''}
                 </div>`;
             }
             container.innerHTML = html;
+        }
+
+        function renderAnalysis(a) {
+            let html = '<div class="chapter-analysis">';
+
+            if (a.themes && a.themes.length) {
+                html += '<div class="analysis-themes">';
+                for (const t of a.themes) html += `<span class="theme-tag">${t}</span>`;
+                html += '</div>';
+            }
+
+            if (a.context) {
+                html += `<div class="analysis-section">
+                    <h4><span class="section-icon">&#128218;</span> Contexto Historico</h4>
+                    <p>${a.context}</p>
+                </div>`;
+            }
+
+            if (a.keyPeople && a.keyPeople.length) {
+                html += `<div class="analysis-section">
+                    <h4><span class="section-icon">&#128100;</span> Personas Clave</h4><ul>`;
+                for (const p of a.keyPeople) html += `<li><strong>${p.name}</strong> &mdash; ${p.description}</li>`;
+                html += '</ul></div>';
+            }
+
+            if (a.insights && a.insights.length) {
+                html += `<div class="analysis-section">
+                    <h4><span class="section-icon">&#128161;</span> Observaciones de Estudio</h4><ul>`;
+                for (const i of a.insights) html += `<li>${i}</li>`;
+                html += '</ul></div>';
+            }
+
+            if (a.crossReferences && a.crossReferences.length) {
+                html += `<div class="analysis-section">
+                    <h4><span class="section-icon">&#128279;</span> Referencias Cruzadas</h4><ul>`;
+                for (const r of a.crossReferences) html += `<li><span class="cross-ref">${r.ref}</span> &mdash; ${r.text}</li>`;
+                html += '</ul></div>';
+            }
+
+            if (a.reflection && a.reflection.length) {
+                html += `<div class="analysis-section">
+                    <h4><span class="section-icon">&#10067;</span> Preguntas de Reflexion</h4><ol>`;
+                for (const q of a.reflection) html += `<li>${q}</li>`;
+                html += '</ol></div>';
+            }
+
+            html += '</div>';
+            return html;
+        }
+
+        function toggleAnalysis(btn, chapter) {
+            const card = btn.closest('.chapter-card');
+            const analysis = card.querySelector('.chapter-analysis');
+            if (!analysis) return;
+            const isOpen = analysis.classList.toggle('open');
+            btn.classList.toggle('open', isOpen);
         }
 
         function setupSearch(chapters) {
@@ -107,8 +166,13 @@
                 const cards = document.querySelectorAll('.chapter-card');
                 cards.forEach((card, idx) => {
                     const ch = chapters[idx];
-                    const text = `${ch.title} ${ch.summary} ${ch.keyVerses.join(' ')}`.toLowerCase();
-                    card.style.display = (!query || text.includes(query)) ? '' : 'none';
+                    let text = `${ch.title} ${ch.summary} ${ch.keyVerses.join(' ')}`;
+                    if (ch.analysis) {
+                        text += ` ${(ch.analysis.themes || []).join(' ')}`;
+                        text += ` ${(ch.analysis.keyPeople || []).map(p => p.name).join(' ')}`;
+                        text += ` ${ch.analysis.context || ''}`;
+                    }
+                    card.style.display = (!query || text.toLowerCase().includes(query)) ? '' : 'none';
                 });
             });
         }
