@@ -7,6 +7,7 @@
     <title>Mapa — Genesis — Biblia Estudio</title>
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/map.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 </head>
 <body>
     <header id="site-header"></header>
@@ -33,13 +34,7 @@
 
     <footer id="site-footer"></footer>
 
-    <script src="../../js/config.js"></script>
-    <script>
-        // Load Google Maps API dynamically from config (key not hardcoded for security)
-        if (window.BIBLIA_CONFIG && window.BIBLIA_CONFIG.GOOGLE_MAPS_API_KEY !== 'YOUR_API_KEY_HERE') {
-            document.write('<scr' + 'ipt src="https://maps.googleapis.com/maps/api/js?key=' + window.BIBLIA_CONFIG.GOOGLE_MAPS_API_KEY + '&v=weekly"></scr' + 'ipt>');
-        }
-    </script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="../../js/admin.js"></script>
     <script src="../../js/layout.js"></script>
     <script src="../../js/bible-map.js"></script>
@@ -52,12 +47,6 @@
                 { label: 'Genesis', href: '../' },
                 { label: 'Mapa' }
             ]);
-
-            if (!window.google || !window.google.maps) {
-                document.getElementById('bible-map').innerHTML =
-                    '<div style="padding:2rem;text-align:center;color:#8B6914;">Google Maps API key not configured. See js/config.example.js.</div>';
-                return;
-            }
 
             fetch('../../data/genesis/locations.json')
                 .then(r => r.json())

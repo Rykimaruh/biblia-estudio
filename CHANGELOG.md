@@ -2,35 +2,12 @@
 
 ## 2026-04-11
 
-### Security — API Key Remediation
-- **Problem:** Google Maps API key was hardcoded in HTML files and exposed in public GitHub repository, triggering a GitGuardian secret detection alert.
-- **Fix:** Removed hardcoded API key from all HTML source files. Introduced a `js/config.js` (gitignored) that stores secrets locally, with `js/config.example.js` as a committed template.
-- **Dynamic loading:** Map pages now load Google Maps API dynamically using the key from `window.BIBLIA_CONFIG.GOOGLE_MAPS_API_KEY`. Falls back to an error message if the key is missing.
-- **Build integration:** `build.js` now auto-generates `js/config.js` from the `GOOGLE_MAPS_API_KEY` environment variable, enabling secure Cloudflare Pages deployment without committing secrets.
-- **Deploy command:** `GOOGLE_MAPS_API_KEY=<key> node build.js && npx wrangler pages deploy . --project-name=biblia-estudio-interactivo --branch=main`
-- **Cloudflare Pages:** Set `GOOGLE_MAPS_API_KEY` as an environment variable in project settings, with build command `node build.js`.
-- **Files added:** `.gitignore`, `js/config.js` (gitignored), `js/config.example.js`
-- **Files changed:** `genesis/mapa/index.html`, `exodo/mapa/index.html`, `build.js`
-
-### Google Maps Migration
-- **Problem:** Leaflet.js with OpenStreetMap/Esri tiles showed labels in multiple languages (Kazakh, Russian, Arabic, etc.) depending on the region, making the maps inconsistent and hard to read.
-- **Fix:** Replaced Leaflet.js entirely with **Google Maps JavaScript API**. Maps now display labels in the user's browser language natively.
-- **Custom overlays:** Created `EmojiMarkerOverlay` (extends `google.maps.OverlayView`) for emoji markers and `WaterLabelOverlay` for water body labels, preserving the same visual style as the Leaflet version.
-- **Tile types:** Mapped to Google Maps built-in types:
-  - Moderno = `roadmap`
-  - Satelite = `satellite`
-  - Terreno = `terrain`
-  - Antiguo = custom `StyledMapType` with vintage/retro color palette (sepia tones, muted water colors)
-- **Routes:** `google.maps.Polyline` with SVG dash patterns for dashed routes (Jacob's journey, Joseph sold to Egypt).
-- **Popups:** `google.maps.InfoWindow` with custom styled content, replacing Leaflet popups.
-- **API key:** `AIzaSyD1HFfJq1ziOEbd3U5O-tDbe-vsGsg7za4` (restricted by HTTP referrer in Google Cloud Console).
-- **Files changed:** `js/bible-map.js` (complete rewrite), `css/map.css`, `genesis/mapa/index.html`, `exodo/mapa/index.html`
-
-### Z-Index & Layers Panel Fix
-- **Problem:** The map's "Capas" button and layers panel (z-index: 1000/1001) appeared on top of the header's mega-dropdown (z-index: 200) because `.map-wrapper` didn't create its own stacking context.
-- **Fix 1:** Added `z-index: 1` to `.map-wrapper`, creating a stacking context that contains its children's z-indices. Header at z-index: 1100 now properly stacks above map controls.
-- **Fix 2:** Auto-close the map layers panel when the mega-dropdown opens, preventing visual overlap entirely.
-- **Files changed:** `css/main.css`, `css/map.css`, `js/layout.js`
+### Reverted Google Maps Migration
+- **Attempted:** Migrated maps from Leaflet+Esri to Google Maps JavaScript API to get consistent language labels.
+- **Issue:** Google Maps API key restrictions (HTTP referrer) did not propagate correctly on Cloudflare Pages, causing persistent "Oops! Something went wrong" errors on the deployed site. Additionally, the API key was flagged by GitGuardian as an exposed secret in the public repository.
+- **Resolution:** Reverted all map code back to **Leaflet.js with Esri tiles** (no API key required). Removed all Google Maps config files and dependencies.
+- **Files reverted:** `js/bible-map.js`, `css/map.css`, `css/main.css`, `genesis/mapa/index.html`, `exodo/mapa/index.html`, `js/layout.js`, `build.js`
+- **Files removed:** `js/config.js`, `js/config.example.js`
 
 ## 2026-04-10
 
@@ -117,7 +94,7 @@
 - **Chapter summaries** — `data/{book}/chapters.json` with title, summary, and key verses per chapter.
 - **Quizzes** — 7 multiple-choice questions per chapter (630 total across 90 JSON files). Engine: `js/quiz-engine.js`.
 - **Crosswords** — Grouped by chapter range, algorithmically generated grids. Engine: `js/crossword-engine.js` + `js/crossword-game.js`.
-- **Interactive maps** — Google Maps API-based with emoji markers, route polylines, water body labels, and event popups. Engine: `js/bible-map.js`.
+- **Interactive maps** — Leaflet.js with Esri tile layers, emoji markers, route polylines, water body labels, and event popups. Engine: `js/bible-map.js`.
 
 ### Book Landing Pages
 - Each book (`genesis/index.html`, `exodo/index.html`) has: overview, section link cards (Chapters, Map, Crosswords, Quizzes), chapter list with search filter.
@@ -140,11 +117,9 @@ biblia-estudio/
     quiz.css              — Quiz page styles
     historia.css          — History & Culture encyclopedia styles
   js/
-    config.js             — API keys & secrets (GITIGNORED — not committed)
-    config.example.js     — Template for config.js (committed, safe)
     admin.js              — Admin mode (PIN: 1074, SHA-256 hashed)
     layout.js             — Shared header/footer/breadcrumb injection, mega-dropdown, mobile drawer
-    bible-map.js          — BibleMap class (Google Maps API), EmojiMarkerOverlay, WaterLabelOverlay
+    bible-map.js          — BibleMap class (Leaflet.js + Esri tiles), emoji markers, water labels
     crossword-engine.js   — CrosswordGenerator (grid algorithm)
     crossword-game.js     — CrosswordGame (interactive play)
     quiz-engine.js        — QuizEngine / MultipleChoiceQuiz
@@ -167,12 +142,12 @@ biblia-estudio/
       ...
   genesis/
     index.html            — Book landing page
-    mapa/index.html       — Interactive map (Google Maps)
+    mapa/index.html       — Interactive map (Leaflet + Esri)
     crucigramas/index.html — Crossword puzzles
     cuestionarios/        — 50 quiz chapter pages (generated by build.js)
   exodo/
     index.html            — Book landing page
-    mapa/index.html       — Interactive map (Google Maps)
+    mapa/index.html       — Interactive map (Leaflet + Esri)
     crucigramas/index.html — Crossword puzzles
     cuestionarios/        — 40 quiz chapter pages (generated by build.js)
   historia-cultura/
@@ -181,10 +156,8 @@ biblia-estudio/
 
 ### Technical Stack
 - Pure HTML/CSS/JS — no framework, no build step for the site itself.
-- Google Maps JavaScript API (v=weekly) for interactive maps with custom overlays.
-- Map styles: Roadmap (modern), Satellite, Terrain, custom vintage StyledMapType (ancient).
+- Leaflet.js 1.9.4 for interactive maps with Esri tile layers (no API key required).
+- Map tile layers: Esri World Street Map (modern), Esri World Imagery (satellite), Esri World Topo Map (terrain), Esri NatGeo World Map (ancient).
 - Hosted on Cloudflare Pages, source on GitHub (`Rykimaruh/biblia-estudio`).
-- Secrets managed via `js/config.js` (gitignored), generated from environment variables by `build.js`.
-- Deploy: `GOOGLE_MAPS_API_KEY=<key> node build.js && npx wrangler pages deploy . --project-name=biblia-estudio-interactivo --branch=main`
-- Cloudflare Pages build command: `node build.js` (set `GOOGLE_MAPS_API_KEY` env var in project settings)
+- Deploy: `npx wrangler pages deploy . --project-name=biblia-estudio-interactivo --branch=main`
 - Live URL: `https://biblia-estudio-interactivo.pages.dev`
